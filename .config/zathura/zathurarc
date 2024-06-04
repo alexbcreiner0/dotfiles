@@ -1,1 +1,16 @@
+# Open in dark mode by default
+set recolor
+
+# Enable jumping back and forth between pdf text and associated code and vice versa
+set synctex true
+set synctex-editor-command "nvim --remote-silent +%{line} %{input}"
+
+# Disable the weird highlighting to new stuff post-rendering
+set highlight-active-color "#ffffff"
+set highlight-transparency 0
+
 map <C-i> recolor
+map <C-=> zoom in
+map <C--> zoom out
+
+

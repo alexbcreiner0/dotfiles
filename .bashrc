@@ -267,3 +267,4 @@ export EDITOR=nvim
 
 eval "$(starship init bash)"
 eval "$(fzf --bash)"
+# fish

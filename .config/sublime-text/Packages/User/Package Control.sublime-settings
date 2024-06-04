@@ -1,0 +1,14 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Jedi Syntax",
+		"LaTeXTools",
+		"Origami",
+		"Package Control",
+		"Terminus",
+	],
+}
