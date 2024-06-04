@@ -155,6 +155,17 @@ function ranger {
     command rm -f -- "$tempfile" 2>/dev/null
 }
 
+function lazy-commit {
+    local commit_msg="$1"
+
+    git add .
+    if [ -z "$commit_msg" ]; then
+        commit_msg=$(date +"%Y-%m-%d")
+    fi
+    git commit -m "$commit_msg"
+    git push
+}
+
 function con-laptop {
     local user="$1"
 
