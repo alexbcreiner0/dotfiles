@@ -233,7 +233,7 @@
 
 	"linux" : {
 		// Path used when invoking tex & friends; MUST include $PATH
-		"texpath" : "$PATH:/usr/local/texlive/2024/bin/x86_64-linux",
+		"texpath" : "$PATH:/usr/texbin",
 		// Command to invoke Python. Useful if you have Python installed in a
 		// non-standard location or want to use a particular version of python.
 		// Both Python2 and Python3 are supported, but must have the DBus bindings
@@ -403,9 +403,9 @@
 	// Builder setting can be general or OS-dependent
 
 	"builder_settings" : {
+
 		// General settings:
 		// See README or third-party documentation
-		"options": ["-shell-escape"],
 
 		// (built-ins): true shows the log of each command in the output panel
 		"display_log" : false,
