@@ -191,5 +191,5 @@ function whatsmyip ()
 	curl -s ifconfig.me
 }
 
-
-(sleep 0.3 && fastfetch)
+fastfetch
+# (sleep 0.3 && fastfetch)

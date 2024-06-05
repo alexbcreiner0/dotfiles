@@ -15,8 +15,8 @@ env:
   # Font configuration
 font:
   normal:
-    family: CaskaydiaCove Nerd Font Mono
-    style: Medium
+    family: CaskaydiaCove Nerd Font
+    style: Mono
   #bold:
     #family: JetBrains Mono
     #style:
