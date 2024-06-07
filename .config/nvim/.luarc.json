@@ -1,0 +1,12 @@
+{
+    "diagnostics.disable": [
+        "lowercase-global",
+        "undefined-global",
+        "unused-local",
+        "missing-fields",
+        "need-check-nil"
+    ],
+    "diagnostics.globals": [
+        "vim"
+    ]
+}
