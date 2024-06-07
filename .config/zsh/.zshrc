@@ -70,6 +70,17 @@ if [ -x /usr/bin/dircolors ]; then
     alias nvim-test='NVIM_APPNAME="nvim-rebuild" nvim'
 fi
 
+# lazy loading nvm stuff because it's slow as shit
+# function load_nvm {
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+# }
+# alias nvm="load_nvm; nvm"
+# alias node="load_nvm; node"
+# alias npm="load_nvm; npm"
+# alias npx="load_nvm; npx"
+
 # colored GCC warnings and errors
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
