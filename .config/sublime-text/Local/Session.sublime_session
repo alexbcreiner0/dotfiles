@@ -153,12 +153,12 @@
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 986.0,
+		"new_window_height": 736.0,
 		"new_window_maximized": false,
 		"new_window_position":
 		[
-			2884.0,
-			111.0
+			418.0,
+			60.0
 		],
 		"new_window_settings":
 		{
@@ -579,6 +579,7 @@
 			},
 			"file_history":
 			[
+				"/home/alex/.config/terminator/config",
 				"/home/alex/.tmux.conf",
 				"/home/alex/Documents/Laptop-Server/Spring-2024/Class-Demo/new_question.py",
 				"/home/alex/Documents/Laptop-Server/Spring-2024/Class-Demo/oop.py",
@@ -705,8 +706,7 @@
 				"/home/alex/Documents/Spring-2024/Algorithms_Demos/fibbonacci.py",
 				"/home/alex/Documents/Spring-2024/My Lecture Notes (Algorithms)/number_theory.tex",
 				"/home/alex/Documents/Spring-2024/My Lecture Notes (Algorithms)/graphs.tex",
-				"/home/alex/Documents/Class-Demo/test.sh",
-				"/home/alex/Documents/Spring-2024/Algorithms_Demos/sorting_algos.py"
+				"/home/alex/Documents/Class-Demo/test.sh"
 			],
 			"find":
 			{
@@ -1042,7 +1042,7 @@
 								"characters": "vb"
 							},
 							"AgAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAA",
-							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8"
 						],
 						[
 							4,
@@ -1050,8 +1050,19 @@
 							"left_delete",
 							null,
 							"AgAAAAEAAAAAAAAAAQAAAAAAAAABAAAAYgAAAAAAAAAAAAAAAAAAAAABAAAAdg",
-							"AQAAAAAAAAABAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAPC/"
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAACAAAAAAAAAAIAAAAAAAAAAAAAAAAA8L8"
 						]
+					]
+				},
+				{
+					"file": "/home/alex/.config/terminator/config",
+					"settings":
+					{
+						"buffer_size": 420,
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
 					]
 				}
 			],
@@ -1449,7 +1460,6 @@
 					[
 						{
 							"buffer": 0,
-							"selected": true,
 							"semi_transient": false,
 							"settings":
 							{
@@ -1468,6 +1478,38 @@
 								{
 									"auto_name": "",
 									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/alex/.config/terminator/config",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 420,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										189,
+										189
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -1536,7 +1578,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "Packages/User/Python_Terminus.sublime-build",
-			"position": "0,0,0,0,0,2884,40,3832,1026,3840,1080,0",
+			"position": "0,0,0,0,0,418,0,1366,736,1366,768,0",
 			"project": "",
 			"replace":
 			{
