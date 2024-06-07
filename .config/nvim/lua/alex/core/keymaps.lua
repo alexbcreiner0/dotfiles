@@ -136,6 +136,7 @@ vim.api.nvim_create_autocmd("LspAttach", {
         keymap.set('n', "]d", vim.diagnostic.goto_next,  { desc = "Go to next diagnostic", buffer = ev.buf, silent = true })
         keymap.set("n", "K", vim.lsp.buf.hover, { desc = "Show documentation for what is under cursor", buffer = ev.buf, silent = true })
         keymap.set("n", "<leader>rs", ":LspRestart<cr>", { desc = "Restart LSP", buffer = ev.buf, silent = true })
+        keymap.set("n", "<leader>ct", "<cmd>lua toggle_completions()<cr>", { desc = "Toggle completions", buffer = ev.buf, silent = true })
     end
 })
 
@@ -165,8 +166,6 @@ vim.api.nvim_create_autocmd("LspAttach", {
 --         -- keymap.set("n", '<leader>de', function() require('telescope.builtin').diagnostics({default_text=":E:"}) end)
 --     end
 -- })
-
-
 
 function format_python_code()
     local filetype = vim.bo.filetype
@@ -247,6 +246,17 @@ function toggle_diagnostics()
     elseif diagnostic_counter == 1 then
         vim.diagnostic.enable()
         diagnostic_counter = (diagnostic_counter+1)%2
+    end
+end
+
+local completions_counter = 0
+function toggle_completions()
+    if completions_counter == 0 then
+        require("cmp").setup.buffer({ enabled = false })
+        completions_counter = (completions_counter+1)%2
+    elseif completions_counter == 1 then
+        require("cmp").setup.buffer({ enabled = true })
+        completions_counter = (completions_counter+1)%2
     end
 end
 
@@ -353,3 +363,4 @@ end
 --  gcc comments/uncomments a line, can type 9gcc to command 9 lines etc
 --  can also highling a block of code and type gc to toggle  
 --  gcap comments a paragraph, gcgc uncomments?
+
