@@ -94,8 +94,12 @@ alias obsidian='flatpak run md.obsidian.Obsidian &'
 alias chrome='flatpak run com.google.Chrome &'
 alias python='python3'
 alias cat='batcat --paging=never'
+alias emacs="emacsclient -c -a 'emacs' &" 
+
+#TODO: junk, delete this
 alias play-around='test-func'
 alias nvim-ytguy="NVIM_APPNAME='youtube_guy_latex_nvim' nvim"
+
 
 function test-func {
     local var=$1
