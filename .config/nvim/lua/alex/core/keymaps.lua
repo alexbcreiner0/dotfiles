@@ -3,6 +3,10 @@
 local keymap = vim.keymap
 local buildable_filetypes = {"python", "lua", "tex"}
 local tree_mode = "side-bar"
+local globals = require('modules.globals')
+
+keymap.set('n', '<leader>rc', globals.source_config, { desc = "Resource config files" })
+keymap.set('n', '<leader>tt', globals.toggle_transparency, { desc = "Toggle transparency" })
 
 keymap.set('i', '<C-z>', '<Nop>', { noremap = true, silent = true })
 keymap.set('v', '<C-z>', '<Nop>', { noremap = true, silent = true })

@@ -20,4 +20,31 @@ function M.toggle_transparency()
 
 end
 
+function M.source_config()
+    local dir = vim.fn.stdpath('config')
+    -- Resolve symlink if they are using something like GNU Stow
+    local handle = io.popen('readlink -f "' .. dir .. '"')
+    if handle then
+        dir = handle:read("*a"):gsub("%s+", "")
+        handle:close()
+    end
+    -- At this point, dir should point at the user's config folder
+    local sh_cmd = 'find "' .. dir .. '" -type f -name "*.lua"'
+    handle = io.popen(sh_cmd)
+    local file_list = {}
+    if handle then
+        local file_string = handle:read("*a")
+        file_list = vim.split(file_string, "\n")
+        handle:close()
+    end
+    vim.print(file_list)
+    if file_list then
+        for _, file in ipairs(file_list) do
+            if file ~= "" then
+                vim.cmd('source ' .. file)
+            end
+        end
+    end
+end
+
 return M
