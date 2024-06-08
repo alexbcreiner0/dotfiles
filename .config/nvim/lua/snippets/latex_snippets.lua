@@ -1,3 +1,4 @@
+print("Loading custom snippets")
 local ls = require("luasnip")
 local s = ls.snippet
 local sn = ls.snippet_node
@@ -30,30 +31,24 @@ local function copy(args)
 	return args[1]
 end
 
+local function insert_items(args)
+    local env_name = args[1][1]
+    if env_name == "itemize" or env_name == "enumerate" then
+        return "\\item"
+    else
+        return ""
+    end
+end
+
 return {
-	s("trig", t("loaded!!")),
-	s("fn", {
-		-- Simple static text.
-		t("//Parameters: "),
-		-- function, first parameter is the function, second the Placeholders
-		-- whose text it gets as input.
-		f(copy, 2),
-		t({ "", "function " }),
-		-- Placeholder/Insert.
-		i(1),
-		t("("),
-		-- Placeholder with initial text.
-		i(2, "int foo"),
-		-- Linebreak
-		t({ ") {", "\t" }),
-		-- Last Placeholder, exit Point of the snippet.
-		i(0),
-		t({ "", "}" }),
-	}),
-    s({trig="\\begin{def}", dscr="Definition"}, {
-        t({"\\begin{definition}", "\t"}),
+    s("\\begin", {
+        t({ "\\begin{" }),
+        i(1, "env name"),
+        t({"}", "\t"}),
+        f(insert_items, {1}),
         i(0),
-        t({"", "\\end{definition}"}),
+        t({"", "\\end{"}),
+        f(copy, 1),
+        t({"}"})
     }),
 }
-
