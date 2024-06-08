@@ -5,6 +5,7 @@ export INFOPATH="usr/local/texlive/2024/texmf-dist/doc/info:$INFOPATH"
 export PATH="/usr/local/texlive/2024/bin/x86_64-linux:$PATH"
 export PATH="/home/alex/.cargo/bin:$PATH"
 export PATH="/home/alex/.fzf/bin:$PATH"
+export PATH="$HOME/.config/emacs/bin:$PATH"
 
 export GCM_CREDENTIAL_STORE=gpg
 
