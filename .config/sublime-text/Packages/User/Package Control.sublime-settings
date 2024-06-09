@@ -5,8 +5,10 @@
 	],
 	"installed_packages":
 	[
+		"Jedi - Python autocompletion",
 		"Jedi Syntax",
 		"LaTeXTools",
+		"LSP-pyright",
 		"Origami",
 		"Package Control",
 		"Terminus",

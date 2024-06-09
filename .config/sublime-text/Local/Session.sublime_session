@@ -1,6 +1,7 @@
 {
 	"file_history":
 	[
+		"/home/alex/.config/terminator/config",
 		"/home/alex/.tmux.conf",
 		"/home/alex/Documents/Laptop-Server/Spring-2024/Class-Demo/new_question.py",
 		"/home/alex/Documents/Laptop-Server/Spring-2024/Class-Demo/oop.py",
@@ -127,8 +128,7 @@
 		"/home/alex/Documents/Class-Demo/calendargui.py",
 		"/home/alex/Documents/Spring-2024/Algorithms_Demos/shortest_paths_in_dags.py",
 		"/home/alex/Documents/Class-Demo/calculator/settings.py",
-		"/home/alex/Documents/Class-Demo/calculator/buttons.py",
-		"/home/alex/Documents/Class-Demo/chatgptcalculator.py"
+		"/home/alex/Documents/Class-Demo/calculator/buttons.py"
 	],
 	"folder_history":
 	[
@@ -149,16 +149,16 @@
 	"last_version": 4169,
 	"last_window_id": 58,
 	"log_indexing": false,
-	"next_update_check": 1717654472,
+	"next_update_check": 1718000072,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 736.0,
+		"new_window_height": 986.0,
 		"new_window_maximized": false,
 		"new_window_position":
 		[
-			418.0,
-			60.0
+			1928.0,
+			111.0
 		],
 		"new_window_settings":
 		{
@@ -471,6 +471,10 @@
 				"selected_items":
 				[
 					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
 						"wrap",
 						"Wrap at Ruler"
 					],
@@ -501,10 +505,6 @@
 					[
 						"wra",
 						"Word Wrap: Toggle"
-					],
-					[
-						"install",
-						"Package Control: Install Package"
 					],
 					[
 						"package control",
@@ -816,7 +816,7 @@
 			{
 			}
 		},
-		"new_window_width": 948.0
+		"new_window_width": 1904.0
 	},
 	"windows":
 	[
@@ -1026,6 +1026,30 @@
 			"buffers":
 			[
 				{
+					"contents": "Package Control Messages\n========================\n\n\nLaTeXTools\n----------\n\n  LaTeXTools Plugin version 3.14.1 (2017-06-01)\n  \n  Thank you for installing the LaTeXTools plugin!\n  \n  To learn about the features of this plugin, go to the Github page:\n  \n  https://github.com/SublimeText/LaTeXTools\n  \n  and scroll down to the README file. Actually, the Markdown source of that file is in the plugin directory, which you can open using \"Browse Packages...\" in Sublime Text.\n  \n  You can also check out Marciano's blog at\n  \n  tekonomist.wordpress.com\n  \n  Happy TeXing!\n  Ian Bacher, Marciano Siniscalchi, and Richard Stein\n",
+					"settings":
+					{
+						"buffer_size": 620,
+						"line_ending": "Unix",
+						"name": "Package Control Messages",
+						"read_only": true,
+						"scratch": true
+					},
+					"undo_stack":
+					[
+						[
+							1,
+							1,
+							"package_control_message",
+							{
+								"message": "\n\nLaTeXTools\n----------\n\n  LaTeXTools Plugin version 3.14.1 (2017-06-01)\n  \n  Thank you for installing the LaTeXTools plugin!\n  \n  To learn about the features of this plugin, go to the Github page:\n  \n  https://github.com/SublimeText/LaTeXTools\n  \n  and scroll down to the README file. Actually, the Markdown source of that file is in the plugin directory, which you can open using \"Browse Packages...\" in Sublime Text.\n  \n  You can also check out Marciano's blog at\n  \n  tekonomist.wordpress.com\n  \n  Happy TeXing!\n  Ian Bacher, Marciano Siniscalchi, and Richard Stein\n"
+							},
+							"AQAAAAAAAAAAAAAAbAIAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+						]
+					]
+				},
+				{
 					"contents": "",
 					"settings":
 					{
@@ -1042,7 +1066,7 @@
 								"characters": "vb"
 							},
 							"AgAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAA",
-							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8"
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvw"
 						],
 						[
 							4,
@@ -1050,19 +1074,8 @@
 							"left_delete",
 							null,
 							"AgAAAAEAAAAAAAAAAQAAAAAAAAABAAAAYgAAAAAAAAAAAAAAAAAAAAABAAAAdg",
-							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAACAAAAAAAAAAIAAAAAAAAAAAAAAAAA8L8"
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAADwvw"
 						]
-					]
-				},
-				{
-					"file": "/home/alex/.config/terminator/config",
-					"settings":
-					{
-						"buffer_size": 420,
-						"line_ending": "Unix"
-					},
-					"undo_stack":
-					[
 					]
 				}
 			],
@@ -1174,6 +1187,10 @@
 				"selected_items":
 				[
 					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
 						"wrap",
 						"Wrap at Ruler"
 					],
@@ -1204,10 +1221,6 @@
 					[
 						"wra",
 						"Word Wrap: Toggle"
-					],
-					[
-						"install",
-						"Package Control: Install Package"
 					],
 					[
 						"package control",
@@ -1286,6 +1299,7 @@
 			],
 			"file_history":
 			[
+				"/home/alex/.config/terminator/config",
 				"/home/alex/.tmux.conf",
 				"/home/alex/Documents/Laptop-Server/Spring-2024/Class-Demo/new_question.py",
 				"/home/alex/Documents/Laptop-Server/Spring-2024/Class-Demo/oop.py",
@@ -1412,8 +1426,7 @@
 				"/home/alex/Documents/Spring-2024/Algorithms_Demos/fibbonacci.py",
 				"/home/alex/Documents/Spring-2024/My Lecture Notes (Algorithms)/number_theory.tex",
 				"/home/alex/Documents/Spring-2024/My Lecture Notes (Algorithms)/graphs.tex",
-				"/home/alex/Documents/Class-Demo/test.sh",
-				"/home/alex/Documents/Spring-2024/Algorithms_Demos/sorting_algos.py"
+				"/home/alex/Documents/Class-Demo/test.sh"
 			],
 			"find":
 			{
@@ -1463,6 +1476,40 @@
 							"semi_transient": false,
 							"settings":
 							{
+								"buffer_size": 620,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										620,
+										620
+									]
+								],
+								"settings":
+								{
+									"auto_complete": false,
+									"auto_indent": false,
+									"gutter": false,
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_width": 2,
+									"word_wrap": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
 								"buffer_size": 0,
 								"regions":
 								{
@@ -1477,39 +1524,8 @@
 								"settings":
 								{
 									"auto_name": "",
+									"show_definitions": true,
 									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"stack_multiselect": false,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/alex/.config/terminator/config",
-							"selected": true,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 420,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										189,
-										189
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -1578,7 +1594,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "Packages/User/Python_Terminus.sublime-build",
-			"position": "0,0,0,0,0,418,0,1366,736,1366,768,0",
+			"position": "0,0,0,0,0,1928,40,3832,1026,3840,1080,1",
 			"project": "",
 			"replace":
 			{
