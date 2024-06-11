@@ -2,7 +2,7 @@
   <component name="ApplicationUserFactors">
     <factor id="completionFinishedType">
       <dailyData date="11-06-2024">
-        <observation name="cancelled" value="18.0" />
+        <observation name="cancelled" value="23.0" />
         <observation name="explicitSelect" value="13.0" />
         <observation name="typedSelect" value="4.0" />
       </dailyData>
@@ -15,7 +15,7 @@
     </factor>
     <factor id="completionUsage">
       <dailyData date="11-06-2024">
-        <observation name="count" value="35.0" />
+        <observation name="count" value="40.0" />
       </dailyData>
     </factor>
     <factor id="itemPosition">

@@ -31,7 +31,7 @@
     <feature id="navigation.inheritance.hierarchy" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="editing.duplicate" count="2" last-shown="0" last-used="1718130376412" shown-count="0" />
     <feature id="editing.copy.reference" count="0" last-shown="0" last-used="0" shown-count="0" />
-    <feature id="jupyter.preview.markdown.cell" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="jupyter.preview.markdown.cell" count="1" last-shown="0" last-used="1718139346397" shown-count="0" />
     <feature id="navigation.find" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="codeassists.quickdefinition" count="1" last-shown="0" last-used="1718132263130" shown-count="0" />
     <feature id="editing.completion.basic" count="13" last-shown="0" last-used="1718131588388" shown-count="0" />
@@ -72,9 +72,9 @@
     <feature id="refactoring.extractMethod" count="1" last-shown="0" last-used="1718131843295" shown-count="0" />
     <feature id="codeassists.generate.code" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="navigation.goto.declaration" count="3" last-shown="0" last-used="1718132771578" shown-count="0" />
-    <feature id="jupyter.add.cell" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="jupyter.add.cell" count="2" last-shown="0" last-used="1718139339137" shown-count="0" />
     <feature id="editing.completion.finishByDotEtc" count="0" last-shown="0" last-used="0" shown-count="0" />
-    <feature id="ui.open.project.tool.window" count="1" last-shown="0" last-used="1718129258904" shown-count="0" />
+    <feature id="ui.open.project.tool.window" count="5" last-shown="0" last-used="1718137987968" shown-count="0" />
     <feature id="editing.join.lines" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="debugger.breakpoint.non.suspending" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="editing.completion.finishByCtrlDot" count="0" last-shown="0" last-used="0" shown-count="0" />
@@ -98,7 +98,7 @@
     <feature id="codeassists.quickjavadoc.lookup" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="ui.scheme.quickswitch" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="navigation.replace.in.files" count="1" last-shown="0" last-used="1718132615958" shown-count="0" />
-    <feature id="jupyter.run.cell" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="jupyter.run.cell" count="1" last-shown="0" last-used="1718139346423" shown-count="0" />
     <feature id="navigation.popup.file.structure" count="1" last-shown="0" last-used="1718132719676" shown-count="0" />
     <feature id="codeassists.quickjavadoc.ctrln" count="1" last-shown="0" last-used="1718132538642" shown-count="0" />
     <feature id="codeassists.quickjavadoc" count="2" last-shown="0" last-used="1718132538644" shown-count="0" />

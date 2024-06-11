@@ -8,7 +8,11 @@
       <option value="Console.EditorTableResult.Group" />
     </ids>
   </component>
-  <component name="FileEditorProviderManager">{}</component>
+  <component name="FileEditorProviderManager"><![CDATA[{
+  "selectedProviders": {
+    "diagrams.net JCEF editor,text-editor": "diagrams.net JCEF editor"
+  }
+}]]></component>
   <component name="LangManager">
     <option name="languageName" value="Python" />
     <languageToProjectMap>
@@ -22,13 +26,12 @@
   <component name="PropertyService"><![CDATA[{
   "keyToString": {
     "KEYMAP": "run\nbuild\npresentation",
-    "LAST_CALCULATED_COLOR_INDEX_KEY": "1",
+    "LAST_CALCULATED_COLOR_INDEX_KEY": "2",
     "LayoutCode.optimizeImports": "true",
     "LayoutCode.rearrangeEntriesPython": "false",
-    "MarketplacePluginsSearchHistory": "/tag:Keymap\nkanagawa\nkey",
+    "MarketplacePluginsSearchHistory": "draw.io\ndraw.\ndraw\ndr\n/tag:Keymap",
     "Notification.DisplayName-DoNotAsk-Key Promoter X": "Key Promoter X",
     "Notification.DoNotAsk-Key Promoter X": "true",
-    "PluginConfigurable.selectionTab": "1",
     "PyCharm.InitialConfiguration": "true",
     "PyCharm.InitialConfiguration.V2": "true",
     "PyCharm.InitialConfiguration.V3": "true",
@@ -46,7 +49,7 @@
     "experimental.ui.on.first.startup": "true",
     "experimental.ui.used.version": "241.17890.14",
     "experimentalFeature.terminal.shell.command.handling": "false",
-    "fileTypeChangedCounter": "2",
+    "fileTypeChangedCounter": "3",
     "fontSizeToResetConsole": "13.0",
     "fontSizeToResetEditor": "13.0",
     "got.it.tooltip.reset.lesson.got.it": "1",
@@ -67,6 +70,7 @@
       ".ifnn"
     ],
     "file.chooser.recent.files": [
+      "/home/alex/Laptop-Server/Jupyter-Lectures-CS1",
       "/home/alex/venvs/kivy-dev/bin/python3.10",
       "/home/alex/venvs/kivy-dev/bin",
       "/home/alex/Laptop-Server/Python-Projects/cookbook-kivy"

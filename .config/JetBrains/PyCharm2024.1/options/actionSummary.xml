@@ -7,7 +7,7 @@
       <i c="1" d="1" l="1718130102117" k="1718130102117" />
     </e>
     <e n="ActivateProjectToolWindow">
-      <i c="1" l="1718129258880" />
+      <i c="5" l="1718137987961" />
     </e>
     <e n="ActivateStructureToolWindow">
       <i c="1" l="1718132760553" />
@@ -26,6 +26,9 @@
     </e>
     <e n="CodeMenu">
       <i c="1" l="1718133792936" />
+    </e>
+    <e n="CollapseAll">
+      <i c="2" l="1718137633689" />
     </e>
     <e n="CollapseAllRegions">
       <i c="1" l="1718130892204" />
@@ -49,7 +52,7 @@
       <i c="1" l="1718133822928" />
     </e>
     <e n="EditorBackSpace">
-      <i c="128" l="1718137423860" />
+      <i c="153" l="1718139345480" />
     </e>
     <e n="EditorChooseLookupItem">
       <i c="13" l="1718131588339" />
@@ -76,10 +79,10 @@
       <i c="2" l="1718130376385" />
     </e>
     <e n="EditorEnter">
-      <i c="4" l="1718133301489" />
+      <i c="5" l="1718139344666" />
     </e>
     <e n="EditorEscape">
-      <i c="28" l="1718135687603" />
+      <i c="29" l="1718137696547" />
     </e>
     <e n="EditorGutterToggleGlobalLineNumbers">
       <i c="2" d="2" l="1718130122267" k="1718130122267" />
@@ -174,6 +177,9 @@
     <e n="IntroduceVariable">
       <i c="1" l="1718131779307" />
     </e>
+    <e n="JupyterCreateFileAction">
+      <i c="1" l="1718139297512" />
+    </e>
     <e n="LocalHistory.ShowHistory">
       <i c="1" l="1718132015479" />
     </e>
@@ -195,11 +201,26 @@
     <e n="MoveStatementUp">
       <i c="1" l="1718130452178" />
     </e>
+    <e n="NewDirectoryProject">
+      <i c="1" l="1718138998062" />
+    </e>
+    <e n="NewElement">
+      <i c="1" l="1718139292862" />
+    </e>
     <e n="NextTemplateVariable">
       <i c="3" l="1718131784754" />
     </e>
+    <e n="NotebookMoveCellUpAction">
+      <i c="2" l="1718139352097" />
+    </e>
+    <e n="NotebookRunCellSelectBelowAction">
+      <i c="1" l="1718139345906" />
+    </e>
+    <e n="NotebookSelectCellAboveAction">
+      <i c="1" l="1718139326308" />
+    </e>
     <e n="OpenFile">
-      <i c="3" l="1718134674592" />
+      <i c="4" l="1718139198992" />
     </e>
     <e n="ParameterInfo">
       <i c="2" l="1718132211566" />
@@ -241,7 +262,7 @@
       <i c="1" l="1718133438848" />
     </e>
     <e n="Run">
-      <i c="7" l="1718137493522" />
+      <i c="8" l="1718137562645" />
     </e>
     <e n="RunClass">
       <i c="1" l="1718132954630" />
@@ -252,11 +273,14 @@
     <e n="SelectAllOccurrences">
       <i c="1" l="1718131246228" />
     </e>
+    <e n="SelectInProjectView">
+      <i c="1" l="1718137625429" />
+    </e>
     <e n="SelectNextOccurrence">
       <i c="2" l="1718131143588" />
     </e>
     <e n="SettingsEntryPoint">
-      <i c="25" l="1718137536306" />
+      <i c="30" l="1718138921545" />
     </e>
     <e n="SettingsSyncStatusAction">
       <i c="2" l="1718135994170" />
@@ -271,7 +295,7 @@
       <i c="3" l="1718132119553" />
     </e>
     <e n="ShowSettings">
-      <i c="5" l="1718137509020" />
+      <i c="6" l="1718137846617" />
     </e>
     <e n="ShutdownCodeWithMe">
       <i c="1" l="1718134392006" />
@@ -331,7 +355,7 @@
       <i c="1" l="1718129154429" />
     </e>
     <e n="WelcomeScreen.Plugins">
-      <i c="2" l="1718137538212" />
+      <i c="3" l="1718138924036" />
     </e>
     <e n="com.intellij.application.options.schemes.AbstractSchemeActions$RenameAction">
       <i c="1" l="1718137114857" />
@@ -414,8 +438,11 @@
     <e n="com.intellij.ide.util.FileStructurePopup$NavigateSelectedElementAction">
       <i c="1" l="1718132734056" />
     </e>
+    <e n="com.intellij.notification.NotificationAction$Simple">
+      <i c="1" l="1718139235418" />
+    </e>
     <e n="com.intellij.openapi.actionSystem.AnActionWrapper">
-      <i c="363" l="1718137501790" />
+      <i c="386" l="1718139345479" />
     </e>
     <e n="com.intellij.openapi.actionSystem.DefaultActionGroup">
       <i c="13" l="1718133781672" />
@@ -428,6 +455,9 @@
     </e>
     <e n="com.intellij.openapi.editor.impl.EditorMarkupModelImpl$TrafficLightAction">
       <i c="1" l="1718134979976" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="1" l="1718139289026" />
     </e>
     <e n="com.intellij.openapi.keymap.impl.ui.KeymapPanel$AddKeyboardShortcutAction">
       <i c="5" l="1718137353864" />
@@ -454,7 +484,7 @@
       <i c="1" l="1718135140643" />
     </e>
     <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
-      <i c="6" l="1718135034620" />
+      <i c="9" l="1718138991763" />
     </e>
     <e n="com.intellij.openapi.wm.impl.ToolWindowImpl$HideAction">
       <i c="1" l="1718135330435" />
@@ -466,13 +496,13 @@
       <i c="2" l="1718131990083" />
     </e>
     <e n="com.intellij.toolWindow.ShowMoreToolWindowsAction">
-      <i c="2" l="1718134507572" />
+      <i c="3" l="1718137614271" />
     </e>
     <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
       <i c="2" l="1718135314254" />
     </e>
     <e n="com.intellij.toolWindow.ToolWindowHeader$ShowOptionsAction">
-      <i c="5" l="1718135321856" />
+      <i c="9" l="1718138005162" />
     </e>
     <e n="com.intellij.ui.NotificationBalloonActionProvider$5">
       <i c="1" l="1718134601186" />
@@ -505,10 +535,16 @@
       <i c="1" l="1718135742225" />
     </e>
     <e n="com.maddyhome.idea.vim.ui.VimEmulationConfigurable$CopyForRcAction">
-      <i c="3" l="1718136232769" />
+      <i c="4" l="1718137852064" />
     </e>
     <e n="com.maddyhome.idea.vim.ui.VimEmulationConfigurable$ResetHandlersAction">
       <i c="1" l="1718136250500" />
+    </e>
+    <e n="org.jetbrains.plugins.notebooks.jupyter.actions.JupyterCellTypeComboBox">
+      <i c="1" l="1718139364188" />
+    </e>
+    <e n="org.jetbrains.plugins.notebooks.jupyter.editor.JupyterAddCellButtonActionDelegate">
+      <i c="2" l="1718139339096" />
     </e>
   </component>
 </application>

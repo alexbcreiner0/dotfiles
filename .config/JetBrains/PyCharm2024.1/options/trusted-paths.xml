@@ -3,6 +3,7 @@
     <option name="TRUSTED_PROJECT_PATHS">
       <map>
         <entry key="$USER_HOME$/.cache/JetBrains/PyCharm2024.1/demo/PyCharmLearningProject" value="true" />
+        <entry key="$USER_HOME$/Laptop-Server/Jupyter-Lectures-CS1" value="true" />
         <entry key="$USER_HOME$/Laptop-Server/Python-Projects/cookbook-kivy" value="true" />
       </map>
     </option>
@@ -11,6 +12,7 @@
     <option name="TRUSTED_PATHS">
       <list>
         <option value="$USER_HOME$/Laptop-Server/Python-Projects" />
+        <option value="$USER_HOME$/Laptop-Server" />
       </list>
     </option>
   </component>

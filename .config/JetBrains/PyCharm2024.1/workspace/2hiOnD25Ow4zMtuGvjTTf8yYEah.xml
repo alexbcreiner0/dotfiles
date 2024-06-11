@@ -11,11 +11,8 @@
       <file>
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="126">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="72">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -25,8 +22,8 @@
   <component name="FileTypeUsageLocalSummary"><![CDATA[{
   "data": {
     "Python": {
-      "usageCount": 2,
-      "lastUsed": 1718137390590
+      "usageCount": 3,
+      "lastUsed": 1718138898871
     }
   }
 }]]></component>
@@ -52,7 +49,7 @@
   </component>
   <component name="LanguageUsageStatistics">
     <language id="Python">
-      <summary usageCount="2" lastUsage="1718137390593" />
+      <summary usageCount="3" lastUsage="1718138898874" />
     </language>
   </component>
   <component name="ProjectView">
@@ -73,12 +70,12 @@
     </panes>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2839000" />
+    <option name="totallyTimeSpent" value="3623000" />
   </component>
   <component name="ToolWindowManager">
     <layoutV2>
       <window_info id="Settings Sync History" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.17898975" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17898975" />
       <window_info id="Commit" order="1" weight="0.25" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
@@ -88,7 +85,7 @@
       <window_info anchor="bottom" id="Services" order="4" />
       <window_info anchor="bottom" id="Python Packages" order="5" weight="0.1" />
       <window_info anchor="bottom" id="Python Console" order="6" weight="0.1" />
-      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.34570312" />
+      <window_info anchor="bottom" id="Run" order="7" show_stripe_button="false" weight="0.2779948" />
       <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
       <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
       <window_info anchor="right" id="Database" order="2" weight="0.25" />
@@ -96,68 +93,65 @@
       <window_info anchor="right" id="Maven" order="4" weight="0.25" />
       <window_info anchor="right" id="Key Promoter X" order="5" />
       <window_info anchor="right" id="Plots" order="6" weight="0.1" />
-      <unified_weights bottom="0.34570312" left="0.17898975" />
+      <unified_weights bottom="0.2779948" left="0.17898975" />
     </layoutV2>
     <recentWindows>
+      <value>Project</value>
       <value>Run</value>
       <value>Problems View</value>
-      <value>Project</value>
     </recentWindows>
   </component>
   <component name="WindowStateProjectService">
-    <state x="459" y="142" width="424" height="486" key="FileChooserDialogImpl" timestamp="1718134811248">
+    <state x="459" y="142" width="424" height="486" key="FileChooserDialogImpl" timestamp="1718139218737">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="459" y="142" width="424" height="486" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1718134811248" />
-    <state width="1284" height="223" key="GridCell.Tab.0.bottom" timestamp="1718137378493">
+    <state x="459" y="142" width="424" height="486" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1718139218737" />
+    <state width="1284" height="171" key="GridCell.Tab.0.bottom" timestamp="1718138017155">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1366" height="191" key="GridCell.Tab.0.bottom.inPresentationMode" timestamp="1718135330439">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1366" height="191" key="GridCell.Tab.0.bottom.inPresentationMode/0.0.1366.768@0.0.1366.768" timestamp="1718135330439" />
-    <state width="1284" height="223" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1718137378493" />
-    <state width="1284" height="223" key="GridCell.Tab.0.center" timestamp="1718137378493">
+    <state width="1284" height="171" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1718138017155" />
+    <state width="1284" height="171" key="GridCell.Tab.0.center" timestamp="1718138017155">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1366" height="191" key="GridCell.Tab.0.center.inPresentationMode" timestamp="1718135330439">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1366" height="191" key="GridCell.Tab.0.center.inPresentationMode/0.0.1366.768@0.0.1366.768" timestamp="1718135330439" />
-    <state width="1284" height="223" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1718137378493" />
-    <state width="1284" height="223" key="GridCell.Tab.0.left" timestamp="1718137378493">
+    <state width="1284" height="171" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1718138017155" />
+    <state width="1284" height="171" key="GridCell.Tab.0.left" timestamp="1718138017155">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1366" height="191" key="GridCell.Tab.0.left.inPresentationMode" timestamp="1718135330439">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1366" height="191" key="GridCell.Tab.0.left.inPresentationMode/0.0.1366.768@0.0.1366.768" timestamp="1718135330439" />
-    <state width="1284" height="223" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1718137378493" />
-    <state width="1284" height="223" key="GridCell.Tab.0.right" timestamp="1718137378493">
+    <state width="1284" height="171" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1718138017155" />
+    <state width="1284" height="171" key="GridCell.Tab.0.right" timestamp="1718138017155">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1366" height="191" key="GridCell.Tab.0.right.inPresentationMode" timestamp="1718135330439">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1366" height="191" key="GridCell.Tab.0.right.inPresentationMode/0.0.1366.768@0.0.1366.768" timestamp="1718135330439" />
-    <state width="1284" height="223" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1718137378493" />
-    <state x="187" y="19" width="992" height="732" key="SettingsEditor" timestamp="1718137560694">
+    <state width="1284" height="171" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1718138017155" />
+    <state x="187" y="19" width="992" height="732" key="SettingsEditor" timestamp="1718138987452">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="0" y="0" key="SettingsEditor.inPresentationMode" timestamp="1718135593377">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="0" y="0" key="SettingsEditor.inPresentationMode/0.0.1366.768@0.0.1366.768" timestamp="1718135593377" />
-    <state x="187" y="19" width="992" height="732" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1718137560694" />
+    <state x="187" y="19" width="992" height="732" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1718138987452" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="72">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
