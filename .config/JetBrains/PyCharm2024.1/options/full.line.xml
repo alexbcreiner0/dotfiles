@@ -1,6 +1,6 @@
 <application>
   <component name="InlineShortcutChoice">
-    <option name="choiceShownTimes" value="1" />
+    <option name="choiceShownTimes" value="12" />
   </component>
   <component name="MLServerCompletionSettings">
     <LangState language_id="JupyterPython">

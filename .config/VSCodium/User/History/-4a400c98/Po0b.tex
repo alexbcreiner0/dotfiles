@@ -1,0 +1,97 @@
+\documentclass{beamer}
+
+\usepackage{fancyvrb}
+\makeatletter
+\def\KV@FV@lastline@default{%
+  \let\FancyVerbStopNum\m@ne
+  \let\FancyVerbStopString\relax}
+\fvset{lastline}
+\makeatother
+\usepackage{listings}
+\usepackage{minted}
+\usepackage{tikz}
+\usepackage{graphicx}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+
+\urlstyle{same}
+\usetheme{Madrid}
+
+\title{Dynamic Programming}
+\subtitle{Finally taming recursion for good}
+\author{Alex Creiner}
+
+\institute{Boston College}
+\date{Spring 2024}
+
+\begin{document}
+
+\titlepage
+\begin{frame}[fragile]{Fibonacci Function Revisited}
+    \begin{itemize}
+        \item Recall where we left off in the beginning of class when we discussed the Fibonacci sequence. The sequence was defined recursively:
+        \begin{align*}
+            F_{n}= \begin{cases} 0 & \textrm{if } n = 0 \\ 1 & \textrm{if } n = 1 \\ F_{n-1} + F_{n-2} & else \end{cases} 
+        \end{align*}
+        \item As always, a recursive mathematical definition always immediately implies a recursive algorithm:
+    \end{itemize}
+    \begin{minted}{python3}
+        def fib(n):
+	    if n == 0: return 0
+            if n == 1: return 1
+            return fib(n-1) + fib(n-2)
+    \end{minted}
+\end{frame}
+
+\begin{frame}{Fibonacci Function Revisited}
+    \begin{itemize}
+        \item However, we saw that this algorithm gets out of control rather quickly, and that this solution to the problem as is was exponential runtime. But does it have to be? (Continue on board) \pause 
+    \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Memoized Fibonacci}
+    \begin{minted}{python3}
+        def memoized_fib(n):
+            def memoized_fib_aux(n, memo):
+                if memo[n-1] == -1:
+                    memo[n-1] = memoized_fib_aux(n-1, memo)
+                if memo[n-2] == -1:
+                    memo[n-2] = memoized_fib_aux(n-2, memo)
+                return memo[n-1] + memo[n-2]
+
+            if n == 0: return 0
+            if n == 1: return 1
+            memo = [-1]*n 
+            return memoized_fib_aux(n, memo)
+    \end{minted}
+\end{frame}
+
+\begin{frame}[fragile]{Pythonized memoization}
+    \begin{itemize}
+        \item If auxiliary functions aren't your thing, you can instead make use of python's default arguments instead:
+    \end{itemize}
+    \begin{minted}{python3}
+        def pythonized_memo_fib(n, memo = None):
+	if n == 0: return 0
+	if n == 1: return 1
+	if memo == None:
+		memo = [-1]*n
+		memo[0], memo[1] = 0,1
+
+	if memo[n-1] == -1:
+		memo[n-1] = pythonized_memo_fib(n-1, memo)
+	if memo[n-2] == -1:
+		memo[n-2] = pythonized_memo_fib(n-1, memo)
+
+	return memo[n-1] + memo[n-2]
+
+    \end{minted}
+\end{frame}
+
+\end{document}

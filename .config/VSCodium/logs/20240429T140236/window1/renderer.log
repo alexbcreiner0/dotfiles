@@ -1,0 +1,10 @@
+2024-04-29 14:02:37.681 [info] Started local extension host with pid 4718.
+2024-04-29 14:02:40.423 [info] [perf] Render performance baseline is 54ms
+2024-04-29 14:11:10.449 [info] Started local extension host with pid 4962.
+2024-04-29 14:11:13.258 [info] [perf] Render performance baseline is 59ms
+2024-04-29 15:10:31.077 [error] [Extension Host] texdef: Version 1.9 -- 2020/09/27
+2024-04-29 15:10:31.161 [error] [Extension Host] texdef: Version 1.9 -- 2020/09/27
+2024-04-29 15:26:11.265 [error] [Extension Host] texdef: Version 1.9 -- 2020/09/27
+2024-04-29 16:58:48.524 [error] [Extension Host] texdef: Version 1.9 -- 2020/09/27
+2024-04-29 17:23:44.941 [error] [Extension Host] texdef: Version 1.9 -- 2020/09/27
+2024-04-29 21:18:12.670 [info] Extension host (LocalProcess pid: 4962) is unresponsive.

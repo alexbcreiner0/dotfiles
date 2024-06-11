@@ -1,0 +1,23 @@
+[11:02:22] Initializing LaTeX Utilities.
+[11:02:22] Completion Watcher Initialised
+[11:02:22] LaTeX Utilities Started
+[11:02:22] LaTeX Utilities version: 0.4.14
+[11:02:23] withTelemetry: onDidChangeActiveTextEditor_tex_wordcounter
+[11:02:23] TexCount args: -merge,-brief
+[11:02:24] TeXCount output for word: 3317+4+0 (1/0/146/1) File: complexity_theory.tex
+
+[11:02:24] TexCount args: -merge,-brief,-char
+[11:02:25] TeXCount output for char: 15221+33+0 (1/0/146/1) File: complexity_theory.tex
+
+[11:02:37] \usepackage{fancyvrb},\usepackage{listings},\usepackage{minted},\usepackage{tikz},\usepackage{graphicx},\usepackage{bm},\usepackage{hyperref}
+[11:02:37] Running command texdef --source --Find --tex latex -p fancyvrb -p listings -p minted -p tikz -p graphicx -p bm -p hyperref --class beamer \pause
+[11:02:39] Took 1740ms to find definition for \pause
+[11:02:39] Could not find definition for \pause
+[11:03:05] withTelemetry: onDidChangeActiveTextEditor_tex_wordcounter
+[11:39:25] withTelemetry: onDidChangeActiveTextEditor_tex_wordcounter
+[11:39:25] TexCount args: -merge,-brief
+[11:39:25] TeXCount output for word: 3317+4+0 (1/0/146/1) File: complexity_theory.tex
+
+[11:39:25] TexCount args: -merge,-brief,-char
+[11:39:26] TeXCount output for char: 15221+33+0 (1/0/146/1) File: complexity_theory.tex
+

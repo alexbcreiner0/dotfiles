@@ -1,0 +1,618 @@
+\documentclass{beamer}
+
+\usepackage{fancyvrb}
+\makeatletter
+\def\KV@FV@lastline@default{%
+  \let\FancyVerbStopNum\m@ne
+  \let\FancyVerbStopString\relax}
+\fvset{lastline}
+\makeatother
+\usepackage{minted}
+\usepackage{tabularx}
+\usepackage{listings}
+\usepackage{tikz}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+
+\urlstyle{same}
+\usetheme{Madrid}
+
+\title{Starting From the Very Bottom}
+\subtitle{Algorithms for Basic Arithmetic, and Other Basics}
+\author{Alex Creiner}
+
+\institute{Boston College}
+\date{\today}
+
+\begin{document}
+
+\titlepage
+
+\begin{frame}{Complexity of Addition}
+    \begin{enumerate}
+        \item What is the computational complexity of addition?
+            \pause
+        \item The grade school algorithm for adding two decimal numbers has one align them from the right-most digit and then add the digits one at a time, from right to left, bringing a carry bit to the next number when necessary. 
+        \item Assume that each step of adding two digits (plus possibly a carry) is a single computational step (one could break it down farther conceptually into repeatedly adding $1$, but we will soon see why this does not matter).
+            \pause 
+        \item For each digit, we need to 
+            \begin{itemize}
+                \item[(1)] Add the numbers
+                \item[(2)] Print the sum
+                \item[(3)] Move to the next number
+            \end{itemize}
+    \end{enumerate}
+\end{frame}
+
+\begin{frame}{Complexity of Addition continued}
+    \begin{enumerate}
+        \item That is three(ish) steps \textit{per digit}, and we need to perform this operation once for every digit of the larger of the two numbers. What is important here is not that it's three, but that it is \textit{constant}. Denote this constant $c_0$.
+            \pause 
+        \item Additionally, there might be the extra operation of needing to print an extra $1$ at the end (i.e. if we are adding $8$ and $9$, we have to print an extra $1$ in front to get the sum, $17$). This is a constant number of steps with respect to the lengths of $x$ and $y$. Denote it $c_1$.
+        \item Suppose that $x$ and $y$ are both $n$ bits long. Then in the worst case, the number of steps required to add $x$ and $y$ is $c_0n + c_1 = O(n)$.
+            \pause
+        \item (*) Really since $x$ and $y$ are being taken together as the input, the worst case is when $x$ is $2n-1$ bits long and $y$ is a single bit, but here still we have that the operation if $O(n)$, so it doesn't matter. 
+    \end{enumerate}
+\end{frame}
+
+\begin{frame}{test}
+    \begin{itemize}
+        \item please god
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Complexity of Addition continued}
+    \begin{enumerate}
+        \item Now computers don't perform addition on decimal numbers, they perform addition on binary numbers*. However, the grade school algorithm is identically to normal addition, just with bits. Moreover it is simpler to think about doing bitwise addition in a single step, since this is accomplished easily with a full adder circuit. 
+        \item One more point of contention: what about the conversion from decimal to binary? $5$ in binary is $101$, and $7$ is $111$. This conversion bumps up the length of the string, and therefore the complexity of summation in binary, no?
+    \end{enumerate}
+\end{frame}
+
+\begin{frame}{The Base \emph{Base}-ically Always Irrelevant (sry)}
+    \begin{itemize}
+        \item Fill in or do on board
+        \item So then suppose that $x$ and $y$ are two decimal numbers, both length $n$. In the worst case, both are the largest possible number, i.e. $x = y = 10^n-1 = N$. Then the complexity of adding $x$ and $y$ in base $2$ amounts to replacing $O(n)$ with $O(n\log_2(10)) = O(n)$. No change. 
+        \item In general, when we're talking about numbers, given a number $N$, we will see the length of that string expressing $N$ as length $O(\log(N))$. Note we are not even bothering to write a base. 
+        \item We will never speak of this again. 
+    \end{itemize}    
+\end{frame}
+
+\begin{frame}{The Questions We Should Always Ask}
+    \begin{itemize}
+        \item Everyone is probably very sick of talking about addition by now, but let's run through the five questions one more time:
+        \pause
+        \item Is it correct? Yes, or we're all in very big trouble.
+        \pause
+        \item Is it intuitive? It is the very definition of the word. 
+        \pause
+        \item What is the time complexity? As we said, it's O(n)
+        \pause
+        \item What is the \emph{space} complexity? We mentioned before that time will always exceed space. We'll discuss this on the next slide. 
+        \pause
+        \item Is it optimal? 
+        \pause
+        \begin{itemize}
+             \item Generally, this is a \emph{very} difficult question to answer, but not so here. The answer is yes. Mull over this while we discuss the space complexity. 
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Space complexity}
+    \begin{itemize}
+        \item When discussing space complexity, we generally want to omit counting the inputs and outputs as `used space'. Otherwise, everything would be at least $O(n)$ space. 
+        \item At first glance, it would seem that even with this omission, the space complexity of our algorithm is $O(n)$, since in the worst case we need to carry $O(n)$ many bits. 
+        \item In class exercise: Talk to your neighbor about how to improve the space complexity, and about why the time complexity we found is optimal. 
+            \pause
+        \item We can do better with the power of \emph{erasing}. Once we've used a carry bit, there is no need to keep it. We can erase and \emph{reuse} that space. The space complexity of addition is therefore $O(1)$. 
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Optimality}
+    \begin{itemize}
+        \item Why is our algorithm optimal? Suppose by way of contradiction that we had a faster algorithm. 
+        \pause
+        \item This would have to mean that we could add two numbers \emph{without even looking at all of the digits} (let alone printing them). This is clearly impossible. So our grade school algorithm for addition is optimal. 
+        \pause
+        \item What about the space complexity. Also optimal, simply because there is no doing better than $O(1)$.
+        \item Thus, we're finally done thinking about addition. It's time $O(n)$, it's space $O(1)$, and that's a fundamental property of addition as a computational problem to solve (independent of hardware!). 
+        \item I'll leave it to you to show yourself, if you feel like it, that subtraction yields the same results as it's inverse counterpart. Now we move on to multiplication! 
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{But wait, isn't it $O(1)$ on modern hardware?}
+    \begin{itemize}
+        \item I'm copy-pasting this from the introduction powerpoint in case it fits better here, and because it's important.
+        \item Those of you who are familiar with modern microprocessor architectures might be objecting to all of this, on the grounds that these more advanced chips add tend to be `hardwired' to perform addition in a \emph{single} step. 
+        \pause
+        \item Firstly, this is only hiding the complexity however, not getting rid of it. The complexity is still there, present within the circuitry itself, the number of transistors, etcetera. 
+        \pause
+        \item Secondly, this built-in addition only goes up to 32 or 64 bit numbers. There are many real-world application, and we might even see some in this class, in which the numbers being added are generally \emph{hundreds} of bits long, in which case the complexity of addition reasserts itself. 
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    To quote our textbook:
+    \begin{center}
+         ``When we want to understand algorithms, it makes sense to study even the basic algorithms that are encoded in the hardware of today's computers. In doing so, we shall focus on the \emph{bit} complexity of the algorithm, the number of elementary operations on individual bits - because this accounting reflects the amount of hardware, transistors and wires, necessary for implementing the algorithm'' 
+    \end{center}
+    \begin{itemize}
+        \item With the notion of what a `basic computer step' is out of the way, along with a clear idea of what we're trying to think about, we now turn to discussing `big O'. 
+        \item \emph{THAT SAID}, outside of the `extreme' applications, we will generally consider addition to be an $O(1)$ operation when considering it in the context of the algorithms we will be looking at, unless otherwise noted!!!!
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Naive Multiplication}
+    \begin{itemize}
+        \item Let's choose to see each digit-wise multiplication as a single step rather than a situation in which to apply the addition algorithm. Again, this makes more sense in the context of bitwise multiplication, in which there are only four cases which can be hardcoded via a `full multiplier' circuit.
+        \pause
+        \item Suppose $x$ and $y$ are both length $n$. Then for each $i$ in the range of $1, \ldots, n$, need to do $n$ many `basic multiplication' steps, each taking time $cn$ for some constant $c$. Thus the number of steps required is $n \times cn = O(n^2)$. 
+        \pause
+        \item After that, need to fill in all of the $0$'s How many is this? 
+        \[ 1+2+3 + \ldots + n = \frac{n(n+1)}{2} = O(n^2) \]
+        So, perhaps surprisingly, just pencilling in the $0$'s is the same algorithmic complexity as the multiplying part!
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Naive Multiplication continued}
+    \begin{itemize}
+        \item Finally, we add the $n$ many rows. That's $n$ many addition operations, all of which are on strings of length $O(n)$ (really, $O(2n)$ due to the zeros, but we know that $O(2n) = O(n)$). We thus have $n$ many operations, all taking time $O(n)$, i.e. $O(n^2)$. 
+        \pause
+        \item The whole operation therefore consists of three subroutines, all taking time $O(n^2)$. The time complexity of basic grade school multiplication is therefore $O(n^2)$. (Remember, a constant number of $O(n^2)$ operations is still just an $O(n^2)$ operation!)
+        \pause
+        \item Other questions:
+        \begin{itemize}
+            \item Correct? Sure. Intuitive? You bet. Time complexity? We just did that.
+            \item Space complexity? It appears to be $O(n^2)$, since we need $n$ many numbers each of length $n$. 
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Can we do better?}
+    \begin{itemize}
+        \item Regarding the space complexity, we can do something similar to addition to get it down from $O(n^2)$ to $O(n)$. Instead of writing down every intermediate row, just add that row to a final total, then erase it and reuse that space. Thus we need just a single row aside from the output, which is length $O(n)$. 
+        \item Regarding time complexity, it turns out we can do better than this. We'll return to multiplication soon, as our introduction to divide and conquer algorithms.  
+        \item As for division, the book gives a very strange recursive algorithm for dividing $x$ and $y$ (where the output is actually a pair $(q,r)$, where $q$ is the quotient and $r$ the remainder.) 
+        \item This is a somewhat confusing algorithm and doesn't seem any better than the ordinary grade school algorithm in either time or space complexity. It ends up being an $O(n^2)$ time operation either way.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Division and modulo}
+    \begin{itemize}
+        \item I'll leave it to you to show yourself that the basic grade school division algorithm operates in time $O(n^2)$. 
+        \item This is not optimal, and we might return here once we've found an improvement for multiplication. Let's leave it here for now though.
+        \item What about modulo? Recall $a mod k$ is the remainder when dividing $a$ by $k$. Therefore computing modulos is of the same time complexity as our best division algorithm. We will leave this at $O(n^2)$ for now
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{More math}
+    \begin{itemize}
+        \item This is probably enough to get us started. Some more operations worth mentioning:
+        \begin{itemize}
+            \pause
+            \item Derivatives and integrals can be efficiently approximated using the basic operations we named already. Their efficiency is thus dependent on those more algorithms. 
+            \pause
+            \item Square roots. These can be computed using Newton's method, which you may have learned about in Calc 1. The efficiency of this is identical to the efficiency of the multiplication algorithm used.
+            \pause
+            \item Other elementary functions like $e^x$, $\sin(x)$, and $\cos(x)$ are typically approximated using their Taylor series approximations. The approximation is efficient (i.e. polynomial and of low degree with respect to the degrees of accuracy desired), and like the above dependent on the efficiency of the more basic algorithms for addition, subtraction, multiplication, and division. 
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{More math}
+    \begin{itemize}
+        \item Later on we will cover a few more number theory operations for the sake of discussing RSA encryption, including:
+        \begin{itemize}
+            \item Modular exponentiation
+            \item Modular division
+            \item Primality testing (testing if a number is prime)
+            \item Finding the greatest common divisor (GCD) of two integers (Euclid's algorithm)
+        \end{itemize}
+        \item We'll return to this stuff later after discussing randomness a bit more.
+        \item The following wikipedia page has a useful list of algorithms for various math operations: \url{https://en.wikipedia.org/wiki/Computational_complexity_of_mathematical_operations}
+        \item The most important thing we mention now is a conspicuous example of something for which we don't have an efficient algorithm: factoring.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Really? Factoring?}
+    \begin{itemize}
+        \item Suppose someone hands you the number $x$ and asks you to factor it. How would you do it?
+        \pause 
+        \item This is one of those cases in which `how we do it' is a very different question than `how would you tell a mindless machine to do it'. Worse still, those two questions merge together as $x$ gets big. 
+        \item For many problems we discuss in this class, there will be a naive, or `\textbf{brute-force}' way to do it which is immediately apparent. 
+        \pause
+        \item In this case, the brute-force approach would be to simply try to divide $n$ by every number between $2$ and... half of $x$. 
+        \item In class exercise question: Given a number $x$ of \emph{length} $n$ digits, what is the time complexity of finding a non-trivial factor (if there is one) using our brute-force algorithm?
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Yes, factoring}
+    \begin{itemize}
+        \item With $n$ digits, one can write down $10^n$ distinct numbers. Thus in the worst case where $n = 999\ldots9$, we have $\frac{1}{2}*10^n = O(10^n)$ many division operations to perform. Given our $O(n^2)$ division algorith, this task therefore requires time $O(10^n n^2)$. Even if division were $O(1)$, this isn't at all feasible!
+        \pause
+        \item The intractibility of the factoring problem is noteworthy for a lot of reasons which we will touch on at different times throughout this class. 
+        \item What should be mentioned about this problem now is all modern cybersecurity hinges on the \emph{assumption} that no efficient solution to the factoring exists. The discovery of such an algorithm would thus have immediate cataclysmic implications for society 
+        \pause
+        \item There \emph{is} a theoretically efficient quantum algorithm for factoring known as \textbf{Shor's Algorithm}. However, quantum computing technology is not yet (and very possibly never will be) developed to a point where factoring large enough numbers to challenge the banking system (or do much of anything) is possible.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Yes, factoring}
+    \begin{itemize}
+        \item This situation results in an odd geopolitical implication: All governments \emph{have no choice} but to constantly fund research on quantum computers in an `arms race' that has a high chance of never producing any actual new technology.
+        \item If there's time later, RSA encryption would be a nice application to cover of various topics in this class. We'll see how things go.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Basic Data Structures}
+    \begin{itemize}
+    \item Before getting into the fancy stuff, it will also be helpful to briefly review some basic data structures and the complexities associated with working with them.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Arrays}
+    \begin{itemize}
+    \item An array is a collection of memory blocks of the same size. For example, you might create an array of 32 bit ints. Each object in the array has a fixed storage size - in this case 32 bits.
+    \pause 
+    \item When you create an array, you are reserving a block of memory addresses which are right next to each other \emph{in memory}. To find the array, the computer finds the first cell in memory.
+    \item It then finds say, the third cell, by jumping the appropriate number of bits forward in memory.
+    \pause   
+    \item We mentioned earlier that addition was $O(1)$ as long as the numbers being added are `small'. This is the case for `jumping forward' to the $n^{th}$ element of an array from the $0^{th}$. Array access is thus constant time, $O(1)$. (We call this being \textbf{random access}). 
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Linked Lists}
+    \begin{itemize}
+        \item Compare this to a linked list, in which objects aren't linked to each other by their proximity in memory, but rather than having pointers to one another. 
+        \item Each `cell' in a linked list contains both the list-data \emph{and also} a memory address which points at the next element of the list. 
+        \pause
+        \item Linked lists are therefore mutable where arrays are not. To make an array bigger, you have to find a whole new block in memory that's bigger, and transfer everything over. With linked lists, you can just stick a new reference wherever it fits. You also don't need to have every element of a linked list be the same size. 
+        \item However, this mutability comes with the cost of access efficiency. To find the $n^{th}$ element of a linked list, you would have to start at the first entry and follow the breadcrumbs jumping all over your memory space until landing at the $n^{th}$ element. Accessing elements of a linked list is thus worst case $O(n)$ (we refer to this as \textbf{sequential access}.)
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Arrays and Linked Lists}
+    \begin{itemize}
+        \item So arrays beat linked lists in terms of access ($O(1)$ for arrays, $O(n)$ for liinked lists). What about insertion? 
+        \pause
+        \item Here, linked lists are better. In the worst case, to `add' an element to an array you have to either make a new array, or shift everything over to make room for the element you're adding. This is worst case $O(n)$. 
+        \item With linked lists, you can just `rewire' the surrounding memory addresses (draw). $O(1)$. 
+        \item Both arrays and linked lists have their drawbacks then. Arrays have trouble with insertions, and linked lists have trouble with data access. This is why the most common data structure used for data sets is...
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Dynamic arrays}
+    \begin{itemize}
+        \item When you declare an array in a programming language, you have to state the size up-front. With dynamic arrays, you don't have to do this.
+        \pause 
+        \item Instead, when you create a dynamic array, an array of a fixed size is created which is typically \emph{bigger} than you actually need it to be. Since it's an array, it's random access, and accessing elements is $O(1)$. Since the space for insertions is available and reserved in advanced, inserting new elements is also $O(1)$, just like it is for linked lists.
+        \pause
+        \item This is true up until the array needs to increase past number of cells which are reserved. At this point, a new array is created which is some amount bigger, contents of the current array are transferred into it, and the old array is deleted. In other words, the array dynamically increases in size as required. 
+    \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Python lists}
+    \begin{itemize}
+        \item Python's most popular built-in data structure is the list. Python lists are really dyanmic arrays. When you create an empty list in python:
+    \end{itemize}
+    \begin{minted}{python}
+        my_list = []
+    \end{minted}
+    \begin{itemize}
+        \item You are really creating an array of size $4$ish (I can't find the actual size written anywhere). When you try to add a fifth element to the list, python will create a new array of a larger size, move everything over to it, and eventually garbage collection will delete the old array. 
+        \item This new size is around $1.125$ times the size of the old list. (Again, I can't find the exact number written anywhere). 
+        \item We'll be making liberal use of lists throughout the class, so we should be clear on what the time complexity is for insertions here.
+        \pause
+        \item This is one of the situations where worst-case time complexity isn't quite good enough for us. 
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Amortized analysis}
+    \begin{itemize}
+        \item What is the worst-case time complexity of adding $n$ elements to a dynamic array?
+        \pause
+        \item Answer: $O(n)$. 
+        \item Why? Because the worst case is the case where the array needs to be expanded and the final $n^{th}$ operation is one in which this is necessary. If the growth factor is $a$ (i.e. array becomes $a$ times bigger), adding the $n^{th}$ element takes $O(an)$ = $O(n)$ many steps to carry out. 
+        \item The whole point of a dynamic array is to avoid this complexity. This is a little too pessimistic of an analysis. 
+        \item For this situation and some others involving messing around with data structures, amortized analysis is a better approach. 
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Amortized analysis - Aggregate method}
+    \begin{itemize}
+        \item There are a few different kinds of amortized analysis. We'll just go with the simplest version, the \textbf{aggregate method}. 
+        \pause
+        \item The idea here is simple. Instead of thinking just about the big-O complexity of the overall task, think about the big-O (or more commonly big-$\Theta$) complexity \emph{per operation}. 
+        \pause
+        \item Here, our `algorithm' is just doing the same operation repeatedly - adding elements to an array. However, some operations happen in constant time, while a few of them happen in linear time. 
+        \item Question then: does the linear time happen \emph{often enough} that it has a major effect on the insertion operation? 
+        \item We can answer this question be looking at the \emph{average} number of steps required per insertion after a large number of them have been performed.   
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Amortized analysis - Aggregate method}
+    \begin{itemize}
+        \item We'll do this analysis on the board. 
+        \pause 
+        \item Conclusion: On average, on a per operation basis, python lists can be inserted into in $\Theta(1)$ (i.e. constant) time, and are random-access, i.e. accessing a particular element can also be done in constant time. \textbf{We can therefore regard each of these as `basic computational steps' throughout our class, and not worry much more about it}. We will also often implement algorithms which work on arrays using python lists. 
+        \pause
+        \item We're not done worring about lists though. In particular, let's consider two less trivial things we might wish to do with a list: sorting and searching.   
+    \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Searching}
+    \begin{itemize}
+        \item Without knowing anything more specific about the contents of an array, there's not much which can be done to search through them besides the brute-force method:
+    \end{itemize}
+    \begin{lstlisting}
+        function search(array A, int x)
+            for i = 1,2,..., A.length:    
+                if A[i] = x: return i
+            return -1
+    \end{lstlisting}
+    \begin{itemize}
+        \item The runtime here is predictable: $O(n)$ (how can you be sure you won't find what you're looking for without looking at everything?)
+        \pause
+        \item There might be something we can do in order to speed up a search if we know some things about it though. For example, one would hope it were possible to search more quickly if the array were already sorted...
+        \pause
+        \item Amazingly, there is a more efficient quantum algorithm, called \textbf{Grover search}. It operates in time $O(\sqrt{n})$
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Sorting}
+    \begin{itemize}
+        \item Sorting is significantly more interesting than searching. There are a ton of fancy sorting algorithms. We're not going to go overboard discussing all of them. By default we will always be aiming for least to greatest when sorting. 
+        \pause
+        \item There probably isn't a \emph{singular} brute-force method for sorting, but the following method is famously bad:
+        \item Recall that a permutation of an array/list/set is some specific arrangement of it's elements. So for example $(5,8,12)$ is one permutation of the set $\{5,8,12\}$. $(12,8,5)$ is a different permutation of the same set.
+        \item How many permutations of an array of size $n$ are there? \pause $n!$ (explain on board)
+        \item The most natural (mb) brute force solution would be to simply go through every possible permutation of the array and check to see if it's sorted or not:
+    \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Bogosort}
+    \begin{itemize}
+        \item The following python code implements this brute-force algorithm for sorting, known as \textbf{bogosort}. 
+    \end{itemize}
+    \begin{minted}{python}
+        import random
+        def is_sorted(A):
+	        for i in range(0,len(A)-1):
+		        if A[i] > A[i+1]: return False
+	        return True
+        def bogosort(A):
+	        bad_perms = []
+	        while not is_sorted(A):
+		        bad_perms.append(tuple(A))
+		        random.shuffle(A)
+		        while tuple(A) in bad_perms:
+			        random.shuffle(A)
+	        return A
+    \end{minted}
+\end{frame}
+
+\begin{frame}{Bogosort bad}
+    \begin{itemize}
+        \item Even if everything going on inside of the functions here was $O(1)$, this would still be a ridiculously, dangerously slow algorithm, operating in factorial $O(n!)$ time. 
+        \item My algorithm is more sophisticated than most bogosort algorithms in that it actually makes sure that a new permutation hasn't been checked already. Without this, it could go on forever!
+        \item So unlike searching, the brute-force approach to sorting is completely infeasible. However, also unlike searching, we can do better. 
+        \item Let's try a comparison based approach.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Bubblesort}
+    \begin{itemize}
+        \item The idea behind bubble sort is to move from left to right, swapping pairs of elements as we go. So for example, start with $A[0]$ and $A[1]$. If $A[1] < A[0]$, we swap them. Otherwise, we leave it alone and continue to compare $A[1]$ and $A[2]$. 
+        \pause 
+        \item Note that once we finish going all of the way from left to right and making all $n-1$ comparisons, \textbf{the right-most entry is guaranteed to be the biggest}
+        \pause 
+        \item This is because wherever it initially is in the list, it will be swapped for every comparison, and `bubble up' to the top. 
+        \pause 
+        \item This is important because it means if we do $n$ many passes over the array like this, then we can be certain that the array is sorted!
+        \item Thus we have derived a natural comparison based algorithm. A visualization can be found at \url{https://www.hackerearth.com/practice/algorithms/sorting/bubble-sort/visualize/}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Bubblesort kinda okay}
+    \begin{minted}{python}
+    def bubblesort(A):
+       n = len(A)
+	   for i in range(n):
+		   swapped = False
+		   for j in range(0,n-i-1):
+		      if A[j] > A[j+1]:
+		         A[j],A[j+1] = A[j+1],A[j]
+			     swapped = True
+		   if swapped == False: break
+	   return A
+    \end{minted}
+    \begin{itemize}
+        \item This implementation is fairly optimized. The inner loop stops when it gets to the large numbers that it knows are already sorted. The swapped boolean variable also makes the looping break if it ever gets through an entire pass without swapping anything.
+        \pause 
+        \item However, even without these optimizations the worst-case runtime would still be the same: $O(n^2)$. 
+    \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Comparing runtimes in python}
+    \begin{itemize}
+        \item Can we do better than this? Yes. How much better could we hope to do? (Discuss)
+        \item Python makes it easy to compare runtimes using the built-in time module:
+    \end{itemize}
+    \begin{minted}{python}
+        import time
+    \end{minted}
+    \begin{itemize}
+        \item After you've done this, you'll have access to a few functions.
+        \begin{itemize}
+            \item time.time() will return the time in seconds that have passed since the standard `beginning of time' according to modern computers (the start of the \emph{epoch}, typically January 1, 1970).
+            \item time.perf\_counter() will return the time in seconds since some arbitrary starting point (I'm not sure what exactly. Seconds your computer has been on maybe?) This time is a much higher resolution and what you should be using for this class.
+        \end{itemize}
+        \item Using this command, you can obtain the time it takes to run any block of code in the following way:
+    \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Comparing runtimes in python}
+    \begin{minted}{python}
+        start = time.perf_counter()
+        # [Place code here]
+        stop = time.perf_counter()
+        diff = stop - start
+        print(f"Your code took {diff:.3f} seconds to run.")
+    \end{minted}
+    \begin{itemize}
+        \item Let's use this to run some tests comparing our two sorting algorithms. 
+    \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Matplotlib and Numpy}
+    \begin{itemize}
+        \item Another couple of python libraries will be helpful this semester; namely matplotlib and numpy. These don't necessarily come pre-installed with python (although sometimes they do.) 
+        \item To install them, open up a command line (on both windows and mac this can be done by looking for an application called `terminal'), and then typing
+    \end{itemize}
+    \begin{lstlisting}
+        pip install matplotlib
+    \end{lstlisting}
+    \begin{itemize}
+        \item For numpy it's the same, except you type pip install numpy. Depending on how python is installed you might need to type pip3 instead of pip. 
+        \item If this produces an error, you probably forgot to set up your PATH variable when you installed python. To fix this, uninstall and reinstall python, and make sure to check the box labelled `add to PATH' (or something like that) when you're clicking through the installer. 
+    \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Using numpy}
+    \begin{itemize}
+        \item Numpy is basically the math module on steroids. It has a ton of features and works with it's own datatype, numpy arrays, which are meant to behave similarly to the arrays in MATLAB, if you've ever used that. 
+        \item We might mess around with more features later, but right now our main use for numpy is in generating random stuff to test our code on.
+        \item First, obviously, we should import numpy. This can be done by typing at the top of your file:
+    \end{itemize}
+    \begin{minted}{python}
+        import numpy as np
+    \end{minted}
+    \begin{itemize}
+        \item The ``as np'' part is only here to shorten calls to the numpy library, but is also standard practice. 
+        \item This is a bit of a clunky way to do what we are interested in doing though, as the numpy library is quite large. Better for us would be to type
+    \end{itemize}
+    \begin{minted}{python}
+        from numpy import random
+    \end{minted}
+\end{frame}
+
+\begin{frame}[fragile]{Using numpy}
+    \begin{itemize}
+        \item To make random stuff, you first need to make a Generator object. The main constructor for doing this is default\_rng:
+    \end{itemize}
+    \begin{minted}{python}
+        rng = random.default_rng()
+    \end{minted}
+    \begin{itemize}
+        \item From here you can generate all kinds of random stuff by calling the generator methods:
+    \end{itemize}
+    \begin{minted}{python}
+        # Creates a list of 50 random integers between -100 and 100
+        test_list = rng.integers(-100,100,50)
+        # Creates a single integer between 1 and 8
+        test_int = rng.integers(8) # lower bound is optional
+        # Creates a random float between 0 and 1
+        test_float = rng.uniform()
+        # Creates a random float between -10 and 10
+        test_float = rng.random(-10,10)
+        # Creates a list of 50 random floats between -10 and 10
+        test_floats = rng.random(-10,10,50)
+    \end{minted}
+\end{frame}
+
+\begin{frame}[fragile]{Using numpy}
+    \begin{itemize}
+        \item A complete list of generator methods can be found at \url{https://numpy.org/doc/stable/reference/random/index.html}
+        \item The lists that numpy generates are not actually lists, but numpy arrays. However, they can be casted as lists by just typing and most of the time you won't receive errors from pretending they are lists.
+        \item However, I recommend you cast them as lists (for now) regardless of if it gives you an error or not. After all, we went to so much trouble to make sure we understood how python lists worked!
+        \item Another important thing you should recall is that python lists are mutable. This means they are passed by reference into functions. If you pass a list into a sorting algorithm and act on the list to sort it, it will be sorting the list itself! 
+    \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Using numpy}
+    \begin{itemize}
+        \item For example, consider this code:
+    \end{itemize}
+    \begin{minted}{python}
+        output_1 = bubblesort(A)
+        output_2 = bogosort(A)
+    \end{minted}
+    \begin{itemize}
+        \item Our bubblesort algorithm from earlier acted directly on A. Therefore, if I pass A again into bogosort, then bogosort will take 0 seconds, because you are passing it a pre-sorted list!
+        \item The fix here is simple. Instead of passing A into our functions, instead pass list(A). This creates a copy of A (casted as a list), and passes that instead of A itself. 
+        \item Another nice use of numpy is the linspace function. This creates a numpy array of equally spaced numbers within a certain range:
+    \end{itemize}
+    \begin{minted}{python}
+        import numpy as np
+        x_axis = np.linspace(-10,10,300)
+    \end{minted}
+    \begin{itemize}
+        \item This creates a list of 300 equally spaced numbers between $-10$ and $10$. This will sometimes be useful for plotting functions in matplotlib, which we will turn to now. 
+    \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Using matplotlib}
+    \begin{itemize}
+        \item Matplotlib is a very powerful library for displaying data graphically. To use it, the standard thing to do is
+    \end{itemize}
+    \begin{minted}{python}
+        from matplotlib import pyplot as plt
+    \end{minted}
+    \begin{itemize}
+        \item Pyplot is basically a more limited (and thus lighter weight) and simpler to work with version of matplotlib.
+        \item There's no way to summarize right now everything that we might want to use matplotlib for throughout this class. Documentation can be found at \url{https://matplotlib.org/stable/index.html}
+        \item However, here's an example to get us started:
+    \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Example outline}
+    \begin{itemize}
+        \item Let's say we want to test the performance of our bubblesort algorithm on a range of input sizes, from $1$ to $300$.
+        \item Inside of a for loop which goes from $1$ to $100$, we do the following:
+        \begin{itemize} 
+            \item Using numpy, create a test list of the right size.
+            \item Record start time using perf\_counter() function.
+            \item Run bubblesort on the test list. 
+            \item Record stop time. Append the difference to an ongoing list of times.
+        \end{itemize}
+        \item After this, the times can be plotted using the pyplot commands plot() and show():
+    \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Example code}
+    \begin{minted}{python}
+        times = []
+        rng = random.default_rng()
+        for n in range(1,301):
+	        test_list = list(rng.integers(-1000,1000,n))
+	        start = time.perf_counter()
+	        sorted_list = bubblesort(test_list)
+	        stop = time.perf_counter()
+	        times.append(stop-start)
+
+        plt.plot(times)
+        plt.show()
+    \end{minted}
+    \begin{itemize}
+        \item The plot function usually takes at least two lists (or numpy arrays) as input - an x-axis list and a y-axis list. However, you can also just give it a single array, which it will interpret as the y-axis and attempt to infer the x-axis. 
+        \item We'll learn more matplotlib and numpy on an as-needed basis.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{A few tips}
+    \begin{itemize}
+        \item Some tips about learning these kinds of external libraries:
+        \begin{itemize}
+            \item If you want to minimize the digging you have to do through documentation, use ChatGPT! Ask it to do something related to the thing you are trying to figure out, and use it to get yourself pointed in the right direction. For example ``Make me a python program using matplotlib which displays the graph of a function and colors it orange.'' And so on. 
+            \item If you want to quickly see what the optional keyword arguments are to a certain function, try typing help(function) into the python shell. I recommend doing this in the powershell for windows users, since you can search for text using ctrl+shift+f. Mac users I don't know what to recommend, but I'm sure there's plenty of good shell apps to choose from. 
+        \end{itemize}
+        \item I'll be assigning some coding projects throughout the semester which will have you implementing and testing the algorithms we're looking at. 
+    \end{itemize}
+\end{frame}
+
+\end{document}

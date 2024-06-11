@@ -1,7 +1,0 @@
-2024-06-11 02:40:23.531 [info] update#setState disabled
-2024-06-11 02:40:23.532 [info] update#ctor - updates are disabled as there is no update URL
-2024-06-11 02:40:23.564 [error] Unable to resolve your shell environment: Unexpected exit code from spawned shell (code 1, signal null)
-2024-06-11 02:40:24.393 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment: Unexpected exit code from spawned shell (code 1, signal null)
-2024-06-11 02:40:50.414 [error] resolving shell environment failed Unable to resolve your shell environment: Unexpected exit code from spawned shell (code 1, signal null)
-2024-06-11 02:40:51.560 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment: Unexpected exit code from spawned shell (code 1, signal null)
-2024-06-11 02:46:25.773 [info] Extension host with pid 18190 exited with code: 0, signal: unknown.

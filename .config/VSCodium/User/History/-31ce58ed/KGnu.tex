@@ -1,0 +1,108 @@
+\documentclass{beamer}
+
+\usepackage{fancyvrb}
+\makeatletter
+\def\KV@FV@lastline@default{%
+  \let\FancyVerbStopNum\m@ne
+  \let\FancyVerbStopString\relax}
+\fvset{lastline}
+\makeatother
+\usepackage{listings}
+\usepackage{minted}
+\usepackage{tikz}
+\usepackage{graphicx}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+
+\urlstyle{same}
+\usetheme{Madrid}
+
+\title{Breadth-First Search and Shortest Paths}
+\subtitle{Less obviously still about recursion}
+\author{Alex Creiner}
+
+\institute{Boston College}
+\date{Spring 2024}
+
+\begin{document}
+
+\titlepage
+\begin{frame}{Recursion and Stacks}
+    \begin{itemize}
+        \item Our little explore algorithm which was central to DFS involved always getting distracted and taking the first edge we saw. 
+        \item This was accomplished using recursion, which operates in a similar way. Since computers can only do the next command they're told, whenever we saw a recursive call we would effectively start over from that new node. 
+        \item However, implicit to recursion is always a \textbf{call stack}. To finish doing $A$, we first have to do $B$. To finish doing $B$, we first have to do $C$, and so on, produces a stack, with the last task on the top. The recursion ends when the stack is finally empty. 
+        \item It's natural then to assume we could replace the recursion with an actual stack, and accomplish the same search technique.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Iterative DFS (Explore)}
+    \begin{itemize}
+        {\small \item This is indeed the case:}
+    \end{itemize}
+    \begin{lstlisting}[basicstyle=\small]
+        Stack-Explore(u):
+            Let S be a stack
+            S.push(u)
+            while S not empty:
+                v = S.pop()
+                mark v as visited
+                for all neighbors w of v:
+                    if w not visited:
+                        S.push(w)
+    \end{lstlisting}
+    \begin{itemize}
+        {\small \item A full DFS implemented using this in place of the original recursive explore function doesn't produce the exact same sequence of visits, but it \emph{does} produce a search which is fundamentally depth first, i.e. going as far as it can away from a node before doubling back. (Where the recursive DFS is effectively `left handed', this version is `right-handed').
+        \item We could prove all of the same things about this that we did before, and in the same manner, through a discussion of pre and post numbers. }
+    \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Idea: Replace the stack with a queue}
+    \begin{itemize}
+        \item To get from this to breadth-first search, we simply need to ask the question: what would happen if we replaced the stack with a queue? We can call it Queue-Explore(u), but it is better known by the name \textbf{breadth-first search}
+    \end{itemize}
+    \begin{lstlisting}
+        BFS(u):
+            Let Q be a queue
+            Q.enqueue(u)
+            while S not empty:
+                v = Q.dequeue()
+                mark v as visited
+                for all neighbors w of v:
+                    if w not visited:
+                        S.enqueue(w)
+    \end{lstlisting}
+    \begin{itemize}
+        \item No, really, this is literally just BFS.  
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Some initial observations}
+    \begin{itemize}
+        \item A few observations before we continue on the board:
+        \begin{itemize}
+            \item Since we are adding all of the same nodes as we did with explore(u), just in a different order, it follows from our proof earlier that this algorithm visits all nodes reachable from the input node u. 
+            \item With DFS, we used explore(u) as a helper algorithm, wrapping a for-loop around it that made sure we visited every node and not just those reachable from a particular node. We don't do that with BFS, for a simple reason. 
+            \item The reason: BFS is good for exactly one thing - finding shortest paths. In this context, we don't care about visiting nodes which \emph{aren't} reachable by a particular node. So we don't bother. 
+            \item This choice has the unfortunate side effect of making these two algorithms seem more different from each other than they actually are. While their use-cases differ greatly and have no relation to each other, conceptually they are exact duals of each other.
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Weighted graphs}
+    \begin{itemize}
+        \item In addition to being directed or undirected, graphs can also be \textbf{weighted} or \textbf{unweighted}. A weighted graph has a cost associated with every edge. More formally, the graph $G = (V,E,w)$ has an additional \textbf{weight function} $w: E \to \mathbb{R}$. \pause 
+        \item So for example, returning to our graph of South America, the weight of the edge between Brazil and Peru might be the distance between the two capitals. It's up to us. \pause 
+        \item Both the adjacency list and the adjacency matrix can be modified to accomadate a weight function. With lists, the best option is simply to make the elements of a vertex's list of neighbors pairs (or in python, 2-tuples) containing both the name of the neighboring vertex and the weight of the edge between them. 
+        \item For adjacency matrices, instead of populating it with $1$'s or $0$'s, we can instead populate it with $\infty$ wherever there is no edge, and the weight where there is an edge (instead of the former Boolean $1$). \pause 
+        \item How does the addition of a weight function influence the time complexity of querying for edges or the space complexity of representing them? (Discuss) 
+    \end{itemize}
+\end{frame}
+
+\end{document}

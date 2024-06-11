@@ -1,0 +1,5 @@
+2024-04-29 21:20:39.378 [info] Started local extension host with pid 2213.
+2024-04-29 21:20:42.255 [info] [perf] Render performance baseline is 41ms
+2024-04-29 21:21:00.124 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/alex/Documents/Laptop-Server/Spring-2024/My%20Exams%20%28Algorithms%29/final.tex 
+2024-04-29 21:21:00.906 [info] Started local extension host with pid 2351.
+2024-04-29 21:21:03.675 [info] [perf] Render performance baseline is 45ms

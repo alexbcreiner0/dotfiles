@@ -1,0 +1,22 @@
+2024-04-29 14:02:38.062 [info] Extension host with pid 4718 started
+2024-04-29 14:02:38.062 [info] Skipping acquiring lock for /home/alex/.config/VSCodium/User/workspaceStorage/4c03277e4795909dc6bd71023345fbeb.
+2024-04-29 14:02:38.102 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-04-29 14:02:38.153 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-04-29 14:02:38.186 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-04-29 14:02:38.273 [info] Eager extensions activated
+2024-04-29 14:02:38.321 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-04-29 14:02:38.325 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-04-29 14:11:09.419 [info] Extension host terminating: renderer closed the MessagePort
+2024-04-29 14:11:09.425 [info] Extension host with pid 4718 exiting with code 0
+2024-04-29 14:11:10.925 [info] Extension host with pid 4962 started
+2024-04-29 14:11:10.925 [info] Skipping acquiring lock for /home/alex/.config/VSCodium/User/workspaceStorage/02a1f47b9715c1376f9112b83e6000bb.
+2024-04-29 14:11:10.999 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-04-29 14:11:11.028 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-04-29 14:11:11.069 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-04-29 14:11:11.133 [info] Eager extensions activated
+2024-04-29 14:11:11.160 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-04-29 14:11:11.162 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-04-29 14:11:18.323 [info] ExtensionService#_doActivateExtension James-Yu.latex-workshop, startup: false, activationEvent: 'onLanguage:latex'
+2024-04-29 14:11:18.878 [warning] DiagnosticCollection with name 'BibTeX' does already exist.
+2024-04-29 14:11:18.913 [info] ExtensionService#_doActivateExtension tecosaur.latex-utilities, startup: false, activationEvent: 'onLanguage:latex'
+2024-04-29 14:11:18.935 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'

@@ -1,25 +1,61 @@
 <application>
   <component name="ApplicationUserFactors">
     <factor id="completionFinishedType">
-      <dailyData date="10-06-2024">
-        <observation name="cancelled" value="10.0" />
-        <observation name="typedSelect" value="1.0" />
+      <dailyData date="11-06-2024">
+        <observation name="cancelled" value="18.0" />
+        <observation name="explicitSelect" value="13.0" />
+        <observation name="typedSelect" value="4.0" />
       </dailyData>
     </factor>
     <factor id="completionType">
-      <dailyData date="10-06-2024">
-        <observation name="BASIC" value="6.0" />
+      <dailyData date="11-06-2024">
+        <observation name="BASIC" value="29.0" />
+        <observation name="SMART" value="1.0" />
       </dailyData>
     </factor>
     <factor id="completionUsage">
-      <dailyData date="10-06-2024">
-        <observation name="count" value="11.0" />
+      <dailyData date="11-06-2024">
+        <observation name="count" value="35.0" />
+      </dailyData>
+    </factor>
+    <factor id="itemPosition">
+      <dailyData date="11-06-2024">
+        <observation name="0" value="11.0" />
+        <observation name="2" value="2.0" />
+      </dailyData>
+    </factor>
+    <factor id="mnemonicsUsage">
+      <dailyData date="11-06-2024">
+        <observation name="total" value="11.0" />
+        <observation name="withMnemonics" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="prefixLength">
+      <dailyData date="11-06-2024">
+        <observation name="1" value="2.0" />
+        <observation name="2" value="1.0" />
+        <observation name="3" value="6.0" />
+        <observation name="4" value="1.0" />
+        <observation name="5" value="1.0" />
+        <observation name="6" value="2.0" />
+      </dailyData>
+    </factor>
+    <factor id="prefixMatchingType">
+      <dailyData date="11-06-2024">
+        <observation name="GREEDY_WITH_CASE" value="1.0" />
+        <observation name="START_WITH" value="10.0" />
+      </dailyData>
+    </factor>
+    <factor id="templatesUsage">
+      <dailyData date="11-06-2024">
+        <observation name="templates" value="1.0" />
+        <observation name="totalStartingWithPrefix" value="13.0" />
       </dailyData>
     </factor>
     <factor id="timeBetweenTyping">
-      <dailyData date="10-06-2024">
-        <observation name="average" value="94.666667" />
-        <observation name="count" value="6.0" />
+      <dailyData date="11-06-2024">
+        <observation name="average" value="646.618182" />
+        <observation name="count" value="55.0" />
       </dailyData>
     </factor>
   </component>

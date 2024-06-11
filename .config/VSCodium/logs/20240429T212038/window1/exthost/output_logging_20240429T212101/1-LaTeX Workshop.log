@@ -1,0 +1,330 @@
+[21:21:05.347][Logger] New log placeholder %WS1% registered for /home/alex/Documents/Spring-2024/My Lecture Notes (Algorithms) .
+[21:21:05.347][Extension] Initializing LaTeX Workshop.
+[21:21:05.506][Build][Recipe] Set $LATEXWORKSHOP_DOCKER_LATEX: ""
+[21:21:05.551][Server] Creating LaTeX Workshop http and websocket server.
+[21:21:05.636][Format][Bib] Bibtex format config: {"tab":"  ","case":"lowercase","left":"{","right":"}","trailingComma":false,"sort":["key"],"alignOnEqual":true,"sortFields":false,"fieldsOrder":[],"firstEntries":["string","xdata"]}
+[21:21:05.672][Server] Server successfully started: {"address":"127.0.0.1","family":"IPv4","port":40031} .
+[21:21:05.695][Extension] Extension root: /home/alex/.vscode-oss/extensions/james-yu.latex-workshop-9.19.2-universal
+[21:21:05.695][Extension] $PATH: /usr/local/texlive/2024/bin/x86_64-linux:/home/alex/.local/bin:/usr/local/texlive/2024/bin/x86_64-linux:/usr/local/texlive/2024/bin/x86_64-linux:/home/alex/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+[21:21:05.696][Extension] $SHELL: /bin/bash
+[21:21:05.696][Extension] $LANG: en_US.UTF-8
+[21:21:05.696][Extension] $LC_ALL: undefined
+[21:21:05.696][Extension] process.platform: linux
+[21:21:05.696][Extension] process.arch: x64
+[21:21:05.697][Extension] vscode.env.appName: VSCodium
+[21:21:05.697][Extension] vscode.env.remoteName: undefined
+[21:21:05.697][Extension] vscode.env.uiKind: 1
+[21:21:05.702][Config] latex-workshop.latex.tools: [{"name":"latexmk","command":"latexmk","args":["-pdf","-synctex=1","-interaction=nonstopmode","-file-line-error","--shell-escape","%DOC%"]}] .
+[21:21:05.763][Extension] Trigger characters for intellisense of LaTeX documents: ["\\",",","{"]
+[21:21:05.767][Root] Current workspace folders: ["file://%WS1%"]
+[21:21:05.768][Extension] LaTeX Workshop initialized.
+[21:21:05.770][Root] Found root file from active editor: %WS1%/complexity_theory.tex
+[21:21:05.770][Root] Root file changed: from %WS1%/complexity_theory.tex to %WS1%/complexity_theory.tex, langID latex . Refresh dependencies
+[21:21:05.771][Event] ROOT_FILE_CHANGED: "%WS1%/complexity_theory.tex"
+[21:21:05.772][Cacher][Watcher] Reset.
+[21:21:05.772][Cacher][Watcher] Reset.
+[21:21:05.776][Cacher] Adding %WS1%/complexity_theory.tex .
+[21:21:05.777][Cacher][Watcher] Watched %WS1%/complexity_theory.tex with a new .* watcher on %WS1% .
+[21:21:05.778][Event] FILE_WATCHED: "%WS1%/complexity_theory.tex"
+[21:21:05.780][Cacher] Caching %WS1%/complexity_theory.tex .
+[21:21:05.782][Cacher] Updated inputs of %WS1%/complexity_theory.tex .
+[21:21:05.783][Cacher] Parse LaTeX AST: %WS1%/complexity_theory.tex .
+[21:21:05.783][Event] ROOT_FILE_SEARCHED
+[21:21:05.811][Server] valdOrigin is http://127.0.0.1:40031
+[21:21:06.302][Cacher] Parsed LaTeX AST: %WS1%/complexity_theory.tex .
+[21:21:06.304][File] Calling kpsewhich to resolve beamer.cls .
+[21:21:06.528][File] kpsewhich returned with '/usr/local/texlive/2024/texmf-dist/tex/latex/beamer/beamer.cls'.
+[21:21:06.553][Cacher] Updated elements in 249.79 ms: %WS1%/complexity_theory.tex .
+[21:21:06.555][Event] FILE_PARSED: "%WS1%/complexity_theory.tex"
+[21:21:06.557][Cacher] Parsing .fls %WS1%/complexity_theory.fls .
+[21:21:06.593][Cacher] Found .aux %WS1%/complexity_theory.tex from .fls %WS1%/complexity_theory.fls , parsing.
+[21:21:06.594][Cacher] Parsed .aux %WS1%/complexity_theory.tex .
+[21:21:06.594][Cacher] Parsed .fls %WS1%/complexity_theory.fls .
+[21:21:06.598][Structure] Structure force updated with 0 root sections for %WS1%/complexity_theory.tex .
+[21:21:06.599][Event] STRUCTURE_UPDATED
+[21:21:07.455][Commander] VIEW command invoked with mode: file:///home/alex/Documents/Spring-2024/My%20Lecture%20Notes%20%28Algorithms%29/complexity_theory.tex.
+[21:21:07.456][Root] Current workspace folders: ["file://%WS1%"]
+[21:21:07.459][Root] Found root file from active editor: %WS1%/complexity_theory.tex
+[21:21:07.459][Root] Keep using the same root file: %WS1%/complexity_theory.tex
+[21:21:07.460][Event] ROOT_FILE_SEARCHED
+[21:21:07.461][Event] STRUCTURE_UPDATED
+[21:21:07.560][Viewer][Panel] Internal PDF viewer at http://127.0.0.1:40031/viewer.html?file=pdf..ZmlsZSUzQSUyRiUyRiUyRmhvbWUlMkZhbGV4JTJGRG9jdW1lbnRzJTJGU3ByaW5nLTIwMjQlMkZNeSUyMExlY3R1cmUlMjBOb3RlcyUyMChBbGdvcml0aG1zKSUyRmNvbXBsZXhpdHlfdGhlb3J5LnBkZg .
+[21:21:07.561][Cacher][Watcher] Watched %WS1%/complexity_theory.pdf with a new .pdf watcher on %WS1% .
+[21:21:07.561][Event] FILE_WATCHED: "%WS1%/complexity_theory.pdf"
+[21:21:07.613][Viewer] Open PDF tab for file://%WS1%/complexity_theory.pdf
+[21:21:07.847][Viewer] Handle data type: open
+[21:21:07.947][Server] Preview PDF file: file://%WS1%/complexity_theory.pdf
+[21:21:08.260][Viewer] Handle data type: loaded
+[21:21:08.260][Event] VIEWER_PAGE_LOADED
+[21:21:59.654][Viewer] Handle data type: reverse_synctex
+[21:21:59.655][Locator] Backward from %WS1%/complexity_theory.pdf at x=138.6, y=75.92599999999993 on page 22.
+[21:21:59.655][SyncTeX] Parsing .synctex.gz %WS1%/complexity_theory.synctex.gz .
+[21:21:59.760][Locator] Backward SyncTeX to %WS1%/complexity_theory.tex .
+[21:21:59.788][Event] STRUCTURE_UPDATED
+[21:28:15.228][Commander] BUILD command invoked.
+[21:28:15.230][Build] The document of the active editor: file://%WS1%/complexity_theory.tex
+[21:28:15.230][Build] The languageId of the document: latex
+[21:28:15.231][Root] Current workspace folders: ["file://%WS1%"]
+[21:28:15.234][Root] Found root file from active editor: %WS1%/complexity_theory.tex
+[21:28:15.234][Root] Keep using the same root file: %WS1%/complexity_theory.tex
+[21:28:15.234][Event] ROOT_FILE_SEARCHED
+[21:28:15.234][Event] STRUCTURE_UPDATED
+[21:28:15.234][Build] Building root file: %WS1%/complexity_theory.tex
+[21:28:15.235][Build][Recipe] Build root file %WS1%/complexity_theory.tex
+[21:28:15.250][Extension] onDidSaveTextDocument triggered: file://%WS1%/complexity_theory.tex
+[21:28:15.260][Build][Recipe] Preparing to run recipe: latexmk.
+[21:28:15.261][Build][Recipe] Prepared 1 tools.
+[21:28:15.278][Build][Recipe] outDir: %WS1% .
+[21:28:15.280][Build] Recipe step 1 The command is latexmk:["-pdf","-synctex=1","-interaction=nonstopmode","-file-line-error","--shell-escape","%WS1%/complexity_theory"].
+[21:28:15.280][Build] env: undefined
+[21:28:15.281][Build] root: %WS1%/complexity_theory.tex
+[21:28:15.281][Build] cwd: %WS1%
+[21:28:15.287][Build] LaTeX build process spawned with PID 2513.
+[21:28:15.322][Cacher][Watcher] "change" emitted on %WS1%/complexity_theory.tex.
+[21:28:15.324][Cacher] Caching %WS1%/complexity_theory.tex .
+[21:28:15.326][Cacher] Updated inputs of %WS1%/complexity_theory.tex .
+[21:28:15.326][Cacher] Parse LaTeX AST: %WS1%/complexity_theory.tex .
+[21:28:15.327][Build] Auto build started detecting the change of a file: %WS1%/complexity_theory.tex .
+[21:28:15.328][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/complexity_theory.tex"}
+[21:28:15.328][Build] Autobuild temporarily disabled.
+[21:28:15.328][Event] FILE_CHANGED: "%WS1%/complexity_theory.tex"
+[21:28:15.657][Cacher] Parsed LaTeX AST: %WS1%/complexity_theory.tex .
+[21:28:15.659][File] kpsewhich cache hit on beamer.cls: /usr/local/texlive/2024/texmf-dist/tex/latex/beamer/beamer.cls .
+[21:28:15.679][Cacher] Updated elements in 21.28 ms: %WS1%/complexity_theory.tex .
+[21:28:15.679][Event] FILE_PARSED: "%WS1%/complexity_theory.tex"
+[21:28:15.680][Structure] Structure force updated with 26 root sections for %WS1%/complexity_theory.tex .
+[21:28:15.681][Event] STRUCTURE_UPDATED
+[21:28:20.861][Cacher][Watcher] "change" emitted on %WS1%/complexity_theory.pdf after polling for 4004 ms.
+[21:28:20.862][Event] FILE_CHANGED: "%WS1%/complexity_theory.pdf"
+[21:28:23.988][Parser][TexLog] Logged 0 messages.
+[21:28:23.988][Build] Finished a step in recipe with PID 2513.
+[21:28:23.989][Build] Successfully built %WS1%/complexity_theory.tex .
+[21:28:23.989][Event] BUILD_DONE
+[21:28:23.989][Viewer] Call refreshExistingViewer: "%WS1%/complexity_theory.pdf" .
+[21:28:23.989][Viewer] Refresh PDF viewer: %WS1%/complexity_theory.pdf
+[21:28:23.991][Cacher] Parsing .fls %WS1%/complexity_theory.fls .
+[21:28:24.035][Cacher] Found .aux %WS1%/complexity_theory.tex from .fls %WS1%/complexity_theory.fls , parsing.
+[21:28:24.035][Cacher] Parsed .aux %WS1%/complexity_theory.tex .
+[21:28:24.035][Cacher] Parsed .fls %WS1%/complexity_theory.fls .
+[21:28:24.077][Server] Preview PDF file: file://%WS1%/complexity_theory.pdf
+[21:28:24.250][Viewer] Handle data type: loaded
+[21:28:24.251][Event] VIEWER_PAGE_LOADED
+[21:28:29.726][Event] STRUCTURE_UPDATED
+[21:32:26.095][Commander] BUILD command invoked.
+[21:32:26.096][Build] The document of the active editor: file://%WS1%/complexity_theory.tex
+[21:32:26.097][Build] The languageId of the document: latex
+[21:32:26.098][Root] Current workspace folders: ["file://%WS1%"]
+[21:32:26.101][Root] Found root file from active editor: %WS1%/complexity_theory.tex
+[21:32:26.102][Root] Keep using the same root file: %WS1%/complexity_theory.tex
+[21:32:26.102][Event] ROOT_FILE_SEARCHED
+[21:32:26.103][Event] STRUCTURE_UPDATED
+[21:32:26.104][Build] Building root file: %WS1%/complexity_theory.tex
+[21:32:26.104][Build][Recipe] Build root file %WS1%/complexity_theory.tex
+[21:32:26.140][Extension] onDidSaveTextDocument triggered: file://%WS1%/complexity_theory.tex
+[21:32:26.154][Build][Recipe] Preparing to run recipe: latexmk.
+[21:32:26.154][Build][Recipe] Prepared 1 tools.
+[21:32:26.156][Build][Recipe] outDir: %WS1% .
+[21:32:26.158][Build] Recipe step 1 The command is latexmk:["-pdf","-synctex=1","-interaction=nonstopmode","-file-line-error","--shell-escape","%WS1%/complexity_theory"].
+[21:32:26.158][Build] env: undefined
+[21:32:26.159][Build] root: %WS1%/complexity_theory.tex
+[21:32:26.159][Build] cwd: %WS1%
+[21:32:26.166][Build] LaTeX build process spawned with PID 3227.
+[21:32:26.197][Cacher][Watcher] "change" emitted on %WS1%/complexity_theory.tex.
+[21:32:26.199][Cacher] Caching %WS1%/complexity_theory.tex .
+[21:32:26.200][Cacher] Updated inputs of %WS1%/complexity_theory.tex .
+[21:32:26.201][Cacher] Parse LaTeX AST: %WS1%/complexity_theory.tex .
+[21:32:26.201][Build] Auto build started detecting the change of a file: %WS1%/complexity_theory.tex .
+[21:32:26.202][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/complexity_theory.tex"}
+[21:32:26.202][Build] Autobuild temporarily disabled.
+[21:32:26.202][Event] FILE_CHANGED: "%WS1%/complexity_theory.tex"
+[21:32:26.533][Cacher] Parsed LaTeX AST: %WS1%/complexity_theory.tex .
+[21:32:26.533][File] kpsewhich cache hit on beamer.cls: /usr/local/texlive/2024/texmf-dist/tex/latex/beamer/beamer.cls .
+[21:32:26.543][Cacher] Updated elements in 9.40 ms: %WS1%/complexity_theory.tex .
+[21:32:26.543][Event] FILE_PARSED: "%WS1%/complexity_theory.tex"
+[21:32:26.544][Structure] Structure force updated with 27 root sections for %WS1%/complexity_theory.tex .
+[21:32:26.544][Event] STRUCTURE_UPDATED
+[21:32:30.560][Parser][TexLog] Logged 0 messages.
+[21:32:30.561][Build] Finished a step in recipe with PID 3227.
+[21:32:30.561][Build] Successfully built %WS1%/complexity_theory.tex .
+[21:32:30.561][Event] BUILD_DONE
+[21:32:30.561][Viewer] Call refreshExistingViewer: "%WS1%/complexity_theory.pdf" .
+[21:32:30.562][Viewer] Refresh PDF viewer: %WS1%/complexity_theory.pdf
+[21:32:30.563][Cacher] Parsing .fls %WS1%/complexity_theory.fls .
+[21:32:30.590][Cacher] Found .aux %WS1%/complexity_theory.tex from .fls %WS1%/complexity_theory.fls , parsing.
+[21:32:30.591][Cacher] Parsed .aux %WS1%/complexity_theory.tex .
+[21:32:30.591][Cacher] Parsed .fls %WS1%/complexity_theory.fls .
+[21:32:30.597][Server] Preview PDF file: file://%WS1%/complexity_theory.pdf
+[21:32:30.699][Viewer] Handle data type: loaded
+[21:32:30.700][Event] VIEWER_PAGE_LOADED
+[21:32:56.206][Viewer] Handle data type: reverse_synctex
+[21:32:56.207][Locator] Backward from %WS1%/complexity_theory.pdf at x=200.40000000000003, y=185.72599999999997 on page 25.
+[21:32:56.208][SyncTeX] Parsing .synctex.gz %WS1%/complexity_theory.synctex.gz .
+[21:32:56.297][Locator] Backward SyncTeX to %WS1%/complexity_theory.tex .
+[21:32:56.318][Event] STRUCTURE_UPDATED
+[21:33:18.709][Viewer] Handle data type: reverse_synctex
+[21:33:18.709][Locator] Backward from %WS1%/complexity_theory.pdf at x=122.4, y=127.52599999999995 on page 12.
+[21:33:18.709][SyncTeX] Parsing .synctex.gz %WS1%/complexity_theory.synctex.gz .
+[21:33:18.817][Locator] Backward SyncTeX to %WS1%/complexity_theory.tex .
+[21:33:53.680][Viewer] Handle data type: reverse_synctex
+[21:33:53.681][Locator] Backward from %WS1%/complexity_theory.pdf at x=147.00000000000003, y=120.32599999999996 on page 18.
+[21:33:53.682][SyncTeX] Parsing .synctex.gz %WS1%/complexity_theory.synctex.gz .
+[21:33:53.809][Locator] Backward SyncTeX to %WS1%/complexity_theory.tex .
+[21:33:53.821][Event] STRUCTURE_UPDATED
+[21:34:09.315][Viewer] Handle data type: reverse_synctex
+[21:34:09.315][Locator] Backward from %WS1%/complexity_theory.pdf at x=108.60000000000001, y=130.52599999999995 on page 21.
+[21:34:09.315][SyncTeX] Parsing .synctex.gz %WS1%/complexity_theory.synctex.gz .
+[21:34:09.403][Locator] Backward SyncTeX to %WS1%/complexity_theory.tex .
+[21:36:56.657][Viewer] Handle data type: reverse_synctex
+[21:36:56.658][Locator] Backward from %WS1%/complexity_theory.pdf at x=322.80000000000007, y=202.52599999999998 on page 23.
+[21:36:56.658][SyncTeX] Parsing .synctex.gz %WS1%/complexity_theory.synctex.gz .
+[21:36:56.745][Locator] Backward SyncTeX to %WS1%/complexity_theory.tex .
+[21:37:24.701][Viewer] Handle data type: reverse_synctex
+[21:37:24.701][Locator] Backward from %WS1%/complexity_theory.pdf at x=316.20000000000005, y=76.52599999999997 on page 25.
+[21:37:24.701][SyncTeX] Parsing .synctex.gz %WS1%/complexity_theory.synctex.gz .
+[21:37:24.790][Locator] Backward SyncTeX to %WS1%/complexity_theory.tex .
+[21:37:24.804][Event] STRUCTURE_UPDATED
+[21:38:19.793][Event] STRUCTURE_UPDATED
+[21:40:53.196][Commander] BUILD command invoked.
+[21:40:53.196][Build] The document of the active editor: file://%WS1%/complexity_theory.tex
+[21:40:53.197][Build] The languageId of the document: latex
+[21:40:53.198][Root] Current workspace folders: ["file://%WS1%"]
+[21:40:53.202][Root] Found root file from active editor: %WS1%/complexity_theory.tex
+[21:40:53.203][Root] Keep using the same root file: %WS1%/complexity_theory.tex
+[21:40:53.203][Event] ROOT_FILE_SEARCHED
+[21:40:53.204][Event] STRUCTURE_UPDATED
+[21:40:53.205][Build] Building root file: %WS1%/complexity_theory.tex
+[21:40:53.206][Build][Recipe] Build root file %WS1%/complexity_theory.tex
+[21:40:53.244][Extension] onDidSaveTextDocument triggered: file://%WS1%/complexity_theory.tex
+[21:40:53.263][Build][Recipe] Preparing to run recipe: latexmk.
+[21:40:53.263][Build][Recipe] Prepared 1 tools.
+[21:40:53.265][Build][Recipe] outDir: %WS1% .
+[21:40:53.268][Build] Recipe step 1 The command is latexmk:["-pdf","-synctex=1","-interaction=nonstopmode","-file-line-error","--shell-escape","%WS1%/complexity_theory"].
+[21:40:53.268][Build] env: undefined
+[21:40:53.269][Build] root: %WS1%/complexity_theory.tex
+[21:40:53.269][Build] cwd: %WS1%
+[21:40:53.276][Build] LaTeX build process spawned with PID 3344.
+[21:40:53.299][Cacher][Watcher] "change" emitted on %WS1%/complexity_theory.tex.
+[21:40:53.302][Cacher] Caching %WS1%/complexity_theory.tex .
+[21:40:53.303][Cacher] Updated inputs of %WS1%/complexity_theory.tex .
+[21:40:53.303][Cacher] Parse LaTeX AST: %WS1%/complexity_theory.tex .
+[21:40:53.303][Build] Auto build started detecting the change of a file: %WS1%/complexity_theory.tex .
+[21:40:53.303][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/complexity_theory.tex"}
+[21:40:53.304][Build] Autobuild temporarily disabled.
+[21:40:53.304][Event] FILE_CHANGED: "%WS1%/complexity_theory.tex"
+[21:40:53.651][Cacher] Parsed LaTeX AST: %WS1%/complexity_theory.tex .
+[21:40:53.652][File] kpsewhich cache hit on beamer.cls: /usr/local/texlive/2024/texmf-dist/tex/latex/beamer/beamer.cls .
+[21:40:53.665][Cacher] Updated elements in 13.32 ms: %WS1%/complexity_theory.tex .
+[21:40:53.666][Event] FILE_PARSED: "%WS1%/complexity_theory.tex"
+[21:40:53.667][Structure] Structure force updated with 27 root sections for %WS1%/complexity_theory.tex .
+[21:40:53.667][Event] STRUCTURE_UPDATED
+[21:41:02.741][Parser][TexLog] Logged 0 messages.
+[21:41:02.742][Build] Finished a step in recipe with PID 3344.
+[21:41:02.742][Build] Successfully built %WS1%/complexity_theory.tex .
+[21:41:02.742][Event] BUILD_DONE
+[21:41:02.742][Viewer] Call refreshExistingViewer: "%WS1%/complexity_theory.pdf" .
+[21:41:02.742][Viewer] Refresh PDF viewer: %WS1%/complexity_theory.pdf
+[21:41:02.743][Cacher] Parsing .fls %WS1%/complexity_theory.fls .
+[21:41:02.780][Cacher] Found .aux %WS1%/complexity_theory.tex from .fls %WS1%/complexity_theory.fls , parsing.
+[21:41:02.780][Cacher] Parsed .aux %WS1%/complexity_theory.tex .
+[21:41:02.780][Cacher] Parsed .fls %WS1%/complexity_theory.fls .
+[21:41:02.785][Server] Preview PDF file: file://%WS1%/complexity_theory.pdf
+[21:41:02.935][Viewer] Handle data type: loaded
+[21:41:02.935][Event] VIEWER_PAGE_LOADED
+[21:41:27.305][Event] STRUCTURE_UPDATED
+[21:43:02.027][Commander] BUILD command invoked.
+[21:43:02.028][Build] The document of the active editor: file://%WS1%/complexity_theory.tex
+[21:43:02.028][Build] The languageId of the document: latex
+[21:43:02.029][Root] Current workspace folders: ["file://%WS1%"]
+[21:43:02.031][Root] Found root file from active editor: %WS1%/complexity_theory.tex
+[21:43:02.032][Root] Keep using the same root file: %WS1%/complexity_theory.tex
+[21:43:02.032][Event] ROOT_FILE_SEARCHED
+[21:43:02.032][Event] STRUCTURE_UPDATED
+[21:43:02.032][Build] Building root file: %WS1%/complexity_theory.tex
+[21:43:02.033][Build][Recipe] Build root file %WS1%/complexity_theory.tex
+[21:43:02.051][Extension] onDidSaveTextDocument triggered: file://%WS1%/complexity_theory.tex
+[21:43:02.063][Build][Recipe] Preparing to run recipe: latexmk.
+[21:43:02.064][Build][Recipe] Prepared 1 tools.
+[21:43:02.066][Build][Recipe] outDir: %WS1% .
+[21:43:02.067][Build] Recipe step 1 The command is latexmk:["-pdf","-synctex=1","-interaction=nonstopmode","-file-line-error","--shell-escape","%WS1%/complexity_theory"].
+[21:43:02.068][Build] env: undefined
+[21:43:02.068][Build] root: %WS1%/complexity_theory.tex
+[21:43:02.069][Build] cwd: %WS1%
+[21:43:02.076][Build] LaTeX build process spawned with PID 3396.
+[21:43:02.116][Cacher][Watcher] "change" emitted on %WS1%/complexity_theory.tex.
+[21:43:02.117][Cacher] Caching %WS1%/complexity_theory.tex .
+[21:43:02.118][Cacher] Updated inputs of %WS1%/complexity_theory.tex .
+[21:43:02.119][Cacher] Parse LaTeX AST: %WS1%/complexity_theory.tex .
+[21:43:02.119][Build] Auto build started detecting the change of a file: %WS1%/complexity_theory.tex .
+[21:43:02.119][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/complexity_theory.tex"}
+[21:43:02.119][Build] Autobuild temporarily disabled.
+[21:43:02.120][Event] FILE_CHANGED: "%WS1%/complexity_theory.tex"
+[21:43:02.473][Cacher] Parsed LaTeX AST: %WS1%/complexity_theory.tex .
+[21:43:02.474][File] kpsewhich cache hit on beamer.cls: /usr/local/texlive/2024/texmf-dist/tex/latex/beamer/beamer.cls .
+[21:43:02.483][Cacher] Updated elements in 9.81 ms: %WS1%/complexity_theory.tex .
+[21:43:02.484][Event] FILE_PARSED: "%WS1%/complexity_theory.tex"
+[21:43:02.485][Structure] Structure force updated with 27 root sections for %WS1%/complexity_theory.tex .
+[21:43:02.485][Event] STRUCTURE_UPDATED
+[21:43:12.706][Parser][TexLog] Logged 0 messages.
+[21:43:12.707][Build] Finished a step in recipe with PID 3396.
+[21:43:12.707][Build] Successfully built %WS1%/complexity_theory.tex .
+[21:43:12.708][Event] BUILD_DONE
+[21:43:12.708][Viewer] Call refreshExistingViewer: "%WS1%/complexity_theory.pdf" .
+[21:43:12.708][Viewer] Refresh PDF viewer: %WS1%/complexity_theory.pdf
+[21:43:12.709][Cacher] Parsing .fls %WS1%/complexity_theory.fls .
+[21:43:12.745][Cacher] Found .aux %WS1%/complexity_theory.tex from .fls %WS1%/complexity_theory.fls , parsing.
+[21:43:12.745][Cacher] Parsed .aux %WS1%/complexity_theory.tex .
+[21:43:12.745][Cacher] Parsed .fls %WS1%/complexity_theory.fls .
+[21:43:12.784][Server] Preview PDF file: file://%WS1%/complexity_theory.pdf
+[21:43:12.901][Viewer] Handle data type: loaded
+[21:43:12.901][Event] VIEWER_PAGE_LOADED
+[21:44:55.021][Event] STRUCTURE_UPDATED
+[21:44:56.365][Commander] BUILD command invoked.
+[21:44:56.366][Build] The document of the active editor: file://%WS1%/complexity_theory.tex
+[21:44:56.367][Build] The languageId of the document: latex
+[21:44:56.367][Root] Current workspace folders: ["file://%WS1%"]
+[21:44:56.370][Root] Found root file from active editor: %WS1%/complexity_theory.tex
+[21:44:56.370][Root] Keep using the same root file: %WS1%/complexity_theory.tex
+[21:44:56.370][Event] ROOT_FILE_SEARCHED
+[21:44:56.371][Event] STRUCTURE_UPDATED
+[21:44:56.371][Build] Building root file: %WS1%/complexity_theory.tex
+[21:44:56.371][Build][Recipe] Build root file %WS1%/complexity_theory.tex
+[21:44:56.387][Extension] onDidSaveTextDocument triggered: file://%WS1%/complexity_theory.tex
+[21:44:56.395][Build][Recipe] Preparing to run recipe: latexmk.
+[21:44:56.396][Build][Recipe] Prepared 1 tools.
+[21:44:56.397][Build][Recipe] outDir: %WS1% .
+[21:44:56.399][Build] Recipe step 1 The command is latexmk:["-pdf","-synctex=1","-interaction=nonstopmode","-file-line-error","--shell-escape","%WS1%/complexity_theory"].
+[21:44:56.399][Build] env: undefined
+[21:44:56.399][Build] root: %WS1%/complexity_theory.tex
+[21:44:56.400][Build] cwd: %WS1%
+[21:44:56.406][Build] LaTeX build process spawned with PID 3457.
+[21:44:56.456][Cacher][Watcher] "change" emitted on %WS1%/complexity_theory.tex.
+[21:44:56.459][Cacher] Caching %WS1%/complexity_theory.tex .
+[21:44:56.460][Cacher] Updated inputs of %WS1%/complexity_theory.tex .
+[21:44:56.461][Cacher] Parse LaTeX AST: %WS1%/complexity_theory.tex .
+[21:44:56.461][Build] Auto build started detecting the change of a file: %WS1%/complexity_theory.tex .
+[21:44:56.461][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/complexity_theory.tex"}
+[21:44:56.462][Build] Autobuild temporarily disabled.
+[21:44:56.462][Event] FILE_CHANGED: "%WS1%/complexity_theory.tex"
+[21:44:56.834][Cacher] Parsed LaTeX AST: %WS1%/complexity_theory.tex .
+[21:44:56.835][File] kpsewhich cache hit on beamer.cls: /usr/local/texlive/2024/texmf-dist/tex/latex/beamer/beamer.cls .
+[21:44:56.847][Cacher] Updated elements in 12.94 ms: %WS1%/complexity_theory.tex .
+[21:44:56.848][Event] FILE_PARSED: "%WS1%/complexity_theory.tex"
+[21:44:56.849][Structure] Structure force updated with 27 root sections for %WS1%/complexity_theory.tex .
+[21:44:56.849][Event] STRUCTURE_UPDATED
+[21:45:02.779][Cacher][Watcher] "change" emitted on %WS1%/complexity_theory.pdf after polling for 1001755 ms.
+[21:45:02.780][Event] FILE_CHANGED: "%WS1%/complexity_theory.pdf"
+[21:45:06.472][Parser][TexLog] Logged 0 messages.
+[21:45:06.472][Build] Finished a step in recipe with PID 3457.
+[21:45:06.472][Build] Successfully built %WS1%/complexity_theory.tex .
+[21:45:06.472][Event] BUILD_DONE
+[21:45:06.473][Viewer] Call refreshExistingViewer: "%WS1%/complexity_theory.pdf" .
+[21:45:06.473][Viewer] Refresh PDF viewer: %WS1%/complexity_theory.pdf
+[21:45:06.474][Cacher] Parsing .fls %WS1%/complexity_theory.fls .
+[21:45:06.505][Cacher] Found .aux %WS1%/complexity_theory.tex from .fls %WS1%/complexity_theory.fls , parsing.
+[21:45:06.505][Cacher] Parsed .aux %WS1%/complexity_theory.tex .
+[21:45:06.505][Cacher] Parsed .fls %WS1%/complexity_theory.fls .
+[21:45:06.543][Server] Preview PDF file: file://%WS1%/complexity_theory.pdf
+[21:45:06.660][Viewer] Handle data type: loaded
+[21:45:06.660][Event] VIEWER_PAGE_LOADED
+[21:45:27.173][Cacher][Watcher] Reset.
+[21:45:27.174][Cacher][Watcher] Reset.

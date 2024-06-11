@@ -1,0 +1,62 @@
+[11:02:22.161][Extension] Initializing LaTeX Workshop.
+[11:02:22.385][Build][Recipe] Set $LATEXWORKSHOP_DOCKER_LATEX: ""
+[11:02:22.432][Server] Creating LaTeX Workshop http and websocket server.
+[11:02:22.528][Format][Bib] Bibtex format config: {"tab":"  ","case":"lowercase","left":"{","right":"}","trailingComma":false,"sort":["key"],"alignOnEqual":true,"sortFields":false,"fieldsOrder":[],"firstEntries":["string","xdata"]}
+[11:02:22.571][Server] Server successfully started: {"address":"127.0.0.1","family":"IPv4","port":40107} .
+[11:02:22.601][Extension] Extension root: /home/alex/.vscode-oss/extensions/james-yu.latex-workshop-9.20.1-universal
+[11:02:22.601][Extension] $PATH: /usr/local/texlive/2024/bin/x86_64-linux:/home/alex/.local/bin:/usr/local/texlive/2024/bin/x86_64-linux:/usr/local/texlive/2024/bin/x86_64-linux:/home/alex/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+[11:02:22.601][Extension] $SHELL: /bin/bash
+[11:02:22.601][Extension] $LANG: en_US.UTF-8
+[11:02:22.601][Extension] $LC_ALL: undefined
+[11:02:22.602][Extension] process.platform: linux
+[11:02:22.602][Extension] process.arch: x64
+[11:02:22.602][Extension] vscode.env.appName: VSCodium
+[11:02:22.602][Extension] vscode.env.remoteName: undefined
+[11:02:22.602][Extension] vscode.env.uiKind: 1
+[11:02:22.605][Config] latex-workshop.latex.tools: [{"name":"latexmk","command":"latexmk","args":["-pdf","-synctex=1","-interaction=nonstopmode","-file-line-error","--shell-escape","%DOC%"]}] .
+[11:02:22.694][Extension] Trigger characters for intellisense of LaTeX documents: ["\\",",","{"]
+[11:02:22.698][Root] Current workspace folders: undefined
+[11:02:22.699][Extension] LaTeX Workshop initialized.
+[11:02:22.700][Root] Current workspaceRootDir:  .
+[11:02:22.700][Root] No root file found.
+[11:02:22.700][Structure] Structure cleared on undefined root.
+[11:02:22.701][Event] ROOT_FILE_SEARCHED
+[11:02:22.702][Event] STRUCTURE_UPDATED
+[11:02:22.753][Server] valdOrigin is http://127.0.0.1:40107
+[11:02:22.836][Viewer][Panel] Internal PDF viewer at http://127.0.0.1:40107/viewer.html?file=pdf..ZmlsZSUzQSUyRiUyRiUyRmhvbWUlMkZhbGV4JTJGRG9jdW1lbnRzJTJGTGFwdG9wLVNlcnZlciUyRlNwcmluZy0yMDI0JTJGTXklMjBMZWN0dXJlJTIwTm90ZXMlMjAoQWxnb3JpdGhtcyklMkZjb21wbGV4aXR5X3RoZW9yeS5wZGY .
+[11:02:22.839][Cacher][Watcher] Watched /home/alex/Documents/Laptop-Server/Spring-2024/My Lecture Notes (Algorithms)/complexity_theory.pdf with a new .pdf watcher on /home/alex/Documents/Laptop-Server/Spring-2024/My Lecture Notes (Algorithms) .
+[11:02:22.840][Event] FILE_WATCHED: "/home/alex/Documents/Laptop-Server/Spring-2024/My Lecture Notes (Algorithms)/complexity_theory.pdf"
+[11:02:23.410][Viewer] Handle data type: open
+[11:02:23.606][Root] Current workspace folders: undefined
+[11:02:23.620][Root] Found root file from active editor: /home/alex/Documents/Laptop-Server/Spring-2024/My Lecture Notes (Algorithms)/complexity_theory.tex
+[11:02:23.622][Root] Root file changed: from /home/alex/Documents/Laptop-Server/Spring-2024/My Lecture Notes (Algorithms)/complexity_theory.tex to /home/alex/Documents/Laptop-Server/Spring-2024/My Lecture Notes (Algorithms)/complexity_theory.tex, langID latex . Refresh dependencies
+[11:02:23.623][Event] ROOT_FILE_CHANGED: "/home/alex/Documents/Laptop-Server/Spring-2024/My Lecture Notes (Algorithms)/complexity_theory.tex"
+[11:02:23.623][Cacher][Watcher] Reset.
+[11:02:23.624][Cacher][Watcher] Reset.
+[11:02:23.630][Cacher] Adding /home/alex/Documents/Laptop-Server/Spring-2024/My Lecture Notes (Algorithms)/complexity_theory.tex .
+[11:02:23.631][Cacher][Watcher] Watched /home/alex/Documents/Laptop-Server/Spring-2024/My Lecture Notes (Algorithms)/complexity_theory.tex with a new .* watcher on /home/alex/Documents/Laptop-Server/Spring-2024/My Lecture Notes (Algorithms) .
+[11:02:23.632][Event] FILE_WATCHED: "/home/alex/Documents/Laptop-Server/Spring-2024/My Lecture Notes (Algorithms)/complexity_theory.tex"
+[11:02:23.635][Cacher] Caching /home/alex/Documents/Laptop-Server/Spring-2024/My Lecture Notes (Algorithms)/complexity_theory.tex .
+[11:02:23.690][Cacher] Updated inputs of /home/alex/Documents/Laptop-Server/Spring-2024/My Lecture Notes (Algorithms)/complexity_theory.tex .
+[11:02:23.691][Cacher] Parse LaTeX AST: /home/alex/Documents/Laptop-Server/Spring-2024/My Lecture Notes (Algorithms)/complexity_theory.tex .
+[11:02:23.692][Event] ROOT_FILE_SEARCHED
+[11:02:23.832][Server] Preview PDF file: file:///home/alex/Documents/Laptop-Server/Spring-2024/My Lecture Notes (Algorithms)/complexity_theory.pdf
+[11:02:24.611][Cacher] Parsed LaTeX AST: /home/alex/Documents/Laptop-Server/Spring-2024/My Lecture Notes (Algorithms)/complexity_theory.tex .
+[11:02:24.614][File] Calling kpsewhich to resolve beamer.cls .
+[11:02:25.180][File] kpsewhich returned with '/usr/local/texlive/2024/texmf-dist/tex/latex/beamer/beamer.cls'.
+[11:02:25.223][Cacher] Updated elements in 609.63 ms: /home/alex/Documents/Laptop-Server/Spring-2024/My Lecture Notes (Algorithms)/complexity_theory.tex .
+[11:02:25.224][Event] FILE_PARSED: "/home/alex/Documents/Laptop-Server/Spring-2024/My Lecture Notes (Algorithms)/complexity_theory.tex"
+[11:02:25.226][Cacher] Parsing .fls /home/alex/Documents/Laptop-Server/Spring-2024/My Lecture Notes (Algorithms)/complexity_theory.fls .
+[11:02:25.436][Cacher] Found .aux /home/alex/Documents/Laptop-Server/Spring-2024/My Lecture Notes (Algorithms)/complexity_theory.tex from .fls /home/alex/Documents/Laptop-Server/Spring-2024/My Lecture Notes (Algorithms)/complexity_theory.fls , parsing.
+[11:02:25.473][Cacher] Parsed .aux /home/alex/Documents/Laptop-Server/Spring-2024/My Lecture Notes (Algorithms)/complexity_theory.tex .
+[11:02:25.474][Cacher] Parsed .fls /home/alex/Documents/Laptop-Server/Spring-2024/My Lecture Notes (Algorithms)/complexity_theory.fls .
+[11:02:25.477][Structure] Structure force updated with 0 root sections for /home/alex/Documents/Laptop-Server/Spring-2024/My Lecture Notes (Algorithms)/complexity_theory.tex .
+[11:02:25.477][Event] STRUCTURE_UPDATED
+[11:02:25.478][Structure] Structure updated with 27 root sections for /home/alex/Documents/Laptop-Server/Spring-2024/My Lecture Notes (Algorithms)/complexity_theory.tex .
+[11:02:25.479][Event] STRUCTURE_UPDATED
+[11:02:25.483][Viewer] Handle data type: loaded
+[11:02:25.483][Event] VIEWER_PAGE_LOADED
+[11:03:22.527][Viewer] Handle data type: copy
+[11:39:25.622][Event] STRUCTURE_UPDATED
+[11:39:28.332][Cacher][Watcher] Reset.
+[11:39:28.333][Cacher][Watcher] Reset.

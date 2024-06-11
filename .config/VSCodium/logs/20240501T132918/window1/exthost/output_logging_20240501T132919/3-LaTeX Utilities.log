@@ -1,0 +1,10 @@
+[13:29:21] Initializing LaTeX Utilities.
+[13:29:21] Completion Watcher Initialised
+[13:29:21] TexCount args: -merge,-brief
+[13:29:21] LaTeX Utilities Started
+[13:29:21] LaTeX Utilities version: 0.4.14
+[13:29:21] TeXCount output for word: 3317+4+0 (1/0/146/1) File: complexity_theory.tex
+
+[13:29:21] TexCount args: -merge,-brief,-char
+[13:29:22] TeXCount output for char: 15221+33+0 (1/0/146/1) File: complexity_theory.tex
+

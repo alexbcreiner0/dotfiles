@@ -1,0 +1,72 @@
+[08:59:06.736][Logger] New log placeholder %WS1% registered for /home/alex/Documents/Spring-2024/My Lecture Notes (Algorithms) .
+[08:59:06.736][Extension] Initializing LaTeX Workshop.
+[08:59:06.880][Build][Recipe] Set $LATEXWORKSHOP_DOCKER_LATEX: ""
+[08:59:06.921][Server] Creating LaTeX Workshop http and websocket server.
+[08:59:07.036][Format][Bib] Bibtex format config: {"tab":"  ","case":"lowercase","left":"{","right":"}","trailingComma":false,"sort":["key"],"alignOnEqual":true,"sortFields":false,"fieldsOrder":[],"firstEntries":["string","xdata"]}
+[08:59:07.080][Server] Server successfully started: {"address":"127.0.0.1","family":"IPv4","port":33857} .
+[08:59:07.116][Extension] Extension root: /home/alex/.vscode-oss/extensions/james-yu.latex-workshop-9.19.2-universal
+[08:59:07.116][Extension] $PATH: /usr/local/texlive/2024/bin/x86_64-linux:/home/alex/.local/bin:/usr/local/texlive/2024/bin/x86_64-linux:/usr/local/texlive/2024/bin/x86_64-linux:/home/alex/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+[08:59:07.117][Extension] $SHELL: /bin/bash
+[08:59:07.117][Extension] $LANG: en_US.UTF-8
+[08:59:07.117][Extension] $LC_ALL: undefined
+[08:59:07.117][Extension] process.platform: linux
+[08:59:07.118][Extension] process.arch: x64
+[08:59:07.118][Extension] vscode.env.appName: VSCodium
+[08:59:07.118][Extension] vscode.env.remoteName: undefined
+[08:59:07.118][Extension] vscode.env.uiKind: 1
+[08:59:07.124][Config] latex-workshop.latex.tools: [{"name":"latexmk","command":"latexmk","args":["-pdf","-synctex=1","-interaction=nonstopmode","-file-line-error","--shell-escape","%DOC%"]}] .
+[08:59:07.176][Extension] Trigger characters for intellisense of LaTeX documents: ["\\",",","{"]
+[08:59:07.178][Root] Current workspace folders: ["file://%WS1%"]
+[08:59:07.179][Extension] LaTeX Workshop initialized.
+[08:59:07.181][Root] Found root file from active editor: %WS1%/complexity_theory.tex
+[08:59:07.181][Root] Root file changed: from %WS1%/complexity_theory.tex to %WS1%/complexity_theory.tex, langID latex . Refresh dependencies
+[08:59:07.181][Event] ROOT_FILE_CHANGED: "%WS1%/complexity_theory.tex"
+[08:59:07.182][Cacher][Watcher] Reset.
+[08:59:07.183][Cacher][Watcher] Reset.
+[08:59:07.187][Cacher] Adding %WS1%/complexity_theory.tex .
+[08:59:07.188][Cacher][Watcher] Watched %WS1%/complexity_theory.tex with a new .* watcher on %WS1% .
+[08:59:07.188][Event] FILE_WATCHED: "%WS1%/complexity_theory.tex"
+[08:59:07.191][Cacher] Caching %WS1%/complexity_theory.tex .
+[08:59:07.193][Cacher] Updated inputs of %WS1%/complexity_theory.tex .
+[08:59:07.193][Cacher] Parse LaTeX AST: %WS1%/complexity_theory.tex .
+[08:59:07.194][Event] ROOT_FILE_SEARCHED
+[08:59:07.310][Server] valdOrigin is http://127.0.0.1:33857
+[08:59:07.393][Viewer][Panel] Internal PDF viewer at http://127.0.0.1:33857/viewer.html?file=pdf..ZmlsZSUzQSUyRiUyRiUyRmhvbWUlMkZhbGV4JTJGRG9jdW1lbnRzJTJGU3ByaW5nLTIwMjQlMkZNeSUyMExlY3R1cmUlMjBOb3RlcyUyMChBbGdvcml0aG1zKSUyRmNvbXBsZXhpdHlfdGhlb3J5LnBkZg .
+[08:59:07.394][Cacher][Watcher] Watched %WS1%/complexity_theory.pdf with a new .pdf watcher on %WS1% .
+[08:59:07.395][Event] FILE_WATCHED: "%WS1%/complexity_theory.pdf"
+[08:59:07.805][Cacher] Parsed LaTeX AST: %WS1%/complexity_theory.tex .
+[08:59:07.807][File] Calling kpsewhich to resolve beamer.cls .
+[08:59:08.072][File] kpsewhich returned with '/usr/local/texlive/2024/texmf-dist/tex/latex/beamer/beamer.cls'.
+[08:59:08.095][Cacher] Updated elements in 288.85 ms: %WS1%/complexity_theory.tex .
+[08:59:08.096][Event] FILE_PARSED: "%WS1%/complexity_theory.tex"
+[08:59:08.098][Cacher] Parsing .fls %WS1%/complexity_theory.fls .
+[08:59:08.136][Cacher] Found .aux %WS1%/complexity_theory.tex from .fls %WS1%/complexity_theory.fls , parsing.
+[08:59:08.136][Cacher] Parsed .aux %WS1%/complexity_theory.tex .
+[08:59:08.137][Cacher] Parsed .fls %WS1%/complexity_theory.fls .
+[08:59:08.139][Structure] Structure force updated with 0 root sections for %WS1%/complexity_theory.tex .
+[08:59:08.140][Event] STRUCTURE_UPDATED
+[08:59:08.338][Viewer] Handle data type: open
+[08:59:08.475][Server] Preview PDF file: file://%WS1%/complexity_theory.pdf
+[08:59:08.897][Viewer] Handle data type: loaded
+[08:59:08.897][Event] VIEWER_PAGE_LOADED
+[08:59:10.191][Commander] BUILD command invoked.
+[08:59:10.193][Build] The document of the active editor: file://%WS1%/complexity_theory.tex
+[08:59:10.193][Build] The languageId of the document: latex
+[08:59:10.194][Root] Current workspace folders: ["file://%WS1%"]
+[08:59:10.195][Root] Found root file from active editor: %WS1%/complexity_theory.tex
+[08:59:10.196][Root] Keep using the same root file: %WS1%/complexity_theory.tex
+[08:59:10.197][Event] ROOT_FILE_SEARCHED
+[08:59:10.198][Event] STRUCTURE_UPDATED
+[08:59:10.199][Build] Building root file: %WS1%/complexity_theory.tex
+[08:59:10.199][Build][Recipe] Build root file %WS1%/complexity_theory.tex
+[08:59:10.205][Build][Recipe] Preparing to run recipe: latexmk.
+[08:59:10.206][Build][Recipe] Prepared 1 tools.
+[08:59:10.223][Build][Recipe] outDir: %WS1% .
+[08:59:10.228][Build] Recipe step 1 The command is latexmk:["-pdf","-synctex=1","-interaction=nonstopmode","-file-line-error","--shell-escape","%WS1%/complexity_theory"].
+[08:59:10.228][Build] env: undefined
+[08:59:10.229][Build] root: %WS1%/complexity_theory.tex
+[08:59:10.230][Build] cwd: %WS1%
+[08:59:10.240][Build] LaTeX build process spawned with PID 4148.
+[08:59:10.386][Build] Finished a step in recipe with PID 4148.
+[08:59:10.387][Build] Successfully built %WS1%/complexity_theory.tex .
+[08:59:10.387][Event] BUILD_DONE

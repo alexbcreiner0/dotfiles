@@ -1,0 +1,4 @@
+2024-05-04 17:09:33.119 [info] update#setState disabled
+2024-05-04 17:09:33.128 [info] update#ctor - updates are disabled as there is no update URL
+2024-05-05 13:45:58.517 [info] Extension host with pid 11158 exited with code: 0, signal: unknown.
+2024-05-05 13:45:58.620 [error] Blocked vscode-file request vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/base/worker/workerMain.js#editorWorkerService

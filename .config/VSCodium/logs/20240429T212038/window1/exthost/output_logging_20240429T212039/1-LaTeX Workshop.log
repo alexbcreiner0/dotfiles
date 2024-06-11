@@ -1,0 +1,42 @@
+[21:20:40.170][Extension] Initializing LaTeX Workshop.
+[21:20:40.555][Build][Recipe] Set $LATEXWORKSHOP_DOCKER_LATEX: ""
+[21:20:40.679][Server] Creating LaTeX Workshop http and websocket server.
+[21:20:40.877][Format][Bib] Bibtex format config: {"tab":"  ","case":"lowercase","left":"{","right":"}","trailingComma":false,"sort":["key"],"alignOnEqual":true,"sortFields":false,"fieldsOrder":[],"firstEntries":["string","xdata"]}
+[21:20:41.020][Server] Server successfully started: {"address":"127.0.0.1","family":"IPv4","port":39155} .
+[21:20:41.062][Extension] Extension root: /home/alex/.vscode-oss/extensions/james-yu.latex-workshop-9.19.2-universal
+[21:20:41.062][Extension] $PATH: /usr/local/texlive/2024/bin/x86_64-linux:/home/alex/.local/bin:/usr/local/texlive/2024/bin/x86_64-linux:/usr/local/texlive/2024/bin/x86_64-linux:/home/alex/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+[21:20:41.062][Extension] $SHELL: /bin/bash
+[21:20:41.063][Extension] $LANG: en_US.UTF-8
+[21:20:41.063][Extension] $LC_ALL: undefined
+[21:20:41.063][Extension] process.platform: linux
+[21:20:41.064][Extension] process.arch: x64
+[21:20:41.064][Extension] vscode.env.appName: VSCodium
+[21:20:41.064][Extension] vscode.env.remoteName: undefined
+[21:20:41.065][Extension] vscode.env.uiKind: 1
+[21:20:41.069][Config] latex-workshop.latex.tools: [{"name":"latexmk","command":"latexmk","args":["-pdf","-synctex=1","-interaction=nonstopmode","-file-line-error","--shell-escape","%DOC%"]}] .
+[21:20:41.143][Extension] Trigger characters for intellisense of LaTeX documents: ["\\",",","{"]
+[21:20:41.146][Root] Current workspace folders: undefined
+[21:20:41.147][Extension] LaTeX Workshop initialized.
+[21:20:41.149][Root] Found root file from active editor: /home/alex/Documents/Laptop-Server/Spring-2024/My Exams (Algorithms)/final.tex
+[21:20:41.151][Root] Root file changed: from /home/alex/Documents/Laptop-Server/Spring-2024/My Exams (Algorithms)/final.tex to /home/alex/Documents/Laptop-Server/Spring-2024/My Exams (Algorithms)/final.tex, langID latex . Refresh dependencies
+[21:20:41.151][Event] ROOT_FILE_CHANGED: "/home/alex/Documents/Laptop-Server/Spring-2024/My Exams (Algorithms)/final.tex"
+[21:20:41.153][Cacher][Watcher] Reset.
+[21:20:41.154][Cacher][Watcher] Reset.
+[21:20:41.159][Cacher] Adding /home/alex/Documents/Laptop-Server/Spring-2024/My Exams (Algorithms)/final.tex .
+[21:20:41.161][Cacher][Watcher] Watched /home/alex/Documents/Laptop-Server/Spring-2024/My Exams (Algorithms)/final.tex with a new .* watcher on /home/alex/Documents/Laptop-Server/Spring-2024/My Exams (Algorithms) .
+[21:20:41.161][Event] FILE_WATCHED: "/home/alex/Documents/Laptop-Server/Spring-2024/My Exams (Algorithms)/final.tex"
+[21:20:41.164][Cacher] Caching /home/alex/Documents/Laptop-Server/Spring-2024/My Exams (Algorithms)/final.tex .
+[21:20:41.166][Cacher] Updated inputs of /home/alex/Documents/Laptop-Server/Spring-2024/My Exams (Algorithms)/final.tex .
+[21:20:41.167][Cacher] Parse LaTeX AST: /home/alex/Documents/Laptop-Server/Spring-2024/My Exams (Algorithms)/final.tex .
+[21:20:41.167][Event] ROOT_FILE_SEARCHED
+[21:20:41.189][Server] valdOrigin is http://127.0.0.1:39155
+[21:20:41.442][Cacher] Parsed LaTeX AST: /home/alex/Documents/Laptop-Server/Spring-2024/My Exams (Algorithms)/final.tex .
+[21:20:41.443][File] Calling kpsewhich to resolve article.cls .
+[21:20:41.454][File] kpsewhich returned with non-zero code null.
+[21:20:41.460][Cacher] Updated elements in 17.31 ms: /home/alex/Documents/Laptop-Server/Spring-2024/My Exams (Algorithms)/final.tex .
+[21:20:41.461][Event] FILE_PARSED: "/home/alex/Documents/Laptop-Server/Spring-2024/My Exams (Algorithms)/final.tex"
+[21:20:41.463][Structure] Structure force updated with 0 root sections for /home/alex/Documents/Laptop-Server/Spring-2024/My Exams (Algorithms)/final.tex .
+[21:20:41.464][Event] STRUCTURE_UPDATED
+[21:21:00.136][Extension] onDidSaveTextDocument triggered: file:///home/alex/Documents/Laptop-Server/Spring-2024/My Exams (Algorithms)/final.tex
+[21:21:00.205][Cacher][Watcher] Reset.
+[21:21:00.205][Cacher][Watcher] Reset.

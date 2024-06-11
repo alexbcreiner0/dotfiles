@@ -1,0 +1,14 @@
+2024-05-05 14:21:35.431 [info] Extension host with pid 3917 started
+2024-05-05 14:21:35.432 [info] Skipping acquiring lock for /home/alex/.config/VSCodium/User/workspaceStorage/f9d1c842d2b7fdc720d01ca567a37585.
+2024-05-05 14:21:35.600 [info] ExtensionService#_doActivateExtension James-Yu.latex-workshop, startup: false, activationEvent: 'onLanguage:latex'
+2024-05-05 14:21:36.134 [warning] DiagnosticCollection with name 'BibTeX' does already exist.
+2024-05-05 14:21:36.168 [info] ExtensionService#_doActivateExtension tecosaur.latex-utilities, startup: false, activationEvent: 'onLanguage:latex'
+2024-05-05 14:21:36.189 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-05-05 14:21:36.367 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-05-05 14:21:36.383 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-05-05 14:21:36.429 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-05-05 14:21:36.583 [info] Eager extensions activated
+2024-05-05 14:21:36.924 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-05-05 14:21:36.929 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-05-05 14:43:49.549 [info] Extension host terminating: renderer closed the MessagePort
+2024-05-05 14:43:49.566 [info] Extension host with pid 3917 exiting with code 0

@@ -1,0 +1,158 @@
+% Maybe need something involving sets still
+% Probably can't have too much Turing machine stuff if it's optional. 
+
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.8in]{geometry}
+\usepackage{ragged2e}
+\usepackage{amsmath,amssymb}
+\usepackage{minted}
+\usepackage{array}
+\usepackage{listings}
+\usepackage{wrapfig}
+\usepackage{tikz}
+\usetikzlibrary{chains,fit,shapes}
+
+\title{CSCI 3383 \\Final Exam}
+\date{}
+
+\begin{document}
+\maketitle
+\textbf{\emph{Full, printed} name: }
+\vspace{1cm}
+
+\textbf{Instructions}: 
+\begin{itemize}
+    \item Read the instructions
+    \item Stuck? I will allow everyone \textbf{one} hint during the exam. Raise your hand and I will try to get you moving in the right direction.  
+    \item You are allowed scratch paper and a calculator. 
+    \item Have a wonderful holiday break!
+\end{itemize} 
+
+% Problems:
+% DFS a graph
+% Label pre/post nums, identify edge types
+% Check for connectedness algorithm pseudocode?
+% Toposort a graph
+% BFS shortest paths a graph
+% Dijkstra's a graph
+% DP problem
+% Give a DP solution, ask to modify to return the object
+
+\newpage
+\begin{enumerate}
+    % Quick/conceptual/multiple choice   
+    \item The following graph is:
+    \begin{itemize}
+        \item Connected
+        \item Strongle connected
+        \item Neither
+    \end{itemize}
+    \label{connected_multi_choice}
+    \begin{figure}[h]
+        \centering
+        \caption{Graph for problem \ref{connected_multi_choice}}
+        \includegraphics[width=5cm]{graph_2.png}
+    \end{figure}
+    \item 
+        \begin{itemize}
+            \item[(a)] When would you want to use an adjacency list over an adjacency matrix? \vspace{4cm}
+            \item[(b)] When would you want to use an adjacency matrix over an adjacency list? \vspace{4cm}
+        \end{itemize}
+    \item Let $G = (V,E,w)$ be a directed weighted graph. In general, finding shortest paths takes time \rule{1cm}{0.15mm}. However, if the graph has nonnegative edge weights, then it takes time \rule{1cm}{0.15mm}, and if it is acyclic, it takes time \rule{1cm}{0.15mm}. 
+    \begin{itemize}
+        \item $O((|V|+|E|)\log(|V|))$, $O(|V||E|)$, $O(|V|+|E|)$
+        \item $O(|V||E|)$, $O(|V|+|E|)$, $O((|V|+|E|)\log(|V|))$
+        \item $O(|V|^2)$, $O((|V|+|E|)\log(|V|))$, $O(|V|+|E|)$
+        \item $O(|V||E|)$, $O((|V|+|E|)\log(|V|))$, $O(|V|+|E|)$
+    \end{itemize} 
+    \newpage
+    \item If problem $K$ is reducible to problem $L$ in polynomial time, then problem $L$ should be considered
+    \begin{itemize}
+        \item At least as easy as $L$
+        \item At least as hard as $L$
+        \item The same difficulty as $L$
+    \end{itemize}
+    \item Suppose we have a decision problem $L$ which can be solved in time $O(f(n))$. For which $f(n)$ would we be able to conclude that $L \in \mathbf{P}$? Circle all that apply.
+    \begin{itemize}
+        \item[(a)] $f(n) = 2^n$
+        \item[(b)] $f(n) = \log(n)$
+        \item[(c)] $f(n) = n^7$
+        \item[(d)] $f(n) = n^2\log(n)$
+        \item[(e)] $f(n) = n!$  
+    \end{itemize}
+    \item Breadth-first search is to queues as depth-first search is to: 
+    \item In the subset-sum problem, we are given a set of integers $S$ and a target number $k$, and are asked whether or not there exists a subset $S' \subseteq S$ such that the sum of the numbers in $S'$ equals the target. 
+    \begin{itemize}
+        \item Describe a brute force solution to this problem. What is the runtime? \vspace{5cm}
+        \item Explain why this problem is in $\textbf{NP}$ \vspace{7cm}
+    \end{itemize}
+    \newpage
+    \item Consider the following graph:
+    \begin{figure}[h]
+        \centering
+        \caption{Graph for problem \ref{mb_delete}}
+        \includegraphics[width=9cm]{graph_1.png}
+    \end{figure}
+    \begin{itemize}
+        \item[(a)] Write this graph as an adjacency list.
+        \item[(b)] Write this graph as an adjacency matrix.
+    \end{itemize} \label{mb_delete}
+    % Longer
+    \newpage
+    \item Consider the following graph: 
+    \begin{figure}[h]
+        \centering
+        \caption{Graph for problem \ref{dfs_prob}}
+        \includegraphics[width=7cm]{dfs_graph.png}
+    \end{figure}
+    \begin{itemize}
+        \item[(a)] Perform a depth first search of the graph, and draw the resulting DFS forest. Start at node $A$, and proceed alphabetically whenever there is a choice of node to visit next. 
+        \item[(b)] Classify each of the non-tree edges.  
+        \item[(c)] Is the graph cyclic? Explain your answer in terms of part b. 
+    \end{itemize}
+    \label{dfs_prob}
+    \newpage
+    \item Consider the following dag:
+    \begin{figure}[h]
+        \centering
+        \caption{Graph for problem \ref{topo_sort_prob}}
+        \includegraphics[width=10cm]{topo_sort_graph.png}
+    \end{figure}
+    Topologically sort the graph using the algorithm we discussed in class. Show all work necessary for me to understand that you are correctly using the algorithm. 
+    \label{topo_sort_prob}
+    \newpage
+    \item Consider the following graph: \label{bfs}
+    \begin{figure}[h]
+        \centering
+        \caption{Graph for problem \ref{bfs_prob}}
+        \includegraphics[width=15cm]{bfs_graph.png}
+    \end{figure}
+     Perform a breadth-first search to the graph in order to find shortest paths from $A$ to each starting node. Draw the resulting breadth-first search tree.
+
+     \begin{tabular}{  m{5em} | m{1cm}| m{1cm}  } 
+        \hline
+         A & \hspace{1cm} & \hspace{1cm} \\
+        \hline
+         B & \hspace{1cm} & \hspace{1cm} \\ 
+        \hline
+         C & \hspace{1cm} & \hspace{1cm} \\ 
+        \hline
+      \end{tabular} 
+    \newpage
+    \item Consider the following weighted graph:
+    \begin{figure}[h]
+        \centering
+        \caption{Graph for problem \ref{dijkstra_prob}}
+        \includegraphics[width=10cm]{graph_dijkstra.png}
+    \end{figure}
+    Perform Dijkstra's algorithm on the following graph. \label{dijkstra_prob}
+    \newpage
+    \item A fast food chain is considering opening a series of restaurants along a certain highway. There are $n$ possible locations where stores can be opened along this highway. The distances of these locations from the start of the highway are, in miles and in increasing order, $m_1, m_2, \ldots, m_n$. The constraints are as follows:
+    \begin{itemize}
+        \item For each location, there is an expected amount of profit to be made from opening a restaurant, $p_1, p_2, \ldots, p_n$ (all of these are greater than $0$).
+        \item Any two restaurants should be at least $k$ miles apart from each other, where $k$ is a positive integer. 
+    \end{itemize} 
+    Give a dynamic programming algorithm which will compute the maximum expected total profit subject to the given constraints. (Call this quantity $MP(n)$) Your description should clearly define subproblems, and state a mathematical recurrence relation between the problem and it's subproblems. You don't need to write any pseudocode, but it should be clear to me how one would go from what you've written to a working python program. 
+\end{enumerate}
+\end{document}

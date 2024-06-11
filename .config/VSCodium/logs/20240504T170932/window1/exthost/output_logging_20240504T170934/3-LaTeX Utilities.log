@@ -1,0 +1,19 @@
+[17:09:40] Initializing LaTeX Utilities.
+[17:09:40] Completion Watcher Initialised
+[17:09:40] TexCount args: -merge,-brief
+[17:09:40] LaTeX Utilities Started
+[17:09:40] LaTeX Utilities version: 0.4.14
+[17:09:40] TeXCount output for word: 527+4+18 (1/6/42/0) File: final.tex
+
+[17:09:40] TexCount args: -merge,-brief,-char
+[17:09:41] TeXCount output for char: 2468+17+90 (1/6/42/0) File: final.tex
+
+[17:09:42] withTelemetry: onDidChangeActiveTextEditor_tex_wordcounter
+[17:26:17] withTelemetry: onDidChangeActiveTextEditor_tex_wordcounter
+[17:26:17] TexCount args: -merge,-brief
+[17:26:18] TeXCount output for word: 527+4+18 (1/6/42/0) File: final.tex
+
+[17:26:18] TexCount args: -merge,-brief,-char
+[17:26:18] TeXCount output for char: 2468+17+90 (1/6/42/0) File: final.tex
+
+[13:37:21] withTelemetry: onDidChangeActiveTextEditor_tex_wordcounter

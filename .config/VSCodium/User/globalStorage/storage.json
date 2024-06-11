@@ -1,23 +1,27 @@
 {
     "userDataProfilesMigration": true,
     "profileAssociations": {
-        "workspaces": {},
-        "emptyWindows": {
-            "1718088024249": "__default__profile__"
-        }
+        "workspaces": {
+            "file:///home/alex/Documents/Spring-2024": "__default__profile__",
+            "file:///home/alex/Documents/Laptop-Server/Spring-2024/Shared%20Latex%20Folder": "__default__profile__",
+            "file:///home/alex/Documents/Laptop-Server/Spring-2024/My%20Homeworks%20%28Algorithms%29": "__default__profile__",
+            "file:///home/alex/Documents/Laptop-Server/Spring-2024/My%20Lecture%20Notes%20%28Algorithms%29": "__default__profile__",
+            "file:///home/alex/Documents/Spring-2024/My%20Lecture%20Notes%20%28Algorithms%29": "__default__profile__",
+            "file:///home/alex/Documents/Laptop-Server/Spring-2024/My%20Exams%20%28Algorithms%29": "__default__profile__"
+        },
+        "emptyWindows": {}
     },
     "profileAssociationsMigration": true,
     "telemetry.sqmId": "",
-    "telemetry.machineId": "16e79499d3c0e83ca521486fb848f88b37a0e5630a2a36439647ca6a9ea6104c",
-    "telemetry.devDeviceId": "7915d677-9cec-465a-9db0-f1963118f4fd",
+    "telemetry.machineId": "183855e7d53f06e72dd9e9fcb5dde97cf1d371eec9be8a7fd12192e05196336e",
     "backupWorkspaces": {
         "workspaces": [],
-        "folders": [],
-        "emptyWindows": [
+        "folders": [
             {
-                "backupFolder": "1718088024249"
+                "folderUri": "file:///home/alex/Documents/Laptop-Server/Spring-2024/My%20Exams%20%28Algorithms%29"
             }
-        ]
+        ],
+        "emptyWindows": []
     },
     "lastKnownMenubarData": {
         "menus": {
@@ -59,6 +63,144 @@
                                     "id": "workbench.action.reopenClosedEditor",
                                     "label": "&&Reopen Closed Editor",
                                     "enabled": false
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/alex/Documents/Laptop-Server/Spring-2024/My%20Exams%20%28Algorithms%29",
+                                        "path": "/home/alex/Documents/Laptop-Server/Spring-2024/My Exams (Algorithms)",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Laptop-Server/Spring-2024/My Exams (Algorithms)"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/alex/Documents/Spring-2024/My%20Lecture%20Notes%20%28Algorithms%29",
+                                        "path": "/home/alex/Documents/Spring-2024/My Lecture Notes (Algorithms)",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Spring-2024/My Lecture Notes (Algorithms)"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/alex/Documents/Laptop-Server/Spring-2024/My%20Lecture%20Notes%20%28Algorithms%29",
+                                        "path": "/home/alex/Documents/Laptop-Server/Spring-2024/My Lecture Notes (Algorithms)",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Laptop-Server/Spring-2024/My Lecture Notes (Algorithms)"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/alex/Documents/Laptop-Server/Spring-2024/My%20Homeworks%20%28Algorithms%29",
+                                        "path": "/home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/alex/Documents/Laptop-Server/Spring-2024/Shared%20Latex%20Folder",
+                                        "path": "/home/alex/Documents/Laptop-Server/Spring-2024/Shared Latex Folder",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Laptop-Server/Spring-2024/Shared Latex Folder"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/alex/Documents/Spring-2024",
+                                        "path": "/home/alex/Documents/Spring-2024",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Spring-2024"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/alex/Documents/Laptop-Server/Spring-2024/My%20Lecture%20Notes%20%28Algorithms%29/complexity_theory.tex",
+                                        "path": "/home/alex/Documents/Laptop-Server/Spring-2024/My Lecture Notes (Algorithms)/complexity_theory.tex",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Laptop-Server/Spring-2024/My Lecture Notes (Algorithms)/complexity_theory.tex"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/alex/Documents/Laptop-Server/Spring-2024/My%20Homeworks%20%28Algorithms%29/hw6.tex",
+                                        "path": "/home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/alex/Documents/Laptop-Server/Spring-2024/My%20Homeworks%20%28Algorithms%29/hw6.pdf",
+                                        "path": "/home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.pdf",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.pdf"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/alex/Documents/Spring-2024/My%20Lecture%20Notes%20%28Algorithms%29/complexity_theory.tex",
+                                        "path": "/home/alex/Documents/Spring-2024/My Lecture Notes (Algorithms)/complexity_theory.tex",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Spring-2024/My Lecture Notes (Algorithms)/complexity_theory.tex"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/alex/Documents/Laptop-Server/Spring-2024/My%20Homeworks%20%28Algorithms%29/hw7.tex",
+                                        "path": "/home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw7.tex",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw7.tex"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/alex/Documents/Spring-2024/My%20Lecture%20Notes%20%28Algorithms%29/dynamicprogramming.tex",
+                                        "path": "/home/alex/Documents/Spring-2024/My Lecture Notes (Algorithms)/dynamicprogramming.tex",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Spring-2024/My Lecture Notes (Algorithms)/dynamicprogramming.tex"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -141,7 +283,7 @@
                             "items": [
                                 {
                                     "id": "submenuitem.Profiles",
-                                    "label": "Profile (Default)",
+                                    "label": "Profiles (Default)",
                                     "submenu": {
                                         "items": [
                                             {
@@ -242,6 +384,10 @@
                     {
                         "id": "workbench.action.closeActiveEditor",
                         "label": "&&Close Editor"
+                    },
+                    {
+                        "id": "workbench.action.closeFolder",
+                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -582,8 +728,7 @@
                                 },
                                 {
                                     "id": "editor.action.toggleMinimap",
-                                    "label": "&&Minimap",
-                                    "checked": true
+                                    "label": "&&Minimap"
                                 },
                                 {
                                     "id": "breadcrumbs.toggle",
@@ -747,8 +892,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "enabled": false
+                        "label": "&&Word Wrap"
                     }
                 ]
             },
@@ -835,54 +979,45 @@
                                 },
                                 {
                                     "id": "workbench.action.focusThirdEditorGroup",
-                                    "label": "Group &&3",
-                                    "enabled": false
+                                    "label": "Group &&3"
                                 },
                                 {
                                     "id": "workbench.action.focusFourthEditorGroup",
-                                    "label": "Group &&4",
-                                    "enabled": false
+                                    "label": "Group &&4"
                                 },
                                 {
                                     "id": "workbench.action.focusFifthEditorGroup",
-                                    "label": "Group &&5",
-                                    "enabled": false
+                                    "label": "Group &&5"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.focusNextGroup",
-                                    "label": "&&Next Group",
-                                    "enabled": false
+                                    "label": "&&Next Group"
                                 },
                                 {
                                     "id": "workbench.action.focusPreviousGroup",
-                                    "label": "&&Previous Group",
-                                    "enabled": false
+                                    "label": "&&Previous Group"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.focusLeftGroup",
-                                    "label": "Group &&Left",
-                                    "enabled": false
+                                    "label": "Group &&Left"
                                 },
                                 {
                                     "id": "workbench.action.focusRightGroup",
-                                    "label": "Group &&Right",
-                                    "enabled": false
+                                    "label": "Group &&Right"
                                 },
                                 {
                                     "id": "workbench.action.focusAboveGroup",
-                                    "label": "Group &&Above",
-                                    "enabled": false
+                                    "label": "Group &&Above"
                                 },
                                 {
                                     "id": "workbench.action.focusBelowGroup",
-                                    "label": "Group &&Below",
-                                    "enabled": false
+                                    "label": "Group &&Below"
                                 }
                             ]
                         }
@@ -1275,6 +1410,11 @@
                 "label": "Ctrl+W",
                 "userSettingsLabel": "ctrl+w"
             },
+            "workbench.action.closeFolder": {
+                "label": "Ctrl+K F",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k f"
+            },
             "workbench.action.closeWindow": {
                 "label": "Alt+F4",
                 "userSettingsLabel": "alt+f4"
@@ -1647,39 +1787,40 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#1f1f28",
+    "themeBackground": "#1f1f1f",
     "windowSplash": {
         "zoomLevel": 0,
         "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "#dcd7ba",
-            "background": "#1f1f28",
-            "editorBackground": "#1f1f28",
-            "titleBarBackground": "#363646",
-            "activityBarBackground": "#2a2a37",
-            "sideBarBackground": "#1f1f28",
-            "statusBarBackground": "#16161d",
-            "statusBarNoFolderBackground": "#1f1f28"
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "activityBarBackground": "#181818",
+            "sideBarBackground": "#181818",
+            "statusBarBackground": "#181818",
+            "statusBarNoFolderBackground": "#1f1f1f"
         },
         "layoutInfo": {
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 237,
+            "sideBarWidth": 258,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/alex/.config/VSCodium/Backups/1718088024249",
+            "folder": "file:///home/alex/Documents/Laptop-Server/Spring-2024/My%20Exams%20%28Algorithms%29",
+            "backupPath": "/home/alex/.config/VSCodium/Backups/0f234b0e3327adcc7fb456342f4bd7ff",
             "uiState": {
-                "mode": 1,
-                "x": 1928,
-                "y": 40,
-                "width": 1904,
-                "height": 1032
+                "mode": 0,
+                "x": 0,
+                "y": 128,
+                "width": 1280,
+                "height": 688
             }
         },
         "openedWindows": []

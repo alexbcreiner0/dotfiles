@@ -1,7 +1,0 @@
-<application>
-  <component name="BlockTerminalUsage">
-    <shellToExecutedCommandsNumber>
-      <entry key="zsh" value="6" />
-    </shellToExecutedCommandsNumber>
-  </component>
-</application>

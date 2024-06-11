@@ -1,0 +1,2289 @@
+[14:11:18.331][Logger] New log placeholder %WS1% registered for /home/alex/Documents/Laptop-Server/Spring-2024/My Exams (Algorithms) .
+[14:11:18.331][Extension] Initializing LaTeX Workshop.
+[14:11:18.589][Build][Recipe] Set $LATEXWORKSHOP_DOCKER_LATEX: ""
+[14:11:18.646][Server] Creating LaTeX Workshop http and websocket server.
+[14:11:18.832][Format][Bib] Bibtex format config: {"tab":"  ","case":"lowercase","left":"{","right":"}","trailingComma":false,"sort":["key"],"alignOnEqual":true,"sortFields":false,"fieldsOrder":[],"firstEntries":["string","xdata"]}
+[14:11:18.909][Server] Server successfully started: {"address":"127.0.0.1","family":"IPv4","port":34433} .
+[14:11:18.956][Extension] Extension root: /home/alex/.vscode-oss/extensions/james-yu.latex-workshop-9.19.2-universal
+[14:11:18.957][Extension] $PATH: /usr/local/texlive/2024/bin/x86_64-linux:/home/alex/.local/bin:/usr/local/texlive/2024/bin/x86_64-linux:/usr/local/texlive/2024/bin/x86_64-linux:/home/alex/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+[14:11:18.957][Extension] $SHELL: /bin/bash
+[14:11:18.957][Extension] $LANG: en_US.UTF-8
+[14:11:18.958][Extension] $LC_ALL: undefined
+[14:11:18.958][Extension] process.platform: linux
+[14:11:18.958][Extension] process.arch: x64
+[14:11:18.959][Extension] vscode.env.appName: VSCodium
+[14:11:18.959][Extension] vscode.env.remoteName: undefined
+[14:11:18.959][Extension] vscode.env.uiKind: 1
+[14:11:18.963][Config] latex-workshop.latex.tools: [{"name":"latexmk","command":"latexmk","args":["-pdf","-synctex=1","-interaction=nonstopmode","-file-line-error","--shell-escape","%DOC%"]}] .
+[14:11:19.046][Extension] Trigger characters for intellisense of LaTeX documents: ["\\",",","{"]
+[14:11:19.055][Root] Current workspace folders: ["file://%WS1%"]
+[14:11:19.058][Extension] LaTeX Workshop initialized.
+[14:11:19.061][Root] Current workspaceRootDir: file://%WS1% .
+[14:11:19.081][Server] valdOrigin is http://127.0.0.1:34433
+[14:11:19.519][Root] Found files that might be root, choose the first one: %WS1%/midterm.tex .
+[14:11:19.520][Root] Root file changed: from %WS1%/midterm.tex to %WS1%/midterm.tex, langID latex . Refresh dependencies
+[14:11:19.522][Event] ROOT_FILE_CHANGED: "%WS1%/midterm.tex"
+[14:11:19.524][Cacher][Watcher] Reset.
+[14:11:19.525][Cacher][Watcher] Reset.
+[14:11:19.538][Cacher] Adding %WS1%/midterm.tex .
+[14:11:19.541][Cacher][Watcher] Watched %WS1%/midterm.tex with a new .* watcher on %WS1% .
+[14:11:19.542][Event] FILE_WATCHED: "%WS1%/midterm.tex"
+[14:11:19.548][Cacher] Caching %WS1%/midterm.tex .
+[14:11:19.596][Cacher] Updated inputs of %WS1%/midterm.tex .
+[14:11:19.597][Cacher] Parse LaTeX AST: %WS1%/midterm.tex .
+[14:11:19.598][Event] ROOT_FILE_SEARCHED
+[14:11:19.780][Root] Current workspace folders: ["file://%WS1%"]
+[14:11:19.787][Root] Found root file from active editor: %WS1%/midterm.tex
+[14:11:19.787][Root] Keep using the same root file: %WS1%/midterm.tex
+[14:11:19.788][Event] ROOT_FILE_SEARCHED
+[14:11:19.834][Cacher] Parsed LaTeX AST: %WS1%/midterm.tex .
+[14:11:19.835][File] Calling kpsewhich to resolve article.cls .
+[14:11:20.135][File] kpsewhich returned with '/usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls'.
+[14:11:20.140][Cacher] Updated elements in 305.43 ms: %WS1%/midterm.tex .
+[14:11:20.140][Event] FILE_PARSED: "%WS1%/midterm.tex"
+[14:11:20.141][Cacher] Parsing .fls %WS1%/midterm.fls .
+[14:11:20.417][Cacher] Found .aux %WS1%/midterm.tex from .fls %WS1%/midterm.fls , parsing.
+[14:11:20.455][Cacher] Parsed .aux %WS1%/midterm.tex .
+[14:11:20.456][Cacher] Parsed .fls %WS1%/midterm.fls .
+[14:11:20.459][Structure] Structure force updated with 0 root sections for %WS1%/midterm.tex .
+[14:11:20.461][Event] STRUCTURE_UPDATED
+[14:11:20.462][Structure] Structure updated with 0 root sections for %WS1%/midterm.tex .
+[14:11:20.463][Structure] Structure updated with 0 root sections for %WS1%/midterm.tex .
+[14:11:20.463][Event] STRUCTURE_UPDATED
+[14:11:20.464][Event] STRUCTURE_UPDATED
+[14:11:21.972][Cacher] Error loading cache: %WS1%/final.tex . Forcing.
+[14:11:21.974][Cacher] Caching %WS1%/final.tex .
+[14:11:22.014][Cacher] Updated inputs of %WS1%/final.tex .
+[14:11:22.016][Cacher] Parse LaTeX AST: %WS1%/final.tex .
+[14:11:22.017][Cacher] Error loading cache: %WS1%/final.tex . Forcing.
+[14:11:22.019][Cacher] Caching %WS1%/final.tex .
+[14:11:22.060][Cacher] Updated inputs of %WS1%/final.tex .
+[14:11:22.060][Cacher] Parse LaTeX AST: %WS1%/final.tex .
+[14:11:22.062][Cacher] Error loading cache: %WS1%/final.tex . Forcing.
+[14:11:22.064][Cacher] Caching %WS1%/final.tex .
+[14:11:22.104][Cacher] Updated inputs of %WS1%/final.tex .
+[14:11:22.105][Cacher] Parse LaTeX AST: %WS1%/final.tex .
+[14:11:22.108][Cacher] Parsed LaTeX AST: %WS1%/final.tex .
+[14:11:22.109][Cacher] Updated elements in 0.37 ms: %WS1%/final.tex .
+[14:11:22.111][Event] FILE_PARSED: "%WS1%/final.tex"
+[14:11:22.112][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:11:22.114][Cacher] Parsed LaTeX AST: %WS1%/final.tex .
+[14:11:22.115][Cacher] Updated elements in 0.27 ms: %WS1%/final.tex .
+[14:11:22.117][Event] FILE_PARSED: "%WS1%/final.tex"
+[14:11:22.117][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:11:22.119][Cacher] Parsed LaTeX AST: %WS1%/final.tex .
+[14:11:22.119][Cacher] Updated elements in 0.23 ms: %WS1%/final.tex .
+[14:11:22.121][Event] FILE_PARSED: "%WS1%/final.tex"
+[14:11:22.122][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:11:22.125][Structure] Structure force updated with 0 root sections for %WS1%/midterm.tex .
+[14:11:22.126][Event] STRUCTURE_UPDATED
+[14:11:22.127][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:11:22.841][Root] Current workspace folders: ["file://%WS1%"]
+[14:11:22.847][Root] Current workspaceRootDir: file://%WS1% .
+[14:11:22.854][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:11:23.101][Root] Found files that might be root including the current root: %WS1%/midterm.tex .
+[14:11:23.102][Root] Keep using the same root file: %WS1%/midterm.tex
+[14:11:23.102][Event] ROOT_FILE_SEARCHED
+[14:11:23.103][Event] STRUCTURE_UPDATED
+[14:11:23.104][Event] STRUCTURE_UPDATED
+[14:11:23.142][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:11:23.941][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:11:24.082][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:11:25.144][Extension] onDidSaveTextDocument triggered: file://%WS1%/final.tex
+[14:11:31.876][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:11:32.179][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:11:32.348][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:11:33.504][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:11:33.684][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:11:41.752][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:11:42.068][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:11:42.242][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:11:50.917][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:11:51.093][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:11:53.387][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:11:53.562][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:11:55.023][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:11:55.822][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:11:56.150][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:11:56.549][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:11:56.882][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:11:57.558][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:11:57.727][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:11:58.222][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:11:58.398][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:00.595][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:01.024][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:01.200][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:04.382][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:04.554][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:05.151][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:05.326][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:05.914][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:06.090][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:07.590][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:07.765][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:08.510][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:08.686][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:09.716][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:09.933][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:12.980][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:13.632][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:13.960][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:14.864][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:15.039][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:16.606][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:16.782][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:18.102][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:18.274][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:20.123][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:20.299][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:25.788][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:25.963][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:26.930][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:27.105][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:28.572][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:30.357][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:30.772][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:32.374][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:32.549][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:36.069][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:36.994][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:37.170][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:38.182][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:38.358][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:54.557][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:55.286][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:55.765][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:55.940][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:56.426][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:57.523][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:57.698][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:12:59.149][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:13:02.550][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:13:02.724][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:13:03.361][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:13:03.520][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:13:03.889][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:13:04.679][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:13:04.854][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:13:07.272][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:13:08.565][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:13:09.676][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:13:09.852][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:13:10.703][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:13:10.877][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:13:12.276][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:13:12.453][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:29:02.920][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:29:03.250][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:29:06.636][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:29:07.028][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:29:07.329][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:29:07.830][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:29:08.004][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:29:11.570][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:29:11.745][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:29:13.170][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:29:13.472][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:29:13.626][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:29:15.209][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:29:15.385][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:29:22.470][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:29:22.610][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:29:36.395][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:29:36.570][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:30:25.355][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:30:28.920][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:30:29.100][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:30:30.482][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:30:30.656][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:30:31.873][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:30:32.051][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:30:32.660][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:30:34.315][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:30:35.345][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:30:36.595][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:30:36.770][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:30:43.221][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:30:44.040][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:30:44.631][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:30:44.812][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:30:47.118][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:30:51.898][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:30:52.076][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:30:57.307][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:30:58.450][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:30:58.624][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:31:02.174][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:31:02.349][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:31:10.104][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:31:10.279][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:31:11.287][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:31:12.181][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:31:12.355][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:31:21.048][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:31:21.227][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:31:21.976][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:31:22.150][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:31:24.157][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:31:27.170][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:31:27.591][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:31:27.766][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:31:28.987][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:31:31.443][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:31:32.188][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:31:32.970][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:31:33.146][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:31:34.838][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:31:35.163][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:31:35.585][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:31:36.673][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:31:36.848][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:31:37.866][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:31:38.044][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:31:38.567][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:31:38.742][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:31:41.487][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:31:48.169][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:31:49.671][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:31:54.704][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:31:55.013][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:31:55.185][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:31:57.208][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:31:57.383][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:31:59.887][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:32:00.226][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:32:00.403][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:32:02.972][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:32:03.147][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:32:04.563][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:32:04.739][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:32:05.190][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:32:05.634][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:32:06.531][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:32:08.947][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:32:09.122][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:32:11.216][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:32:11.838][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:32:12.588][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:32:12.763][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:32:37.382][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:32:38.009][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:32:41.832][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:32:44.402][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:32:45.686][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:32:45.861][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:32:46.468][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:32:46.648][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:32:51.542][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:32:51.717][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:32:57.573][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:32:57.898][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:32:58.077][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:01.004][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:01.179][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:02.707][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:02.887][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:06.963][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:07.126][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:07.601][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:08.836][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:12.049][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:13.342][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:13.523][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:13.970][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:14.134][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:15.037][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:15.212][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:16.354][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:16.515][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:17.488][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:17.923][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:18.666][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:18.841][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:19.395][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:21.525][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:22.011][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:22.465][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:23.268][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:23.447][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:23.964][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:24.139][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:30.006][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:30.183][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:31.035][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:31.211][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:31.636][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:31.938][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:32.118][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:32.766][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:33.286][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:33.742][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:36.855][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:37.039][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:37.403][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:38.087][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:38.517][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:39.235][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:39.416][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:39.806][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:40.135][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:40.302][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:42.394][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:44.692][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:45.301][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:45.457][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:48.744][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:49.149][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:49.452][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:49.627][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:50.383][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:50.557][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:51.018][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:51.193][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:51.812][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:51.986][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:52.367][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:52.542][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:52.924][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:53.099][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:58.694][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:58.847][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:33:59.923][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:34:00.100][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:34:07.949][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:34:08.123][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:34:09.293][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:34:10.502][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:34:11.187][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:34:11.369][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:34:12.281][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:34:12.785][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:34:13.371][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:34:13.772][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:34:14.599][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:34:14.781][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:34:16.931][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:34:19.890][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:34:21.389][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:34:21.570][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:34:35.488][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:34:35.569][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:34:35.960][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:34:37.019][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:34:37.193][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:34:38.634][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:34:38.813][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:34:39.767][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:34:40.238][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:34:40.421][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:34:42.102][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:34:42.283][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:34:47.194][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:34:48.181][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:34:49.023][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:34:49.735][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:34:51.559][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:34:51.741][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:34:53.463][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:34:53.638][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:34:56.199][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:34:56.381][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:34:57.333][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:34:58.876][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:34:59.051][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:35:01.000][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:35:01.184][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:35:02.708][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:35:02.884][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:35:07.713][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:35:07.887][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:35:10.724][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:35:11.041][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:35:11.719][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:35:11.903][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:35:14.084][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:35:14.259][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:35:14.638][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:35:15.486][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:35:15.653][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:35:16.129][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:35:17.349][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:35:17.527][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:35:19.067][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:35:20.142][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:35:20.310][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:35:22.008][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:35:22.344][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:35:24.710][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:35:24.885][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:35:26.667][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:35:27.255][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:35:27.675][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:35:29.324][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:35:29.499][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:35:30.366][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:35:35.695][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:35:35.872][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:35:39.593][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:35:41.758][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:35:41.937][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:35:42.868][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:35:43.762][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:35:50.125][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:35:50.302][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:35:54.559][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:35:55.127][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:35:55.304][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:35:57.052][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:35:57.226][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:36:09.902][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:36:10.077][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:36:11.147][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:36:11.326][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:36:12.710][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:36:12.846][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:36:18.334][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:36:18.510][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:36:19.091][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:36:19.264][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:36:20.226][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:36:20.401][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:36:24.910][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:36:25.086][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:36:25.791][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:36:25.954][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:36:29.514][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:36:29.691][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:36:36.414][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:36:36.589][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:36:43.145][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:36:43.319][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:37:35.193][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:37:35.582][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:37:35.761][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:38:42.114][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:38:42.559][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:38:42.738][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:38:44.216][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:38:44.390][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:38:49.991][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:38:51.343][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:38:51.523][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:38:52.487][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:38:52.655][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:38:57.287][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:38:57.462][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:39:01.732][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:39:01.908][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:39:03.242][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:39:03.648][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:39:08.425][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:39:10.734][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:39:10.909][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:39:15.355][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:39:16.569][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:39:16.747][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:39:58.380][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:40:01.826][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:40:04.390][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:40:04.565][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:40:11.946][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:40:12.080][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:40:13.981][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:40:14.155][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:40:24.027][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:40:24.206][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:40:24.990][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:40:26.459][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:40:26.638][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:40:27.388][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:40:27.715][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:40:27.889][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:40:29.484][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:40:29.794][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:40:29.974][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:40:30.625][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:40:31.813][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:40:32.472][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:40:34.938][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:40:35.446][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:40:35.825][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:40:39.721][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:40:41.018][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:40:41.192][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:40:41.570][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:40:43.225][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:40:43.400][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:40:47.358][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:40:47.661][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:40:47.842][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:40:50.001][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:40:50.176][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:40:52.667][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:40:52.848][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:40:54.700][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:40:54.881][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:41:00.560][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:41:00.738][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:41:02.724][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:41:02.900][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:41:06.116][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:41:06.290][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:41:07.960][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:41:08.128][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:41:09.069][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:41:09.243][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:41:12.485][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:41:12.867][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:41:13.808][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:41:13.990][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:41:14.589][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:41:15.236][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:41:15.411][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:41:15.843][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:41:16.017][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:56:20.491][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:56:21.442][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:56:21.621][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:56:22.282][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:56:22.722][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:56:22.898][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:56:23.604][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:56:23.780][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:56:24.782][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:56:24.956][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:56:26.799][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:56:26.973][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:56:28.156][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:56:28.331][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:57:10.955][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:57:11.129][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:57:13.025][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:57:13.633][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:57:14.103][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:57:14.411][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:57:14.586][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:57:16.233][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:57:17.354][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:57:20.056][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:57:20.230][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:57:20.944][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:57:21.120][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:57:21.602][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:57:21.778][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:57:23.540][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:57:23.934][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:57:24.109][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:57:27.338][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:57:27.841][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:57:28.016][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:57:28.422][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:57:28.809][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:57:29.851][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:57:30.026][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:57:33.999][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:57:34.176][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:57:35.305][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:57:35.483][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:57:39.899][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:57:40.967][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:57:41.142][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:57:43.031][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:57:43.205][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:57:44.480][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:57:44.658][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:57:46.158][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:57:46.338][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:58:37.298][Viewer][Panel] Internal PDF viewer at http://127.0.0.1:34433/viewer.html?file=pdf..ZmlsZSUzQSUyRiUyRiUyRmhvbWUlMkZhbGV4JTJGRG9jdW1lbnRzJTJGTGFwdG9wLVNlcnZlciUyRlNwcmluZy0yMDI0JTJGTXklMjBIb21ld29ya3MlMjAoQWxnb3JpdGhtcyklMkZodzYucGRm .
+[14:58:37.300][Cacher][Watcher] Watched /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.pdf with a new .pdf watcher on /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms) .
+[14:58:37.300][Event] FILE_WATCHED: "/home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.pdf"
+[14:58:37.660][Viewer] Handle data type: open
+[14:58:37.964][Server] Preview PDF file: file:///home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.pdf
+[14:58:38.342][Viewer] Handle data type: loaded
+[14:58:38.342][Event] VIEWER_PAGE_LOADED
+[14:58:40.091][Event] STRUCTURE_UPDATED
+[14:58:40.388][Structure][LaTeX] Error loading content during structuring: %WS1%/final.tex .
+[14:59:02.095][Root] Current workspace folders: ["file://%WS1%"]
+[14:59:02.101][Root] Found root file from active editor: /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex
+[14:59:02.102][Root] Root file changed: from /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex to /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex, langID latex . Refresh dependencies
+[14:59:02.102][Event] ROOT_FILE_CHANGED: "/home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex"
+[14:59:02.102][Cacher][Watcher] Reset.
+[14:59:02.103][Cacher][Watcher] Reset.
+[14:59:02.105][Cacher] Adding /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[14:59:02.105][Cacher][Watcher] Watched /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex with a new .* watcher on /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms) .
+[14:59:02.105][Event] FILE_WATCHED: "/home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex"
+[14:59:02.108][Cacher] Caching /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[14:59:02.149][Cacher] Updated inputs of /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[14:59:02.149][Cacher] Parse LaTeX AST: /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[14:59:02.149][Event] ROOT_FILE_SEARCHED
+[14:59:02.150][Event] STRUCTURE_UPDATED
+[14:59:02.450][Cacher] Parsed LaTeX AST: /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[14:59:02.451][File] kpsewhich cache hit on article.cls: /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls .
+[14:59:02.463][Cacher] Updated elements in 11.98 ms: /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[14:59:02.465][Event] FILE_PARSED: "/home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex"
+[14:59:02.470][Cacher] Parsing .fls /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.fls .
+[14:59:02.521][Cacher] Adding /home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[14:59:02.522][Cacher][Watcher] Watched /home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex with a new .* watcher on /home/alex/Documents/Spring-2024/My Homeworks (Algorithms) .
+[14:59:02.522][Event] FILE_WATCHED: "/home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex"
+[14:59:02.522][Cacher] Found /home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex from .fls /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.fls , caching.
+[14:59:02.522][Cacher] Caching /home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[14:59:02.523][Cacher] Updated inputs of /home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[14:59:02.523][Cacher] Parse LaTeX AST: /home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[14:59:02.581][Cacher] Adding /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6_graph1.png .
+[14:59:02.581][Cacher][Watcher] Watched /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6_graph1.png by the .* watcher.
+[14:59:02.581][Event] FILE_WATCHED: "/home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6_graph1.png"
+[14:59:02.582][Cacher] Adding /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/island_problem.png .
+[14:59:02.583][Cacher][Watcher] Watched /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/island_problem.png by the .* watcher.
+[14:59:02.583][Event] FILE_WATCHED: "/home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/island_problem.png"
+[14:59:02.605][Cacher] Adding /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/_minted-hw6/default.pygstyle .
+[14:59:02.605][Cacher][Watcher] Watched /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/_minted-hw6/default.pygstyle with a new .* watcher on /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/_minted-hw6 .
+[14:59:02.605][Event] FILE_WATCHED: "/home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/_minted-hw6/default.pygstyle"
+[14:59:02.625][Cacher] Adding /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/_minted-hw6/350F5ADA1C0A8E5AFD1D65E57EB8357FD7135479B47EE7D7F493C9CBF7EDFAD0.pygtex .
+[14:59:02.625][Cacher][Watcher] Watched /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/_minted-hw6/350F5ADA1C0A8E5AFD1D65E57EB8357FD7135479B47EE7D7F493C9CBF7EDFAD0.pygtex by the .* watcher.
+[14:59:02.625][Event] FILE_WATCHED: "/home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/_minted-hw6/350F5ADA1C0A8E5AFD1D65E57EB8357FD7135479B47EE7D7F493C9CBF7EDFAD0.pygtex"
+[14:59:02.627][Cacher] Found .aux /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex from .fls /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.fls , parsing.
+[14:59:02.665][Cacher] Parsed .aux /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[14:59:02.666][Cacher] Parsed .fls /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.fls .
+[14:59:02.668][Structure] Structure force updated with 0 root sections for /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[14:59:02.668][Event] STRUCTURE_UPDATED
+[14:59:02.823][Cacher] Parsed LaTeX AST: /home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[14:59:02.825][File] kpsewhich cache hit on article.cls: /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls .
+[14:59:02.828][Cacher] Updated elements in 4.26 ms: /home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[14:59:02.828][Event] FILE_PARSED: "/home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex"
+[14:59:02.829][Structure] Structure force updated with 0 root sections for /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[14:59:02.829][Event] STRUCTURE_UPDATED
+[14:59:09.359][Root] Current workspace folders: ["file://%WS1%"]
+[14:59:09.389][Root] Found root file from active editor: %WS1%/midterm.tex
+[14:59:09.390][Root] Root file changed: from %WS1%/midterm.tex to %WS1%/midterm.tex, langID latex . Refresh dependencies
+[14:59:09.390][Event] ROOT_FILE_CHANGED: "%WS1%/midterm.tex"
+[14:59:09.391][Cacher][Watcher] Reset.
+[14:59:09.391][Cacher][Watcher] Reset.
+[14:59:09.392][Cacher] Adding %WS1%/midterm.tex .
+[14:59:09.394][Cacher][Watcher] Watched %WS1%/midterm.tex with a new .* watcher on %WS1% .
+[14:59:09.395][Event] FILE_WATCHED: "%WS1%/midterm.tex"
+[14:59:09.397][Cacher] Caching %WS1%/midterm.tex .
+[14:59:09.448][Cacher] Updated inputs of %WS1%/midterm.tex .
+[14:59:09.448][Cacher] Parse LaTeX AST: %WS1%/midterm.tex .
+[14:59:09.449][Event] ROOT_FILE_SEARCHED
+[14:59:09.450][Event] STRUCTURE_UPDATED
+[14:59:09.622][Cacher] Parsed LaTeX AST: %WS1%/midterm.tex .
+[14:59:09.622][File] kpsewhich cache hit on article.cls: /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls .
+[14:59:09.630][Cacher] Updated elements in 7.27 ms: %WS1%/midterm.tex .
+[14:59:09.631][Event] FILE_PARSED: "%WS1%/midterm.tex"
+[14:59:09.633][Cacher] Parsing .fls %WS1%/midterm.fls .
+[14:59:09.954][Cacher] Found .aux %WS1%/midterm.tex from .fls %WS1%/midterm.fls , parsing.
+[14:59:09.992][Cacher] Parsed .aux %WS1%/midterm.tex .
+[14:59:09.993][Cacher] Parsed .fls %WS1%/midterm.fls .
+[14:59:09.994][Structure] Structure force updated with 0 root sections for %WS1%/midterm.tex .
+[14:59:09.995][Event] STRUCTURE_UPDATED
+[14:59:14.389][Root] Current workspace folders: ["file://%WS1%"]
+[14:59:14.398][Root] Found root file from active editor: %WS1%/final.tex
+[14:59:14.399][Root] Root file changed: from %WS1%/final.tex to %WS1%/final.tex, langID latex . Refresh dependencies
+[14:59:14.400][Event] ROOT_FILE_CHANGED: "%WS1%/final.tex"
+[14:59:14.401][Cacher][Watcher] Reset.
+[14:59:14.402][Cacher][Watcher] Reset.
+[14:59:14.403][Cacher] Adding %WS1%/final.tex .
+[14:59:14.404][Cacher][Watcher] Watched %WS1%/final.tex with a new .* watcher on %WS1% .
+[14:59:14.404][Event] FILE_WATCHED: "%WS1%/final.tex"
+[14:59:14.404][Cacher] Caching %WS1%/final.tex .
+[14:59:14.405][Cacher] Updated inputs of %WS1%/final.tex .
+[14:59:14.405][Cacher] Parse LaTeX AST: %WS1%/final.tex .
+[14:59:14.405][Event] ROOT_FILE_SEARCHED
+[14:59:14.406][Event] STRUCTURE_UPDATED
+[14:59:14.434][Cacher] Parsed LaTeX AST: %WS1%/final.tex .
+[14:59:14.436][File] kpsewhich cache hit on article.cls: /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls .
+[14:59:14.439][Cacher] Updated elements in 3.41 ms: %WS1%/final.tex .
+[14:59:14.440][Event] FILE_PARSED: "%WS1%/final.tex"
+[14:59:14.508][Structure] Structure force updated with 0 root sections for %WS1%/final.tex .
+[14:59:14.509][Event] STRUCTURE_UPDATED
+[14:59:59.811][Commander] BUILD command invoked.
+[14:59:59.813][Build] The document of the active editor: file://%WS1%/final.tex
+[14:59:59.813][Build] The languageId of the document: latex
+[14:59:59.814][Root] Current workspace folders: ["file://%WS1%"]
+[14:59:59.816][Root] Found root file from active editor: %WS1%/final.tex
+[14:59:59.816][Root] Keep using the same root file: %WS1%/final.tex
+[14:59:59.817][Event] ROOT_FILE_SEARCHED
+[14:59:59.818][Event] STRUCTURE_UPDATED
+[14:59:59.819][Build] Building root file: %WS1%/final.tex
+[14:59:59.820][Build][Recipe] Build root file %WS1%/final.tex
+[14:59:59.918][Extension] onDidSaveTextDocument triggered: file://%WS1%/final.tex
+[14:59:59.992][Build][Recipe] Preparing to run recipe: latexmk.
+[14:59:59.992][Build][Recipe] Prepared 1 tools.
+[15:00:00.010][Build][Recipe] outDir: %WS1% .
+[15:00:00.013][Build] Recipe step 1 The command is latexmk:["-pdf","-synctex=1","-interaction=nonstopmode","-file-line-error","--shell-escape","%WS1%/final"].
+[15:00:00.014][Build] env: undefined
+[15:00:00.015][Build] root: %WS1%/final.tex
+[15:00:00.015][Build] cwd: %WS1%
+[15:00:00.024][Build] LaTeX build process spawned with PID 7580.
+[15:00:00.028][Cacher][Watcher] "change" emitted on %WS1%/final.tex.
+[15:00:00.029][Cacher] Caching %WS1%/final.tex .
+[15:00:00.064][Cacher] Updated inputs of %WS1%/final.tex .
+[15:00:00.064][Cacher] Parse LaTeX AST: %WS1%/final.tex .
+[15:00:00.064][Build] Auto build started detecting the change of a file: %WS1%/final.tex .
+[15:00:00.065][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/final.tex"}
+[15:00:00.065][Build] Autobuild temporarily disabled.
+[15:00:00.065][Event] FILE_CHANGED: "%WS1%/final.tex"
+[15:00:00.106][Cacher] Parsed LaTeX AST: %WS1%/final.tex .
+[15:00:00.106][File] kpsewhich cache hit on article.cls: /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls .
+[15:00:00.110][Cacher] Updated elements in 3.47 ms: %WS1%/final.tex .
+[15:00:00.112][Event] FILE_PARSED: "%WS1%/final.tex"
+[15:00:00.113][Structure] Structure force updated with 0 root sections for %WS1%/final.tex .
+[15:00:00.114][Event] STRUCTURE_UPDATED
+[15:00:19.850][Commander] VIEW command invoked with mode: file:///home/alex/Documents/Laptop-Server/Spring-2024/My%20Exams%20%28Algorithms%29/final.tex.
+[15:00:19.851][Root] Current workspace folders: ["file://%WS1%"]
+[15:00:19.852][Root] Found root file from active editor: %WS1%/final.tex
+[15:00:19.852][Root] Keep using the same root file: %WS1%/final.tex
+[15:00:19.852][Event] ROOT_FILE_SEARCHED
+[15:00:19.853][Event] STRUCTURE_UPDATED
+[15:00:19.980][Viewer][Panel] Internal PDF viewer at http://127.0.0.1:34433/viewer.html?file=pdf..ZmlsZSUzQSUyRiUyRiUyRmhvbWUlMkZhbGV4JTJGRG9jdW1lbnRzJTJGTGFwdG9wLVNlcnZlciUyRlNwcmluZy0yMDI0JTJGTXklMjBFeGFtcyUyMChBbGdvcml0aG1zKSUyRmZpbmFsLnBkZg .
+[15:00:19.980][Cacher][Watcher] Watched %WS1%/final.pdf with a new .pdf watcher on %WS1% .
+[15:00:19.981][Event] FILE_WATCHED: "%WS1%/final.pdf"
+[15:00:20.035][Viewer] Open PDF tab for file://%WS1%/final.pdf
+[15:00:20.320][Viewer] Handle data type: open
+[15:00:20.609][Server] Preview PDF file: file://%WS1%/final.pdf
+[15:00:20.942][Viewer] Handle data type: loaded
+[15:00:20.943][Event] VIEWER_PAGE_LOADED
+[15:00:28.947][Commander] BUILD command invoked.
+[15:00:28.948][Build] The document of the active editor: file://%WS1%/final.tex
+[15:00:28.948][Build] The languageId of the document: latex
+[15:00:28.949][Root] Current workspace folders: ["file://%WS1%"]
+[15:00:28.950][Root] Found root file from active editor: %WS1%/final.tex
+[15:00:28.950][Root] Keep using the same root file: %WS1%/final.tex
+[15:00:28.950][Event] ROOT_FILE_SEARCHED
+[15:00:28.951][Event] STRUCTURE_UPDATED
+[15:00:28.951][Build] Building root file: %WS1%/final.tex
+[15:00:28.951][Build][Recipe] Build root file %WS1%/final.tex
+[15:00:29.027][Extension] onDidSaveTextDocument triggered: file://%WS1%/final.tex
+[15:00:29.096][Build][Recipe] Preparing to run recipe: latexmk.
+[15:00:29.097][Build][Recipe] Prepared 1 tools.
+[15:00:29.098][Build][Recipe] outDir: %WS1% .
+[15:00:29.177][Cacher][Watcher] "change" emitted on %WS1%/final.tex.
+[15:00:29.179][Cacher] Caching %WS1%/final.tex .
+[15:00:29.230][Cacher] Updated inputs of %WS1%/final.tex .
+[15:00:29.231][Cacher] Parse LaTeX AST: %WS1%/final.tex .
+[15:00:29.231][Build] Auto build started detecting the change of a file: %WS1%/final.tex .
+[15:00:29.231][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/final.tex"}
+[15:00:29.232][Build] The document of the active editor: file://%WS1%/final.tex
+[15:00:29.232][Build] The languageId of the document: latex
+[15:00:29.232][Build] Building root file: %WS1%/final.tex
+[15:00:29.233][Build][Recipe] Build root file %WS1%/final.tex
+[15:00:29.234][Event] FILE_CHANGED: "%WS1%/final.tex"
+[15:00:29.292][Build][Recipe] Preparing to run recipe: latexmk.
+[15:00:29.293][Build][Recipe] Prepared 1 tools.
+[15:00:29.294][Build][Recipe] outDir: %WS1% .
+[15:00:29.299][Cacher] Parsed LaTeX AST: %WS1%/final.tex .
+[15:00:29.300][File] kpsewhich cache hit on article.cls: /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls .
+[15:00:29.304][Cacher] Updated elements in 3.56 ms: %WS1%/final.tex .
+[15:00:29.305][Event] FILE_PARSED: "%WS1%/final.tex"
+[15:00:29.306][Structure] Structure force updated with 0 root sections for %WS1%/final.tex .
+[15:00:29.306][Event] STRUCTURE_UPDATED
+[15:00:52.375][Cacher][Watcher] "change" emitted on %WS1%/final.pdf after polling for 18023 ms.
+[15:00:52.375][Event] FILE_CHANGED: "%WS1%/final.pdf"
+[15:01:10.406][Cacher][Watcher] "change" emitted on %WS1%/final.pdf after polling for 18024 ms.
+[15:01:10.406][Event] FILE_CHANGED: "%WS1%/final.pdf"
+[15:01:11.057][Cacher][Watcher] "change" emitted on %WS1%/final.pdf after polling for 251 ms.
+[15:01:11.058][Event] FILE_CHANGED: "%WS1%/final.pdf"
+[15:01:11.478][Cacher][Watcher] "change" emitted on %WS1%/final.pdf after polling for 268 ms.
+[15:01:11.479][Event] FILE_CHANGED: "%WS1%/final.pdf"
+[15:01:12.201][Commander] ACTIONS command invoked.
+[15:01:12.350][Cacher][Watcher] "change" emitted on %WS1%/final.pdf after polling for 250 ms.
+[15:01:12.351][Event] FILE_CHANGED: "%WS1%/final.pdf"
+[15:01:13.426][Parser][TexLog] Logged 1 messages.
+[15:01:14.982][Build] Finished a step in recipe with PID 7580.
+[15:01:14.983][Build] Successfully built %WS1%/final.tex .
+[15:01:14.984][Event] BUILD_DONE
+[15:01:14.985][Viewer] Call refreshExistingViewer: "%WS1%/final.pdf" .
+[15:01:14.986][Viewer] Refresh PDF viewer: %WS1%/final.pdf
+[15:01:15.027][Cacher] Parsing .fls %WS1%/final.fls .
+[15:01:15.141][Cacher] Adding %WS1%/graph_2.png .
+[15:01:15.142][Cacher][Watcher] Watched %WS1%/graph_2.png by the .* watcher.
+[15:01:15.142][Event] FILE_WATCHED: "%WS1%/graph_2.png"
+[15:01:15.143][Cacher] Found .aux %WS1%/final.tex from .fls %WS1%/final.fls , parsing.
+[15:01:15.178][Cacher] Parsed .aux %WS1%/final.tex .
+[15:01:15.178][Cacher] Parsed .fls %WS1%/final.fls .
+[15:01:15.180][Build] Recipe step 1 The command is latexmk:["-pdf","-synctex=1","-interaction=nonstopmode","-file-line-error","--shell-escape","%WS1%/final"].
+[15:01:15.181][Build] env: undefined
+[15:01:15.181][Build] root: %WS1%/final.tex
+[15:01:15.181][Build] cwd: %WS1%
+[15:01:15.189][Build] LaTeX build process spawned with PID 7741.
+[15:01:15.252][Server] Preview PDF file: file://%WS1%/final.pdf
+[15:01:15.355][Viewer] Handle data type: loaded
+[15:01:15.355][Event] VIEWER_PAGE_LOADED
+[15:01:15.484][Commander] ACTIONS command invoked.
+[15:01:17.035][Build] Finished a step in recipe with PID 7741.
+[15:01:17.036][Build] Successfully built %WS1%/final.tex .
+[15:01:17.037][Event] BUILD_DONE
+[15:01:17.039][Viewer] Call refreshExistingViewer: "%WS1%/final.pdf" .
+[15:01:17.040][Viewer] Refresh PDF viewer: %WS1%/final.pdf
+[15:01:17.081][Cacher] Parsing .fls %WS1%/final.fls .
+[15:01:17.205][Cacher] Found .aux %WS1%/final.tex from .fls %WS1%/final.fls , parsing.
+[15:01:17.247][Cacher] Parsed .aux %WS1%/final.tex .
+[15:01:17.247][Cacher] Parsed .fls %WS1%/final.fls .
+[15:01:17.248][Build] Recipe step 1 The command is latexmk:["-pdf","-synctex=1","-interaction=nonstopmode","-file-line-error","--shell-escape","%WS1%/final"].
+[15:01:17.248][Build] env: undefined
+[15:01:17.249][Build] root: %WS1%/final.tex
+[15:01:17.249][Build] cwd: %WS1%
+[15:01:17.257][Build] LaTeX build process spawned with PID 7744.
+[15:01:17.307][Server] Preview PDF file: file://%WS1%/final.pdf
+[15:01:17.359][Viewer] Handle data type: loaded
+[15:01:17.360][Event] VIEWER_PAGE_LOADED
+[15:01:19.040][Build] Finished a step in recipe with PID 7744.
+[15:01:19.041][Build] Successfully built %WS1%/final.tex .
+[15:01:19.042][Event] BUILD_DONE
+[15:01:19.043][Viewer] Call refreshExistingViewer: "%WS1%/final.pdf" .
+[15:01:19.044][Viewer] Refresh PDF viewer: %WS1%/final.pdf
+[15:01:19.089][Cacher] Parsing .fls %WS1%/final.fls .
+[15:01:19.222][Cacher] Found .aux %WS1%/final.tex from .fls %WS1%/final.fls , parsing.
+[15:01:19.268][Cacher] Parsed .aux %WS1%/final.tex .
+[15:01:19.269][Cacher] Parsed .fls %WS1%/final.fls .
+[15:01:19.314][Server] Preview PDF file: file://%WS1%/final.pdf
+[15:01:19.365][Viewer] Handle data type: loaded
+[15:01:19.365][Event] VIEWER_PAGE_LOADED
+[15:01:29.055][Commander] BUILD command invoked.
+[15:01:29.056][Build] The document of the active editor: file://%WS1%/final.tex
+[15:01:29.056][Build] The languageId of the document: latex
+[15:01:29.057][Root] Current workspace folders: ["file://%WS1%"]
+[15:01:29.059][Root] Found root file from active editor: %WS1%/final.tex
+[15:01:29.060][Root] Keep using the same root file: %WS1%/final.tex
+[15:01:29.060][Event] ROOT_FILE_SEARCHED
+[15:01:29.061][Event] STRUCTURE_UPDATED
+[15:01:29.062][Build] Building root file: %WS1%/final.tex
+[15:01:29.063][Build][Recipe] Build root file %WS1%/final.tex
+[15:01:29.180][Cacher][Watcher] "change" emitted on %WS1%/final.tex.
+[15:01:29.183][Cacher] Caching %WS1%/final.tex .
+[15:01:29.185][Cacher] Updated inputs of %WS1%/final.tex .
+[15:01:29.186][Cacher] Parse LaTeX AST: %WS1%/final.tex .
+[15:01:29.187][Build] Auto build started detecting the change of a file: %WS1%/final.tex .
+[15:01:29.188][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/final.tex"}
+[15:01:29.189][Build] The document of the active editor: file://%WS1%/final.tex
+[15:01:29.190][Build] The languageId of the document: latex
+[15:01:29.191][Build] Building root file: %WS1%/final.tex
+[15:01:29.192][Build][Recipe] Build root file %WS1%/final.tex
+[15:01:29.194][Event] FILE_CHANGED: "%WS1%/final.tex"
+[15:01:29.227][Extension] onDidSaveTextDocument triggered: file://%WS1%/final.tex
+[15:01:29.292][Build][Recipe] Preparing to run recipe: latexmk.
+[15:01:29.293][Build][Recipe] Prepared 1 tools.
+[15:01:29.293][Build][Recipe] outDir: %WS1% .
+[15:01:29.295][Build] Recipe step 1 The command is latexmk:["-pdf","-synctex=1","-interaction=nonstopmode","-file-line-error","--shell-escape","%WS1%/final"].
+[15:01:29.295][Build] env: undefined
+[15:01:29.295][Build] root: %WS1%/final.tex
+[15:01:29.295][Build] cwd: %WS1%
+[15:01:29.300][Build] LaTeX build process spawned with PID 7756.
+[15:01:29.364][Build][Recipe] Preparing to run recipe: latexmk.
+[15:01:29.364][Build][Recipe] Prepared 1 tools.
+[15:01:29.365][Build][Recipe] outDir: %WS1% .
+[15:01:29.370][Cacher] Parsed LaTeX AST: %WS1%/final.tex .
+[15:01:29.370][File] kpsewhich cache hit on article.cls: /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls .
+[15:01:29.372][Cacher] Updated elements in 1.84 ms: %WS1%/final.tex .
+[15:01:29.373][Event] FILE_PARSED: "%WS1%/final.tex"
+[15:01:29.374][Structure] Structure force updated with 0 root sections for %WS1%/final.tex .
+[15:01:29.374][Event] STRUCTURE_UPDATED
+[15:01:47.597][Parser][TexLog] Logged 1 messages.
+[15:01:48.924][Build] Finished a step in recipe with PID 7756.
+[15:01:48.926][Build] Successfully built %WS1%/final.tex .
+[15:01:48.927][Event] BUILD_DONE
+[15:01:48.930][Viewer] Call refreshExistingViewer: "%WS1%/final.pdf" .
+[15:01:48.931][Viewer] Refresh PDF viewer: %WS1%/final.pdf
+[15:01:48.970][Cacher] Parsing .fls %WS1%/final.fls .
+[15:01:49.108][Cacher] Found .aux %WS1%/final.tex from .fls %WS1%/final.fls , parsing.
+[15:01:49.144][Cacher] Parsed .aux %WS1%/final.tex .
+[15:01:49.145][Cacher] Parsed .fls %WS1%/final.fls .
+[15:01:49.146][Build] Recipe step 1 The command is latexmk:["-pdf","-synctex=1","-interaction=nonstopmode","-file-line-error","--shell-escape","%WS1%/final"].
+[15:01:49.146][Build] env: undefined
+[15:01:49.147][Build] root: %WS1%/final.tex
+[15:01:49.147][Build] cwd: %WS1%
+[15:01:49.159][Build] LaTeX build process spawned with PID 7797.
+[15:01:49.256][Server] Preview PDF file: file://%WS1%/final.pdf
+[15:01:49.312][Viewer] Handle data type: loaded
+[15:01:49.312][Event] VIEWER_PAGE_LOADED
+[15:01:50.790][Build] Finished a step in recipe with PID 7797.
+[15:01:50.790][Build] Successfully built %WS1%/final.tex .
+[15:01:50.790][Event] BUILD_DONE
+[15:01:50.791][Viewer] Call refreshExistingViewer: "%WS1%/final.pdf" .
+[15:01:50.791][Viewer] Refresh PDF viewer: %WS1%/final.pdf
+[15:01:50.830][Cacher] Parsing .fls %WS1%/final.fls .
+[15:01:50.933][Cacher] Found .aux %WS1%/final.tex from .fls %WS1%/final.fls , parsing.
+[15:01:50.968][Cacher] Parsed .aux %WS1%/final.tex .
+[15:01:50.968][Cacher] Parsed .fls %WS1%/final.fls .
+[15:01:51.013][Server] Preview PDF file: file://%WS1%/final.pdf
+[15:01:51.057][Viewer] Handle data type: loaded
+[15:01:51.057][Event] VIEWER_PAGE_LOADED
+[15:04:52.260][Commander] BUILD command invoked.
+[15:04:52.260][Build] The document of the active editor: file://%WS1%/final.tex
+[15:04:52.261][Build] The languageId of the document: latex
+[15:04:52.261][Root] Current workspace folders: ["file://%WS1%"]
+[15:04:52.261][Root] Found root file from active editor: %WS1%/final.tex
+[15:04:52.261][Root] Keep using the same root file: %WS1%/final.tex
+[15:04:52.262][Event] ROOT_FILE_SEARCHED
+[15:04:52.262][Event] STRUCTURE_UPDATED
+[15:04:52.262][Build] Building root file: %WS1%/final.tex
+[15:04:52.262][Build][Recipe] Build root file %WS1%/final.tex
+[15:04:52.359][Extension] onDidSaveTextDocument triggered: file://%WS1%/final.tex
+[15:04:52.432][Build][Recipe] Preparing to run recipe: latexmk.
+[15:04:52.432][Build][Recipe] Prepared 1 tools.
+[15:04:52.433][Build][Recipe] outDir: %WS1% .
+[15:04:52.434][Build] Recipe step 1 The command is latexmk:["-pdf","-synctex=1","-interaction=nonstopmode","-file-line-error","--shell-escape","%WS1%/final"].
+[15:04:52.435][Build] env: undefined
+[15:04:52.435][Build] root: %WS1%/final.tex
+[15:04:52.435][Build] cwd: %WS1%
+[15:04:52.441][Build] LaTeX build process spawned with PID 8105.
+[15:04:52.443][Cacher][Watcher] "change" emitted on %WS1%/final.tex.
+[15:04:52.446][Cacher] Caching %WS1%/final.tex .
+[15:04:52.478][Cacher] Updated inputs of %WS1%/final.tex .
+[15:04:52.478][Cacher] Parse LaTeX AST: %WS1%/final.tex .
+[15:04:52.479][Build] Auto build started detecting the change of a file: %WS1%/final.tex .
+[15:04:52.479][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/final.tex"}
+[15:04:52.479][Build] Autobuild temporarily disabled.
+[15:04:52.480][Event] FILE_CHANGED: "%WS1%/final.tex"
+[15:04:52.517][Cacher] Parsed LaTeX AST: %WS1%/final.tex .
+[15:04:52.518][File] kpsewhich cache hit on article.cls: /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls .
+[15:04:52.521][Cacher] Updated elements in 4.18 ms: %WS1%/final.tex .
+[15:04:52.522][Event] FILE_PARSED: "%WS1%/final.tex"
+[15:04:52.523][Structure] Structure force updated with 0 root sections for %WS1%/final.tex .
+[15:04:52.523][Event] STRUCTURE_UPDATED
+[15:05:07.869][Cacher][Watcher] "change" emitted on %WS1%/final.pdf after polling for 203129 ms.
+[15:05:07.870][Event] FILE_CHANGED: "%WS1%/final.pdf"
+[15:05:14.564][Parser][TexLog] Logged 20 messages.
+[15:05:16.031][Build] Recipe returns with error code 12/null on PID 8105.
+[15:05:16.031][Build] Does the executable exist? $PATH: /usr/local/texlive/2024/bin/x86_64-linux:/home/alex/.local/bin:/usr/local/texlive/2024/bin/x86_64-linux:/usr/local/texlive/2024/bin/x86_64-linux:/home/alex/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin, $Path: undefined, $SHELL: /bin/bash
+[15:05:16.031][Build] Latexmk: Missing input file '\relax ' (or dependence on it) from following:
+  %WS1%/final.tex:50: LaTeX Error: File `\relax ' not found.
+Latexmk: Sometimes, the -f option can be used to get latexmk
+  to try to force complete processing.
+  But normally, you will need to correct the file(s) that caused the
+  error, and then rerun latexmk.
+  In some cases, it is best to clean out generated files before rerunning
+  latexmk after you've corrected the files.
+
+[15:05:16.032][Build] Cleaning auxiliary files and retrying build after toolchain error.
+[15:05:16.033][Cleaner] Clean temporary files command The command is latexmk:["-outdir=%WS1%","-c","%WS1%/final.tex"].
+[15:05:16.040][Build] Recipe step 1 The command is latexmk:["-pdf","-synctex=1","-interaction=nonstopmode","-file-line-error","--shell-escape","%WS1%/final"].
+[15:05:16.041][Build] env: undefined
+[15:05:16.041][Build] root: %WS1%/final.tex
+[15:05:16.042][Build] cwd: %WS1%
+[15:05:16.047][Build] LaTeX build process spawned with PID 8137.
+[15:05:17.849][Build] Recipe returns with error code 12/null on PID 8137.
+[15:05:17.851][Build] Does the executable exist? $PATH: /usr/local/texlive/2024/bin/x86_64-linux:/home/alex/.local/bin:/usr/local/texlive/2024/bin/x86_64-linux:/usr/local/texlive/2024/bin/x86_64-linux:/home/alex/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin, $Path: undefined, $SHELL: /bin/bash
+[15:05:17.852][Build] Latexmk: Sometimes, the -f option can be used to get latexmk
+  to try to force complete processing.
+  But normally, you will need to correct the file(s) that caused the
+  error, and then rerun latexmk.
+  In some cases, it is best to clean out generated files before rerunning
+  latexmk after you've corrected the files.
+
+[15:05:17.858][Event] AUTO_CLEANED
+[15:05:26.036][Event] STRUCTURE_UPDATED
+[15:05:39.562][Commander] BUILD command invoked.
+[15:05:39.563][Build] The document of the active editor: file://%WS1%/final.tex
+[15:05:39.563][Build] The languageId of the document: latex
+[15:05:39.564][Root] Current workspace folders: ["file://%WS1%"]
+[15:05:39.566][Root] Found root file from active editor: %WS1%/final.tex
+[15:05:39.567][Root] Keep using the same root file: %WS1%/final.tex
+[15:05:39.568][Event] ROOT_FILE_SEARCHED
+[15:05:39.569][Event] STRUCTURE_UPDATED
+[15:05:39.569][Build] Building root file: %WS1%/final.tex
+[15:05:39.569][Build][Recipe] Build root file %WS1%/final.tex
+[15:05:39.656][Extension] onDidSaveTextDocument triggered: file://%WS1%/final.tex
+[15:05:39.719][Build][Recipe] Preparing to run recipe: latexmk.
+[15:05:39.720][Build][Recipe] Prepared 1 tools.
+[15:05:39.720][Build][Recipe] outDir: %WS1% .
+[15:05:39.721][Build] Recipe step 1 The command is latexmk:["-pdf","-synctex=1","-interaction=nonstopmode","-file-line-error","--shell-escape","%WS1%/final"].
+[15:05:39.721][Build] env: undefined
+[15:05:39.721][Build] root: %WS1%/final.tex
+[15:05:39.721][Build] cwd: %WS1%
+[15:05:39.726][Build] LaTeX build process spawned with PID 8167.
+[15:05:39.727][Cacher][Watcher] "change" emitted on %WS1%/final.tex.
+[15:05:39.729][Cacher] Caching %WS1%/final.tex .
+[15:05:39.774][Cacher] Updated inputs of %WS1%/final.tex .
+[15:05:39.774][Cacher] Parse LaTeX AST: %WS1%/final.tex .
+[15:05:39.774][Build] Auto build started detecting the change of a file: %WS1%/final.tex .
+[15:05:39.774][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/final.tex"}
+[15:05:39.775][Build] Autobuild temporarily disabled.
+[15:05:39.775][Event] FILE_CHANGED: "%WS1%/final.tex"
+[15:05:39.804][Cacher] Parsed LaTeX AST: %WS1%/final.tex .
+[15:05:39.805][File] kpsewhich cache hit on article.cls: /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls .
+[15:05:39.806][Cacher] Updated elements in 1.75 ms: %WS1%/final.tex .
+[15:05:39.807][Event] FILE_PARSED: "%WS1%/final.tex"
+[15:05:39.808][Structure] Structure force updated with 0 root sections for %WS1%/final.tex .
+[15:05:39.808][Event] STRUCTURE_UPDATED
+[15:05:55.690][Cacher][Watcher] "change" emitted on %WS1%/final.pdf after polling for 47738 ms.
+[15:05:55.690][Event] FILE_CHANGED: "%WS1%/final.pdf"
+[15:06:02.685][Parser][TexLog] Logged 20 messages.
+[15:06:04.209][Build] Recipe returns with error code 12/null on PID 8167.
+[15:06:04.210][Build] Does the executable exist? $PATH: /usr/local/texlive/2024/bin/x86_64-linux:/home/alex/.local/bin:/usr/local/texlive/2024/bin/x86_64-linux:/usr/local/texlive/2024/bin/x86_64-linux:/home/alex/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin, $Path: undefined, $SHELL: /bin/bash
+[15:06:04.211][Build] Latexmk: Missing input file '\relax ' (or dependence on it) from following:
+  %WS1%/final.tex:50: LaTeX Error: File `\relax ' not found.
+Latexmk: Sometimes, the -f option can be used to get latexmk
+  to try to force complete processing.
+  But normally, you will need to correct the file(s) that caused the
+  error, and then rerun latexmk.
+  In some cases, it is best to clean out generated files before rerunning
+  latexmk after you've corrected the files.
+
+[15:06:04.212][Build] Cleaning auxiliary files and retrying build after toolchain error.
+[15:06:04.214][Cleaner] Clean temporary files command The command is latexmk:["-outdir=%WS1%","-c","%WS1%/final.tex"].
+[15:06:04.231][Build] Recipe step 1 The command is latexmk:["-pdf","-synctex=1","-interaction=nonstopmode","-file-line-error","--shell-escape","%WS1%/final"].
+[15:06:04.233][Build] env: undefined
+[15:06:04.233][Build] root: %WS1%/final.tex
+[15:06:04.235][Build] cwd: %WS1%
+[15:06:04.244][Build] LaTeX build process spawned with PID 8208.
+[15:06:06.091][Build] Recipe returns with error code 12/null on PID 8208.
+[15:06:06.091][Build] Does the executable exist? $PATH: /usr/local/texlive/2024/bin/x86_64-linux:/home/alex/.local/bin:/usr/local/texlive/2024/bin/x86_64-linux:/usr/local/texlive/2024/bin/x86_64-linux:/home/alex/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin, $Path: undefined, $SHELL: /bin/bash
+[15:06:06.091][Build] Latexmk: Sometimes, the -f option can be used to get latexmk
+  to try to force complete processing.
+  But normally, you will need to correct the file(s) that caused the
+  error, and then rerun latexmk.
+  In some cases, it is best to clean out generated files before rerunning
+  latexmk after you've corrected the files.
+
+[15:06:06.093][Event] AUTO_CLEANED
+[15:07:00.876][Commander] BUILD command invoked.
+[15:07:00.876][Build] The document of the active editor: file://%WS1%/final.tex
+[15:07:00.877][Build] The languageId of the document: latex
+[15:07:00.878][Root] Current workspace folders: ["file://%WS1%"]
+[15:07:00.879][Root] Found root file from active editor: %WS1%/final.tex
+[15:07:00.880][Root] Keep using the same root file: %WS1%/final.tex
+[15:07:00.881][Event] ROOT_FILE_SEARCHED
+[15:07:00.882][Event] STRUCTURE_UPDATED
+[15:07:00.882][Build] Building root file: %WS1%/final.tex
+[15:07:00.883][Build][Recipe] Build root file %WS1%/final.tex
+[15:07:00.975][Extension] onDidSaveTextDocument triggered: file://%WS1%/final.tex
+[15:07:01.047][Build][Recipe] Preparing to run recipe: latexmk.
+[15:07:01.047][Build][Recipe] Prepared 1 tools.
+[15:07:01.048][Build][Recipe] outDir: %WS1% .
+[15:07:01.049][Build] Recipe step 1 The command is latexmk:["-pdf","-synctex=1","-interaction=nonstopmode","-file-line-error","--shell-escape","%WS1%/final"].
+[15:07:01.049][Build] env: undefined
+[15:07:01.049][Build] root: %WS1%/final.tex
+[15:07:01.049][Build] cwd: %WS1%
+[15:07:01.055][Build] LaTeX build process spawned with PID 8264.
+[15:07:01.057][Cacher][Watcher] "change" emitted on %WS1%/final.tex.
+[15:07:01.058][Cacher] Caching %WS1%/final.tex .
+[15:07:01.096][Cacher] Updated inputs of %WS1%/final.tex .
+[15:07:01.097][Cacher] Parse LaTeX AST: %WS1%/final.tex .
+[15:07:01.097][Build] Auto build started detecting the change of a file: %WS1%/final.tex .
+[15:07:01.097][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/final.tex"}
+[15:07:01.098][Build] Autobuild temporarily disabled.
+[15:07:01.098][Event] FILE_CHANGED: "%WS1%/final.tex"
+[15:07:01.137][Cacher] Parsed LaTeX AST: %WS1%/final.tex .
+[15:07:01.137][File] kpsewhich cache hit on article.cls: /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls .
+[15:07:01.139][Cacher] Updated elements in 1.58 ms: %WS1%/final.tex .
+[15:07:01.139][Event] FILE_PARSED: "%WS1%/final.tex"
+[15:07:01.140][Structure] Structure force updated with 0 root sections for %WS1%/final.tex .
+[15:07:01.140][Event] STRUCTURE_UPDATED
+[15:07:16.830][Cacher][Watcher] "change" emitted on %WS1%/final.pdf after polling for 81057 ms.
+[15:07:16.831][Event] FILE_CHANGED: "%WS1%/final.pdf"
+[15:07:17.301][Cacher][Watcher] "change" emitted on %WS1%/final.pdf after polling for 250 ms.
+[15:07:17.301][Event] FILE_CHANGED: "%WS1%/final.pdf"
+[15:07:20.956][Cacher][Watcher] "change" emitted on %WS1%/final.pdf after polling for 250 ms.
+[15:07:20.956][Event] FILE_CHANGED: "%WS1%/final.pdf"
+[15:07:23.934][Parser][TexLog] Logged 19 messages.
+[15:07:25.457][Build] Recipe returns with error code 12/null on PID 8264.
+[15:07:25.458][Build] Does the executable exist? $PATH: /usr/local/texlive/2024/bin/x86_64-linux:/home/alex/.local/bin:/usr/local/texlive/2024/bin/x86_64-linux:/usr/local/texlive/2024/bin/x86_64-linux:/home/alex/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin, $Path: undefined, $SHELL: /bin/bash
+[15:07:25.458][Build] Latexmk: Missing input file '\relax ' (or dependence on it) from following:
+  %WS1%/final.tex:50: LaTeX Error: File `\relax ' not found.
+Latexmk: Sometimes, the -f option can be used to get latexmk
+  to try to force complete processing.
+  But normally, you will need to correct the file(s) that caused the
+  error, and then rerun latexmk.
+  In some cases, it is best to clean out generated files before rerunning
+  latexmk after you've corrected the files.
+
+[15:07:25.458][Build] Cleaning auxiliary files and retrying build after toolchain error.
+[15:07:25.459][Cleaner] Clean temporary files command The command is latexmk:["-outdir=%WS1%","-c","%WS1%/final.tex"].
+[15:07:25.465][Build] Recipe step 1 The command is latexmk:["-pdf","-synctex=1","-interaction=nonstopmode","-file-line-error","--shell-escape","%WS1%/final"].
+[15:07:25.466][Build] env: undefined
+[15:07:25.466][Build] root: %WS1%/final.tex
+[15:07:25.466][Build] cwd: %WS1%
+[15:07:25.472][Build] LaTeX build process spawned with PID 8298.
+[15:07:27.382][Build] Recipe returns with error code 12/null on PID 8298.
+[15:07:27.384][Build] Does the executable exist? $PATH: /usr/local/texlive/2024/bin/x86_64-linux:/home/alex/.local/bin:/usr/local/texlive/2024/bin/x86_64-linux:/usr/local/texlive/2024/bin/x86_64-linux:/home/alex/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin, $Path: undefined, $SHELL: /bin/bash
+[15:07:27.385][Build] Latexmk: Sometimes, the -f option can be used to get latexmk
+  to try to force complete processing.
+  But normally, you will need to correct the file(s) that caused the
+  error, and then rerun latexmk.
+  In some cases, it is best to clean out generated files before rerunning
+  latexmk after you've corrected the files.
+
+[15:07:27.391][Event] AUTO_CLEANED
+[15:07:43.572][Commander] VIEW command invoked.
+[15:07:43.573][Root] Current workspace folders: ["file://%WS1%"]
+[15:07:43.575][Root] Found root file from active editor: %WS1%/final.tex
+[15:07:43.576][Root] Keep using the same root file: %WS1%/final.tex
+[15:07:43.577][Event] ROOT_FILE_SEARCHED
+[15:07:43.577][Event] STRUCTURE_UPDATED
+[15:07:43.643][Viewer] Open PDF tab for file://%WS1%/final.pdf
+[15:07:45.384][Commander] BUILD command invoked.
+[15:07:45.385][Build] The document of the active editor: file://%WS1%/final.tex
+[15:07:45.385][Build] The languageId of the document: latex
+[15:07:45.385][Root] Current workspace folders: ["file://%WS1%"]
+[15:07:45.385][Root] Found root file from active editor: %WS1%/final.tex
+[15:07:45.386][Root] Keep using the same root file: %WS1%/final.tex
+[15:07:45.386][Event] ROOT_FILE_SEARCHED
+[15:07:45.386][Event] STRUCTURE_UPDATED
+[15:07:45.386][Build] Building root file: %WS1%/final.tex
+[15:07:45.386][Build][Recipe] Build root file %WS1%/final.tex
+[15:07:45.446][Extension] onDidSaveTextDocument triggered: file://%WS1%/final.tex
+[15:07:45.506][Build][Recipe] Preparing to run recipe: latexmk.
+[15:07:45.506][Build][Recipe] Prepared 1 tools.
+[15:07:45.507][Build][Recipe] outDir: %WS1% .
+[15:07:45.508][Build] Recipe step 1 The command is latexmk:["-pdf","-synctex=1","-interaction=nonstopmode","-file-line-error","--shell-escape","%WS1%/final"].
+[15:07:45.508][Build] env: undefined
+[15:07:45.508][Build] root: %WS1%/final.tex
+[15:07:45.509][Build] cwd: %WS1%
+[15:07:45.513][Build] LaTeX build process spawned with PID 8327.
+[15:07:45.514][Cacher][Watcher] "change" emitted on %WS1%/final.tex.
+[15:07:45.515][Cacher] Caching %WS1%/final.tex .
+[15:07:45.555][Cacher] Updated inputs of %WS1%/final.tex .
+[15:07:45.555][Cacher] Parse LaTeX AST: %WS1%/final.tex .
+[15:07:45.556][Build] Auto build started detecting the change of a file: %WS1%/final.tex .
+[15:07:45.556][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/final.tex"}
+[15:07:45.557][Build] Autobuild temporarily disabled.
+[15:07:45.557][Event] FILE_CHANGED: "%WS1%/final.tex"
+[15:07:45.595][Cacher] Parsed LaTeX AST: %WS1%/final.tex .
+[15:07:45.595][File] kpsewhich cache hit on article.cls: /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls .
+[15:07:45.597][Cacher] Updated elements in 1.12 ms: %WS1%/final.tex .
+[15:07:45.597][Event] FILE_PARSED: "%WS1%/final.tex"
+[15:07:45.598][Structure] Structure force updated with 0 root sections for %WS1%/final.tex .
+[15:07:45.598][Event] STRUCTURE_UPDATED
+[15:08:23.708][Parser][TexLog] Logged 8 messages.
+[15:08:25.064][Build] Finished a step in recipe with PID 8327.
+[15:08:25.065][Build] Successfully built %WS1%/final.tex .
+[15:08:25.066][Event] BUILD_DONE
+[15:08:25.067][Viewer] Call refreshExistingViewer: "%WS1%/final.pdf" .
+[15:08:25.068][Viewer] Refresh PDF viewer: %WS1%/final.pdf
+[15:08:25.106][Cacher] Parsing .fls %WS1%/final.fls .
+[15:08:25.222][Cacher] Found .aux %WS1%/final.tex from .fls %WS1%/final.fls , parsing.
+[15:08:25.265][Cacher] Parsed .aux %WS1%/final.tex .
+[15:08:25.266][Cacher] Parsed .fls %WS1%/final.fls .
+[15:08:25.415][Server] Preview PDF file: file://%WS1%/final.pdf
+[15:08:25.497][Viewer] Handle data type: loaded
+[15:08:25.499][Event] VIEWER_PAGE_LOADED
+[15:08:35.452][Commander] BUILD command invoked.
+[15:08:35.453][Build] The document of the active editor: file://%WS1%/final.tex
+[15:08:35.453][Build] The languageId of the document: latex
+[15:08:35.454][Root] Current workspace folders: ["file://%WS1%"]
+[15:08:35.455][Root] Found root file from active editor: %WS1%/final.tex
+[15:08:35.456][Root] Keep using the same root file: %WS1%/final.tex
+[15:08:35.456][Event] ROOT_FILE_SEARCHED
+[15:08:35.457][Event] STRUCTURE_UPDATED
+[15:08:35.458][Build] Building root file: %WS1%/final.tex
+[15:08:35.458][Build][Recipe] Build root file %WS1%/final.tex
+[15:08:35.542][Extension] onDidSaveTextDocument triggered: file://%WS1%/final.tex
+[15:08:35.616][Build][Recipe] Preparing to run recipe: latexmk.
+[15:08:35.616][Build][Recipe] Prepared 1 tools.
+[15:08:35.617][Build][Recipe] outDir: %WS1% .
+[15:08:35.618][Build] Recipe step 1 The command is latexmk:["-pdf","-synctex=1","-interaction=nonstopmode","-file-line-error","--shell-escape","%WS1%/final"].
+[15:08:35.618][Build] env: undefined
+[15:08:35.618][Build] root: %WS1%/final.tex
+[15:08:35.618][Build] cwd: %WS1%
+[15:08:35.622][Build] LaTeX build process spawned with PID 8397.
+[15:08:35.624][Cacher][Watcher] "change" emitted on %WS1%/final.tex.
+[15:08:35.625][Cacher] Caching %WS1%/final.tex .
+[15:08:35.679][Cacher] Updated inputs of %WS1%/final.tex .
+[15:08:35.679][Cacher] Parse LaTeX AST: %WS1%/final.tex .
+[15:08:35.679][Build] Auto build started detecting the change of a file: %WS1%/final.tex .
+[15:08:35.679][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/final.tex"}
+[15:08:35.679][Build] Autobuild temporarily disabled.
+[15:08:35.680][Event] FILE_CHANGED: "%WS1%/final.tex"
+[15:08:35.708][Cacher] Parsed LaTeX AST: %WS1%/final.tex .
+[15:08:35.709][File] kpsewhich cache hit on article.cls: /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls .
+[15:08:35.711][Cacher] Updated elements in 1.68 ms: %WS1%/final.tex .
+[15:08:35.711][Event] FILE_PARSED: "%WS1%/final.tex"
+[15:08:35.713][Structure] Structure force updated with 0 root sections for %WS1%/final.tex .
+[15:08:35.713][Event] STRUCTURE_UPDATED
+[15:08:54.622][Parser][TexLog] Logged 8 messages.
+[15:08:56.042][Build] Finished a step in recipe with PID 8397.
+[15:08:56.043][Build] Successfully built %WS1%/final.tex .
+[15:08:56.043][Event] BUILD_DONE
+[15:08:56.043][Viewer] Call refreshExistingViewer: "%WS1%/final.pdf" .
+[15:08:56.044][Viewer] Refresh PDF viewer: %WS1%/final.pdf
+[15:08:56.086][Cacher] Parsing .fls %WS1%/final.fls .
+[15:08:56.199][Cacher] Found .aux %WS1%/final.tex from .fls %WS1%/final.fls , parsing.
+[15:08:56.242][Cacher] Parsed .aux %WS1%/final.tex .
+[15:08:56.243][Cacher] Parsed .fls %WS1%/final.fls .
+[15:08:56.347][Server] Preview PDF file: file://%WS1%/final.pdf
+[15:08:56.430][Viewer] Handle data type: loaded
+[15:08:56.430][Event] VIEWER_PAGE_LOADED
+[15:09:13.377][Commander] BUILD command invoked.
+[15:09:13.378][Build] The document of the active editor: file://%WS1%/final.tex
+[15:09:13.378][Build] The languageId of the document: latex
+[15:09:13.378][Root] Current workspace folders: ["file://%WS1%"]
+[15:09:13.379][Root] Found root file from active editor: %WS1%/final.tex
+[15:09:13.379][Root] Keep using the same root file: %WS1%/final.tex
+[15:09:13.379][Event] ROOT_FILE_SEARCHED
+[15:09:13.379][Event] STRUCTURE_UPDATED
+[15:09:13.379][Build] Building root file: %WS1%/final.tex
+[15:09:13.379][Build][Recipe] Build root file %WS1%/final.tex
+[15:09:13.455][Extension] onDidSaveTextDocument triggered: file://%WS1%/final.tex
+[15:09:13.522][Build][Recipe] Preparing to run recipe: latexmk.
+[15:09:13.522][Build][Recipe] Prepared 1 tools.
+[15:09:13.523][Build][Recipe] outDir: %WS1% .
+[15:09:13.523][Build] Recipe step 1 The command is latexmk:["-pdf","-synctex=1","-interaction=nonstopmode","-file-line-error","--shell-escape","%WS1%/final"].
+[15:09:13.523][Build] env: undefined
+[15:09:13.523][Build] root: %WS1%/final.tex
+[15:09:13.524][Build] cwd: %WS1%
+[15:09:13.528][Build] LaTeX build process spawned with PID 8450.
+[15:09:13.530][Cacher][Watcher] "change" emitted on %WS1%/final.tex.
+[15:09:13.530][Cacher] Caching %WS1%/final.tex .
+[15:09:13.584][Cacher] Updated inputs of %WS1%/final.tex .
+[15:09:13.585][Cacher] Parse LaTeX AST: %WS1%/final.tex .
+[15:09:13.585][Build] Auto build started detecting the change of a file: %WS1%/final.tex .
+[15:09:13.585][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/final.tex"}
+[15:09:13.585][Build] Autobuild temporarily disabled.
+[15:09:13.586][Event] FILE_CHANGED: "%WS1%/final.tex"
+[15:09:13.625][Cacher] Parsed LaTeX AST: %WS1%/final.tex .
+[15:09:13.625][File] kpsewhich cache hit on article.cls: /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls .
+[15:09:13.627][Cacher] Updated elements in 1.76 ms: %WS1%/final.tex .
+[15:09:13.627][Event] FILE_PARSED: "%WS1%/final.tex"
+[15:09:13.628][Structure] Structure force updated with 0 root sections for %WS1%/final.tex .
+[15:09:13.628][Event] STRUCTURE_UPDATED
+[15:09:31.876][Parser][TexLog] Logged 13 messages.
+[15:09:33.225][Build] Finished a step in recipe with PID 8450.
+[15:09:33.225][Build] Successfully built %WS1%/final.tex .
+[15:09:33.225][Event] BUILD_DONE
+[15:09:33.226][Viewer] Call refreshExistingViewer: "%WS1%/final.pdf" .
+[15:09:33.226][Viewer] Refresh PDF viewer: %WS1%/final.pdf
+[15:09:33.265][Cacher] Parsing .fls %WS1%/final.fls .
+[15:09:33.359][Cacher] Found .aux %WS1%/final.tex from .fls %WS1%/final.fls , parsing.
+[15:09:33.395][Cacher] Parsed .aux %WS1%/final.tex .
+[15:09:33.395][Cacher] Parsed .fls %WS1%/final.fls .
+[15:09:33.458][Server] Preview PDF file: file://%WS1%/final.pdf
+[15:09:33.530][Viewer] Handle data type: loaded
+[15:09:33.531][Event] VIEWER_PAGE_LOADED
+[15:09:39.411][Event] STRUCTURE_UPDATED
+[15:09:43.059][Event] STRUCTURE_UPDATED
+[15:10:08.924][Event] STRUCTURE_UPDATED
+[15:10:15.530][Commander] BUILD command invoked.
+[15:10:15.530][Build] The document of the active editor: file://%WS1%/final.tex
+[15:10:15.531][Build] The languageId of the document: latex
+[15:10:15.531][Root] Current workspace folders: ["file://%WS1%"]
+[15:10:15.531][Root] Found root file from active editor: %WS1%/final.tex
+[15:10:15.531][Root] Keep using the same root file: %WS1%/final.tex
+[15:10:15.531][Event] ROOT_FILE_SEARCHED
+[15:10:15.532][Event] STRUCTURE_UPDATED
+[15:10:15.532][Build] Building root file: %WS1%/final.tex
+[15:10:15.532][Build][Recipe] Build root file %WS1%/final.tex
+[15:10:15.595][Extension] onDidSaveTextDocument triggered: file://%WS1%/final.tex
+[15:10:15.663][Build][Recipe] Preparing to run recipe: latexmk.
+[15:10:15.664][Build][Recipe] Prepared 1 tools.
+[15:10:15.665][Build][Recipe] outDir: %WS1% .
+[15:10:15.666][Build] Recipe step 1 The command is latexmk:["-pdf","-synctex=1","-interaction=nonstopmode","-file-line-error","--shell-escape","%WS1%/final"].
+[15:10:15.667][Build] env: undefined
+[15:10:15.667][Build] root: %WS1%/final.tex
+[15:10:15.667][Build] cwd: %WS1%
+[15:10:15.672][Build] LaTeX build process spawned with PID 8567.
+[15:10:15.675][Cacher][Watcher] "change" emitted on %WS1%/final.tex.
+[15:10:15.676][Cacher] Caching %WS1%/final.tex .
+[15:10:15.721][Cacher] Updated inputs of %WS1%/final.tex .
+[15:10:15.722][Cacher] Parse LaTeX AST: %WS1%/final.tex .
+[15:10:15.722][Build] Auto build started detecting the change of a file: %WS1%/final.tex .
+[15:10:15.722][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/final.tex"}
+[15:10:15.722][Build] Autobuild temporarily disabled.
+[15:10:15.722][Event] FILE_CHANGED: "%WS1%/final.tex"
+[15:10:15.756][Cacher] Parsed LaTeX AST: %WS1%/final.tex .
+[15:10:15.757][File] kpsewhich cache hit on article.cls: /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls .
+[15:10:15.760][Cacher] Updated elements in 3.01 ms: %WS1%/final.tex .
+[15:10:15.761][Event] FILE_PARSED: "%WS1%/final.tex"
+[15:10:15.762][Structure] Structure force updated with 0 root sections for %WS1%/final.tex .
+[15:10:15.762][Event] STRUCTURE_UPDATED
+[15:10:34.282][Parser][TexLog] Logged 12 messages.
+[15:10:35.625][Build] Finished a step in recipe with PID 8567.
+[15:10:35.626][Build] Successfully built %WS1%/final.tex .
+[15:10:35.627][Event] BUILD_DONE
+[15:10:35.628][Viewer] Call refreshExistingViewer: "%WS1%/final.pdf" .
+[15:10:35.629][Viewer] Refresh PDF viewer: %WS1%/final.pdf
+[15:10:35.671][Cacher] Parsing .fls %WS1%/final.fls .
+[15:10:35.778][Cacher] Found .aux %WS1%/final.tex from .fls %WS1%/final.fls , parsing.
+[15:10:35.822][Cacher] Parsed .aux %WS1%/final.tex .
+[15:10:35.823][Cacher] Parsed .fls %WS1%/final.fls .
+[15:10:35.910][Server] Preview PDF file: file://%WS1%/final.pdf
+[15:10:35.997][Viewer] Handle data type: loaded
+[15:10:35.998][Event] VIEWER_PAGE_LOADED
+[15:11:40.530][Commander] BUILD command invoked.
+[15:11:40.531][Build] The document of the active editor: file://%WS1%/final.tex
+[15:11:40.531][Build] The languageId of the document: latex
+[15:11:40.531][Root] Current workspace folders: ["file://%WS1%"]
+[15:11:40.531][Root] Found root file from active editor: %WS1%/final.tex
+[15:11:40.531][Root] Keep using the same root file: %WS1%/final.tex
+[15:11:40.532][Event] ROOT_FILE_SEARCHED
+[15:11:40.532][Event] STRUCTURE_UPDATED
+[15:11:40.532][Build] Building root file: %WS1%/final.tex
+[15:11:40.532][Build][Recipe] Build root file %WS1%/final.tex
+[15:11:40.594][Extension] onDidSaveTextDocument triggered: file://%WS1%/final.tex
+[15:11:40.658][Build][Recipe] Preparing to run recipe: latexmk.
+[15:11:40.658][Build][Recipe] Prepared 1 tools.
+[15:11:40.659][Build][Recipe] outDir: %WS1% .
+[15:11:40.660][Build] Recipe step 1 The command is latexmk:["-pdf","-synctex=1","-interaction=nonstopmode","-file-line-error","--shell-escape","%WS1%/final"].
+[15:11:40.660][Build] env: undefined
+[15:11:40.660][Build] root: %WS1%/final.tex
+[15:11:40.661][Build] cwd: %WS1%
+[15:11:40.666][Build] LaTeX build process spawned with PID 8722.
+[15:11:40.668][Cacher][Watcher] "change" emitted on %WS1%/final.tex.
+[15:11:40.669][Cacher] Caching %WS1%/final.tex .
+[15:11:40.703][Cacher] Updated inputs of %WS1%/final.tex .
+[15:11:40.703][Cacher] Parse LaTeX AST: %WS1%/final.tex .
+[15:11:40.704][Build] Auto build started detecting the change of a file: %WS1%/final.tex .
+[15:11:40.704][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/final.tex"}
+[15:11:40.704][Build] Autobuild temporarily disabled.
+[15:11:40.704][Event] FILE_CHANGED: "%WS1%/final.tex"
+[15:11:40.735][Cacher] Parsed LaTeX AST: %WS1%/final.tex .
+[15:11:40.737][File] kpsewhich cache hit on article.cls: /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls .
+[15:11:40.739][Cacher] Updated elements in 1.85 ms: %WS1%/final.tex .
+[15:11:40.741][Event] FILE_PARSED: "%WS1%/final.tex"
+[15:11:40.742][Structure] Structure force updated with 0 root sections for %WS1%/final.tex .
+[15:11:40.743][Event] STRUCTURE_UPDATED
+[15:11:53.486][Commander] BUILD command invoked.
+[15:11:53.488][Build] The document of the active editor: file://%WS1%/final.tex
+[15:11:53.488][Build] The languageId of the document: latex
+[15:11:53.489][Root] Current workspace folders: ["file://%WS1%"]
+[15:11:53.491][Root] Found root file from active editor: %WS1%/final.tex
+[15:11:53.492][Root] Keep using the same root file: %WS1%/final.tex
+[15:11:53.492][Event] ROOT_FILE_SEARCHED
+[15:11:53.493][Event] STRUCTURE_UPDATED
+[15:11:53.494][Build] Building root file: %WS1%/final.tex
+[15:11:53.494][Build][Recipe] Build root file %WS1%/final.tex
+[15:11:53.583][Extension] onDidSaveTextDocument triggered: file://%WS1%/final.tex
+[15:11:53.658][Build][Recipe] Preparing to run recipe: latexmk.
+[15:11:53.659][Build][Recipe] Prepared 1 tools.
+[15:11:53.660][Build][Recipe] outDir: %WS1% .
+[15:11:53.733][Cacher][Watcher] "change" emitted on %WS1%/final.tex.
+[15:11:53.734][Cacher] Caching %WS1%/final.tex .
+[15:11:53.779][Cacher] Updated inputs of %WS1%/final.tex .
+[15:11:53.780][Cacher] Parse LaTeX AST: %WS1%/final.tex .
+[15:11:53.780][Build] Auto build started detecting the change of a file: %WS1%/final.tex .
+[15:11:53.780][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/final.tex"}
+[15:11:53.781][Build] The document of the active editor: file://%WS1%/final.tex
+[15:11:53.781][Build] The languageId of the document: latex
+[15:11:53.781][Build] Building root file: %WS1%/final.tex
+[15:11:53.781][Build][Recipe] Build root file %WS1%/final.tex
+[15:11:53.781][Event] FILE_CHANGED: "%WS1%/final.tex"
+[15:11:53.860][Build][Recipe] Preparing to run recipe: latexmk.
+[15:11:53.861][Build][Recipe] Prepared 1 tools.
+[15:11:53.862][Build][Recipe] outDir: %WS1% .
+[15:11:53.866][Cacher] Parsed LaTeX AST: %WS1%/final.tex .
+[15:11:53.866][File] kpsewhich cache hit on article.cls: /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls .
+[15:11:53.870][Cacher] Updated elements in 3.06 ms: %WS1%/final.tex .
+[15:11:53.872][Event] FILE_PARSED: "%WS1%/final.tex"
+[15:11:53.872][Structure] Structure force updated with 0 root sections for %WS1%/final.tex .
+[15:11:53.874][Event] STRUCTURE_UPDATED
+[15:12:34.926][Commander] BUILD command invoked.
+[15:12:34.926][Build] The document of the active editor: file://%WS1%/final.tex
+[15:12:34.926][Build] The languageId of the document: latex
+[15:12:34.927][Root] Current workspace folders: ["file://%WS1%"]
+[15:12:34.927][Root] Found root file from active editor: %WS1%/final.tex
+[15:12:34.928][Root] Keep using the same root file: %WS1%/final.tex
+[15:12:34.928][Event] ROOT_FILE_SEARCHED
+[15:12:34.928][Event] STRUCTURE_UPDATED
+[15:12:34.928][Build] Building root file: %WS1%/final.tex
+[15:12:34.929][Build][Recipe] Build root file %WS1%/final.tex
+[15:12:35.026][Extension] onDidSaveTextDocument triggered: file://%WS1%/final.tex
+[15:12:35.099][Build][Recipe] Preparing to run recipe: latexmk.
+[15:12:35.100][Build][Recipe] Prepared 1 tools.
+[15:12:35.101][Build][Recipe] outDir: %WS1% .
+[15:12:35.117][Cacher][Watcher] "change" emitted on %WS1%/final.tex.
+[15:12:35.118][Cacher] Caching %WS1%/final.tex .
+[15:12:35.162][Cacher] Updated inputs of %WS1%/final.tex .
+[15:12:35.162][Cacher] Parse LaTeX AST: %WS1%/final.tex .
+[15:12:35.163][Build] Auto build started detecting the change of a file: %WS1%/final.tex .
+[15:12:35.163][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/final.tex"}
+[15:12:35.163][Build] The document of the active editor: file://%WS1%/final.tex
+[15:12:35.163][Build] The languageId of the document: latex
+[15:12:35.164][Build] Building root file: %WS1%/final.tex
+[15:12:35.165][Build][Recipe] Build root file %WS1%/final.tex
+[15:12:35.165][Event] FILE_CHANGED: "%WS1%/final.tex"
+[15:12:35.216][Build][Recipe] Preparing to run recipe: latexmk.
+[15:12:35.216][Build][Recipe] Prepared 1 tools.
+[15:12:35.217][Build][Recipe] outDir: %WS1% .
+[15:12:35.222][Cacher] Parsed LaTeX AST: %WS1%/final.tex .
+[15:12:35.222][File] kpsewhich cache hit on article.cls: /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls .
+[15:12:35.225][Cacher] Updated elements in 2.30 ms: %WS1%/final.tex .
+[15:12:35.225][Event] FILE_PARSED: "%WS1%/final.tex"
+[15:12:35.225][Structure] Structure force updated with 0 root sections for %WS1%/final.tex .
+[15:12:35.226][Event] STRUCTURE_UPDATED
+[15:13:13.951][Parser][TexLog] Logged 16 messages.
+[15:13:15.319][Build] Finished a step in recipe with PID 8722.
+[15:13:15.320][Build] Successfully built %WS1%/final.tex .
+[15:13:15.321][Event] BUILD_DONE
+[15:13:15.322][Viewer] Call refreshExistingViewer: "%WS1%/final.pdf" .
+[15:13:15.323][Viewer] Refresh PDF viewer: %WS1%/final.pdf
+[15:13:15.383][Cacher] Parsing .fls %WS1%/final.fls .
+[15:13:15.542][Cacher] Adding %WS1%/graph_1.png .
+[15:13:15.542][Cacher][Watcher] Watched %WS1%/graph_1.png by the .* watcher.
+[15:13:15.543][Event] FILE_WATCHED: "%WS1%/graph_1.png"
+[15:13:15.545][Cacher] Found .aux %WS1%/final.tex from .fls %WS1%/final.fls , parsing.
+[15:13:15.589][Cacher] Parsed .aux %WS1%/final.tex .
+[15:13:15.590][Cacher] Parsed .fls %WS1%/final.fls .
+[15:13:15.593][Build] Recipe step 1 The command is latexmk:["-pdf","-synctex=1","-interaction=nonstopmode","-file-line-error","--shell-escape","%WS1%/final"].
+[15:13:15.594][Build] env: undefined
+[15:13:15.595][Build] root: %WS1%/final.tex
+[15:13:15.596][Build] cwd: %WS1%
+[15:13:15.610][Build] LaTeX build process spawned with PID 8879.
+[15:13:15.683][Server] Preview PDF file: file://%WS1%/final.pdf
+[15:13:15.784][Viewer] Handle data type: loaded
+[15:13:15.784][Event] VIEWER_PAGE_LOADED
+[15:13:17.243][Build] Finished a step in recipe with PID 8879.
+[15:13:17.243][Build] Successfully built %WS1%/final.tex .
+[15:13:17.244][Event] BUILD_DONE
+[15:13:17.245][Viewer] Call refreshExistingViewer: "%WS1%/final.pdf" .
+[15:13:17.245][Viewer] Refresh PDF viewer: %WS1%/final.pdf
+[15:13:17.283][Cacher] Parsing .fls %WS1%/final.fls .
+[15:13:17.376][Cacher] Found .aux %WS1%/final.tex from .fls %WS1%/final.fls , parsing.
+[15:13:17.412][Cacher] Parsed .aux %WS1%/final.tex .
+[15:13:17.412][Cacher] Parsed .fls %WS1%/final.fls .
+[15:13:17.413][Build] Recipe step 1 The command is latexmk:["-pdf","-synctex=1","-interaction=nonstopmode","-file-line-error","--shell-escape","%WS1%/final"].
+[15:13:17.413][Build] env: undefined
+[15:13:17.413][Build] root: %WS1%/final.tex
+[15:13:17.413][Build] cwd: %WS1%
+[15:13:17.418][Build] LaTeX build process spawned with PID 8881.
+[15:13:17.470][Server] Preview PDF file: file://%WS1%/final.pdf
+[15:13:17.559][Viewer] Handle data type: loaded
+[15:13:17.560][Event] VIEWER_PAGE_LOADED
+[15:13:19.145][Build] Finished a step in recipe with PID 8881.
+[15:13:19.146][Build] Successfully built %WS1%/final.tex .
+[15:13:19.147][Event] BUILD_DONE
+[15:13:19.148][Viewer] Call refreshExistingViewer: "%WS1%/final.pdf" .
+[15:13:19.149][Viewer] Refresh PDF viewer: %WS1%/final.pdf
+[15:13:19.198][Cacher] Parsing .fls %WS1%/final.fls .
+[15:13:19.330][Cacher] Found .aux %WS1%/final.tex from .fls %WS1%/final.fls , parsing.
+[15:13:19.364][Cacher] Parsed .aux %WS1%/final.tex .
+[15:13:19.364][Cacher] Parsed .fls %WS1%/final.fls .
+[15:13:19.428][Server] Preview PDF file: file://%WS1%/final.pdf
+[15:13:19.530][Viewer] Handle data type: loaded
+[15:13:19.531][Event] VIEWER_PAGE_LOADED
+[15:13:39.687][Commander] BUILD command invoked.
+[15:13:39.688][Build] The document of the active editor: file://%WS1%/final.tex
+[15:13:39.688][Build] The languageId of the document: latex
+[15:13:39.689][Root] Current workspace folders: ["file://%WS1%"]
+[15:13:39.690][Root] Found root file from active editor: %WS1%/final.tex
+[15:13:39.690][Root] Keep using the same root file: %WS1%/final.tex
+[15:13:39.690][Event] ROOT_FILE_SEARCHED
+[15:13:39.691][Event] STRUCTURE_UPDATED
+[15:13:39.691][Build] Building root file: %WS1%/final.tex
+[15:13:39.692][Build][Recipe] Build root file %WS1%/final.tex
+[15:13:39.770][Extension] onDidSaveTextDocument triggered: file://%WS1%/final.tex
+[15:13:39.829][Build][Recipe] Preparing to run recipe: latexmk.
+[15:13:39.830][Build][Recipe] Prepared 1 tools.
+[15:13:39.831][Build][Recipe] outDir: %WS1% .
+[15:13:39.832][Build] Recipe step 1 The command is latexmk:["-pdf","-synctex=1","-interaction=nonstopmode","-file-line-error","--shell-escape","%WS1%/final"].
+[15:13:39.832][Build] env: undefined
+[15:13:39.832][Build] root: %WS1%/final.tex
+[15:13:39.833][Build] cwd: %WS1%
+[15:13:39.837][Build] LaTeX build process spawned with PID 8903.
+[15:13:39.839][Cacher][Watcher] "change" emitted on %WS1%/final.tex.
+[15:13:39.839][Cacher] Caching %WS1%/final.tex .
+[15:13:39.887][Cacher] Updated inputs of %WS1%/final.tex .
+[15:13:39.887][Cacher] Parse LaTeX AST: %WS1%/final.tex .
+[15:13:39.887][Build] Auto build started detecting the change of a file: %WS1%/final.tex .
+[15:13:39.888][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/final.tex"}
+[15:13:39.888][Build] Autobuild temporarily disabled.
+[15:13:39.888][Event] FILE_CHANGED: "%WS1%/final.tex"
+[15:13:39.922][Cacher] Parsed LaTeX AST: %WS1%/final.tex .
+[15:13:39.923][File] kpsewhich cache hit on article.cls: /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls .
+[15:13:39.926][Cacher] Updated elements in 2.93 ms: %WS1%/final.tex .
+[15:13:39.929][Event] FILE_PARSED: "%WS1%/final.tex"
+[15:13:39.930][Structure] Structure force updated with 0 root sections for %WS1%/final.tex .
+[15:13:39.931][Event] STRUCTURE_UPDATED
+[15:13:59.269][Parser][TexLog] Logged 16 messages.
+[15:14:00.700][Build] Finished a step in recipe with PID 8903.
+[15:14:00.701][Build] Successfully built %WS1%/final.tex .
+[15:14:00.702][Event] BUILD_DONE
+[15:14:00.705][Viewer] Call refreshExistingViewer: "%WS1%/final.pdf" .
+[15:14:00.707][Viewer] Refresh PDF viewer: %WS1%/final.pdf
+[15:14:00.749][Cacher] Parsing .fls %WS1%/final.fls .
+[15:14:00.866][Cacher] Found .aux %WS1%/final.tex from .fls %WS1%/final.fls , parsing.
+[15:14:00.910][Cacher] Parsed .aux %WS1%/final.tex .
+[15:14:00.911][Cacher] Parsed .fls %WS1%/final.fls .
+[15:14:01.049][Server] Preview PDF file: file://%WS1%/final.pdf
+[15:14:01.118][Viewer] Handle data type: loaded
+[15:14:01.118][Event] VIEWER_PAGE_LOADED
+[15:24:15.592][Commander] BUILD command invoked.
+[15:24:15.593][Build] The document of the active editor: file://%WS1%/final.tex
+[15:24:15.593][Build] The languageId of the document: latex
+[15:24:15.594][Root] Current workspace folders: ["file://%WS1%"]
+[15:24:15.596][Root] Found root file from active editor: %WS1%/final.tex
+[15:24:15.597][Root] Keep using the same root file: %WS1%/final.tex
+[15:24:15.598][Event] ROOT_FILE_SEARCHED
+[15:24:15.599][Event] STRUCTURE_UPDATED
+[15:24:15.600][Build] Building root file: %WS1%/final.tex
+[15:24:15.600][Build][Recipe] Build root file %WS1%/final.tex
+[15:24:15.737][Extension] onDidSaveTextDocument triggered: file://%WS1%/final.tex
+[15:24:15.807][Build][Recipe] Preparing to run recipe: latexmk.
+[15:24:15.807][Build][Recipe] Prepared 1 tools.
+[15:24:15.808][Build][Recipe] outDir: %WS1% .
+[15:24:15.808][Build] Recipe step 1 The command is latexmk:["-pdf","-synctex=1","-interaction=nonstopmode","-file-line-error","--shell-escape","%WS1%/final"].
+[15:24:15.809][Build] env: undefined
+[15:24:15.809][Build] root: %WS1%/final.tex
+[15:24:15.809][Build] cwd: %WS1%
+[15:24:15.814][Build] LaTeX build process spawned with PID 9829.
+[15:24:15.815][Cacher][Watcher] "change" emitted on %WS1%/final.tex.
+[15:24:15.816][Cacher] Caching %WS1%/final.tex .
+[15:24:15.865][Cacher] Updated inputs of %WS1%/final.tex .
+[15:24:15.866][Cacher] Parse LaTeX AST: %WS1%/final.tex .
+[15:24:15.866][Build] Auto build started detecting the change of a file: %WS1%/final.tex .
+[15:24:15.866][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/final.tex"}
+[15:24:15.866][Build] Autobuild temporarily disabled.
+[15:24:15.866][Event] FILE_CHANGED: "%WS1%/final.tex"
+[15:24:15.892][Cacher] Parsed LaTeX AST: %WS1%/final.tex .
+[15:24:15.892][File] kpsewhich cache hit on article.cls: /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls .
+[15:24:15.894][Cacher] Updated elements in 1.50 ms: %WS1%/final.tex .
+[15:24:15.895][Event] FILE_PARSED: "%WS1%/final.tex"
+[15:24:15.897][Structure] Structure force updated with 0 root sections for %WS1%/final.tex .
+[15:24:15.897][Event] STRUCTURE_UPDATED
+[15:24:52.495][Parser][TexLog] Logged 16 messages.
+[15:24:53.858][Build] Finished a step in recipe with PID 9829.
+[15:24:53.859][Build] Successfully built %WS1%/final.tex .
+[15:24:53.859][Event] BUILD_DONE
+[15:24:53.860][Viewer] Call refreshExistingViewer: "%WS1%/final.pdf" .
+[15:24:53.860][Viewer] Refresh PDF viewer: %WS1%/final.pdf
+[15:24:53.909][Cacher] Parsing .fls %WS1%/final.fls .
+[15:24:54.039][Cacher] Found .aux %WS1%/final.tex from .fls %WS1%/final.fls , parsing.
+[15:24:54.079][Cacher] Parsed .aux %WS1%/final.tex .
+[15:24:54.079][Cacher] Parsed .fls %WS1%/final.fls .
+[15:24:54.094][Event] STRUCTURE_UPDATED
+[15:24:54.173][Server] Preview PDF file: file://%WS1%/final.pdf
+[15:24:54.269][Viewer] Handle data type: loaded
+[15:24:54.270][Event] VIEWER_PAGE_LOADED
+[15:25:01.085][Root] Current workspace folders: ["file://%WS1%"]
+[15:25:01.091][Root] Found root file from active editor: %WS1%/midterm.tex
+[15:25:01.092][Root] Root file changed: from %WS1%/midterm.tex to %WS1%/midterm.tex, langID latex . Refresh dependencies
+[15:25:01.092][Event] ROOT_FILE_CHANGED: "%WS1%/midterm.tex"
+[15:25:01.093][Cacher][Watcher] Reset.
+[15:25:01.093][Cacher][Watcher] Reset.
+[15:25:01.094][Cacher] Adding %WS1%/midterm.tex .
+[15:25:01.094][Cacher][Watcher] Watched %WS1%/midterm.tex with a new .* watcher on %WS1% .
+[15:25:01.094][Event] FILE_WATCHED: "%WS1%/midterm.tex"
+[15:25:01.095][Cacher] Caching %WS1%/midterm.tex .
+[15:25:01.144][Cacher] Updated inputs of %WS1%/midterm.tex .
+[15:25:01.144][Cacher] Parse LaTeX AST: %WS1%/midterm.tex .
+[15:25:01.145][Event] ROOT_FILE_SEARCHED
+[15:25:01.145][Event] STRUCTURE_UPDATED
+[15:25:01.280][Cacher] Parsed LaTeX AST: %WS1%/midterm.tex .
+[15:25:01.281][File] kpsewhich cache hit on article.cls: /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls .
+[15:25:01.289][Cacher] Updated elements in 8.51 ms: %WS1%/midterm.tex .
+[15:25:01.290][Event] FILE_PARSED: "%WS1%/midterm.tex"
+[15:25:01.291][Cacher] Parsing .fls %WS1%/midterm.fls .
+[15:25:01.567][Cacher] Found .aux %WS1%/midterm.tex from .fls %WS1%/midterm.fls , parsing.
+[15:25:01.602][Cacher] Parsed .aux %WS1%/midterm.tex .
+[15:25:01.602][Cacher] Parsed .fls %WS1%/midterm.fls .
+[15:25:01.603][Structure] Structure force updated with 0 root sections for %WS1%/midterm.tex .
+[15:25:01.603][Event] STRUCTURE_UPDATED
+[15:25:01.607][Root] Current workspace folders: ["file://%WS1%"]
+[15:25:01.613][Root] Found root file from active editor: /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex
+[15:25:01.613][Root] Root file changed: from /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex to /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex, langID latex . Refresh dependencies
+[15:25:01.614][Event] ROOT_FILE_CHANGED: "/home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex"
+[15:25:01.614][Cacher][Watcher] Reset.
+[15:25:01.614][Cacher][Watcher] Reset.
+[15:25:01.615][Cacher] Adding /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[15:25:01.615][Cacher][Watcher] Watched /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex with a new .* watcher on /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms) .
+[15:25:01.615][Event] FILE_WATCHED: "/home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex"
+[15:25:01.615][Cacher] Caching /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[15:25:01.674][Cacher] Updated inputs of /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[15:25:01.674][Cacher] Parse LaTeX AST: /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[15:25:01.675][Event] ROOT_FILE_SEARCHED
+[15:25:01.676][Event] STRUCTURE_UPDATED
+[15:25:01.932][Cacher] Parsed LaTeX AST: /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[15:25:01.932][File] kpsewhich cache hit on article.cls: /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls .
+[15:25:01.938][Cacher] Updated elements in 6.29 ms: /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[15:25:01.939][Event] FILE_PARSED: "/home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex"
+[15:25:01.964][Cacher] Parsing .fls /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.fls .
+[15:25:02.007][Cacher] Adding /home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[15:25:02.007][Cacher][Watcher] Watched /home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex with a new .* watcher on /home/alex/Documents/Spring-2024/My Homeworks (Algorithms) .
+[15:25:02.007][Event] FILE_WATCHED: "/home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex"
+[15:25:02.007][Cacher] Found /home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex from .fls /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.fls , caching.
+[15:25:02.008][Cacher] Caching /home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[15:25:02.009][Cacher] Updated inputs of /home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[15:25:02.009][Cacher] Parse LaTeX AST: /home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[15:25:02.075][Cacher] Adding /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6_graph1.png .
+[15:25:02.075][Cacher][Watcher] Watched /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6_graph1.png by the .* watcher.
+[15:25:02.075][Event] FILE_WATCHED: "/home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6_graph1.png"
+[15:25:02.097][Cacher] Adding /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/island_problem.png .
+[15:25:02.098][Cacher][Watcher] Watched /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/island_problem.png by the .* watcher.
+[15:25:02.098][Event] FILE_WATCHED: "/home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/island_problem.png"
+[15:25:02.130][Cacher] Adding /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/_minted-hw6/default.pygstyle .
+[15:25:02.130][Cacher][Watcher] Watched /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/_minted-hw6/default.pygstyle with a new .* watcher on /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/_minted-hw6 .
+[15:25:02.130][Event] FILE_WATCHED: "/home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/_minted-hw6/default.pygstyle"
+[15:25:02.147][Cacher] Adding /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/_minted-hw6/350F5ADA1C0A8E5AFD1D65E57EB8357FD7135479B47EE7D7F493C9CBF7EDFAD0.pygtex .
+[15:25:02.147][Cacher][Watcher] Watched /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/_minted-hw6/350F5ADA1C0A8E5AFD1D65E57EB8357FD7135479B47EE7D7F493C9CBF7EDFAD0.pygtex by the .* watcher.
+[15:25:02.147][Event] FILE_WATCHED: "/home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/_minted-hw6/350F5ADA1C0A8E5AFD1D65E57EB8357FD7135479B47EE7D7F493C9CBF7EDFAD0.pygtex"
+[15:25:02.165][Cacher] Found .aux /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex from .fls /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.fls , parsing.
+[15:25:02.196][Cacher] Parsed .aux /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[15:25:02.197][Cacher] Parsed .fls /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.fls .
+[15:25:02.198][Structure] Structure force updated with 0 root sections for /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[15:25:02.198][Event] STRUCTURE_UPDATED
+[15:25:02.392][Cacher] Parsed LaTeX AST: /home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[15:25:02.392][File] kpsewhich cache hit on article.cls: /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls .
+[15:25:02.397][Cacher] Updated elements in 4.90 ms: /home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[15:25:02.397][Event] FILE_PARSED: "/home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex"
+[15:25:02.398][Structure] Structure force updated with 0 root sections for /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[15:25:02.398][Event] STRUCTURE_UPDATED
+[15:25:03.391][Root] Current workspace folders: ["file://%WS1%"]
+[15:25:03.405][Root] Found root file from active editor: %WS1%/final.tex
+[15:25:03.406][Root] Root file changed: from %WS1%/final.tex to %WS1%/final.tex, langID latex . Refresh dependencies
+[15:25:03.407][Event] ROOT_FILE_CHANGED: "%WS1%/final.tex"
+[15:25:03.408][Cacher][Watcher] Reset.
+[15:25:03.409][Cacher][Watcher] Reset.
+[15:25:03.409][Cacher] Adding %WS1%/final.tex .
+[15:25:03.410][Cacher][Watcher] Watched %WS1%/final.tex with a new .* watcher on %WS1% .
+[15:25:03.410][Event] FILE_WATCHED: "%WS1%/final.tex"
+[15:25:03.412][Cacher] Caching %WS1%/final.tex .
+[15:25:03.454][Cacher] Updated inputs of %WS1%/final.tex .
+[15:25:03.455][Cacher] Parse LaTeX AST: %WS1%/final.tex .
+[15:25:03.455][Event] ROOT_FILE_SEARCHED
+[15:25:03.456][Event] STRUCTURE_UPDATED
+[15:25:03.516][Cacher] Parsed LaTeX AST: %WS1%/final.tex .
+[15:25:03.517][File] kpsewhich cache hit on article.cls: /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls .
+[15:25:03.519][Cacher] Updated elements in 2.49 ms: %WS1%/final.tex .
+[15:25:03.520][Event] FILE_PARSED: "%WS1%/final.tex"
+[15:25:03.521][Cacher] Parsing .fls %WS1%/final.fls .
+[15:25:03.647][Cacher] Adding %WS1%/graph_2.png .
+[15:25:03.647][Cacher][Watcher] Watched %WS1%/graph_2.png by the .* watcher.
+[15:25:03.648][Event] FILE_WATCHED: "%WS1%/graph_2.png"
+[15:25:03.650][Cacher] Adding %WS1%/graph_1.png .
+[15:25:03.651][Cacher][Watcher] Watched %WS1%/graph_1.png by the .* watcher.
+[15:25:03.652][Event] FILE_WATCHED: "%WS1%/graph_1.png"
+[15:25:03.657][Cacher] Found .aux %WS1%/final.tex from .fls %WS1%/final.fls , parsing.
+[15:25:03.693][Cacher] Parsed .aux %WS1%/final.tex .
+[15:25:03.694][Cacher] Parsed .fls %WS1%/final.fls .
+[15:25:03.695][Structure] Structure force updated with 0 root sections for %WS1%/final.tex .
+[15:25:03.696][Event] STRUCTURE_UPDATED
+[15:25:23.849][Commander] BUILD command invoked.
+[15:25:23.850][Build] The document of the active editor: file://%WS1%/final.tex
+[15:25:23.851][Build] The languageId of the document: latex
+[15:25:23.851][Root] Current workspace folders: ["file://%WS1%"]
+[15:25:23.853][Root] Found root file from active editor: %WS1%/final.tex
+[15:25:23.854][Root] Keep using the same root file: %WS1%/final.tex
+[15:25:23.854][Event] ROOT_FILE_SEARCHED
+[15:25:23.855][Event] STRUCTURE_UPDATED
+[15:25:23.856][Build] Building root file: %WS1%/final.tex
+[15:25:23.856][Build][Recipe] Build root file %WS1%/final.tex
+[15:25:23.944][Extension] onDidSaveTextDocument triggered: file://%WS1%/final.tex
+[15:25:24.024][Build][Recipe] Preparing to run recipe: latexmk.
+[15:25:24.025][Build][Recipe] Prepared 1 tools.
+[15:25:24.025][Build][Recipe] outDir: %WS1% .
+[15:25:24.026][Build] Recipe step 1 The command is latexmk:["-pdf","-synctex=1","-interaction=nonstopmode","-file-line-error","--shell-escape","%WS1%/final"].
+[15:25:24.026][Build] env: undefined
+[15:25:24.026][Build] root: %WS1%/final.tex
+[15:25:24.027][Build] cwd: %WS1%
+[15:25:24.032][Build] LaTeX build process spawned with PID 9962.
+[15:25:24.034][Cacher][Watcher] "change" emitted on %WS1%/final.tex.
+[15:25:24.035][Cacher] Caching %WS1%/final.tex .
+[15:25:24.092][Cacher] Updated inputs of %WS1%/final.tex .
+[15:25:24.092][Cacher] Parse LaTeX AST: %WS1%/final.tex .
+[15:25:24.092][Build] Auto build started detecting the change of a file: %WS1%/final.tex .
+[15:25:24.092][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/final.tex"}
+[15:25:24.092][Build] Autobuild temporarily disabled.
+[15:25:24.093][Event] FILE_CHANGED: "%WS1%/final.tex"
+[15:25:24.134][Cacher] Parsed LaTeX AST: %WS1%/final.tex .
+[15:25:24.135][File] kpsewhich cache hit on article.cls: /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls .
+[15:25:24.137][Cacher] Updated elements in 2.09 ms: %WS1%/final.tex .
+[15:25:24.137][Event] FILE_PARSED: "%WS1%/final.tex"
+[15:25:24.138][Structure] Structure force updated with 0 root sections for %WS1%/final.tex .
+[15:25:24.139][Event] STRUCTURE_UPDATED
+[15:25:44.558][Root] Current workspace folders: ["file://%WS1%"]
+[15:25:44.567][Root] Found root file from active editor: %WS1%/midterm.tex
+[15:25:44.568][Root] Root file changed: from %WS1%/midterm.tex to %WS1%/midterm.tex, langID latex . Refresh dependencies
+[15:25:44.569][Event] ROOT_FILE_CHANGED: "%WS1%/midterm.tex"
+[15:25:44.571][Cacher][Watcher] Reset.
+[15:25:44.571][Cacher][Watcher] Reset.
+[15:25:44.572][Cacher] Adding %WS1%/midterm.tex .
+[15:25:44.573][Cacher][Watcher] Watched %WS1%/midterm.tex with a new .* watcher on %WS1% .
+[15:25:44.573][Event] FILE_WATCHED: "%WS1%/midterm.tex"
+[15:25:44.574][Cacher] Caching %WS1%/midterm.tex .
+[15:25:44.622][Cacher] Updated inputs of %WS1%/midterm.tex .
+[15:25:44.622][Cacher] Parse LaTeX AST: %WS1%/midterm.tex .
+[15:25:44.623][Event] ROOT_FILE_SEARCHED
+[15:25:44.624][Event] STRUCTURE_UPDATED
+[15:25:44.745][Cacher] Parsed LaTeX AST: %WS1%/midterm.tex .
+[15:25:44.746][File] kpsewhich cache hit on article.cls: /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls .
+[15:25:44.753][Cacher] Updated elements in 7.28 ms: %WS1%/midterm.tex .
+[15:25:44.754][Event] FILE_PARSED: "%WS1%/midterm.tex"
+[15:25:44.755][Cacher] Parsing .fls %WS1%/midterm.fls .
+[15:25:45.107][Cacher] Found .aux %WS1%/midterm.tex from .fls %WS1%/midterm.fls , parsing.
+[15:25:45.139][Cacher] Parsed .aux %WS1%/midterm.tex .
+[15:25:45.140][Cacher] Parsed .fls %WS1%/midterm.fls .
+[15:25:45.140][Structure] Structure force updated with 1 root sections for %WS1%/midterm.tex .
+[15:25:45.140][Event] STRUCTURE_UPDATED
+[15:25:47.919][Root] Current workspace folders: ["file://%WS1%"]
+[15:25:47.926][Root] Found root file from active editor: %WS1%/final.tex
+[15:25:47.926][Root] Root file changed: from %WS1%/final.tex to %WS1%/final.tex, langID latex . Refresh dependencies
+[15:25:47.926][Event] ROOT_FILE_CHANGED: "%WS1%/final.tex"
+[15:25:47.927][Cacher][Watcher] Reset.
+[15:25:47.927][Cacher][Watcher] Reset.
+[15:25:47.928][Cacher] Adding %WS1%/final.tex .
+[15:25:47.928][Cacher][Watcher] Watched %WS1%/final.tex with a new .* watcher on %WS1% .
+[15:25:47.928][Event] FILE_WATCHED: "%WS1%/final.tex"
+[15:25:47.929][Cacher] Caching %WS1%/final.tex .
+[15:25:47.975][Cacher] Updated inputs of %WS1%/final.tex .
+[15:25:47.975][Cacher] Parse LaTeX AST: %WS1%/final.tex .
+[15:25:47.975][Event] ROOT_FILE_SEARCHED
+[15:25:47.977][Event] STRUCTURE_UPDATED
+[15:25:48.028][Cacher] Parsed LaTeX AST: %WS1%/final.tex .
+[15:25:48.030][File] kpsewhich cache hit on article.cls: /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls .
+[15:25:48.033][Cacher] Updated elements in 4.09 ms: %WS1%/final.tex .
+[15:25:48.034][Event] FILE_PARSED: "%WS1%/final.tex"
+[15:25:48.036][Cacher] Parsing .fls %WS1%/final.fls .
+[15:25:48.141][Cacher] Parsed .fls %WS1%/final.fls .
+[15:25:48.142][Structure] Structure force updated with 0 root sections for %WS1%/final.tex .
+[15:25:48.143][Event] STRUCTURE_UPDATED
+[15:25:48.862][Root] Current workspace folders: ["file://%WS1%"]
+[15:25:48.874][Root] Found root file from active editor: /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex
+[15:25:48.876][Root] Root file changed: from /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex to /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex, langID latex . Refresh dependencies
+[15:25:48.876][Event] ROOT_FILE_CHANGED: "/home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex"
+[15:25:48.877][Cacher][Watcher] Reset.
+[15:25:48.877][Cacher][Watcher] Reset.
+[15:25:48.878][Cacher] Adding /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[15:25:48.879][Cacher][Watcher] Watched /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex with a new .* watcher on /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms) .
+[15:25:48.880][Event] FILE_WATCHED: "/home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex"
+[15:25:48.881][Cacher] Caching /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[15:25:48.934][Cacher] Updated inputs of /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[15:25:48.934][Cacher] Parse LaTeX AST: /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[15:25:48.935][Event] ROOT_FILE_SEARCHED
+[15:25:48.937][Event] STRUCTURE_UPDATED
+[15:25:49.264][Cacher] Parsed LaTeX AST: /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[15:25:49.264][File] kpsewhich cache hit on article.cls: /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls .
+[15:25:49.271][Cacher] Updated elements in 7.44 ms: /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[15:25:49.272][Event] FILE_PARSED: "/home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex"
+[15:25:49.273][Cacher] Parsing .fls /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.fls .
+[15:25:49.320][Cacher] Adding /home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[15:25:49.321][Cacher][Watcher] Watched /home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex with a new .* watcher on /home/alex/Documents/Spring-2024/My Homeworks (Algorithms) .
+[15:25:49.321][Event] FILE_WATCHED: "/home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex"
+[15:25:49.321][Cacher] Found /home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex from .fls /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.fls , caching.
+[15:25:49.322][Cacher] Caching /home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[15:25:49.322][Cacher] Updated inputs of /home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[15:25:49.323][Cacher] Parse LaTeX AST: /home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[15:25:49.376][Cacher] Adding /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6_graph1.png .
+[15:25:49.376][Cacher][Watcher] Watched /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6_graph1.png by the .* watcher.
+[15:25:49.376][Event] FILE_WATCHED: "/home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6_graph1.png"
+[15:25:49.376][Cacher] Adding /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/island_problem.png .
+[15:25:49.377][Cacher][Watcher] Watched /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/island_problem.png by the .* watcher.
+[15:25:49.377][Event] FILE_WATCHED: "/home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/island_problem.png"
+[15:25:49.378][Cacher] Adding /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/_minted-hw6/default.pygstyle .
+[15:25:49.378][Cacher][Watcher] Watched /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/_minted-hw6/default.pygstyle with a new .* watcher on /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/_minted-hw6 .
+[15:25:49.378][Event] FILE_WATCHED: "/home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/_minted-hw6/default.pygstyle"
+[15:25:49.379][Cacher] Adding /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/_minted-hw6/350F5ADA1C0A8E5AFD1D65E57EB8357FD7135479B47EE7D7F493C9CBF7EDFAD0.pygtex .
+[15:25:49.379][Cacher][Watcher] Watched /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/_minted-hw6/350F5ADA1C0A8E5AFD1D65E57EB8357FD7135479B47EE7D7F493C9CBF7EDFAD0.pygtex by the .* watcher.
+[15:25:49.379][Event] FILE_WATCHED: "/home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/_minted-hw6/350F5ADA1C0A8E5AFD1D65E57EB8357FD7135479B47EE7D7F493C9CBF7EDFAD0.pygtex"
+[15:25:49.380][Cacher] Found .aux /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex from .fls /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.fls , parsing.
+[15:25:49.418][Cacher] Parsed .aux /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[15:25:49.419][Cacher] Parsed .fls /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.fls .
+[15:25:49.419][Structure] Structure force updated with 1 root sections for /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[15:25:49.420][Event] STRUCTURE_UPDATED
+[15:25:49.555][Cacher] Parsed LaTeX AST: /home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[15:25:49.556][File] kpsewhich cache hit on article.cls: /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls .
+[15:25:49.559][Cacher] Updated elements in 3.62 ms: /home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[15:25:49.560][Event] FILE_PARSED: "/home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex"
+[15:25:49.560][Structure] Structure force updated with 0 root sections for /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[15:25:49.560][Event] STRUCTURE_UPDATED
+[15:25:50.967][Root] Current workspace folders: ["file://%WS1%"]
+[15:25:50.976][Root] Found root file from active editor: %WS1%/final.tex
+[15:25:50.977][Root] Root file changed: from %WS1%/final.tex to %WS1%/final.tex, langID latex . Refresh dependencies
+[15:25:50.977][Event] ROOT_FILE_CHANGED: "%WS1%/final.tex"
+[15:25:50.978][Cacher][Watcher] Reset.
+[15:25:50.978][Cacher][Watcher] Reset.
+[15:25:50.979][Cacher] Adding %WS1%/final.tex .
+[15:25:50.980][Cacher][Watcher] Watched %WS1%/final.tex with a new .* watcher on %WS1% .
+[15:25:50.980][Event] FILE_WATCHED: "%WS1%/final.tex"
+[15:25:50.980][Cacher] Caching %WS1%/final.tex .
+[15:25:51.023][Cacher] Updated inputs of %WS1%/final.tex .
+[15:25:51.023][Cacher] Parse LaTeX AST: %WS1%/final.tex .
+[15:25:51.024][Event] ROOT_FILE_SEARCHED
+[15:25:51.024][Event] STRUCTURE_UPDATED
+[15:25:51.109][Cacher] Parsed LaTeX AST: %WS1%/final.tex .
+[15:25:51.109][File] kpsewhich cache hit on article.cls: /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls .
+[15:25:51.110][Cacher] Updated elements in 1.08 ms: %WS1%/final.tex .
+[15:25:51.111][Event] FILE_PARSED: "%WS1%/final.tex"
+[15:25:51.112][Cacher] Parsing .fls %WS1%/final.fls .
+[15:25:51.178][Cacher] Parsed .fls %WS1%/final.fls .
+[15:25:51.180][Structure] Structure force updated with 0 root sections for %WS1%/final.tex .
+[15:25:51.181][Event] STRUCTURE_UPDATED
+[15:25:53.600][Root] Current workspace folders: ["file://%WS1%"]
+[15:25:53.611][Root] Found root file from active editor: /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex
+[15:25:53.613][Root] Root file changed: from /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex to /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex, langID latex . Refresh dependencies
+[15:25:53.614][Event] ROOT_FILE_CHANGED: "/home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex"
+[15:25:53.615][Cacher][Watcher] Reset.
+[15:25:53.615][Cacher][Watcher] Reset.
+[15:25:53.616][Cacher] Adding /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[15:25:53.616][Cacher][Watcher] Watched /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex with a new .* watcher on /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms) .
+[15:25:53.617][Event] FILE_WATCHED: "/home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex"
+[15:25:53.617][Cacher] Caching /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[15:25:53.656][Cacher] Updated inputs of /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[15:25:53.656][Cacher] Parse LaTeX AST: /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[15:25:53.656][Event] ROOT_FILE_SEARCHED
+[15:25:53.657][Event] STRUCTURE_UPDATED
+[15:25:53.862][Cacher] Parsed LaTeX AST: /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[15:25:53.863][File] kpsewhich cache hit on article.cls: /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls .
+[15:25:53.871][Cacher] Updated elements in 9.03 ms: /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[15:25:53.872][Event] FILE_PARSED: "/home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex"
+[15:25:53.873][Cacher] Parsing .fls /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.fls .
+[15:25:53.923][Cacher] Adding /home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[15:25:53.923][Cacher][Watcher] Watched /home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex with a new .* watcher on /home/alex/Documents/Spring-2024/My Homeworks (Algorithms) .
+[15:25:53.924][Event] FILE_WATCHED: "/home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex"
+[15:25:53.924][Cacher] Found /home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex from .fls /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.fls , caching.
+[15:25:53.924][Cacher] Caching /home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[15:25:53.925][Cacher] Updated inputs of /home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[15:25:53.925][Cacher] Parse LaTeX AST: /home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[15:25:54.003][Cacher] Adding /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6_graph1.png .
+[15:25:54.004][Cacher][Watcher] Watched /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6_graph1.png by the .* watcher.
+[15:25:54.004][Event] FILE_WATCHED: "/home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6_graph1.png"
+[15:25:54.006][Cacher] Adding /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/island_problem.png .
+[15:25:54.006][Cacher][Watcher] Watched /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/island_problem.png by the .* watcher.
+[15:25:54.006][Event] FILE_WATCHED: "/home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/island_problem.png"
+[15:25:54.008][Cacher] Adding /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/_minted-hw6/default.pygstyle .
+[15:25:54.009][Cacher][Watcher] Watched /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/_minted-hw6/default.pygstyle with a new .* watcher on /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/_minted-hw6 .
+[15:25:54.009][Event] FILE_WATCHED: "/home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/_minted-hw6/default.pygstyle"
+[15:25:54.011][Cacher] Adding /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/_minted-hw6/350F5ADA1C0A8E5AFD1D65E57EB8357FD7135479B47EE7D7F493C9CBF7EDFAD0.pygtex .
+[15:25:54.012][Cacher][Watcher] Watched /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/_minted-hw6/350F5ADA1C0A8E5AFD1D65E57EB8357FD7135479B47EE7D7F493C9CBF7EDFAD0.pygtex by the .* watcher.
+[15:25:54.012][Event] FILE_WATCHED: "/home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/_minted-hw6/350F5ADA1C0A8E5AFD1D65E57EB8357FD7135479B47EE7D7F493C9CBF7EDFAD0.pygtex"
+[15:25:54.014][Cacher] Found .aux /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex from .fls /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.fls , parsing.
+[15:25:54.053][Cacher] Parsed .aux /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[15:25:54.053][Cacher] Parsed .fls /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.fls .
+[15:25:54.054][Structure] Structure force updated with 1 root sections for /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[15:25:54.054][Event] STRUCTURE_UPDATED
+[15:25:54.176][Cacher] Parsed LaTeX AST: /home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[15:25:54.176][File] kpsewhich cache hit on article.cls: /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls .
+[15:25:54.178][Cacher] Updated elements in 2.28 ms: /home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[15:25:54.179][Event] FILE_PARSED: "/home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex"
+[15:25:54.179][Structure] Structure force updated with 0 root sections for /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[15:25:54.180][Event] STRUCTURE_UPDATED
+[15:25:55.630][Root] Current workspace folders: ["file://%WS1%"]
+[15:25:55.637][Root] Found root file from active editor: %WS1%/final.tex
+[15:25:55.638][Root] Root file changed: from %WS1%/final.tex to %WS1%/final.tex, langID latex . Refresh dependencies
+[15:25:55.638][Event] ROOT_FILE_CHANGED: "%WS1%/final.tex"
+[15:25:55.639][Cacher][Watcher] Reset.
+[15:25:55.640][Cacher][Watcher] Reset.
+[15:25:55.640][Cacher] Adding %WS1%/final.tex .
+[15:25:55.641][Cacher][Watcher] Watched %WS1%/final.tex with a new .* watcher on %WS1% .
+[15:25:55.641][Event] FILE_WATCHED: "%WS1%/final.tex"
+[15:25:55.642][Cacher] Caching %WS1%/final.tex .
+[15:25:55.677][Cacher] Updated inputs of %WS1%/final.tex .
+[15:25:55.677][Cacher] Parse LaTeX AST: %WS1%/final.tex .
+[15:25:55.678][Event] ROOT_FILE_SEARCHED
+[15:25:55.678][Event] STRUCTURE_UPDATED
+[15:25:55.720][Cacher] Parsed LaTeX AST: %WS1%/final.tex .
+[15:25:55.721][File] kpsewhich cache hit on article.cls: /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls .
+[15:25:55.723][Cacher] Updated elements in 2.06 ms: %WS1%/final.tex .
+[15:25:55.723][Event] FILE_PARSED: "%WS1%/final.tex"
+[15:25:55.724][Cacher] Parsing .fls %WS1%/final.fls .
+[15:25:55.825][Cacher] Parsed .fls %WS1%/final.fls .
+[15:25:55.825][Structure] Structure force updated with 0 root sections for %WS1%/final.tex .
+[15:25:55.826][Event] STRUCTURE_UPDATED
+[15:26:01.177][Parser][TexLog] Logged 1 messages.
+[15:26:02.521][Build] Finished a step in recipe with PID 9962.
+[15:26:02.522][Build] Successfully built %WS1%/final.tex .
+[15:26:02.523][Event] BUILD_DONE
+[15:26:02.524][Viewer] Call refreshExistingViewer: "%WS1%/final.pdf" .
+[15:26:02.524][Viewer] Refresh PDF viewer: %WS1%/final.pdf
+[15:26:02.567][Cacher] Parsing .fls %WS1%/final.fls .
+[15:26:02.687][Cacher] Adding %WS1%/graph_2.png .
+[15:26:02.687][Cacher][Watcher] Watched %WS1%/graph_2.png by the .* watcher.
+[15:26:02.687][Event] FILE_WATCHED: "%WS1%/graph_2.png"
+[15:26:02.689][Cacher] Adding %WS1%/graph_1.png .
+[15:26:02.689][Cacher][Watcher] Watched %WS1%/graph_1.png by the .* watcher.
+[15:26:02.689][Event] FILE_WATCHED: "%WS1%/graph_1.png"
+[15:26:02.692][Cacher] Found .aux %WS1%/final.tex from .fls %WS1%/final.fls , parsing.
+[15:26:02.729][Cacher] Parsed .aux %WS1%/final.tex .
+[15:26:02.730][Cacher] Parsed .fls %WS1%/final.fls .
+[15:26:02.810][Server] Preview PDF file: file://%WS1%/final.pdf
+[15:26:02.893][Viewer] Handle data type: loaded
+[15:26:02.894][Event] VIEWER_PAGE_LOADED
+[15:26:38.512][Viewer] Handle data type: reverse_synctex
+[15:26:38.512][Locator] Backward from %WS1%/final.pdf at x=85.00000000000001, y=240.2727272727272 on page 2.
+[15:26:38.549][SyncTeX] Parsing .synctex.gz %WS1%/final.synctex.gz .
+[15:26:38.672][Locator] Backward SyncTeX to %WS1%/final.tex .
+[15:26:38.696][Event] STRUCTURE_UPDATED
+[15:28:35.847][Commander] BUILD command invoked.
+[15:28:35.848][Build] The document of the active editor: file://%WS1%/final.tex
+[15:28:35.848][Build] The languageId of the document: latex
+[15:28:35.848][Root] Current workspace folders: ["file://%WS1%"]
+[15:28:35.848][Root] Found root file from active editor: %WS1%/final.tex
+[15:28:35.848][Root] Keep using the same root file: %WS1%/final.tex
+[15:28:35.849][Event] ROOT_FILE_SEARCHED
+[15:28:35.849][Event] STRUCTURE_UPDATED
+[15:28:35.849][Build] Building root file: %WS1%/final.tex
+[15:28:35.849][Build][Recipe] Build root file %WS1%/final.tex
+[15:28:35.935][Extension] onDidSaveTextDocument triggered: file://%WS1%/final.tex
+[15:28:35.997][Build][Recipe] Preparing to run recipe: latexmk.
+[15:28:35.998][Build][Recipe] Prepared 1 tools.
+[15:28:35.999][Build][Recipe] outDir: %WS1% .
+[15:28:36.000][Build] Recipe step 1 The command is latexmk:["-pdf","-synctex=1","-interaction=nonstopmode","-file-line-error","--shell-escape","%WS1%/final"].
+[15:28:36.000][Build] env: undefined
+[15:28:36.000][Build] root: %WS1%/final.tex
+[15:28:36.000][Build] cwd: %WS1%
+[15:28:36.005][Build] LaTeX build process spawned with PID 10186.
+[15:28:36.007][Cacher][Watcher] "change" emitted on %WS1%/final.tex.
+[15:28:36.007][Cacher] Caching %WS1%/final.tex .
+[15:28:36.047][Cacher] Updated inputs of %WS1%/final.tex .
+[15:28:36.048][Cacher] Parse LaTeX AST: %WS1%/final.tex .
+[15:28:36.048][Build] Auto build started detecting the change of a file: %WS1%/final.tex .
+[15:28:36.048][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/final.tex"}
+[15:28:36.048][Build] Autobuild temporarily disabled.
+[15:28:36.048][Event] FILE_CHANGED: "%WS1%/final.tex"
+[15:28:36.078][Cacher] Parsed LaTeX AST: %WS1%/final.tex .
+[15:28:36.079][File] kpsewhich cache hit on article.cls: /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls .
+[15:28:36.083][Cacher] Updated elements in 3.98 ms: %WS1%/final.tex .
+[15:28:36.084][Event] FILE_PARSED: "%WS1%/final.tex"
+[15:28:36.084][Structure] Structure force updated with 1 root sections for %WS1%/final.tex .
+[15:28:36.085][Event] STRUCTURE_UPDATED
+[15:28:55.405][Parser][TexLog] Logged 1 messages.
+[15:28:56.844][Build] Finished a step in recipe with PID 10186.
+[15:28:56.845][Build] Successfully built %WS1%/final.tex .
+[15:28:56.845][Event] BUILD_DONE
+[15:28:56.845][Viewer] Call refreshExistingViewer: "%WS1%/final.pdf" .
+[15:28:56.845][Viewer] Refresh PDF viewer: %WS1%/final.pdf
+[15:28:56.890][Cacher] Parsing .fls %WS1%/final.fls .
+[15:28:56.991][Cacher] Found .aux %WS1%/final.tex from .fls %WS1%/final.fls , parsing.
+[15:28:57.029][Cacher] Parsed .aux %WS1%/final.tex .
+[15:28:57.030][Cacher] Parsed .fls %WS1%/final.fls .
+[15:28:57.112][Server] Preview PDF file: file://%WS1%/final.pdf
+[15:28:57.282][Viewer] Handle data type: loaded
+[15:28:57.282][Event] VIEWER_PAGE_LOADED
+[15:44:51.408][Preview][Math][Cursor] Parse LaTeX AST from $O(|V|+|E|)$ .
+[15:45:02.370][Preview][Math][Cursor] Parse LaTeX AST from $O((|V|+|E|)\log(|V|))$ .
+[15:45:22.718][Preview][Math][Cursor] Use previous AST of $O((|V|+|E|)\log(|V|))$ .
+[15:45:37.567][Preview][Math][Cursor] Parse LaTeX AST from $O(|V|^2)$ .
+[15:45:51.519][Commander] BUILD command invoked.
+[15:45:51.520][Build] The document of the active editor: file://%WS1%/final.tex
+[15:45:51.520][Build] The languageId of the document: latex
+[15:45:51.520][Root] Current workspace folders: ["file://%WS1%"]
+[15:45:51.521][Root] Found root file from active editor: %WS1%/final.tex
+[15:45:51.521][Root] Keep using the same root file: %WS1%/final.tex
+[15:45:51.521][Event] ROOT_FILE_SEARCHED
+[15:45:51.521][Event] STRUCTURE_UPDATED
+[15:45:51.521][Build] Building root file: %WS1%/final.tex
+[15:45:51.522][Build][Recipe] Build root file %WS1%/final.tex
+[15:45:51.620][Extension] onDidSaveTextDocument triggered: file://%WS1%/final.tex
+[15:45:51.695][Build][Recipe] Preparing to run recipe: latexmk.
+[15:45:51.695][Build][Recipe] Prepared 1 tools.
+[15:45:51.696][Build][Recipe] outDir: %WS1% .
+[15:45:51.697][Build] Recipe step 1 The command is latexmk:["-pdf","-synctex=1","-interaction=nonstopmode","-file-line-error","--shell-escape","%WS1%/final"].
+[15:45:51.697][Build] env: undefined
+[15:45:51.697][Build] root: %WS1%/final.tex
+[15:45:51.698][Build] cwd: %WS1%
+[15:45:51.702][Build] LaTeX build process spawned with PID 11878.
+[15:45:51.704][Cacher][Watcher] "change" emitted on %WS1%/final.tex.
+[15:45:51.704][Cacher] Caching %WS1%/final.tex .
+[15:45:51.749][Cacher] Updated inputs of %WS1%/final.tex .
+[15:45:51.749][Cacher] Parse LaTeX AST: %WS1%/final.tex .
+[15:45:51.749][Build] Auto build started detecting the change of a file: %WS1%/final.tex .
+[15:45:51.749][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/final.tex"}
+[15:45:51.750][Build] Autobuild temporarily disabled.
+[15:45:51.750][Event] FILE_CHANGED: "%WS1%/final.tex"
+[15:45:51.793][Cacher] Parsed LaTeX AST: %WS1%/final.tex .
+[15:45:51.794][File] kpsewhich cache hit on article.cls: /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls .
+[15:45:51.798][Cacher] Updated elements in 4.10 ms: %WS1%/final.tex .
+[15:45:51.799][Event] FILE_PARSED: "%WS1%/final.tex"
+[15:45:51.800][Structure] Structure force updated with 0 root sections for %WS1%/final.tex .
+[15:45:51.801][Event] STRUCTURE_UPDATED
+[15:46:29.293][Parser][TexLog] Logged 1 messages.
+[15:46:30.612][Build] Finished a step in recipe with PID 11878.
+[15:46:30.612][Build] Successfully built %WS1%/final.tex .
+[15:46:30.612][Event] BUILD_DONE
+[15:46:30.613][Viewer] Call refreshExistingViewer: "%WS1%/final.pdf" .
+[15:46:30.613][Viewer] Refresh PDF viewer: %WS1%/final.pdf
+[15:46:30.652][Cacher] Parsing .fls %WS1%/final.fls .
+[15:46:30.791][Cacher] Found .aux %WS1%/final.tex from .fls %WS1%/final.fls , parsing.
+[15:46:30.827][Cacher] Parsed .aux %WS1%/final.tex .
+[15:46:30.827][Cacher] Parsed .fls %WS1%/final.fls .
+[15:46:30.958][Server] Preview PDF file: file://%WS1%/final.pdf
+[15:46:31.090][Viewer] Handle data type: loaded
+[15:46:31.090][Event] VIEWER_PAGE_LOADED
+[15:46:46.496][Event] STRUCTURE_UPDATED
+[15:47:10.074][Event] STRUCTURE_UPDATED
+[17:04:26.815][Commander] BUILD command invoked.
+[17:04:26.815][Build] The document of the active editor: file://%WS1%/final.tex
+[17:04:26.816][Build] The languageId of the document: latex
+[17:04:26.817][Root] Current workspace folders: ["file://%WS1%"]
+[17:04:26.820][Root] Found root file from active editor: %WS1%/final.tex
+[17:04:26.821][Root] Keep using the same root file: %WS1%/final.tex
+[17:04:26.821][Event] ROOT_FILE_SEARCHED
+[17:04:26.822][Event] STRUCTURE_UPDATED
+[17:04:26.822][Build] Building root file: %WS1%/final.tex
+[17:04:26.823][Build][Recipe] Build root file %WS1%/final.tex
+[17:04:26.934][Extension] onDidSaveTextDocument triggered: file://%WS1%/final.tex
+[17:04:27.007][Build][Recipe] Preparing to run recipe: latexmk.
+[17:04:27.008][Build][Recipe] Prepared 1 tools.
+[17:04:27.009][Build][Recipe] outDir: %WS1% .
+[17:04:27.009][Build] Recipe step 1 The command is latexmk:["-pdf","-synctex=1","-interaction=nonstopmode","-file-line-error","--shell-escape","%WS1%/final"].
+[17:04:27.009][Build] env: undefined
+[17:04:27.010][Build] root: %WS1%/final.tex
+[17:04:27.010][Build] cwd: %WS1%
+[17:04:27.016][Build] LaTeX build process spawned with PID 19412.
+[17:04:27.018][Cacher][Watcher] "change" emitted on %WS1%/final.tex.
+[17:04:27.019][Cacher] Caching %WS1%/final.tex .
+[17:04:27.065][Cacher] Updated inputs of %WS1%/final.tex .
+[17:04:27.065][Cacher] Parse LaTeX AST: %WS1%/final.tex .
+[17:04:27.065][Build] Auto build started detecting the change of a file: %WS1%/final.tex .
+[17:04:27.065][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/final.tex"}
+[17:04:27.065][Build] Autobuild temporarily disabled.
+[17:04:27.066][Event] FILE_CHANGED: "%WS1%/final.tex"
+[17:04:27.109][Cacher] Parsed LaTeX AST: %WS1%/final.tex .
+[17:04:27.110][File] kpsewhich cache hit on article.cls: /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls .
+[17:04:27.113][Cacher] Updated elements in 3.47 ms: %WS1%/final.tex .
+[17:04:27.114][Event] FILE_PARSED: "%WS1%/final.tex"
+[17:04:27.114][Structure] Structure force updated with 0 root sections for %WS1%/final.tex .
+[17:04:27.115][Event] STRUCTURE_UPDATED
+[17:04:53.836][Event] STRUCTURE_UPDATED
+[17:05:07.023][Parser][TexLog] Logged 1 messages.
+[17:05:08.347][Build] Finished a step in recipe with PID 19412.
+[17:05:08.349][Build] Successfully built %WS1%/final.tex .
+[17:05:08.351][Event] BUILD_DONE
+[17:05:08.353][Viewer] Call refreshExistingViewer: "%WS1%/final.pdf" .
+[17:05:08.354][Viewer] Refresh PDF viewer: %WS1%/final.pdf
+[17:05:08.401][Cacher] Parsing .fls %WS1%/final.fls .
+[17:05:08.541][Cacher] Adding %WS1%/dfs_graph.png .
+[17:05:08.541][Cacher][Watcher] Watched %WS1%/dfs_graph.png by the .* watcher.
+[17:05:08.542][Event] FILE_WATCHED: "%WS1%/dfs_graph.png"
+[17:05:08.544][Cacher] Found .aux %WS1%/final.tex from .fls %WS1%/final.fls , parsing.
+[17:05:08.579][Cacher] Parsed .aux %WS1%/final.tex .
+[17:05:08.579][Cacher] Parsed .fls %WS1%/final.fls .
+[17:05:08.682][Server] Preview PDF file: file://%WS1%/final.pdf
+[17:05:08.758][Viewer] Handle data type: loaded
+[17:05:08.759][Event] VIEWER_PAGE_LOADED
+[17:23:43.775][Commander] BUILD command invoked.
+[17:23:43.776][Build] The document of the active editor: file://%WS1%/final.tex
+[17:23:43.776][Build] The languageId of the document: latex
+[17:23:43.777][Root] Current workspace folders: ["file://%WS1%"]
+[17:23:43.779][Root] Found root file from active editor: %WS1%/final.tex
+[17:23:43.779][Root] Keep using the same root file: %WS1%/final.tex
+[17:23:43.780][Event] ROOT_FILE_SEARCHED
+[17:23:43.780][Event] STRUCTURE_UPDATED
+[17:23:43.780][Build] Building root file: %WS1%/final.tex
+[17:23:43.780][Build][Recipe] Build root file %WS1%/final.tex
+[17:23:43.876][Extension] onDidSaveTextDocument triggered: file://%WS1%/final.tex
+[17:23:43.949][Build][Recipe] Preparing to run recipe: latexmk.
+[17:23:43.950][Build][Recipe] Prepared 1 tools.
+[17:23:43.951][Build][Recipe] outDir: %WS1% .
+[17:23:43.952][Build] Recipe step 1 The command is latexmk:["-pdf","-synctex=1","-interaction=nonstopmode","-file-line-error","--shell-escape","%WS1%/final"].
+[17:23:43.953][Build] env: undefined
+[17:23:43.953][Build] root: %WS1%/final.tex
+[17:23:43.954][Build] cwd: %WS1%
+[17:23:43.960][Build] LaTeX build process spawned with PID 21384.
+[17:23:43.962][Cacher][Watcher] "change" emitted on %WS1%/final.tex.
+[17:23:43.963][Cacher] Caching %WS1%/final.tex .
+[17:23:44.007][Cacher] Updated inputs of %WS1%/final.tex .
+[17:23:44.008][Cacher] Parse LaTeX AST: %WS1%/final.tex .
+[17:23:44.008][Build] Auto build started detecting the change of a file: %WS1%/final.tex .
+[17:23:44.008][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/final.tex"}
+[17:23:44.008][Build] Autobuild temporarily disabled.
+[17:23:44.008][Event] FILE_CHANGED: "%WS1%/final.tex"
+[17:23:44.060][Cacher] Parsed LaTeX AST: %WS1%/final.tex .
+[17:23:44.060][File] kpsewhich cache hit on article.cls: /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls .
+[17:23:44.064][Cacher] Updated elements in 3.19 ms: %WS1%/final.tex .
+[17:23:44.065][Event] FILE_PARSED: "%WS1%/final.tex"
+[17:23:44.067][Structure] Structure force updated with 0 root sections for %WS1%/final.tex .
+[17:23:44.068][Event] STRUCTURE_UPDATED
+[17:24:04.167][Parser][TexLog] Logged 9 messages.
+[17:24:05.517][Build] Recipe returns with error code 12/null on PID 21384.
+[17:24:05.518][Build] Does the executable exist? $PATH: /usr/local/texlive/2024/bin/x86_64-linux:/home/alex/.local/bin:/usr/local/texlive/2024/bin/x86_64-linux:/usr/local/texlive/2024/bin/x86_64-linux:/home/alex/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin, $Path: undefined, $SHELL: /bin/bash
+[17:24:05.519][Build] Latexmk: Important warning:
+  (\end occurred inside a group at level 1)
+Latexmk: ====Undefined refs and citations with line #s in .tex file:
+  Reference `topo_sort_prob' on page 2 undefined on input line 88
+Latexmk: Sometimes, the -f option can be used to get latexmk
+  to try to force complete processing.
+  But normally, you will need to correct the file(s) that caused the
+  error, and then rerun latexmk.
+  In some cases, it is best to clean out generated files before rerunning
+  latexmk after you've corrected the files.
+
+[17:24:05.522][Build] Cleaning auxiliary files and retrying build after toolchain error.
+[17:24:05.526][Cleaner] Clean temporary files command The command is latexmk:["-outdir=%WS1%","-c","%WS1%/final.tex"].
+[17:24:05.545][Build] Recipe step 1 The command is latexmk:["-pdf","-synctex=1","-interaction=nonstopmode","-file-line-error","--shell-escape","%WS1%/final"].
+[17:24:05.546][Build] env: undefined
+[17:24:05.547][Build] root: %WS1%/final.tex
+[17:24:05.548][Build] cwd: %WS1%
+[17:24:05.557][Build] LaTeX build process spawned with PID 21432.
+[17:24:07.466][Build] Recipe returns with error code 12/null on PID 21432.
+[17:24:07.467][Build] Does the executable exist? $PATH: /usr/local/texlive/2024/bin/x86_64-linux:/home/alex/.local/bin:/usr/local/texlive/2024/bin/x86_64-linux:/usr/local/texlive/2024/bin/x86_64-linux:/home/alex/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin, $Path: undefined, $SHELL: /bin/bash
+[17:24:07.468][Build] Latexmk: Sometimes, the -f option can be used to get latexmk
+  to try to force complete processing.
+  But normally, you will need to correct the file(s) that caused the
+  error, and then rerun latexmk.
+  In some cases, it is best to clean out generated files before rerunning
+  latexmk after you've corrected the files.
+
+[17:24:07.473][Event] AUTO_CLEANED
+[17:24:29.703][Commander] BUILD command invoked.
+[17:24:29.704][Build] The document of the active editor: file://%WS1%/final.tex
+[17:24:29.704][Build] The languageId of the document: latex
+[17:24:29.705][Root] Current workspace folders: ["file://%WS1%"]
+[17:24:29.708][Root] Found root file from active editor: %WS1%/final.tex
+[17:24:29.709][Root] Keep using the same root file: %WS1%/final.tex
+[17:24:29.709][Event] ROOT_FILE_SEARCHED
+[17:24:29.710][Event] STRUCTURE_UPDATED
+[17:24:29.711][Build] Building root file: %WS1%/final.tex
+[17:24:29.711][Build][Recipe] Build root file %WS1%/final.tex
+[17:24:29.799][Extension] onDidSaveTextDocument triggered: file://%WS1%/final.tex
+[17:24:29.854][Build][Recipe] Preparing to run recipe: latexmk.
+[17:24:29.854][Build][Recipe] Prepared 1 tools.
+[17:24:29.855][Build][Recipe] outDir: %WS1% .
+[17:24:29.856][Build] Recipe step 1 The command is latexmk:["-pdf","-synctex=1","-interaction=nonstopmode","-file-line-error","--shell-escape","%WS1%/final"].
+[17:24:29.856][Build] env: undefined
+[17:24:29.857][Build] root: %WS1%/final.tex
+[17:24:29.857][Build] cwd: %WS1%
+[17:24:29.862][Build] LaTeX build process spawned with PID 21492.
+[17:24:29.864][Cacher][Watcher] "change" emitted on %WS1%/final.tex.
+[17:24:29.865][Cacher] Caching %WS1%/final.tex .
+[17:24:29.905][Cacher] Updated inputs of %WS1%/final.tex .
+[17:24:29.906][Cacher] Parse LaTeX AST: %WS1%/final.tex .
+[17:24:29.906][Build] Auto build started detecting the change of a file: %WS1%/final.tex .
+[17:24:29.906][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/final.tex"}
+[17:24:29.906][Build] Autobuild temporarily disabled.
+[17:24:29.906][Event] FILE_CHANGED: "%WS1%/final.tex"
+[17:24:29.980][Cacher] Parsed LaTeX AST: %WS1%/final.tex .
+[17:24:29.981][File] kpsewhich cache hit on article.cls: /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls .
+[17:24:29.989][Cacher] Updated elements in 8.00 ms: %WS1%/final.tex .
+[17:24:29.989][Event] FILE_PARSED: "%WS1%/final.tex"
+[17:24:29.990][Structure] Structure force updated with 0 root sections for %WS1%/final.tex .
+[17:24:29.991][Event] STRUCTURE_UPDATED
+[17:25:11.072][Parser][TexLog] Logged 1 messages.
+[17:25:12.393][Build] Finished a step in recipe with PID 21492.
+[17:25:12.394][Build] Successfully built %WS1%/final.tex .
+[17:25:12.394][Event] BUILD_DONE
+[17:25:12.395][Viewer] Call refreshExistingViewer: "%WS1%/final.pdf" .
+[17:25:12.395][Viewer] Refresh PDF viewer: %WS1%/final.pdf
+[17:25:12.438][Cacher] Parsing .fls %WS1%/final.fls .
+[17:25:12.554][Cacher] Adding %WS1%/topo_sort_graph.png .
+[17:25:12.554][Cacher][Watcher] Watched %WS1%/topo_sort_graph.png by the .* watcher.
+[17:25:12.554][Event] FILE_WATCHED: "%WS1%/topo_sort_graph.png"
+[17:25:12.556][Cacher] Found .aux %WS1%/final.tex from .fls %WS1%/final.fls , parsing.
+[17:25:12.595][Cacher] Parsed .aux %WS1%/final.tex .
+[17:25:12.595][Cacher] Parsed .fls %WS1%/final.fls .
+[17:25:12.757][Server] Preview PDF file: file://%WS1%/final.pdf
+[17:25:12.877][Viewer] Handle data type: loaded
+[17:25:12.878][Event] VIEWER_PAGE_LOADED
+[17:25:33.327][Event] STRUCTURE_UPDATED
+[17:25:34.106][Root] Current workspace folders: ["file://%WS1%"]
+[17:25:34.132][Root] Found root file from active editor: /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex
+[17:25:34.133][Root] Root file changed: from /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex to /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex, langID latex . Refresh dependencies
+[17:25:34.133][Event] ROOT_FILE_CHANGED: "/home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex"
+[17:25:34.133][Cacher][Watcher] Reset.
+[17:25:34.134][Cacher][Watcher] Reset.
+[17:25:34.135][Cacher] Adding /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[17:25:34.135][Cacher][Watcher] Watched /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex with a new .* watcher on /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms) .
+[17:25:34.136][Event] FILE_WATCHED: "/home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex"
+[17:25:34.136][Cacher] Caching /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[17:25:34.201][Cacher] Updated inputs of /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[17:25:34.202][Cacher] Parse LaTeX AST: /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[17:25:34.202][Event] ROOT_FILE_SEARCHED
+[17:25:34.204][Event] STRUCTURE_UPDATED
+[17:25:34.424][Cacher] Parsed LaTeX AST: /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[17:25:34.425][File] kpsewhich cache hit on article.cls: /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls .
+[17:25:34.433][Cacher] Updated elements in 8.75 ms: /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[17:25:34.434][Event] FILE_PARSED: "/home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex"
+[17:25:34.456][Cacher] Parsing .fls /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.fls .
+[17:25:34.512][Cacher] Adding /home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[17:25:34.513][Cacher][Watcher] Watched /home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex with a new .* watcher on /home/alex/Documents/Spring-2024/My Homeworks (Algorithms) .
+[17:25:34.513][Event] FILE_WATCHED: "/home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex"
+[17:25:34.513][Cacher] Found /home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex from .fls /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.fls , caching.
+[17:25:34.514][Cacher] Caching /home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[17:25:34.514][Cacher] Updated inputs of /home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[17:25:34.515][Cacher] Parse LaTeX AST: /home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[17:25:34.582][Cacher] Adding /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6_graph1.png .
+[17:25:34.582][Cacher][Watcher] Watched /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6_graph1.png by the .* watcher.
+[17:25:34.582][Event] FILE_WATCHED: "/home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6_graph1.png"
+[17:25:34.600][Cacher] Adding /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/island_problem.png .
+[17:25:34.600][Cacher][Watcher] Watched /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/island_problem.png by the .* watcher.
+[17:25:34.600][Event] FILE_WATCHED: "/home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/island_problem.png"
+[17:25:34.637][Cacher] Adding /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/_minted-hw6/default.pygstyle .
+[17:25:34.638][Cacher][Watcher] Watched /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/_minted-hw6/default.pygstyle with a new .* watcher on /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/_minted-hw6 .
+[17:25:34.638][Event] FILE_WATCHED: "/home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/_minted-hw6/default.pygstyle"
+[17:25:34.656][Cacher] Adding /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/_minted-hw6/350F5ADA1C0A8E5AFD1D65E57EB8357FD7135479B47EE7D7F493C9CBF7EDFAD0.pygtex .
+[17:25:34.657][Cacher][Watcher] Watched /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/_minted-hw6/350F5ADA1C0A8E5AFD1D65E57EB8357FD7135479B47EE7D7F493C9CBF7EDFAD0.pygtex by the .* watcher.
+[17:25:34.657][Event] FILE_WATCHED: "/home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/_minted-hw6/350F5ADA1C0A8E5AFD1D65E57EB8357FD7135479B47EE7D7F493C9CBF7EDFAD0.pygtex"
+[17:25:34.678][Cacher] Found .aux /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex from .fls /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.fls , parsing.
+[17:25:34.723][Cacher] Parsed .aux /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[17:25:34.724][Cacher] Parsed .fls /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.fls .
+[17:25:34.726][Structure] Structure force updated with 0 root sections for /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[17:25:34.727][Event] STRUCTURE_UPDATED
+[17:25:34.885][Cacher] Parsed LaTeX AST: /home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[17:25:34.886][File] kpsewhich cache hit on article.cls: /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls .
+[17:25:34.889][Cacher] Updated elements in 3.36 ms: /home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[17:25:34.889][Event] FILE_PARSED: "/home/alex/Documents/Spring-2024/My Homeworks (Algorithms)/hw6.tex"
+[17:25:34.890][Structure] Structure force updated with 0 root sections for /home/alex/Documents/Laptop-Server/Spring-2024/My Homeworks (Algorithms)/hw6.tex .
+[17:25:34.890][Event] STRUCTURE_UPDATED
+[17:25:36.712][Root] Current workspace folders: ["file://%WS1%"]
+[17:25:36.724][Root] Found root file from active editor: %WS1%/final.tex
+[17:25:36.725][Root] Root file changed: from %WS1%/final.tex to %WS1%/final.tex, langID latex . Refresh dependencies
+[17:25:36.725][Event] ROOT_FILE_CHANGED: "%WS1%/final.tex"
+[17:25:36.726][Cacher][Watcher] Reset.
+[17:25:36.726][Cacher][Watcher] Reset.
+[17:25:36.727][Cacher] Adding %WS1%/final.tex .
+[17:25:36.728][Cacher][Watcher] Watched %WS1%/final.tex with a new .* watcher on %WS1% .
+[17:25:36.728][Event] FILE_WATCHED: "%WS1%/final.tex"
+[17:25:36.728][Cacher] Caching %WS1%/final.tex .
+[17:25:36.769][Cacher] Updated inputs of %WS1%/final.tex .
+[17:25:36.769][Cacher] Parse LaTeX AST: %WS1%/final.tex .
+[17:25:36.770][Event] ROOT_FILE_SEARCHED
+[17:25:36.771][Event] STRUCTURE_UPDATED
+[17:25:36.845][Cacher] Parsed LaTeX AST: %WS1%/final.tex .
+[17:25:36.845][File] kpsewhich cache hit on article.cls: /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls .
+[17:25:36.847][Cacher] Updated elements in 1.40 ms: %WS1%/final.tex .
+[17:25:36.847][Event] FILE_PARSED: "%WS1%/final.tex"
+[17:25:36.870][Cacher] Parsing .fls %WS1%/final.fls .
+[17:25:37.039][Cacher] Adding %WS1%/graph_2.png .
+[17:25:37.039][Cacher][Watcher] Watched %WS1%/graph_2.png by the .* watcher.
+[17:25:37.039][Event] FILE_WATCHED: "%WS1%/graph_2.png"
+[17:25:37.059][Cacher] Adding %WS1%/graph_1.png .
+[17:25:37.060][Cacher][Watcher] Watched %WS1%/graph_1.png by the .* watcher.
+[17:25:37.061][Event] FILE_WATCHED: "%WS1%/graph_1.png"
+[17:25:37.082][Cacher] Adding %WS1%/dfs_graph.png .
+[17:25:37.083][Cacher][Watcher] Watched %WS1%/dfs_graph.png by the .* watcher.
+[17:25:37.083][Event] FILE_WATCHED: "%WS1%/dfs_graph.png"
+[17:25:37.104][Cacher] Adding %WS1%/topo_sort_graph.png .
+[17:25:37.105][Cacher][Watcher] Watched %WS1%/topo_sort_graph.png by the .* watcher.
+[17:25:37.106][Event] FILE_WATCHED: "%WS1%/topo_sort_graph.png"
+[17:25:37.130][Cacher] Found .aux %WS1%/final.tex from .fls %WS1%/final.fls , parsing.
+[17:25:37.171][Cacher] Parsed .aux %WS1%/final.tex .
+[17:25:37.172][Cacher] Parsed .fls %WS1%/final.fls .
+[17:25:37.172][Structure] Structure force updated with 0 root sections for %WS1%/final.tex .
+[17:25:37.173][Event] STRUCTURE_UPDATED
+[17:26:09.794][Commander] BUILD command invoked.
+[17:26:09.794][Build] The document of the active editor: file://%WS1%/final.tex
+[17:26:09.795][Build] The languageId of the document: latex
+[17:26:09.796][Root] Current workspace folders: ["file://%WS1%"]
+[17:26:09.798][Root] Found root file from active editor: %WS1%/final.tex
+[17:26:09.798][Root] Keep using the same root file: %WS1%/final.tex
+[17:26:09.799][Event] ROOT_FILE_SEARCHED
+[17:26:09.800][Event] STRUCTURE_UPDATED
+[17:26:09.800][Build] Building root file: %WS1%/final.tex
+[17:26:09.801][Build][Recipe] Build root file %WS1%/final.tex
+[17:26:09.909][Extension] onDidSaveTextDocument triggered: file://%WS1%/final.tex
+[17:26:09.980][Build][Recipe] Preparing to run recipe: latexmk.
+[17:26:09.980][Build][Recipe] Prepared 1 tools.
+[17:26:09.981][Build][Recipe] outDir: %WS1% .
+[17:26:09.982][Build] Recipe step 1 The command is latexmk:["-pdf","-synctex=1","-interaction=nonstopmode","-file-line-error","--shell-escape","%WS1%/final"].
+[17:26:09.982][Build] env: undefined
+[17:26:09.982][Build] root: %WS1%/final.tex
+[17:26:09.982][Build] cwd: %WS1%
+[17:26:09.987][Build] LaTeX build process spawned with PID 21650.
+[17:26:09.988][Cacher][Watcher] "change" emitted on %WS1%/final.tex.
+[17:26:09.989][Cacher] Caching %WS1%/final.tex .
+[17:26:10.052][Cacher] Updated inputs of %WS1%/final.tex .
+[17:26:10.052][Cacher] Parse LaTeX AST: %WS1%/final.tex .
+[17:26:10.053][Build] Auto build started detecting the change of a file: %WS1%/final.tex .
+[17:26:10.053][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/final.tex"}
+[17:26:10.053][Build] Autobuild temporarily disabled.
+[17:26:10.053][Event] FILE_CHANGED: "%WS1%/final.tex"
+[17:26:10.110][Cacher] Parsed LaTeX AST: %WS1%/final.tex .
+[17:26:10.111][File] kpsewhich cache hit on article.cls: /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls .
+[17:26:10.115][Cacher] Updated elements in 4.03 ms: %WS1%/final.tex .
+[17:26:10.117][Event] FILE_PARSED: "%WS1%/final.tex"
+[17:26:10.118][Structure] Structure force updated with 0 root sections for %WS1%/final.tex .
+[17:26:10.119][Event] STRUCTURE_UPDATED
+[17:26:48.994][Parser][TexLog] Logged 4 messages.
+[17:26:50.409][Build] Finished a step in recipe with PID 21650.
+[17:26:50.410][Build] Successfully built %WS1%/final.tex .
+[17:26:50.410][Event] BUILD_DONE
+[17:26:50.410][Viewer] Call refreshExistingViewer: "%WS1%/final.pdf" .
+[17:26:50.410][Viewer] Refresh PDF viewer: %WS1%/final.pdf
+[17:26:50.454][Cacher] Parsing .fls %WS1%/final.fls .
+[17:26:50.590][Cacher] Found .aux %WS1%/final.tex from .fls %WS1%/final.fls , parsing.
+[17:26:50.629][Cacher] Parsed .aux %WS1%/final.tex .
+[17:26:50.630][Cacher] Parsed .fls %WS1%/final.fls .
+[17:26:50.744][Server] Preview PDF file: file://%WS1%/final.pdf
+[17:26:50.857][Viewer] Handle data type: loaded
+[17:26:50.857][Event] VIEWER_PAGE_LOADED
+[17:27:54.901][Event] STRUCTURE_UPDATED
+[17:41:24.045][Event] STRUCTURE_UPDATED
