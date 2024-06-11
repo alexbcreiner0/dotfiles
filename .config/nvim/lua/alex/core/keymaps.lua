@@ -8,6 +8,8 @@ local globals = require('modules.globals')
 keymap.set('n', '<leader>rc', globals.source_config, { desc = "Resource config files" })
 keymap.set('n', '<leader>tt', globals.toggle_transparency, { desc = "Toggle transparency" })
 
+keymap.set('n', '<leader>kb', '<cmd>bd<cr>', {desc = "Kill active buffer", silent = true }) 
+
 keymap.set('i', '<C-z>', '<Nop>', { noremap = true, silent = true })
 keymap.set('v', '<C-z>', '<Nop>', { noremap = true, silent = true })
 keymap.set('s', '<C-z>', '<Nop>', { noremap = true, silent = true })
@@ -145,31 +147,31 @@ vim.api.nvim_create_autocmd("LspAttach", {
 })
 
 -- Python specific
--- keymap.set("n", '<localleader>pf', ':lua format_python_code()<cr>', {desc = "Autoformat python code", silent = true})
--- vim.api.nvim_create_autocmd('FileType', {
---     pattern = 'python',
---     callback = function()
---         keymap.set('n', '<localleader>bb', ":lua require('dap').toggle_breakpoint()<cr>", {desc = "Set breakpoint", buffer = ev.buf})
---         keymap.set('n', '<localleader>bc', ":lua require('dap').set_breakpoint(vim.fn.input('Breakpoint condition: '))<cr>", {desc = "Set breakpoint condition", buffer = ev.buf})
---         -- keymap.set("n", "<leader>bl", "<cmd>lua require'dap'.set_breakpoint(nil, nil, vim.fn.input('Log point message: '))<cr>")
---         keymap.set('n', '<localleader>bx', ":lua require('dap').clear_breakpoints()<cr>", {desc = "Clear breakpoints", buffer = ev.buf})
---         keymap.set("n", '<localleader>bl', '<cmd>Telescope dap list_breakpoints<cr>', {desc = "List breakpoints", buffer = ev.buf})
---         keymap.set("n", "<localleader>pd", "<cmd>lua require('dap').continue()<cr>", {desc = "Start debugger", buffer = ev.buf})
---         keymap.set("n", "<localleader>pc", "<cmd>lua require('dap').continue()<cr>", {desc = "Debugger continue", buffer = ev.buf})
---         keymap.set("n", "<localleader>pj", "<cmd>lua require('dap').step_over()<cr>", {desc = "Debugger step over", buffer = ev.buf})
---         keymap.set("n", "<localleader>pk", "<cmd>lua require('dap').step_into()<cr>", {desc = "Debugger step into", buffer = ev.buf})
---         keymap.set("n", "<localleader>po", "<cmd>lua require('dap').step_out()<cr>", {desc = "Debugger step out", buffer = ev.buf})
---         keymap.set("n", '<localleader>pd', function() require('dap').disconnect(); require('dapui').close(); end, {desc = "Disconnect debugger", buffer = ev.buf})
---         keymap.set("n", '<localleader>pt', function() require('dap').terminate(); require('dapui').close(); end, {desc = "Terminate debugger", buffer = ev.buf})
---         -- keymap.set("n", "<localleader>pdr", "<cmd>lua require('dap').repl.toggle()<cr>") -- ??
---         -- keymap.set("n", "<localleader>pdl", "<cmd>lua require('dap').run_last()<cr>") -- ??
---         keymap.set("n", '<localleader>pi', function() require("dap.ui.widgets").hover() end, {desc = "Display info", buffer = ev.buf})
---         keymap.set("n", '<localleader>p?', function() local widgets = require("dap.ui.widgets"); widgets.centered_float(widgets.scopes) end)
---         -- keymap.set("n", '<leader>df', '<cmd>Telescope dap frames<cr>')
---         -- keymap.set("n", '<leader>dh', '<cmd>Telescope dap commands<cr>')
---         -- keymap.set("n", '<leader>de', function() require('telescope.builtin').diagnostics({default_text=":E:"}) end)
---     end
--- })
+keymap.set("n", '<localleader>pf', ':lua format_python_code()<cr>', {desc = "Autoformat python code", silent = true})
+vim.api.nvim_create_autocmd('FileType', {
+    pattern = 'python',
+    callback = function(ev)
+        keymap.set('n', '<leader>ba', ":lua require('dap').toggle_breakpoint()<cr>", {desc = "Set breakpoint", buffer = ev.buf})
+        keymap.set('n', '<leader>bc', ":lua require('dap').set_breakpoint(vim.fn.input('Breakpoint condition: '))<cr>", {desc = "Set breakpoint condition", buffer = ev.buf})
+        -- keymap.set("n", "<leader>bl", "<cmd>lua require'dap'.set_breakpoint(nil, nil, vim.fn.input('Log point message: '))<cr>")
+        keymap.set('n', '<leader>bc', ":lua require('dap').clear_breakpoints()<cr>", {desc = "Clear breakpoints", buffer = ev.buf})
+        keymap.set("n", '<leader>bl', '<cmd>Telescope dap list_breakpoints<cr>', {desc = "List breakpoints", buffer = ev.buf})
+        keymap.set("n", "<leader>ds", "<cmd>lua require('dap').continue()<cr>", {desc = "Start debugger", buffer = ev.buf})
+        keymap.set("n", "<leader>dc", "<cmd>lua require('dap').continue()<cr>", {desc = "Debugger continue", buffer = ev.buf})
+        keymap.set("n", "<leader>do", "<cmd>lua require('dap').step_over()<cr>", {desc = "Debugger step over", buffer = ev.buf})
+        keymap.set("n", "<leader>di", "<cmd>lua require('dap').step_into()<cr>", {desc = "Debugger step into", buffer = ev.buf})
+        keymap.set("n", "<leader>du", "<cmd>lua require('dap').step_out()<cr>", {desc = "Debugger step out", buffer = ev.buf})
+        keymap.set("n", '<leader>dx', function() require('dap').disconnect(); require('dapui').close(); end, {desc = "Disconnect debugger", buffer = ev.buf})
+        keymap.set("n", '<leader>dX', function() require('dap').terminate(); require('dapui').close(); end, {desc = "Terminate debugger", buffer = ev.buf})
+        -- keymap.set("n", "<leader>pdr", "<cmd>lua require('dap').repl.toggle()<cr>") -- ??
+        -- keymap.set("n", "<leader>pdl", "<cmd>lua require('dap').run_last()<cr>") -- ??
+        keymap.set("n", '<leader>di', function() require("dap.ui.widgets").hover() end, {desc = "Display info", buffer = ev.buf})
+        keymap.set("n", '<leader>d?', function() local widgets = require("dap.ui.widgets"); widgets.centered_float(widgets.scopes) end)
+        -- keymap.set("n", '<leader>df', '<cmd>Telescope dap frames<cr>')
+        -- keymap.set("n", '<leader>dh', '<cmd>Telescope dap commands<cr>')
+        -- keymap.set("n", '<leader>de', function() require('telescope.builtin').diagnostics({default_text=":E:"}) end)
+    end
+})
 
 function format_python_code()
     local filetype = vim.bo.filetype

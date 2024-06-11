@@ -10,14 +10,6 @@ return {
         "sainnhe/everforest",
         "sainnhe/edge",
         "projekt0n/github-nvim-theme",
-    },
-    -- The one you want to default to goes here instead. 
-    -- If you change, put kanagawa above with the others to leave it as an option.
-    {
-        "rebelot/kanagawa.nvim",
-        config = function()
-        vim.cmd.colorscheme('kanagawa')
-        end,
-
-    },
+        "rebelot/kanagawa.nvim"
+    }
 }

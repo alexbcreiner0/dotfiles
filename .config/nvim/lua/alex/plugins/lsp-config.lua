@@ -32,7 +32,12 @@ return {
                 capabilities = capabilities
             })
             lspconfig.pyright.setup({
-                capabilities = capabilities
+                capabilities = capabilities,
+                -- params['settings'] = {
+                --     python = {
+                --         pythonPath = require('modules.globals').python_path
+                --     }
+                -- }
             })
             lspconfig.bashls.setup({
                 capabilities = capabilities

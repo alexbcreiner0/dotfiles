@@ -3,16 +3,6 @@ local opt = vim.opt
 --vim.o.timeout = true
 --vim.o.timeoutlen = 500
 
-local use_venv = true
-local venv_python = vim.fn.expand('~/venvs/kivy-dev/bin/python3')
-local system_python = '/usr/bin/python3'
-
-if use_venv then
-    vim.g.python3_host_prog = venv_python
-else
-    vim.g.python3_host_prog = system_python
-end
-
 -- Don't show mode since it's shown already by lualine
 opt.showmode = false
 

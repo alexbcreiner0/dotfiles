@@ -1,8 +1,27 @@
 local M = {}
 
-function M.test()
-    print('Hello world!')
+-- local use_venv = true 
+-- local venv_python = vim.fn.expand('~/venvs/blockchain_project/bin/python3')
+-- local system_python = '/usr/bin/python3'
+
+-- if use_venv then
+--     vim.g.python3_host_prog = venv_python
+-- else
+--     vim.g.python3_host_prog = system_python
+-- end
+
+-- function M.test()
+--     print('Hello world!')
+-- end
+
+M.default_color = "kanagawa-dragon"
+
+if vim.fn.getenv("VIRTUAL_ENV") ~= vim.NIL then
+    M.python_path = vim.fn.getenv("VIRTUAL_ENV") .. "/bin/python3"
+else
+    M.python_path = "/usr/bin/python3"
 end
+vim.g.python3_host_prog = M.python_path
 
 M.is_transparent = false
 function M.toggle_transparency()

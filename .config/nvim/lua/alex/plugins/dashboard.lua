@@ -10,7 +10,7 @@ function nav_school()
     if success then
         vim.cmd('Telescope find_files')
     else
-        print('Error opening folder. Has something changed about your server?')
+        require("notify")('Error opening folder. Has something changed about your server?')
     end
 end
 

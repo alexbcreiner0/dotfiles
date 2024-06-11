@@ -1,5 +1,6 @@
 format = """
 [](#3B4252)\
+$python\
 $username\
 [](bg:#434C5E fg:#3B4252)\
 $directory\
@@ -20,6 +21,10 @@ show_always = true
 style_user = "bg:#3B4252"
 style_root = "bg:#3B4252"
 format = '[$user ]($style)'
+
+[python]
+style = "bg:#3B4252"
+format = '[(\($virtualenv\) )]($style)'
 
 [directory]
 style = "bg:#434C5E"
