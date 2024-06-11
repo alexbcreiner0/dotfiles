@@ -1,0 +1,145 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="ActivateLearnToolWindow">
+      <i c="1" l="1718075253398" />
+    </e>
+    <e n="ChangeLaf">
+      <i c="1" l="1718075562068" />
+    </e>
+    <e n="DatabaseView.AddActionGroupPopup">
+      <i c="1" l="1718075719250" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="70" l="1718075684572" />
+    </e>
+    <e n="EditorDown">
+      <i c="3" l="1718075687826" />
+    </e>
+    <e n="EditorEnter">
+      <i c="17" l="1718075685166" />
+    </e>
+    <e n="EditorEscape">
+      <i c="3" l="1718075368043" />
+    </e>
+    <e n="EditorTabsEntryPoint">
+      <i c="5" l="1718077695532" />
+    </e>
+    <e n="EditorUp">
+      <i c="60" l="1718075690559" />
+    </e>
+    <e n="ExpressionTypeInfo">
+      <i c="1" l="1718073686001" />
+    </e>
+    <e n="MoreRunToolbarActions">
+      <i c="2" l="1718076091557" />
+    </e>
+    <e n="NewDirectoryProject">
+      <i c="1" l="1718075015394" />
+    </e>
+    <e n="NewScratchFile">
+      <i c="2" l="1718075000714" />
+    </e>
+    <e n="NotebookDeleteCellAction">
+      <i c="1" l="1718075398923" />
+    </e>
+    <e n="NotebookRunCellSelectBelowAction">
+      <i c="2" l="1718075404908" />
+    </e>
+    <e n="RedesignedRunConfigurationSelector">
+      <i c="1" l="1718076101196" />
+    </e>
+    <e n="SettingsEntryPoint">
+      <i c="5" l="1718087899473" />
+    </e>
+    <e n="ShowSettings">
+      <i c="5" l="1718074666768" />
+    </e>
+    <e n="Stop">
+      <i c="1" l="1718075266988" />
+    </e>
+    <e n="Terminal.Escape">
+      <i c="1" l="1718075690931" />
+    </e>
+    <e n="Terminal.NewTab">
+      <i c="1" l="1718075693275" />
+    </e>
+    <e n="TerminalNewPredefinedSession">
+      <i c="2" l="1718075695339" />
+    </e>
+    <e n="WelcomeScreen.OpenDirectoryProject">
+      <i c="1" l="1718073575793" />
+    </e>
+    <e n="WelcomeScreen.Plugins">
+      <i c="3" l="1718087904414" />
+    </e>
+    <e n="com.intellij.database.dataSource.LocalDataSourceManager$3">
+      <i c="1" l="1718075738575" />
+    </e>
+    <e n="com.intellij.ide.actions.ToggleToolbarAction">
+      <i c="5" l="1718075872053" />
+    </e>
+    <e n="com.intellij.ide.actions.ToolWindowViewModeAction">
+      <i c="3" l="1718075869007" />
+    </e>
+    <e n="com.intellij.ide.lightEdit.statusBar.LightEditModeNotificationWidget$LightEditDelegatingAction">
+      <i c="1" l="1718086945870" />
+    </e>
+    <e n="com.intellij.notification.NotificationAction$Simple">
+      <i c="1" l="1718073739552" />
+    </e>
+    <e n="com.intellij.openapi.actionSystem.AnActionWrapper">
+      <i c="61" l="1718077754944" />
+    </e>
+    <e n="com.intellij.openapi.actionSystem.DefaultActionGroup">
+      <i c="2" l="1718075394744" />
+    </e>
+    <e n="com.intellij.openapi.editor.impl.EditorMarkupModelImpl$MarkupModelDelegateAction">
+      <i c="4" l="1718073767088" />
+    </e>
+    <e n="com.intellij.openapi.editor.impl.EditorMarkupModelImpl$TrafficLightAction">
+      <i c="9" l="1718075551759" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="3" l="1718075786067" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
+      <i c="13" l="1718075748252" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.ToolWindowImpl$HideAction">
+      <i c="1" l="1718074955419" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.ToolWindowImpl$RemoveStripeButtonAction">
+      <i c="3" l="1718075326607" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+      <i c="9" l="1718076108108" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.welcomeScreen.ActionGroupPanelWrapper$6">
+      <i c="1" l="1718073571519" />
+    </e>
+    <e n="com.intellij.toolWindow.ShowMoreToolWindowsAction">
+      <i c="5" l="1718075329162" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
+      <i c="2" l="1718075917858" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$ShowOptionsAction">
+      <i c="15" l="1718075870167" />
+    </e>
+    <e n="org.jetbrains.plugins.notebooks.jupyter.actions.JupyterCellTypeComboBox">
+      <i c="1" l="1718075174766" />
+    </e>
+    <e n="org.jetbrains.plugins.notebooks.jupyter.editor.JupyterAddCellButtonActionDelegate">
+      <i c="2" l="1718075400351" />
+    </e>
+    <e n="org.jetbrains.plugins.notebooks.jupyter.editor.JupyterServerChooserAction">
+      <i c="1" l="1718075239463" />
+    </e>
+    <e n="org.jetbrains.plugins.terminal.action.EnableBlockTerminalUiAction">
+      <i c="1" l="1718073655244" />
+    </e>
+    <e n="org.jetbrains.plugins.terminal.action.TerminalNewPredefinedSessionAction$OpenShellAction">
+      <i c="1" l="1718075675023" />
+    </e>
+  </component>
+</application>

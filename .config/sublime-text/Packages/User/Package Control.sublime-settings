@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"Catppuccin color schemes",
 		"Jedi - Python autocompletion",
 		"Jedi Syntax",
 		"LaTeXTools",

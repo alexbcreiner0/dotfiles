@@ -1,0 +1,69 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/Laptop-Server/Python-Projects/cookbook-kivy">
+          <value>
+            <RecentProjectMetaInfo frameTitle="cookbook-kivy – main.py" projectWorkspaceId="2hiOnD25Ow4zMtuGvjTTf8yYEah">
+              <option name="activationTimestamp" value="1718086727941" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-241.17890.14" />
+              <option name="buildTimestamp" value="1717530660000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="5" />
+              </option>
+              <frame x="4804" y="40" width="948" height="1032" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1718073595563" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/.cache/JetBrains/PyCharm2024.1/demo/PyCharmLearningProject">
+          <value>
+            <RecentProjectMetaInfo frameTitle="PyCharmLearningProject – README.md" hidden="true" projectWorkspaceId="2hiSB1qEbwlLqZsqg1EF2V1v09A">
+              <option name="activationTimestamp" value="1718084804285" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-241.17890.14" />
+              <option name="buildTimestamp" value="1717530660000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="7" />
+              </option>
+              <frame x="3848" y="560" width="948" height="512" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1718075265913" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$APPLICATION_CONFIG_DIR$/light-edit">
+          <value>
+            <RecentProjectMetaInfo frameTitle="null - .../&gt;/dev" projectWorkspaceId="2hipogJtWlwfvpAJlLLn2CYARAs">
+              <option name="activationTimestamp" value="1718086948951" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="8" />
+              </option>
+              <frame x="4804" y="40" width="948" height="512" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/PycharmProjects/Test">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Test – main.py" opened="true" projectWorkspaceId="2hiRp6RwI7RbE4cESU9F4h2RNa4">
+              <option name="activationTimestamp" value="1718087907433" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-241.17890.14" />
+              <option name="buildTimestamp" value="1717530660000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="6" />
+              </option>
+              <frame x="4804" y="40" width="948" height="1032" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1718086947746" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/PycharmProjects/Test" />
+    <option name="lastProjectLocation" value="$USER_HOME$/PycharmProjects" />
+  </component>
+</application>

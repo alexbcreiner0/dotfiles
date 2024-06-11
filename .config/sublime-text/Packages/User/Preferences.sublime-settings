@@ -3,8 +3,9 @@
 	[
 		"Vintage",
 	],
-	"font_size": 15,
+	"font_size": 12,
 	"theme": "Adaptive.sublime-theme",
-	"color_scheme": "Monokai.sublime-color-scheme",
+	"color_scheme": "Catppuccin Macchiato.sublime-color-scheme",
 	"index_files": true,
+	"auto_complete_commit_on_tab": true,
 }

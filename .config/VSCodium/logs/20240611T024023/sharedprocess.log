@@ -1,0 +1,22 @@
+2024-06-11 02:40:24.366 [info] Started initializing default profile extensions in extensions installation folder. file:///home/alex/.vscode-oss/extensions
+2024-06-11 02:40:24.421 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///home/alex/.vscode-oss/extensions Unable to create file 'vscode-userdata:/home/alex/.vscode-oss/extensions/extensions.json' that already exists when overwrite flag is not set
+2024-06-11 02:40:24.421 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/alex/.vscode-oss/extensions
+2024-06-11 02:40:24.473 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/alex/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/alex/.vscode-oss/extensions/extensions.json.vsctmp'
+    at l.create (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:22053)
+    at m (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:22183)
+    at t.toFileSystemProviderError (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:48025)
+    at t.stat (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:38528)
+    at async v.stat (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:19752)
+    at async z.onDidFilesChange (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:144574)
+2024-06-11 02:40:50.413 [info] Getting Manifest... metaphore.kanagawa-vscode-color-theme
+2024-06-11 02:40:50.484 [info] Installing extension: metaphore.kanagawa-vscode-color-theme vscode-userdata:/home/alex/.vscode-oss/extensions/extensions.json
+2024-06-11 02:40:51.492 [info] Extracted extension to file:///home/alex/.vscode-oss/extensions/metaphore.kanagawa-vscode-color-theme-0.3.0-universal: metaphore.kanagawa-vscode-color-theme
+2024-06-11 02:40:51.495 [info] Renamed to /home/alex/.vscode-oss/extensions/metaphore.kanagawa-vscode-color-theme-0.3.0-universal
+2024-06-11 02:40:51.524 [info] Extension installed successfully: metaphore.kanagawa-vscode-color-theme vscode-userdata:/home/alex/.vscode-oss/extensions/extensions.json
+2024-06-11 02:40:51.575 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/alex/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/alex/.vscode-oss/extensions/extensions.json.vsctmp'
+    at l.create (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:22053)
+    at m (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:22183)
+    at t.toFileSystemProviderError (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:48025)
+    at t.stat (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:38528)
+    at async v.stat (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:19752)
+    at async z.onDidFilesChange (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:144574)
