@@ -180,6 +180,12 @@
     <e n="JupyterCreateFileAction">
       <i c="1" l="1718139297512" />
     </e>
+    <e n="JupyterExpandSelectionToCellAboveCommandModeAction">
+      <i c="1" l="1718176278061" />
+    </e>
+    <e n="JupyterExpandSelectionToCellBelowCommandModeAction">
+      <i c="2" l="1718176279123" />
+    </e>
     <e n="LocalHistory.ShowHistory">
       <i c="1" l="1718132015479" />
     </e>
@@ -220,7 +226,7 @@
       <i c="1" l="1718139326308" />
     </e>
     <e n="OpenFile">
-      <i c="4" l="1718139198992" />
+      <i c="5" l="1718176295801" />
     </e>
     <e n="ParameterInfo">
       <i c="2" l="1718132211566" />
@@ -503,6 +509,12 @@
     </e>
     <e n="com.intellij.toolWindow.ToolWindowHeader$ShowOptionsAction">
       <i c="9" l="1718138005162" />
+    </e>
+    <e n="com.intellij.ui.NotificationBalloonActionProvider$3">
+      <i c="1" l="1718176472686" />
+    </e>
+    <e n="com.intellij.ui.NotificationBalloonActionProvider$4">
+      <i c="1" l="1718176502844" />
     </e>
     <e n="com.intellij.ui.NotificationBalloonActionProvider$5">
       <i c="1" l="1718134601186" />

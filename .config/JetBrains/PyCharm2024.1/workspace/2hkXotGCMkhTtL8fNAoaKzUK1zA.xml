@@ -7,7 +7,7 @@
     </option>
   </component>
   <component name="FileEditorManager">
-    <leaf ideFingerprint="gzitpjm6guu1">
+    <leaf ideFingerprint="2q0wiizb37mts" SIDE_TABS_SIZE_LIMIT_KEY="-1">
       <file>
         <entry file="file://$PROJECT_DIR$/.ipynb_checkpoints/Lecture 1.ipynb">
           <provider editor-type-id="jupyter-editor" selected="true" />
@@ -18,8 +18,8 @@
   <component name="FileTypeUsageLocalSummary"><![CDATA[{
   "data": {
     "Jupyter": {
-      "usageCount": 1,
-      "lastUsed": 1718139305162
+      "usageCount": 3,
+      "lastUsed": 1718176271570
     },
     "Diagrams.net Diagram": {
       "usageCount": 1,
@@ -32,17 +32,20 @@
       <option value="$PROJECT_DIR$/.ipynb_checkpoints/Lecture 1.ipynb" />
     </changedPaths>
   </component>
-  <component name="JupyterTrust" id="ee6c00d9-ae9b-4305-b47a-9b36bb63fb82">
-    <option name="files">
-      <option value=".ipynb_checkpoints/Lecture 1.ipynb" />
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
     </option>
   </component>
+  <component name="JupyterTrust" id="47985e16-fb95-465a-a7b2-24c9b3a2a69b" />
   <component name="LanguageUsageStatistics">
     <language id="Diagrams.net">
       <summary usageCount="1" lastUsage="1718139252092" />
     </language>
     <language id="Jupyter">
-      <summary usageCount="1" lastUsage="1718139305162" />
+      <summary usageCount="3" lastUsage="1718176271572" />
     </language>
   </component>
   <component name="ProjectView">
@@ -68,11 +71,11 @@
     </panes>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="746000" />
+    <option name="totallyTimeSpent" value="1927000" />
   </component>
   <component name="ToolWindowManager">
     <layoutV2>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24560761" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17935924" />
       <window_info id="Commit" order="1" weight="0.25" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
@@ -88,22 +91,31 @@
       <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
       <window_info anchor="right" id="Maven" order="4" weight="0.25" />
       <window_info anchor="right" id="Key Promoter X" order="5" />
-      <window_info anchor="right" id="Plots" order="5" weight="0.1" />
-      <unified_weights left="0.24560761" />
+      <window_info anchor="right" id="Plots" order="6" weight="0.1" />
+      <unified_weights left="0.17935924" />
     </layoutV2>
     <recentWindows>
       <value>Project</value>
     </recentWindows>
   </component>
+  <component name="WindowStateProjectService">
+    <state x="4467" y="245" width="662" height="608" key="#Notifications" timestamp="1718176496551">
+      <screen x="3840" y="32" width="1920" height="1048" />
+    </state>
+    <state x="4467" y="245" width="662" height="608" key="#Notifications/3840.32.1920.1048/0.0.1920.1080/0.0.1920.1080@3840.32.1920.1048" timestamp="1718176496551" />
+    <state x="4586" y="285" width="424" height="528" key="FileChooserDialogImpl" timestamp="1718176458574">
+      <screen x="3840" y="32" width="1920" height="1048" />
+    </state>
+    <state x="4586" y="285" width="424" height="528" key="FileChooserDialogImpl/3840.32.1920.1048/0.0.1920.1080/0.0.1920.1080@3840.32.1920.1048" timestamp="1718176458574" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test.drawio">
-      <provider selected="true" editor-type-id="diagrams.net JCEF editor" />
       <provider editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.ipynb_checkpoints/Lecture 1.ipynb">
+    <entry file="notebook:///home/alex/Laptop-Server/Jupyter-Lectures-CS1/.ipynb_checkpoints/Lecture 1.ipynb">
       <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
-    <entry file="notebook:///home/alex/Laptop-Server/Jupyter-Lectures-CS1/.ipynb_checkpoints/Lecture 1.ipynb">
+    <entry file="file://$PROJECT_DIR$/.ipynb_checkpoints/Lecture 1.ipynb">
       <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
   </component>

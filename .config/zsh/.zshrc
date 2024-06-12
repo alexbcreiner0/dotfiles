@@ -94,7 +94,7 @@ alias obsidian='flatpak run md.obsidian.Obsidian &'
 alias chrome='flatpak run com.google.Chrome &'
 alias python='python3'
 alias cat='batcat --paging=never'
-alias emacs="emacsclient -c -a 'emacs' &" 
+# alias emacs="emacsclient -c -a 'emacs' &" 
 alias sublime-text="subl"
 
 #TODO: junk, delete this

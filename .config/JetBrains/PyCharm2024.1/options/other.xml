@@ -8,11 +8,11 @@
       <option value="Console.EditorTableResult.Group" />
     </ids>
   </component>
-  <component name="FileEditorProviderManager"><![CDATA[{
-  "selectedProviders": {
-    "diagrams.net JCEF editor,text-editor": "diagrams.net JCEF editor"
+  <component name="FileEditorProviderManager">{
+  &quot;selectedProviders&quot;: {
+    &quot;diagrams.net JCEF editor,text-editor&quot;: &quot;diagrams.net JCEF editor&quot;
   }
-}]]></component>
+}</component>
   <component name="LangManager">
     <option name="languageName" value="Python" />
     <languageToProjectMap>
@@ -30,7 +30,9 @@
     "LayoutCode.optimizeImports": "true",
     "LayoutCode.rearrangeEntriesPython": "false",
     "MarketplacePluginsSearchHistory": "draw.io\ndraw.\ndraw\ndr\n/tag:Keymap",
+    "Notification.DisplayName-DoNotAsk-File Watcher Messages": "File system synchronization issues detected",
     "Notification.DisplayName-DoNotAsk-Key Promoter X": "Key Promoter X",
+    "Notification.DoNotAsk-File Watcher Messages": "true",
     "Notification.DoNotAsk-Key Promoter X": "true",
     "PyCharm.InitialConfiguration": "true",
     "PyCharm.InitialConfiguration.V2": "true",
