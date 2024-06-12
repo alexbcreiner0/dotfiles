@@ -16,7 +16,7 @@
     <size key="GridCell.Tab.0.bottom.0.0.1366.768@168dpi" width="1366" height="191" />
   </component>
   <component name="WindowManager">
-    <frame x="3848" y="40" width="1904" height="1032" />
+    <frame x="0" y="0" width="1366" height="768" extendedState="6" />
   </component>
   <component name="WindowStateApplicationService">
     <state x="466" y="140" width="424" height="490" key="FileChooserDialogImpl" timestamp="1718129161220">
@@ -27,9 +27,9 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="661" height="135" key="ShowUsagesActions.dimensionServiceKey/0.0.1366.768" timestamp="1718132690892" />
-    <state x="683" y="384" width="1366" height="768" key="WELCOME_SCREEN" timestamp="1718129149676">
+    <state x="683" y="384" width="1366" height="768" key="WELCOME_SCREEN" timestamp="1718225836457">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="683" y="384" width="1366" height="768" key="WELCOME_SCREEN/0.0.1366.768" timestamp="1718129149676" />
+    <state x="683" y="384" width="1366" height="768" key="WELCOME_SCREEN/0.0.1366.768" timestamp="1718225836457" />
   </component>
 </application>

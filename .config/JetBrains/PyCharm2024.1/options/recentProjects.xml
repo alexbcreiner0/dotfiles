@@ -18,10 +18,26 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
+        <entry key="$USER_HOME$/Laptop-Server/Jupyter-Lectures-CS1">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Jupyter-Lectures-CS1 – Lecture 1.ipynb" projectWorkspaceId="2hkXotGCMkhTtL8fNAoaKzUK1zA">
+              <option name="activationTimestamp" value="1718225814782" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-241.17890.14" />
+              <option name="buildTimestamp" value="1717530660000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="2" />
+              </option>
+              <frame x="0" y="0" width="1366" height="768" extendedState="6" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1718139227743" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/Laptop-Server/Python-Projects/cookbook-kivy">
           <value>
-            <RecentProjectMetaInfo frameTitle="cookbook-kivy – main.py" projectWorkspaceId="2hiOnD25Ow4zMtuGvjTTf8yYEah">
-              <option name="activationTimestamp" value="1718139228573" />
+            <RecentProjectMetaInfo frameTitle="cookbook-kivy – main.py" opened="true" projectWorkspaceId="2hiOnD25Ow4zMtuGvjTTf8yYEah">
+              <option name="activationTimestamp" value="1718225988603" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="PY-241.17890.14" />
               <option name="buildTimestamp" value="1717530660000" />
@@ -30,28 +46,12 @@
               </option>
               <frame x="0" y="0" width="1366" height="768" extendedState="6" />
               <option name="productionCode" value="PY" />
-              <option name="projectOpenTimestamp" value="1718134705447" />
-            </RecentProjectMetaInfo>
-          </value>
-        </entry>
-        <entry key="$USER_HOME$/Laptop-Server/Jupyter-Lectures-CS1">
-          <value>
-            <RecentProjectMetaInfo frameTitle="Jupyter-Lectures-CS1 – Lecture 1.ipynb" opened="true" projectWorkspaceId="2hkXotGCMkhTtL8fNAoaKzUK1zA">
-              <option name="activationTimestamp" value="1718176496566" />
-              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="PY-241.17890.14" />
-              <option name="buildTimestamp" value="1717530660000" />
-              <option name="colorInfo">
-                <RecentProjectColorInfo associatedIndex="2" />
-              </option>
-              <frame x="3848" y="40" width="1904" height="1032" />
-              <option name="productionCode" value="PY" />
-              <option name="projectOpenTimestamp" value="1718139227743" />
+              <option name="projectOpenTimestamp" value="1718225842647" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
       </map>
     </option>
-    <option name="lastOpenedProject" value="$USER_HOME$/Laptop-Server/Jupyter-Lectures-CS1" />
+    <option name="lastOpenedProject" value="$USER_HOME$/Laptop-Server/Python-Projects/cookbook-kivy" />
   </component>
 </application>

@@ -7,7 +7,7 @@
     </option>
   </component>
   <component name="FileEditorManager">
-    <leaf ideFingerprint="2q0wiizb37mts" SIDE_TABS_SIZE_LIMIT_KEY="-1">
+    <leaf ideFingerprint="11blzh0mdry3f" SIDE_TABS_SIZE_LIMIT_KEY="-1">
       <file>
         <entry file="file://$PROJECT_DIR$/.ipynb_checkpoints/Lecture 1.ipynb">
           <provider editor-type-id="jupyter-editor" selected="true" />
@@ -18,8 +18,8 @@
   <component name="FileTypeUsageLocalSummary"><![CDATA[{
   "data": {
     "Jupyter": {
-      "usageCount": 3,
-      "lastUsed": 1718176271570
+      "usageCount": 7,
+      "lastUsed": 1718225801019
     },
     "Diagrams.net Diagram": {
       "usageCount": 1,
@@ -39,13 +39,13 @@
       </set>
     </option>
   </component>
-  <component name="JupyterTrust" id="47985e16-fb95-465a-a7b2-24c9b3a2a69b" />
+  <component name="JupyterTrust" id="ee6c00d9-ae9b-4305-b47a-9b36bb63fb82" />
   <component name="LanguageUsageStatistics">
     <language id="Diagrams.net">
       <summary usageCount="1" lastUsage="1718139252092" />
     </language>
     <language id="Jupyter">
-      <summary usageCount="3" lastUsage="1718176271572" />
+      <summary usageCount="7" lastUsage="1718225801023" />
     </language>
   </component>
   <component name="ProjectView">
@@ -71,11 +71,11 @@
     </panes>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1927000" />
+    <option name="totallyTimeSpent" value="2119000" />
   </component>
   <component name="ToolWindowManager">
     <layoutV2>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17935924" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17679356" />
       <window_info id="Commit" order="1" weight="0.25" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
@@ -92,7 +92,7 @@
       <window_info anchor="right" id="Maven" order="4" weight="0.25" />
       <window_info anchor="right" id="Key Promoter X" order="5" />
       <window_info anchor="right" id="Plots" order="6" weight="0.1" />
-      <unified_weights left="0.17935924" />
+      <unified_weights left="0.17679356" />
     </layoutV2>
     <recentWindows>
       <value>Project</value>
@@ -107,6 +107,10 @@
       <screen x="3840" y="32" width="1920" height="1048" />
     </state>
     <state x="4586" y="285" width="424" height="528" key="FileChooserDialogImpl/3840.32.1920.1048/0.0.1920.1080/0.0.1920.1080@3840.32.1920.1048" timestamp="1718176458574" />
+    <state x="187" y="19" width="992" height="732" key="SettingsEditor" timestamp="1718225690807">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="187" y="19" width="992" height="732" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1718225690807" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test.drawio">

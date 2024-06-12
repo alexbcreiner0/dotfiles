@@ -19,7 +19,10 @@
       <i c="12" l="1718137410015" />
     </e>
     <e n="ChangeView">
-      <i c="1" l="1718135117170" />
+      <i c="2" l="1718225623545" />
+    </e>
+    <e n="CloseProject">
+      <i c="1" l="1718225831364" />
     </e>
     <e n="CodeCompletion">
       <i c="5" l="1718131542096" />
@@ -38,6 +41,9 @@
     </e>
     <e n="CommentByLineComment">
       <i c="6" l="1718130301789" />
+    </e>
+    <e n="ConfigureEditorTabs">
+      <i c="1" l="1718225868260" />
     </e>
     <e n="Console.EditorTableResult.Group">
       <i c="1" d="1" l="1718132394736" k="1718132394736" />
@@ -69,6 +75,9 @@
     <e n="EditorCut">
       <i c="1" l="1718131420153" />
     </e>
+    <e n="EditorDecreaseFontSize">
+      <i c="1" l="1718226015430" />
+    </e>
     <e n="EditorDeleteLine">
       <i c="1" l="1718130380362" />
     </e>
@@ -86,6 +95,9 @@
     </e>
     <e n="EditorGutterToggleGlobalLineNumbers">
       <i c="2" d="2" l="1718130122267" k="1718130122267" />
+    </e>
+    <e n="EditorIncreaseFontSize">
+      <i c="9" l="1718226014832" />
     </e>
     <e n="EditorLeft">
       <i c="60" l="1718133312487" />
@@ -109,7 +121,7 @@
       <i c="17" l="1718130260065" />
     </e>
     <e n="EditorTabsEntryPoint">
-      <i c="1" l="1718134602710" />
+      <i c="2" l="1718225864676" />
     </e>
     <e n="EditorToggleCase">
       <i c="1" d="1" l="1718129845979" k="1718129845979" />
@@ -190,7 +202,10 @@
       <i c="1" l="1718132015479" />
     </e>
     <e n="MainMenuAsSeparateToolbarAction">
-      <i c="1" l="1718134470485" />
+      <i c="3" l="1718225775491" />
+    </e>
+    <e n="MergeMenuWithWindowTitleAction">
+      <i c="2" l="1718225986898" />
     </e>
     <e n="MoreRunToolbarActions">
       <i c="4" l="1718137504661" />
@@ -286,7 +301,7 @@
       <i c="2" l="1718131143588" />
     </e>
     <e n="SettingsEntryPoint">
-      <i c="30" l="1718138921545" />
+      <i c="35" l="1718225858483" />
     </e>
     <e n="SettingsSyncStatusAction">
       <i c="2" l="1718135994170" />
@@ -301,7 +316,7 @@
       <i c="3" l="1718132119553" />
     </e>
     <e n="ShowSettings">
-      <i c="6" l="1718137846617" />
+      <i c="8" l="1718225683701" />
     </e>
     <e n="ShutdownCodeWithMe">
       <i c="1" l="1718134392006" />
@@ -433,7 +448,7 @@
       <i c="10" l="1718134279274" />
     </e>
     <e n="com.intellij.ide.ui.customization.CustomizationUtil$MyDumbAction">
-      <i c="12" l="1718134395875" />
+      <i c="14" l="1718225813280" />
     </e>
     <e n="com.intellij.ide.ui.customization.CustomizationUtil$ToolbarCustomizableActionsPanel$2">
       <i c="1" l="1718133452232" />
@@ -490,13 +505,13 @@
       <i c="1" l="1718135140643" />
     </e>
     <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
-      <i c="9" l="1718138991763" />
+      <i c="10" l="1718225851893" />
     </e>
     <e n="com.intellij.openapi.wm.impl.ToolWindowImpl$HideAction">
       <i c="1" l="1718135330435" />
     </e>
     <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
-      <i c="14" l="1718134456145" />
+      <i c="15" l="1718225769950" />
     </e>
     <e n="com.intellij.refactoring.suggested.PerformSuggestedRefactoringKt$createAndShowBalloon$1">
       <i c="2" l="1718131990083" />

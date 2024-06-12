@@ -7,12 +7,15 @@
     </option>
   </component>
   <component name="FileEditorManager">
-    <leaf ideFingerprint="gzitpjm6guu1" SIDE_TABS_SIZE_LIMIT_KEY="-1">
+    <leaf ideFingerprint="11blzh0mdry3f" SIDE_TABS_SIZE_LIMIT_KEY="-1">
       <file>
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="72">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="276">
+              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -22,8 +25,8 @@
   <component name="FileTypeUsageLocalSummary"><![CDATA[{
   "data": {
     "Python": {
-      "usageCount": 3,
-      "lastUsed": 1718138898871
+      "usageCount": 5,
+      "lastUsed": 1718226003889
     }
   }
 }]]></component>
@@ -49,7 +52,7 @@
   </component>
   <component name="LanguageUsageStatistics">
     <language id="Python">
-      <summary usageCount="3" lastUsage="1718138898874" />
+      <summary usageCount="5" lastUsage="1718226003892" />
     </language>
   </component>
   <component name="ProjectView">
@@ -70,12 +73,12 @@
     </panes>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3623000" />
+    <option name="totallyTimeSpent" value="3781000" />
   </component>
   <component name="ToolWindowManager">
     <layoutV2>
       <window_info id="Settings Sync History" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17898975" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.17898975" />
       <window_info id="Commit" order="1" weight="0.25" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
@@ -138,20 +141,23 @@
     </state>
     <state width="1366" height="191" key="GridCell.Tab.0.right.inPresentationMode/0.0.1366.768@0.0.1366.768" timestamp="1718135330439" />
     <state width="1284" height="171" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1718138017155" />
-    <state x="187" y="19" width="992" height="732" key="SettingsEditor" timestamp="1718138987452">
+    <state x="187" y="19" width="992" height="732" key="SettingsEditor" timestamp="1718225955068">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="0" y="0" key="SettingsEditor.inPresentationMode" timestamp="1718135593377">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="0" y="0" key="SettingsEditor.inPresentationMode/0.0.1366.768@0.0.1366.768" timestamp="1718135593377" />
-    <state x="187" y="19" width="992" height="732" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1718138987452" />
+    <state x="187" y="19" width="992" height="732" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1718225955068" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="276">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
