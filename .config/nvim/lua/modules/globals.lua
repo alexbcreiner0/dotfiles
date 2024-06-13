@@ -14,7 +14,7 @@ local M = {}
 --     print('Hello world!')
 -- end
 
-M.default_color = "kanagawa-dragon"
+M.default_color = "kanagawa"
 
 if vim.fn.getenv("VIRTUAL_ENV") ~= vim.NIL then
     M.python_path = vim.fn.getenv("VIRTUAL_ENV") .. "/bin/python3"
