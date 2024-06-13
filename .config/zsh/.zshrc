@@ -93,7 +93,7 @@ alias l='ls -CF'
 alias obsidian='flatpak run md.obsidian.Obsidian &'
 alias chrome='flatpak run com.google.Chrome &'
 alias python='python3'
-alias cat='batcat --paging=never'
+# alias cat='batcat --paging=never'
 # alias emacs="emacsclient -c -a 'emacs' &" 
 alias sublime-text="subl"
 
