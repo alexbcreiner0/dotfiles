@@ -7,7 +7,7 @@ if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] &&
 fi
 
 # Load environment vars
-source "/home/alex/.config/zsh/.zshenv"
+# source "/home/alex/.config/zsh/.zshenv"
 
 #TODO: Move the history to the config folder to share it between systems
 HISTSIZE=1000

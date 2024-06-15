@@ -8,6 +8,7 @@ export PATH="/home/alex/.fzf/bin:$PATH"
 export PATH="$HOME/.config/emacs/bin:$PATH"
 
 export GCM_CREDENTIAL_STORE=gpg
+source "$HOME/.config/zsh/.zshrc"
 
 export VISUAL=nvim
 export EDITOR=nvim

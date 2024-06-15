@@ -1,4 +1,4 @@
-#files: 813	version: 5.9
+#files: 802	version: 5.9
 
 _comps=(
 '-' '_precommand'
@@ -81,7 +81,6 @@ _comps=(
 'basename' '_basename'
 'basenc' '_basenc'
 'bash' '_bash'
-'bat' '_bat'
 'batch' '_at'
 'baz' '_baz'
 'beep' '_beep'
@@ -322,7 +321,6 @@ _comps=(
 'fc' '_fc'
 'fc-list' '_xft_fonts'
 'fc-match' '_xft_fonts'
-'fd' '_fd'
 'feh' '_feh'
 'fetchmail' '_fetchmail'
 'ffmpeg' '_ffmpeg'
@@ -581,7 +579,6 @@ _comps=(
 'hostnamectl' '_hostnamectl'
 'hotjava' '_webbrowser'
 'htop' '_htop'
-'hyprpm' '_hyprpm'
 'iceweasel' '_mozilla'
 'icombine' '_ispell'
 'iconv' '_iconv'
@@ -708,7 +705,6 @@ _comps=(
 'ltrace' '_ltrace'
 'lua' '_lua'
 'luarocks' '_luarocks'
-'luarocks-admin' '_luarocks-admin'
 'lynx' '_lynx'
 'lz4' '_lz4'
 'lz4c' '_lz4'
@@ -890,7 +886,6 @@ _comps=(
 '-parameter-' '_parameter'
 'parec' '_pulseaudio'
 'parecord' '_pulseaudio'
-'pass' '_pass'
 'passwd' '_users'
 'paste' '_paste'
 'pasuspender' '_pulseaudio'
@@ -1052,7 +1047,6 @@ _comps=(
 'resolvectl' '_resolvectl'
 'restart' '_initctl'
 'retawq' '_webbrowser'
-'rg' '_rg'
 'rgrep' '_grep'
 'rgview' '_vim'
 'rgvim' '_vim'
@@ -1238,7 +1232,6 @@ _comps=(
 'tee' '_tee'
 'telnet' '_telnet'
 'tex' '_tex'
-'texdoc' '_texdoc'
 'texi2any' '_texinfo'
 'texi2dvi' '_texinfo'
 'texi2pdf' '_texinfo'
@@ -1487,7 +1480,6 @@ _comps=(
 'xzcat' '_xz'
 'yafc' '_yafc'
 'yash' '_sh'
-'yay' '_yay'
 'ypbind' '_yp'
 'ypcat' '_yp'
 'ypmatch' '_yp'
@@ -1500,7 +1492,6 @@ _comps=(
 'ypxfr' '_yp'
 'ytalk' '_other_accounts'
 'zargs' '_zargs'
-'zathura' '_zathura'
 'zcalc' '_zcalc'
 '-zcalc-line-' '_zcalc_line'
 'zcat' '_zcat'
@@ -1661,16 +1652,14 @@ bindkey '^[,' _history-complete-newer
 bindkey '^[/' _history-complete-older
 bindkey '^[~' _bash_complete-word
 
-autoload -Uz _alacritty _bat _bootctl _busctl _bwrap \
-            _coredumpctl _curl _fd _flatpak _hostnamectl \
-            _hyprpm _journalctl _kernel-install _libinput _localectl \
-            _loginctl _luarocks _luarocks-admin _machinectl _mkinitcpio \
-            _networkctl _oomctl _pacman _pass _pulseaudio \
-            _resolvectl _rg _sd_hosts_or_user_at_host _sd_machines _sd_outputmodes \
-            _sd_unit_files _starship _systemctl _systemd _systemd-analyze \
-            _systemd-delta _systemd-inhibit _systemd-nspawn _systemd-path _systemd-run \
-            _systemd-tmpfiles _texdoc _timedatectl _udevadm _udisks2 \
-            _wpctl _yay _zathura _cdr _all_labels \
+autoload -Uz _alacritty _bootctl _busctl _bwrap _coredumpctl \
+            _curl _flatpak _hostnamectl _journalctl _kernel-install \
+            _libinput _localectl _loginctl _machinectl _mkinitcpio \
+            _networkctl _oomctl _pacman _pulseaudio _resolvectl \
+            _sd_hosts_or_user_at_host _sd_machines _sd_outputmodes _sd_unit_files _starship \
+            _systemctl _systemd _systemd-analyze _systemd-delta _systemd-inhibit \
+            _systemd-nspawn _systemd-path _systemd-run _systemd-tmpfiles _timedatectl \
+            _udevadm _udisks2 _wpctl _cdr _all_labels \
             _all_matches _alternative _approximate _arg_compile _arguments \
             _bash_completions _cache_invalid _call_function _combination _complete \
             _complete_debug _complete_help _complete_help_generic _complete_tag _comp_locale \
