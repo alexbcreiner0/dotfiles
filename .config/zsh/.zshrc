@@ -68,6 +68,8 @@ if [ -x /usr/bin/dircolors ]; then
 	alias egrep='egrep --color=auto'
     alias nvim-python-example='NVIM_APPNAME="nvim-python-starter" nvim'
     alias nvim-test='NVIM_APPNAME="nvim-rebuild" nvim'
+    # laptop only (for now)
+    alias gnome-control-center='XDG_CURRENT_DESKTOP=gnome gnome-control-center'
 fi
 
 # lazy loading nvm stuff because it's slow as shit
@@ -222,5 +224,5 @@ function whatsmyip ()
 }
 
 # fastfetch
-(sleep 0.3 && fastfetch)
+(sleep 0.3 && pfetch)
 

@@ -1,0 +1,3 @@
+usage: mediaplayer.py [-h] [-v] [-x EXCLUDE] [--player PLAYER]
+                      [--enable-logging]
+mediaplayer.py: error: argument --player: expected one argument

@@ -7,7 +7,7 @@
     </option>
   </component>
   <component name="FileEditorManager">
-    <leaf ideFingerprint="11blzh0mdry3f" SIDE_TABS_SIZE_LIMIT_KEY="-1">
+    <leaf ideFingerprint="hjcuojna4xvl" SIDE_TABS_SIZE_LIMIT_KEY="-1">
       <file>
         <entry file="file://$PROJECT_DIR$/.ipynb_checkpoints/Lecture 1.ipynb">
           <provider editor-type-id="jupyter-editor" selected="true" />
@@ -18,8 +18,8 @@
   <component name="FileTypeUsageLocalSummary"><![CDATA[{
   "data": {
     "Jupyter": {
-      "usageCount": 7,
-      "lastUsed": 1718225801019
+      "usageCount": 8,
+      "lastUsed": 1718756640104
     },
     "Diagrams.net Diagram": {
       "usageCount": 1,
@@ -39,13 +39,13 @@
       </set>
     </option>
   </component>
-  <component name="JupyterTrust" id="ee6c00d9-ae9b-4305-b47a-9b36bb63fb82" />
+  <component name="JupyterTrust" id="b42b7da3-6454-40ad-91e9-1bfee71e636a" />
   <component name="LanguageUsageStatistics">
     <language id="Diagrams.net">
       <summary usageCount="1" lastUsage="1718139252092" />
     </language>
     <language id="Jupyter">
-      <summary usageCount="7" lastUsage="1718225801023" />
+      <summary usageCount="8" lastUsage="1718756640106" />
     </language>
   </component>
   <component name="ProjectView">
@@ -71,11 +71,11 @@
     </panes>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2119000" />
+    <option name="totallyTimeSpent" value="2297000" />
   </component>
   <component name="ToolWindowManager">
     <layoutV2>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17679356" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1767113" />
       <window_info id="Commit" order="1" weight="0.25" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
@@ -92,7 +92,7 @@
       <window_info anchor="right" id="Maven" order="4" weight="0.25" />
       <window_info anchor="right" id="Key Promoter X" order="5" />
       <window_info anchor="right" id="Plots" order="6" weight="0.1" />
-      <unified_weights left="0.17679356" />
+      <unified_weights left="0.1767113" />
     </layoutV2>
     <recentWindows>
       <value>Project</value>

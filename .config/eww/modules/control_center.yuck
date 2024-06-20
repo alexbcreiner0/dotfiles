@@ -1,0 +1,22 @@
+(defwidget horizontal-line []
+  (box
+    :class "horizontal-line"
+    :width "100%"
+    :margin-top "10px"    ;; Optional: Adjust these values to add spacing around the line
+    :margin-bottom "10px" ;; Optional: Adjust these values to add spacing around the line
+))
+
+(defwidget control_center []
+    (revealer :transition "slideleft" :reveal {open_control_center} :duration {ANIM_DURATION}
+        (box :orientation "v" :space-evenly false
+            (music)
+            ;(notifications)
+            (box :orientation "v" :space-evenly false :class "control-center" 
+                (volume_control_center)
+                (horizontal-line)
+                ;(user)
+                (quick_settings)
+            )
+        )
+    )
+)

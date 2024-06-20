@@ -6,7 +6,7 @@ vim.g.mapleader = " "
 -- vim.g.maplocalleader = "\\"
 require("alex.core")
 require("alex.lazy")
-
+globals = require("modules.globals")
 -- Transparency enabled by default
 -- globals.toggle_transparency()
 

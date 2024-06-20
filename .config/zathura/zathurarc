@@ -7,10 +7,10 @@ set synctex-editor-command "nvim --remote-silent +%{line} %{input}"
 
 # Disable the weird highlighting to new stuff post-rendering
 set highlight-active-color "#ffffff"
-set highlight-transparency 0
+set highlight-transparency 1
 
 map <C-i> recolor
-map <C-=> zoom in
+map <C-+> zoom in
 map <C--> zoom out
 
 
