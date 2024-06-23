@@ -98,6 +98,8 @@ alias python='python3'
 # alias cat='batcat --paging=never'
 # alias emacs="emacsclient -c -a 'emacs' &" 
 alias sublime-text="subl"
+# Removes the error message that prints for some kind of issue with curses
+alias ranger='ranger 2>/dev/null'
 
 #TODO: junk, delete this
 alias play-around='test-func'
