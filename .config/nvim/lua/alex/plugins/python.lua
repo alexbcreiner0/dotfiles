@@ -1,18 +1,18 @@
 return {
-    {
-        'fisadev/vim-isort',
-        ft = 'python',
-        config = function()
-            vim.g.vim_isort_map = '' -- Disable default keybinding (It's in use anyway)
-            -- Uncomment the following lines if you want automatic formatting on save
-            -- vim.api.nvim_create_autocmd({"BufWritePre"}, {
-            --     pattern = "*.py",
-            --     callback = function()
-            --         vim.cmd("Isort")
-            --     end
-            -- })
-        end
-    },
+    -- {
+    --     'fisadev/vim-isort',
+    --     ft = 'python',
+    --     config = function()
+    --         vim.g.vim_isort_map = '' -- Disable default keybinding (It's in use anyway)
+    --         -- Uncomment the following lines if you want automatic formatting on save
+    --         -- vim.api.nvim_create_autocmd({"BufWritePre"}, {
+    --         --     pattern = "*.py",
+    --         --     callback = function()
+    --         --         vim.cmd("Isort")
+    --         --     end
+    --         -- })
+    --     end
+    -- },
     {
         "psf/black",
         ft = 'python',

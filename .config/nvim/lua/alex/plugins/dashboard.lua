@@ -1,5 +1,5 @@
 function nav_configs()
-    vim.api.nvim_command('cd ~/.config')
+    vim.api.nvim_command('cd ~/dotfiles')
     vim.cmd('Telescope find_files')
 end
 

@@ -7,7 +7,7 @@ else
     new=$((current+1))
 fi
 
-MONITOR="$(hyprctl activeworkspace | grep monitorID | awk '{print $2}')"
-if [[ $MONITOR == '1' && $new -ge 1 && $new -le 5 ]] || [[ $MONITOR == '0' && $new -ge 6 && $new -le 10 ]]; then 
+# Laptop
+if [[ $new -ge 1 && $new -le 5 ]]; then 
     hyprctl dispatch movetoworkspace $new
 fi
