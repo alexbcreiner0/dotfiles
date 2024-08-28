@@ -18,7 +18,9 @@ return {
 
         local Rule = require('nvim-autopairs.rule')
         npairs.add_rules({
-            Rule('$', '$', {'tex', 'latex'})
+            Rule('$', '$', {'tex', 'latex'}),
+            Rule('`', "'", {'tex', 'latex'}),
+            Rule("\\[", "\\]", {'tex', 'latex'})
         })
     end
 }
