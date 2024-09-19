@@ -1,8 +1,9 @@
 {
 	"file_history":
 	[
-		"/home/alex/dotfiles/.config/sublime-text/Packages/User/LaTeXTools.sublime-settings",
+		"/home/alex/Local-Temp/shell-scripting-junk/test2.sh",
 		"/home/alex/Local-Temp/CS1-Lecture1.tex",
+		"/home/alex/dotfiles/.config/sublime-text/Packages/User/LaTeXTools.sublime-settings",
 		"/home/alex/dotfiles/.config/sublime-text/Packages/Default/Preferences.sublime-settings",
 		"/home/alex/dotfiles/.config/sublime-text/Packages/User/Preferences.sublime-settings",
 		"/home/alex/Laptop-Server/Python-Projects/kivy_practice/main.py",
@@ -127,11 +128,11 @@
 		"/home/alex/Documents/Class-Demo/ounces_to_liters.py",
 		"/home/alex/Documents/Spring-2024/Algorithms_Demos/graphs.py",
 		"/home/alex/Documents/Laptop-Server/Spring-2024/Algorithms_Demos/graphs.py",
-		"/home/alex/Documents/Laptop-Server/Spring-2024/Algorithms_Demos/graph_algos_simple.py",
-		"/home/alex/Documents/calendar.txt"
+		"/home/alex/Documents/Laptop-Server/Spring-2024/Algorithms_Demos/graph_algos_simple.py"
 	],
 	"folder_history":
 	[
+		"/home/alex/Local-Temp/shell-scripting-junk",
 		"/home/alex/Local-Temp",
 		"/home/alex/.config/sublime-text/Packages/LaTeXTools",
 		"/home/alex/Laptop-Server/Python-Projects/kivy_practice",
@@ -149,10 +150,10 @@
 		"/home/alex/Documents",
 		"/home/alex/Documents/Spring-2024/Algorithms_Demos"
 	],
-	"last_version": 4169,
-	"last_window_id": 64,
+	"last_version": 4180,
+	"last_window_id": 66,
 	"log_indexing": false,
-	"next_update_check": 1721505124,
+	"next_update_check": 1726326660,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -161,7 +162,7 @@
 		"new_window_position":
 		[
 			0.0,
-			26.0
+			28.0
 		],
 		"new_window_settings":
 		{
@@ -586,6 +587,10 @@
 			},
 			"file_history":
 			[
+				"/home/alex/Local-Temp/shell-scripting-junk/test.py",
+				"/home/alex/Local-Temp/shell-scripting-junk/hello_world2.sh",
+				"/home/alex/Local-Temp/shell-scripting-junk/hello_world.sh",
+				"/home/alex/Local-Temp/shell-scripting-junk/test2.sh",
 				"/home/alex/Local-Temp/CS1-Lecture1.tex",
 				"/home/alex/dotfiles/.config/sublime-text/Packages/User/LaTeXTools.sublime-settings",
 				"/home/alex/dotfiles/.config/sublime-text/Packages/Default/Preferences.sublime-settings",
@@ -709,11 +714,7 @@
 				"/home/alex/Documents/Spring-2024/Algorithms_Demos/shortest_paths.py",
 				"/home/alex/Documents/Spring-2024/Algorithms_Demos/chess_traversal.py",
 				"/home/alex/Documents/Spring-2024/Algorithms_Demos/testing.py",
-				"/home/alex/Documents/Spring-2024/Algorithms_Demos/majority_problem.py",
-				"/home/alex/Documents/Spring-2024/Algorithms_Demos/make_a_graph.py",
-				"/home/alex/Documents/Spring-2024/Algorithms_Demos/generators.py",
-				"/home/alex/Documents/Spring-2024/Algorithms_Demos/shortest_pairs.py",
-				"/home/alex/Documents/Spring-2024/Algorithms_Demos/priority_queue_old.py"
+				"/home/alex/Documents/Spring-2024/Algorithms_Demos/majority_problem.py"
 			],
 			"find":
 			{
@@ -758,7 +759,7 @@
 			"menu_visible": true,
 			"output.Terminus":
 			{
-				"height": 186.0
+				"height": 274.0
 			},
 			"output.Terminus Build Results":
 			{
@@ -816,14 +817,14 @@
 			"show_minimap": false,
 			"show_open_files": false,
 			"show_tabs": true,
-			"side_bar_visible": false,
+			"side_bar_visible": true,
 			"side_bar_width": 271.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			}
 		},
-		"new_window_width": 683.0
+		"new_window_width": 1366.0
 	},
 	"windows":
 	[
@@ -1033,55 +1034,112 @@
 			"buffers":
 			[
 				{
-					"contents": "\\documentclass{beamer}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amsmath}\n\\usepackage{amsthm}\n\\usepackage{verbatim}\n\\usepackage{hyperref}\n\\hypersetup{\n    colorlinks=true,\n    linkcolor=blue,\n    filecolor=magenta,      \n    urlcolor=cyan,\n    pdftitle={Overleaf Example},\n    pdfpagemode=FullScreen,\n}\n\\urlstyle{same}\n\\usepackage{graphicx}\n%% Package for making turing machine diagrams %\n%\\usepackage{tikz}\n%\\usetikzlibrary{chains,fit,shapes}\n%% Packages for algorithms %\n%\\usepackage{algorithm}\n%\\usepackage{algorithmic}\n%% Package which has the nice looking empty set symbol (\\varnothing)\n\\usepackage{amssymb}\n%% Package with the ceiling function\n%\\end{minted}\n%%\\usepackage{mathtools}\n%%\\DeclarePairedDelimiter{\\ceil}{\\lceil}{\\rceil}\n%\\usepackage{braket}\n\\usepackage{amsfonts}\n%\\usepackage{bm}\n\\usepackage{minted}\n\n\\begin{document}\n\n\\begin{frame}{What is a shell?}\n    \\begin{itemize}\n        \\item Nowadays, we mostly interact with computers using graphical user interfaces, or GUIs. \\pause \n        \\item What is the purpose of a GUI? \\pause “The purpose of a system is what it doesbeginire\"cmp.utils.feedkeys\".run(68)\n        \\item The purpose of a GUI \\textbf{communication} and \\textbf{control}. It facilitates communication with your computer, and allows you to instruct it to do things for you. \\pause \n        \\item In the early days of computers, GUIs weren't a thing. In their place, we had \\textbf{terminals}, which allowed us to communicate with our computer through typed commands. \\pause \n        \\item The terminal works in tandem with a special program called a \\textbf{shell}. The shell is the program which is in charge of taking the user's commands (passed through the terminal), and running the programs represented by those commands. \\pause \n        \\item In the cases where the user expects an output, the shell program can use the terminal. \n    \\end{itemize}\n\\end{frame}\n\n\\begin{frame}{Shell}\n    \\begin{itemize}\n        \\item (Show some example shell commands) \\pause \n        \\item The transition from the temrinal to the GUI is \\textbf{not} a strict upgrade, and the fact that all modern operating systems still come equipped with terminal applications is still. Let's consider the advantages and disadvantages of GUIs. \\pause \n        \\begin{itemize}\n            \\item Ease of use: GUIs lower the knowledge floor required for using computers significantly. Just press the button that says `do thing'!\n            \\item \\emph{If} the computer's job is simple (e.g. the number of unique things required of the computer is small), a simple GUI will be much faster and more seemless to work with than a terminal.\n        \\end{itemize}\n        \\item Disadvantages?\n        \\begin{itemize}\n            \\item If the number of things we might want our machine to do is very large, the GUI becomes often more of a curse than a gift. Every unique thing needs a button, or a tab, or a slider... \n            \\item test \n        \\end{itemize}\n    \\end{itemize}\n\\end{frame}\n\n\\begin{frame}{GUI vs Terminal}\n    \\begin{itemize}\n        \\item Imagine you're a UI/UX (user interface and user `experience' designer) tasked with making a GUI for a sophisticated piece of software. Software engineers have loaded this thing to the brim with bells and whistles. How do you present these to the user?\n        \\item Suppose they make a button/slider/widget/clickable thing for every possible thing the user might want to do. \\pause This can take up a large amount of the screen real estate and be extremely overwhelming to a new user. How to mitigate this? \n        \\item Option 1 is to `hide' features, so they aren't visible unless you know where to look for them. \n        \\item Option 2 is to simply reduce the number of options that the user has, to whatever the software team deems `essential'. \\pause This is what many companies are doing now, and I hate it.\n    \\end{itemize}\n\\end{frame}\n\n\\begin{frame}{GUI vs Terminal}\n   \\begin{itemize}\n    \\item The bottom line is that GUI's are easier for new users but often this use comes at the cost of `range of motion'. They can also be extremely inefficient, since they require you to navigate with your mouse to find widgets. \n    \\item The terminal in contrast allows you to communicate much more closely and precisely with your computer. If you really know what you're doing, it's also faster. \n    \\item The set of commands available for input to a shell, along with the syntax rules for how to chain them together, comprise what is sometimes referred to as a \\textbf{command language}. The command language for Linux and Mac OS is usually referred to as \\textbf{sh} (short for shell scripting language). For windows, there are two: the \\textbf{batch scripting language}, and the \\textbf{powerhell scripting language}. \n   \\end{itemize} \n\\end{frame}\n\n\\begin{frame}{The shell and the terminal}\n    \\begin{itemize}\n        \\item To put it bluntly, the windows scripting languages are bad. Fortunately, windows systems now ship with linux as a subsystem. With a bit of setup, everyone in the class will be able to use the sh language, regardless of the operating system. \n        \\item A handy sheet of basic commands is available on canvas. To illustrate, let's do some file navigation from the command line. The basic commands for this are:\n            \\begin{itemize}\n                \\item \\textbf{pwd}: Short for print working directory. Displays our current location in the file system of our computer. \n                \\item \\textbf{ls}: Lists the current files in the directory. \n                \\item \\textbf{cd}: Change directory. Follow this command with where you want to go. \n            \\end{itemize}\n    \\end{itemize}\n\\end{frame}\n\n\\begin{frame}{The python shell}\n    \\begin{itemize}\n        \\item (Nearly) all of the commands we are running from the terminal are their own programs, and are written in various languages (mostly C). Which is where we come finally to python!\n        \\item Let's type python (or python3) into the terminal, and see what happens. \n        \\item Our terminal has changed. We are now running the python shell. As a shell, it takes python commands and runs them. What can it do?\n    \\end{itemize}\n\\end{frame}\n\n\\begin{frame}\n    \\begin{itemize}\n        \\item The python program we've installed isn't just a shell. It can also compile and run \\textbf{python programs}. \n        \\item A python program is simply a bunch of different python commands which are meant to be executed in sequence. To make one:\n        \\begin{itemize}\n            \\item Create a new file in any text editor. Name it whatever you want, but save it with the file extension .py. This tells your computer that the file is meant for python to run. \n            \\item Write the program. This step is the majority of the class. \n            \\item Run it! This can be done by double clicking the file in your GUI file browser, or from the terminal by navigating to the file and typing the command python3, followed by the name of your file. \n        \\end{itemize}\n    \\item Fundamentally, that's all there is to it. All you really need to have is a text editor and python installed on your computer. However, having some dedicated tools for writing complicated python code will be immensely helpful. \n    \\end{itemize}\n\\end{frame}\n\n\\begin{frame}{IDEs}\n    \\begin{itemize}\n        \\item IDE is short for \\textbf{integrated development environment}. At its core it combines the following things:\n            \\begin{itemize}\n                \\item A shell, for running small code snippets, running python programs, and displaying results.\n                \\item A text editor for writing programs. These can have many features, but the most important are ease of formatting and code coloring. \n                \\item The integrated part comes from combining these together: By combining the shell and the text editor into one piece of software, it becomes easy to write code and then immediately run it to see the results. \n                \\item Python comes pre-installed with it's own starter IDE, called IDLE (the L stands for learning). \n                \\item This IDE is,\n            \\end{itemize}\n    \\end{itemize}\n\\end{frame}\n\n\\end{document}\n",
-					"file": "/home/alex/Local-Temp/CS1-Lecture1.tex",
-					"file_size": 8190,
-					"file_write_time": 133650419162488496,
+					"file": "/home/alex/Local-Temp/shell-scripting-junk/hello_world.sh",
 					"settings":
 					{
-						"buffer_size": 8211,
+						"buffer_size": 64,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/alex/Local-Temp/shell-scripting-junk/hello_world2.sh",
+					"settings":
+					{
+						"buffer_size": 83,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					},
 					"undo_stack":
 					[
 						[
-							7,
+							1,
+							1,
+							"paste",
+							null,
+							"AQAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							6,
 							1,
 							"insert",
 							{
-								"characters": "\n\\item"
+								"characters": "\n"
 							},
-							"BwAAAGILAAAAAAAAYwsAAAAAAAAAAAAAYwsAAAAAAABvCwAAAAAAAAAAAABvCwAAAAAAAHALAAAAAAAAAAAAAHALAAAAAAAAcQsAAAAAAAAAAAAAcQsAAAAAAAByCwAAAAAAAAAAAAByCwAAAAAAAHMLAAAAAAAAAAAAAHMLAAAAAAAAdAsAAAAAAAAAAAAA",
-							"AQAAAAAAAAABAAAAYgsAAAAAAABiCwAAAAAAAAAAAAAAAPC/"
+							"AQAAACwAAAAAAAAALQAAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAsAAAAAAAAACwAAAAAAAAAAAAAAAAAAAA"
 						],
 						[
-							8,
+							9,
+							1,
+							"left_delete",
+							null,
+							"AQAAACwAAAAAAAAALAAAAAAAAAABAAAACg",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAtAAAAAAAAAC0AAAAAAAAAAAAAAAAAAAA"
+						],
+						[
+							14,
 							1,
 							"insert",
 							{
-								"characters": " test"
+								"characters": "\n\n"
 							},
-							"BQAAAHQLAAAAAAAAdQsAAAAAAAAAAAAAdQsAAAAAAAB2CwAAAAAAAAAAAAB2CwAAAAAAAHcLAAAAAAAAAAAAAHcLAAAAAAAAeAsAAAAAAAAAAAAAeAsAAAAAAAB5CwAAAAAAAAAAAAA",
-							"AQAAAAAAAAABAAAAdAsAAAAAAAB0CwAAAAAAAAAAAAAAAPC/"
+							"AgAAAD8AAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAABBAAAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA/AAAAAAAAAD8AAAAAAAAAAAAAAAAA8L8"
 						],
 						[
-							10,
-							1,
-							"insert",
-							{
-								"characters": ":w"
-							},
-							"AgAAAHkLAAAAAAAAegsAAAAAAAAAAAAAegsAAAAAAAB7CwAAAAAAAAAAAAA",
-							"AQAAAAAAAAABAAAAeQsAAAAAAAB5CwAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							11,
+							15,
 							2,
 							"left_delete",
 							null,
-							"AgAAAHoLAAAAAAAAegsAAAAAAAABAAAAd3kLAAAAAAAAeQsAAAAAAAABAAAAOg",
-							"AQAAAAAAAAABAAAAewsAAAAAAAB7CwAAAAAAAAAAAAAAAPC/"
+							"AgAAAEAAAAAAAAAAQAAAAAAAAAABAAAACj8AAAAAAAAAPwAAAAAAAAABAAAACg",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABBAAAAAAAAAEEAAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							20,
+							1,
+							"",
+							null,
+							"AgAAAAAAAAAAAAAAUwAAAAAAAAAAAAAAUwAAAAAAAABTAAAAAAAAAEAAAAAjIS9iaW4vc2gKCiMgQ29tbWVudHMgd29yayBqdXN0IGxpa2UgYmVmb3JlCmVjaG8gIkhlbGxvIHdvcmxkISIK",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8"
+						]
+					]
+				},
+				{
+					"file": "/home/alex/Local-Temp/shell-scripting-junk/test.py",
+					"settings":
+					{
+						"buffer_size": 132,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+						[
+							1,
+							1,
+							"insert",
+							{
+								"characters": "test.py"
+							},
+							"BwAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAMAAAAAAAAAAAAAAAMAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAFAAAAAAAAAAAAAAAFAAAAAAAAAAYAAAAAAAAAAAAAAAYAAAAAAAAABwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							2,
+							7,
+							"left_delete",
+							null,
+							"BwAAAAYAAAAAAAAABgAAAAAAAAABAAAAeQUAAAAAAAAABQAAAAAAAAABAAAAcAQAAAAAAAAABAAAAAAAAAABAAAALgMAAAAAAAAAAwAAAAAAAAABAAAAdAIAAAAAAAAAAgAAAAAAAAABAAAAcwEAAAAAAAAAAQAAAAAAAAABAAAAZQAAAAAAAAAAAAAAAAAAAAABAAAAdA",
+							"AQAAAAAAAAABAAAABwAAAAAAAAAHAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							4,
+							1,
+							"",
+							null,
+							"AQAAAAAAAAAAAAAAhAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
 						]
 					]
 				}
@@ -1306,12 +1364,13 @@
 			},
 			"expanded_folders":
 			[
-				"/home/alex/Local-Temp"
+				"/home/alex/Local-Temp/shell-scripting-junk"
 			],
 			"file_history":
 			[
-				"/home/alex/dotfiles/.config/sublime-text/Packages/User/LaTeXTools.sublime-settings",
+				"/home/alex/Local-Temp/shell-scripting-junk/test2.sh",
 				"/home/alex/Local-Temp/CS1-Lecture1.tex",
+				"/home/alex/dotfiles/.config/sublime-text/Packages/User/LaTeXTools.sublime-settings",
 				"/home/alex/dotfiles/.config/sublime-text/Packages/Default/Preferences.sublime-settings",
 				"/home/alex/dotfiles/.config/sublime-text/Packages/User/Preferences.sublime-settings",
 				"/home/alex/Laptop-Server/Python-Projects/kivy_practice/main.py",
@@ -1436,8 +1495,7 @@
 				"/home/alex/Documents/Spring-2024/Algorithms_Demos/majority_problem.py",
 				"/home/alex/Documents/Spring-2024/Algorithms_Demos/make_a_graph.py",
 				"/home/alex/Documents/Spring-2024/Algorithms_Demos/generators.py",
-				"/home/alex/Documents/Spring-2024/Algorithms_Demos/shortest_pairs.py",
-				"/home/alex/Documents/Spring-2024/Algorithms_Demos/priority_queue_old.py"
+				"/home/alex/Documents/Spring-2024/Algorithms_Demos/shortest_pairs.py"
 			],
 			"find":
 			{
@@ -1474,7 +1532,7 @@
 			"folders":
 			[
 				{
-					"path": "/home/alex/Local-Temp"
+					"path": "/home/alex/Local-Temp/shell-scripting-junk"
 				}
 			],
 			"groups":
@@ -1484,31 +1542,94 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/home/alex/Local-Temp/CS1-Lecture1.tex",
-							"selected": true,
+							"file": "/home/alex/Local-Temp/shell-scripting-junk/hello_world.sh",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 8211,
+								"buffer_size": 64,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										2937,
-										2937
+										64,
+										0
 									]
 								],
 								"settings":
 								{
 									"show_definitions": true,
-									"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
+									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/alex/Local-Temp/shell-scripting-junk/hello_world2.sh",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 83,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										83,
+										83
+									]
+								],
+								"settings":
+								{
+									"show_definitions": true,
+									"syntax": "Packages/ShellScript/Bash.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/alex/Local-Temp/shell-scripting-junk/test.py",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 132,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										132,
+										132
+									]
+								],
+								"settings":
+								{
+									"auto_name": "",
+									"show_definitions": false,
+									"syntax": "Packages/Python/Python.sublime-syntax",
 									"tab_size": 4,
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 1609.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -1551,7 +1672,7 @@
 			"menu_visible": true,
 			"output.Terminus":
 			{
-				"height": 186.0
+				"height": 274.0
 			},
 			"output.Terminus Build Results":
 			{
@@ -1574,7 +1695,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "Packages/User/Python_Terminus.sublime-build",
-			"position": "0,1,0,0,0,0,0,671,756,1366,768,0",
+			"position": "0,1,0,0,0,0,0,1354,354,1920,1080,0",
 			"project": "",
 			"replace":
 			{
@@ -1615,13 +1736,13 @@
 			"show_minimap": false,
 			"show_open_files": false,
 			"show_tabs": true,
-			"side_bar_visible": false,
+			"side_bar_visible": true,
 			"side_bar_width": 271.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			},
-			"window_id": 64,
+			"window_id": 66,
 			"workspace_name": ""
 		}
 	],

@@ -234,6 +234,22 @@ function build_in_vim()
         vim.cmd('resize 17')
         vim.cmd('terminal' .. '!lua ' .. filepath)
         vim.cmd('startinsert')
+    elseif filetype == 'sh' then
+        vim.cmd('silent! w')
+        vim.cmd('silent! source %')
+        for _,buffer_number in ipairs(vim.api.nvim_list_bufs()) do
+            local type = vim.api.nvim_buf_get_option(buffer_number, 'buftype')
+            if type == 'terminal' then
+                vim.api.nvim_buf_delete(buffer_number, {force = true})
+            end
+        end
+        current_buffer = vim.api.nvim_get_current_buf()
+        local filepath = vim.api.nvim_buf_get_name(current_buffer)
+
+        vim.cmd('split')
+        vim.cmd('resize 17')
+        vim.cmd('terminal' .. '!./' .. filepath)
+        vim.cmd('startinsert')
     end
 end
 

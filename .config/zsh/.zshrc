@@ -2,9 +2,9 @@
 # set -x
 # If you come from bash you might have to change your $PATH.
 # Run tmux on startup
-if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
-  exec tmux
-fi
+# if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
+#   exec tmux
+# fi
 
 # Load environment vars
 # source "/home/alex/.config/zsh/.zshenv"
@@ -93,8 +93,8 @@ export QT_QPA_PLATFORMTHEME='gt5ct'
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
-# alias rm='trash -v'
-# alias RM='rm'
+alias rm="/usr/local/bin/trash"
+alias sudo='sudo ' # ?????
 alias obsidian='flatpak run md.obsidian.Obsidian &'
 alias chrome='flatpak run com.google.Chrome &'
 alias python='python3'
@@ -108,6 +108,27 @@ alias ranger='ranger 2>/dev/null'
 alias play-around='test-func'
 alias nvim-ytguy="NVIM_APPNAME='youtube_guy_latex_nvim' nvim"
 
+function empty_trash {
+    command rm -rf ~/.local/share/Trash/files/*
+    command rm -rf ~/.local/share/Trash/info/*
+}
+
+alias switch-terminals="term-switch"
+function term-switch {
+    local arg="$1"
+    
+    if [[ "$arg" == "student" ]]; then
+        rm "/home/alex/.config/starship.toml"
+        rm "/home/alex/dotfiles/.config/starship.toml"
+        cp "/home/alex/dotfiles/.config/starship-student.toml" "/home/alex/dotfiles/.config/starship.toml"
+        stow -d "/home/alex/dotfiles" .
+    else
+        rm "/home/alex/.config/starship.toml"
+        rm "/home/alex/dotfiles/.config/starship.toml"
+        cp "/home/alex/dotfiles/.config/starship-mine.toml" "/home/alex/dotfiles/.config/starship.toml"
+        stow -d "/home/alex/dotfiles" .
+    fi
+}
 
 function test-func {
     local var=$1
@@ -122,7 +143,7 @@ function test-func {
 # this comes with bashrc, no idea if it still matters
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
-alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+alias alert='notify-send --urgency=logw -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
 # Allows you to press shift+q in order to exit ranger and simultaneously cd to the directory ranger was looking at
 function ranger {
@@ -229,5 +250,5 @@ function whatsmyip ()
 }
 
 # fastfetch
-(sleep 0.3 && pfetch)
+# (sleep 0.3 && pfetch)
 
