@@ -1,0 +1,26 @@
+[Desktop Entry]
+FullScreen=false
+
+[General]
+LockSidebar=true
+ShowSidebar=false
+
+[MainWindow]
+ToolBarsMovable=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/Laptop-Server/Current-Semester/Logic/textbook.pdf
+File2[$e]=$HOME/Zotero/storage/JWNYRYDE/Wright - 2015 - The Law of Value A Contribution to the Classical .pdf
+File3[$e]=$HOME/Laptop-Server/Spring-2024/My Homeworks (CS1)/Assignment 2.pdf
+File4[$e]=$HOME/Documents/output.pdf
+File5[$e]=$HOME/Downloads/(a3pA) Heron's Formula.pdf
+File6[$e]=$HOME/Laptop-Server/Current-Semester/CS1/Discussion Assignments/Discussion Section Week 5.pdf
+Name1[$e]=textbook.pdf
+Name2[$e]=Wright - 2015 - The Law of Value A Contribution to the Classical .pdf
+Name3[$e]=Assignment 2.pdf
+Name4[$e]=output.pdf
+Name5[$e]=(a3pA) Heron's Formula.pdf
+Name6[$e]=Discussion Section Week 5.pdf
+
+[UiSettings]
+ColorScheme=Breeze Dark

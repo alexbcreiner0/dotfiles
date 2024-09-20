@@ -1,0 +1,13 @@
+[Default Applications]
+text/plain=neovide.desktop
+inode/directory=nemo.desktop
+text/html=google-chrome.desktop
+x-scheme-handler/http=google-chrome.desktop
+x-scheme-handler/https=google-chrome.desktop
+x-scheme-handler/about=google-chrome.desktop
+x-scheme-handler/unknown=google-chrome.desktop
+application/pdf=okularApplication_pdf.desktop
+application/desktop=okularApplication_pdf.desktop
+
+[Added Associations]
+text/plain=userapp-nvim-NT5MP2.desktop;

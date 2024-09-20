@@ -1,8 +1,0 @@
-[21:20:41] Initializing LaTeX Utilities.
-[21:20:41] Completion Watcher Initialised
-[21:20:41] TexCount args: -merge,-brief
-[21:20:41] LaTeX Utilities Started
-[21:20:41] Cannot count words: spawn texcount ENOENT, undefined
-[21:20:41] LaTeX Utilities version: 0.4.14
-[21:21:00] withTelemetry: onDidSaveTextDocument_tex_wordcounter
-[21:21:00] TexCount args: -merge,-brief
