@@ -3,7 +3,7 @@ FullScreen=false
 
 [General]
 LockSidebar=true
-ShowSidebar=false
+ShowSidebar=true
 
 [MainWindow]
 ToolBarsMovable=Disabled
@@ -15,12 +15,14 @@ File3[$e]=$HOME/Laptop-Server/Spring-2024/My Homeworks (CS1)/Assignment 2.pdf
 File4[$e]=$HOME/Documents/output.pdf
 File5[$e]=$HOME/Downloads/(a3pA) Heron's Formula.pdf
 File6[$e]=$HOME/Laptop-Server/Current-Semester/CS1/Discussion Assignments/Discussion Section Week 5.pdf
+File7[$e]=$HOME/Documents/logic_textbook.pdf
 Name1[$e]=textbook.pdf
 Name2[$e]=Wright - 2015 - The Law of Value A Contribution to the Classical .pdf
 Name3[$e]=Assignment 2.pdf
 Name4[$e]=output.pdf
 Name5[$e]=(a3pA) Heron's Formula.pdf
 Name6[$e]=Discussion Section Week 5.pdf
+Name7[$e]=logic_textbook.pdf
 
 [UiSettings]
 ColorScheme=Breeze Dark
