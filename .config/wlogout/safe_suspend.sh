@@ -1,6 +1,8 @@
 #!/bin/bash
 
-umount ~/Laptop-Server &&
+if mountpoint -q "/home/alex/Laptop-Server/"; then
+    umount ~/Laptop-Server || exit 1
+fi
 
 hyprlock &
 
