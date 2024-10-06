@@ -12,4 +12,5 @@ source "$HOME/.config/zsh/.zshrc"
 
 export VISUAL=nvim
 export EDITOR=nvim
+export XCURSOR_PATH=${XCURSOR_PATH}:~/.local/share/icons
 # export PAGER=nvim

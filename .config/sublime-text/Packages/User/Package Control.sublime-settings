@@ -6,12 +6,13 @@
 	"installed_packages":
 	[
 		"Catppuccin color schemes",
-		"Jedi - Python autocompletion",
-		"Jedi Syntax",
-		"LaTeXTools",
+		"Debugger",
+		"Inspired GitHub Color Scheme",
+		"LSP",
 		"LSP-pyright",
 		"Origami",
 		"Package Control",
+		"Solarized Color Scheme",
 		"Terminus",
 	],
 }

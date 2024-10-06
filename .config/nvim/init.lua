@@ -8,7 +8,7 @@ require("alex.core")
 require("alex.lazy")
 globals = require("modules.globals")
 -- Transparency enabled by default
--- globals.toggle_transparency()
+globals.toggle_transparency()
 
 vim.api.nvim_buf_create_user_command(0, 'ToggleTransparency', function()
     globals.toggle_transparency()

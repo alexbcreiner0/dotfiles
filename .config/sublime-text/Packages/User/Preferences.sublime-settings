@@ -1,11 +1,11 @@
 {
-	"ignored_packages":
-	[
-		"Vintage",
-	],
-	"font_size": 12,
+	"ignored_packages": [],
+	"font-face": "CaskaydiaCove Nerd Font Mono",
+ 	"font_size": 12,
 	"theme": "Adaptive.sublime-theme",
-	"color_scheme": "Catppuccin Macchiato.sublime-color-scheme",
+	"color_scheme": "Solarized (light).sublime-color-scheme",
 	"index_files": true,
 	"auto_complete_commit_on_tab": true,
+	"font_face": "CaskaydiaCove Nerd Font Propo",
+	"auto_complete_delay": 1500,
 }

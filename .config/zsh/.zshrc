@@ -2,9 +2,21 @@
 # set -x
 # If you come from bash you might have to change your $PATH.
 # Run tmux on startup
-if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
-  exec tmux
-fi
+# if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
+#   exec tmux
+# fi
+
+export XCURSOR_THEME=Bibata-Modern-Classic
+export XCURSOR_SIZE=24
+
+# Import colorscheme from 'wal' asynchronously
+# &   # Run the process in the background.
+# ( ) # Hide shell job control messages.
+# Not supported in the "fish" shell.
+(command cat ~/.cache/wal/sequences &)
+
+# Alternative (blocks terminal for 0-3ms)
+command cat ~/.cache/wal/sequences
 
 # Load environment vars
 # source "/home/alex/.config/zsh/.zshenv"
@@ -98,15 +110,13 @@ alias sudo='sudo ' # ?????
 alias obsidian='flatpak run md.obsidian.Obsidian &'
 alias chrome='flatpak run com.google.Chrome &'
 alias python='python3'
-# alias cat='batcat --paging=never'
+alias cat='bat --paging=never'
 # alias emacs="emacsclient -c -a 'emacs' &" 
 alias sublime-text="subl"
 # Removes the error message that prints for some kind of issue with curses
 alias ranger='ranger 2>/dev/null'
-
-#TODO: junk, delete this
-alias play-around='test-func'
-alias nvim-ytguy="NVIM_APPNAME='youtube_guy_latex_nvim' nvim"
+alias yazi="yazi_quits"
+alias neofetch="neofetch --source ~/.config/neofetch/ascii-art-neofetch/communist"
 
 function empty_trash {
     command rm -rf ~/.local/share/Trash/files/*
@@ -130,14 +140,43 @@ function term-switch {
     fi
 }
 
-function test-func {
-    local var=$1
-    
-    if findmnt -rno TARGET "/home/alex/Laptop-Server"; then
-        echo 'Mounted'
+function switch-display-mode {
+    local setting=$1
+    if [ $setting = "standalone" ]; then
+        ~/.config/hypr/scripts/swap_monitors.sh $setting
+        ~/.config/hypr/scripts/swap_workspaces.sh $setting
+        hyprctl reload
+    elif [ $setting = "office" ]; then
+        ~/.config/hypr/scripts/swap_monitors.sh $setting
+        ~/.config/hypr/scripts/swap_workspaces.sh $setting
+        hyprctl reload
+    elif [ $setting = "classroom" ]; then
+        ~/dotfiles/.config/hypr/scripts/swap_monitors.sh "classroom"
+        ~/dotfiles/.config/hypr/scripts/swap_workspaces.sh "standalone"
+        hyprctl reload
     else
-        echo 'Not mounted'
+        echo "Argument $1 not recognized"
     fi
+}
+
+function change-background {
+    local image_path=$(realpath $1)
+
+    # Replace hyprpaper with new image
+    hyprctl hyprpaper preload $image_path > /dev/null
+    local preload_line="preload = $image_path"
+    sed -i "1c\\$preload_line" ~/dotfiles/.config/hypr/hyprpaper.conf
+    hyprctl hyprpaper wallpaper ",$image_path" > /dev/null
+    local wallpaper_line="wallpaper = ,$image_path"
+    sed -i "2c\\$wallpaper_line" ~/dotfiles/.config/hypr/hyprpaper.conf
+    local lock_line="    path = $image_path"
+    sed -i "3c\\$lock_line" ~/dotfiles/.config/hypr/hyprlock.conf
+
+    # Call pywal
+    ~/dotfiles/.config/hypr/update_colors.sh $image_path
+    killall waybar
+    hyprctl dispatch exec waybar > /dev/null
+    # Run script to regenerate colors
 }
 
 # this comes with bashrc, no idea if it still matters
@@ -160,6 +199,16 @@ function ranger {
         cd -- "$(cat "$tempfile")" || return
     fi
     command rm -f -- "$tempfile" 2>/dev/null
+}
+
+# same as above for yazi
+function yazi_quits() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")"
+	command yazi "$@" --cwd-file="$tmp"
+	if cwd="$(cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
+		builtin cd -- "$cwd"
+	fi
+	command rm -f -- "$tmp" 2> /dev/null
 }
 
 function lazy-commit {
@@ -248,7 +297,4 @@ function whatsmyip ()
 	echo -n "External IP: "
 	curl -s ifconfig.me
 }
-
-# fastfetch
-# (sleep 0.3 && pfetch)
 
