@@ -3,32 +3,32 @@ FullScreen=false
 
 [General]
 LockSidebar=true
-ShowSidebar=true
+ShowSidebar=false
 
 [MainWindow]
 ToolBarsMovable=Disabled
 
 [Recent Files]
-File1[$e]=$HOME/Zotero/storage/JWNYRYDE/Wright - 2015 - The Law of Value A Contribution to the Classical .pdf
-File10[$e]=$HOME/Laptop-Server/Current-Semester/CS1/Discussion Assignments/Discussion Assignment 7.pdf
-File2[$e]=$HOME/Laptop-Server/Spring-2024/My Homeworks (CS1)/Assignment 2.pdf
-File3[$e]=$HOME/Documents/output.pdf
-File4[$e]=$HOME/Downloads/(a3pA) Heron's Formula.pdf
-File5[$e]=$HOME/Laptop-Server/Current-Semester/CS1/Discussion Assignments/Discussion Section Week 5.pdf
-File6[$e]=$HOME/mozilla.pdf
-File7[$e]=$HOME/Documents/logic_textbook.pdf
-File8[$e]=$HOME/Downloads/lecture_2_mine2_no_trust (1).pdf
-File9[$e]=$HOME/Laptop-Server/Spring-2024/Discussion Assignments (CS1)/Discussion Section Week 7.pdf
-Name1[$e]=Wright - 2015 - The Law of Value A Contribution to the Classical .pdf
-Name10[$e]=Discussion Assignment 7.pdf
-Name2[$e]=Assignment 2.pdf
-Name3[$e]=output.pdf
-Name4[$e]=(a3pA) Heron's Formula.pdf
-Name5[$e]=Discussion Section Week 5.pdf
-Name6[$e]=mozilla.pdf
-Name7[$e]=logic_textbook.pdf
-Name8[$e]=lecture_2_mine2_no_trust (1).pdf
-Name9[$e]=Discussion Section Week 7.pdf
+File1[$e]=$HOME/Laptop-Server/Spring-2024/My Homeworks (CS1)/Assignment 2.pdf
+File10[$e]=$HOME/Downloads/Judging Rubric.pdf
+File2[$e]=$HOME/Documents/output.pdf
+File3[$e]=$HOME/Downloads/(a3pA) Heron's Formula.pdf
+File4[$e]=$HOME/Laptop-Server/Current-Semester/CS1/Discussion Assignments/Discussion Section Week 5.pdf
+File5[$e]=$HOME/mozilla.pdf
+File6[$e]=$HOME/Documents/logic_textbook.pdf
+File7[$e]=$HOME/Downloads/lecture_2_mine2_no_trust (1).pdf
+File8[$e]=$HOME/Laptop-Server/Spring-2024/Discussion Assignments (CS1)/Discussion Section Week 7.pdf
+File9[$e]=$HOME/Laptop-Server/Current-Semester/CS1/Discussion Assignments/Discussion Assignment 7.pdf
+Name1[$e]=Assignment 2.pdf
+Name10[$e]=Judging Rubric.pdf
+Name2[$e]=output.pdf
+Name3[$e]=(a3pA) Heron's Formula.pdf
+Name4[$e]=Discussion Section Week 5.pdf
+Name5[$e]=mozilla.pdf
+Name6[$e]=logic_textbook.pdf
+Name7[$e]=lecture_2_mine2_no_trust (1).pdf
+Name8[$e]=Discussion Section Week 7.pdf
+Name9[$e]=Discussion Assignment 7.pdf
 
 [UiSettings]
 ColorScheme=Breeze Dark
