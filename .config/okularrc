@@ -3,32 +3,32 @@ FullScreen=false
 
 [General]
 LockSidebar=true
-ShowSidebar=false
+ShowSidebar=true
 
 [MainWindow]
 ToolBarsMovable=Disabled
 
 [Recent Files]
 File1[$e]=$HOME/Laptop-Server/Spring-2024/My Homeworks (CS1)/Assignment 2.pdf
-File10[$e]=$HOME/Downloads/Judging Rubric.pdf
+File10[$e]=$HOME/Documents/logic_textbook.pdf
 File2[$e]=$HOME/Documents/output.pdf
 File3[$e]=$HOME/Downloads/(a3pA) Heron's Formula.pdf
 File4[$e]=$HOME/Laptop-Server/Current-Semester/CS1/Discussion Assignments/Discussion Section Week 5.pdf
 File5[$e]=$HOME/mozilla.pdf
-File6[$e]=$HOME/Documents/logic_textbook.pdf
-File7[$e]=$HOME/Downloads/lecture_2_mine2_no_trust (1).pdf
-File8[$e]=$HOME/Laptop-Server/Spring-2024/Discussion Assignments (CS1)/Discussion Section Week 7.pdf
-File9[$e]=$HOME/Laptop-Server/Current-Semester/CS1/Discussion Assignments/Discussion Assignment 7.pdf
+File6[$e]=$HOME/Downloads/lecture_2_mine2_no_trust (1).pdf
+File7[$e]=$HOME/Laptop-Server/Spring-2024/Discussion Assignments (CS1)/Discussion Section Week 7.pdf
+File8[$e]=$HOME/Laptop-Server/Current-Semester/CS1/Discussion Assignments/Discussion Assignment 7.pdf
+File9[$e]=$HOME/Downloads/Judging Rubric.pdf
 Name1[$e]=Assignment 2.pdf
-Name10[$e]=Judging Rubric.pdf
+Name10[$e]=logic_textbook.pdf
 Name2[$e]=output.pdf
 Name3[$e]=(a3pA) Heron's Formula.pdf
 Name4[$e]=Discussion Section Week 5.pdf
 Name5[$e]=mozilla.pdf
-Name6[$e]=logic_textbook.pdf
-Name7[$e]=lecture_2_mine2_no_trust (1).pdf
-Name8[$e]=Discussion Section Week 7.pdf
-Name9[$e]=Discussion Assignment 7.pdf
+Name6[$e]=lecture_2_mine2_no_trust (1).pdf
+Name7[$e]=Discussion Section Week 7.pdf
+Name8[$e]=Discussion Assignment 7.pdf
+Name9[$e]=Judging Rubric.pdf
 
 [UiSettings]
 ColorScheme=Breeze Dark
