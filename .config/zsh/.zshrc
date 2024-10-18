@@ -146,14 +146,20 @@ function switch-display-mode {
         ~/.config/hypr/scripts/swap_monitors.sh $setting
         ~/.config/hypr/scripts/swap_workspaces.sh $setting
         hyprctl reload
+        sed -i 's/^\(Xft.dpi:\s*\)[0-9]\+/\1150/' ~/.Xresources
+        xrdb ~/.Xresources
     elif [ $setting = "office" ]; then
         ~/.config/hypr/scripts/swap_monitors.sh $setting
         ~/.config/hypr/scripts/swap_workspaces.sh $setting
         hyprctl reload
+        sed -i 's/^\(Xft.dpi:\s*\)[0-9]\+/\150/' ~/.Xresources
+        xrdb ~/.Xresources
     elif [ $setting = "classroom" ]; then
         ~/dotfiles/.config/hypr/scripts/swap_monitors.sh "classroom"
         ~/dotfiles/.config/hypr/scripts/swap_workspaces.sh "standalone"
         hyprctl reload
+        sed -i 's/^\(Xft.dpi:\s*\)[0-9]\+/\150/' ~/.Xresources
+        xrdb ~/.Xresources
     else
         echo "Argument $1 not recognized"
     fi

@@ -4,10 +4,14 @@ arg=$1
 if [[ $arg == "office" ]]; then
     rm $HOME/.config/hypr/monitors.conf
     cp $HOME/.config/hypr/monitors_office.conf $HOME/.config/hypr/monitors.conf
+    rm $HOME/.config/hypr/window_rules.conf
+    cp $HOME/.config/hypr/window_rules_office.conf $HOME/.config/hypr/window_rules.conf
     exit 0
 elif [[ $arg == "standalone" ]]; then
     rm $HOME/.config/hypr/monitors.conf
     cp $HOME/.config/hypr/monitors_standalone.conf $HOME/.config/hypr/monitors.conf
+    rm $HOME/.config/hypr/window_rules.conf
+    cp $HOME/.config/hypr/window_rules_standalone.conf $HOME/.config/hypr/window_rules.conf
     exit 0
 elif [[ $arg == "classroom" ]]; then
     rm $HOME/.config/hypr/monitors.conf
