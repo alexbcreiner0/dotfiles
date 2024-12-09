@@ -50,6 +50,7 @@ bindkey '^R' history-incremental-pattern-search-backward
 eval "$(starship init zsh)"
 # Set up fzf key bindings and fuzzy completion
 source <(fzf --zsh)
+eval "$(zoxide init --cmd cd zsh)"
 
 # Enable fzf key bindings
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
@@ -116,7 +117,11 @@ alias sublime-text="subl"
 # Removes the error message that prints for some kind of issue with curses
 alias ranger='ranger 2>/dev/null'
 alias yazi="yazi_quits"
-alias neofetch="neofetch --source ~/.config/neofetch/ascii-art-neofetch/communist"
+# alias neofetch="neofetch --source ~/.config/neofetch/ascii-art-neofetch/communist"
+alias vi="nvim"
+alias edit-desktop-files="~/dotfiles/.config/rofi/desktop_editor.sh"
+alias resource-zshrc="source ~/dotfiles/.config/zsh/.zshrc"
+alias edit-zshrc="nvim ~/dotfiles/.config/zsh/.zshrc"
 
 function empty_trash {
     command rm -rf ~/.local/share/Trash/files/*

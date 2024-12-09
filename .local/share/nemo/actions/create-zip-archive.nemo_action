@@ -1,0 +1,6 @@
+[Nemo Action]
+Name=Create Zip Archive
+Exec=<zip_file.sh "%P" "%p" "%F">
+Selection=any
+Extensions=any;
+Terminal=false

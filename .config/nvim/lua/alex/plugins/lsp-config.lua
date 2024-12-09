@@ -12,7 +12,7 @@ return {
         dependencies = { "mason.nvim" }, -- makes sure that mason runs/installs before this
         config = function()
             require("mason-lspconfig").setup({
-                ensure_installed = { 'pyright', 'lua_ls', 'bashls', 'texlab', 'powershell_es' },
+                ensure_installed = { 'pyright', 'lua_ls', 'bashls', 'texlab', 'powershell_es', 'clangd' },
             })
         end,
     },
@@ -50,6 +50,9 @@ return {
                 filetypes = { 'ps1', 'psm1', 'psd1', 'bat' },
                 -- bundle_path = "~/.local/share/nvim/mason/packages/powershell-editor-services/PowerShellEditorServices"
                 bundle_path = "~/github/PowerShellEditorServices"
+            })
+            lspconfig.clangd.setup({
+                capabilities = capabilities
             })
         end,
     },

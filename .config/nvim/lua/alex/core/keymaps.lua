@@ -5,6 +5,10 @@ local buildable_filetypes = {"python", "lua", "tex"}
 local tree_mode = "side-bar"
 local globals = require('modules.globals')
 
+keymap.set('c', 'W', 'w', { noremap = true, silent = true, desc = "Write buffer" })
+keymap.set('c', 'Q', 'q', { noremap = true, silent = true, desc = "Quit buffer" })
+keymap.set('c', 'WQ', 'wq', { noremap = true, silent = true, desc = "Write and quit buffer" })
+
 keymap.set('n', '<leader>rc', globals.source_config, { desc = "Resource config files" })
 keymap.set('n', '<leader>tt', globals.toggle_transparency, { desc = "Toggle transparency" })
 
@@ -90,10 +94,10 @@ keymap.set('n', '[[' , '<cmd>lua require"nvim-treesitter.textobjects.move".goto_
 keymap.set('n', '[]' , '<cmd>lua require"nvim-treesitter.textobjects.move".goto_previous_end("@class.outer")<CR>', { noremap = true, silent = true })
 
 -- Build shortcuts
-keymap.set('n', '<C-b>', ':lua build_in_tmux()<cr>', {desc = "Build current file in a tmux terminal", silent = true}) -- build
-keymap.set({'i','v'}, '<C-b>', '<ESC>:lua build_in_tmux()<cr>', {desc = "Build current file in a tmux terminal", silent = true}) -- build
-keymap.set('n', '<C-t>', ':lua build_in_vim()<cr>', {desc = "Build current file in a vim terminal", silent = true})
-keymap.set({'i', 'v'}, '<C-t>', '<ESC>:lua build_in_vim()<cr>', {desc = "Build current file in a vim terminal", silent = true})
+keymap.set('n', '<C-t>', ':lua build_in_tmux()<cr>', {desc = "Build current file in a tmux terminal", silent = true}) -- build
+keymap.set({'i','v'}, '<C-t>', '<ESC>:lua build_in_tmux()<cr>', {desc = "Build current file in a tmux terminal", silent = true}) -- build
+keymap.set('n', '<C-b>', ':lua build_in_vim()<cr>', {desc = "Build current file in a vim terminal", silent = true})
+keymap.set({'i', 'v'}, '<C-b>', '<ESC>:lua build_in_vim()<cr>', {desc = "Build current file in a vim terminal", silent = true})
 
 -- File tree navigation
 keymap.set('n', '<leader>et', ':lua tree_toggle()<CR>', {desc = "Toggle explorer side bar", silent = true}) -- explorer toggle
@@ -211,7 +215,7 @@ function build_in_vim()
 
         vim.cmd('split')
         vim.cmd('resize 17')
-        vim.cmd('terminal' .. '!python3 ' .. filepath)
+        vim.cmd('terminal' .. '!python3 "' .. filepath .. '"')
         vim.cmd('startinsert')
     elseif filetype == 'tex' then
         if vim.bo.modified then
@@ -250,6 +254,26 @@ function build_in_vim()
         vim.cmd('resize 17')
         vim.cmd('terminal' .. '!./' .. filepath)
         vim.cmd('startinsert')
+    elseif filetype == 'c' then
+        vim.cmd('silent! w')
+        vim.cmd('silent! source %')
+        for _,buffer_number in ipairs(vim.api.nvim_list_bufs()) do
+            local type = vim.api.nvim_buf_get_option(buffer_number, 'buftype')
+            if type == 'terminal' then
+                vim.api.nvim_buf_delete(buffer_number, {force = true})
+            end
+        end
+        current_buffer = vim.api.nvim_get_current_buf()
+        local filepath = vim.api.nvim_buf_get_name(current_buffer)
+        local filename = vim.fn.fnamemodify(filepath, ':t:r')
+        local output_path = vim.fn.fnamemodify(filepath, ':p:h') .. '/' .. filename
+
+        vim.cmd('split')
+        vim.cmd('resize 17')
+        vim.cmd('terminal' .. ' gcc ' .. filepath .. ' -o ' .. output_path .. ' && ' .. output_path)
+        vim.cmd('startinsert')
+        -- Need to compile to a file of the same name
+        -- Then run it in terminal.
     end
 end
 
