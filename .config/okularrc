@@ -11,26 +11,26 @@ ShowSidebar=true
 ToolBarsMovable=Disabled
 
 [Recent Files]
-File1[$e]=$HOME/Laptop-Server/Next-Semester/complexity/Howard- Homeworks-Projects-Midterms-InClass/Lectures/Lecture10.pdf
-File10[$e]=$HOME/Laptop-Server/Next-Semester/complexity/Howard- Homeworks-Projects-Midterms-InClass/Lectures/Lecture1-Intro.pdf
-File2[$e]=$HOME/Laptop-Server/Next-Semester/complexity/Howard- Homeworks-Projects-Midterms-InClass/Lectures/Lecture11.pdf
-File3[$e]=$HOME/Laptop-Server/Next-Semester/complexity/Howard- Homeworks-Projects-Midterms-InClass/Lectures/Lecture13.pdf
-File4[$e]=$HOME/Laptop-Server/Next-Semester/complexity/Howard- Homeworks-Projects-Midterms-InClass/Lectures/Lecture16.pdf
-File5[$e]=$HOME/Laptop-Server/Next-Semester/complexity/Howard- Homeworks-Projects-Midterms-InClass/Lectures/Lecture16-SAT.pdf
-File6[$e]=$HOME/Laptop-Server/Next-Semester/complexity/Howard- Homeworks-Projects-Midterms-InClass/Lectures/Lecture17.pdf
-File7[$e]=$HOME/Laptop-Server/Next-Semester/complexity/Howard- Homeworks-Projects-Midterms-InClass/Lectures/Lecture18.pdf
-File8[$e]=$HOME/Laptop-Server/Current-Semester/Logic/syllabus_CS12243.pdf
-File9[$e]=$HOME/Laptop-Server/Current-Semester/CS1/syllabus_CS1.pdf
-Name1[$e]=Lecture10.pdf
-Name10[$e]=Lecture1-Intro.pdf
-Name2[$e]=Lecture11.pdf
-Name3[$e]=Lecture13.pdf
-Name4[$e]=Lecture16.pdf
-Name5[$e]=Lecture16-SAT.pdf
-Name6[$e]=Lecture17.pdf
-Name7[$e]=Lecture18.pdf
-Name8[$e]=syllabus_CS12243.pdf
-Name9[$e]=syllabus_CS1.pdf
+File1[$e]=$HOME/Laptop-Server/Next-Semester/complexity/Howard- Homeworks-Projects-Midterms-InClass/Lectures/Lecture13.pdf
+File10[$e]=$HOME/Laptop-Server/Next-Semester/complexity/Howard- Homeworks-Projects-Midterms-InClass/Lectures/Lecture12-LambdaCalculus.pdf
+File2[$e]=$HOME/Laptop-Server/Next-Semester/complexity/Howard- Homeworks-Projects-Midterms-InClass/Lectures/Lecture16.pdf
+File3[$e]=$HOME/Laptop-Server/Next-Semester/complexity/Howard- Homeworks-Projects-Midterms-InClass/Lectures/Lecture16-SAT.pdf
+File4[$e]=$HOME/Laptop-Server/Next-Semester/complexity/Howard- Homeworks-Projects-Midterms-InClass/Lectures/Lecture17.pdf
+File5[$e]=$HOME/Laptop-Server/Next-Semester/complexity/Howard- Homeworks-Projects-Midterms-InClass/Lectures/Lecture18.pdf
+File6[$e]=$HOME/Laptop-Server/Current-Semester/Logic/syllabus_CS12243.pdf
+File7[$e]=$HOME/Laptop-Server/Current-Semester/CS1/syllabus_CS1.pdf
+File8[$e]=$HOME/Laptop-Server/Next-Semester/complexity/Howard- Homeworks-Projects-Midterms-InClass/Lectures/Lecture1-Intro.pdf
+File9[$e]=$HOME/Laptop-Server/Current-Semester/Logic/Logic Assignments/Updated/HW5.pdf
+Name1[$e]=Lecture13.pdf
+Name10[$e]=Lecture12-LambdaCalculus.pdf
+Name2[$e]=Lecture16.pdf
+Name3[$e]=Lecture16-SAT.pdf
+Name4[$e]=Lecture17.pdf
+Name5[$e]=Lecture18.pdf
+Name6[$e]=syllabus_CS12243.pdf
+Name7[$e]=syllabus_CS1.pdf
+Name8[$e]=Lecture1-Intro.pdf
+Name9[$e]=HW5.pdf
 
 [UiSettings]
 ColorScheme=Breeze Dark
